@@ -1,0 +1,134 @@
+Linux reference  for my girl(debian)
+
+/***********************************
+刘宇辉
+wolfpythonlondon@gmail.com
+dedicated to my love ,caoli.
+************************************/
+
+#在linux系统里，
+#"~" 符号代表的是用户家目录的意思，比如我是wolf, "~"代表 /home/wolf
+#"." ,".."分别为本目录，上一层目录的意思，比如：
+# wolf@debian:~/eva$ pwd   #打印当前目录的绝对路径
+#  /home/wolf/eva
+# wolf@debian:~/eva$ ls -a  #列出当前目录下面所有文件
+# .  ..  eva_using_qt4_devdoc  .git
+#上一行的".",".."指的是 /home/wolf/eva, /home/wolf。
+
+
+linux 基本命令
+文件的操作：
+跳转 ----> cd: 跳转到某一个目录
+	      $cd ~/test #跳转到test这个目录
+复制 ---->  cp:复制一个文件到一个目录
+	      $cp test.sh ~/test  #这个复制的是普通文件
+	      $cp -r ~/eva  ~/test #如果要复制一个目录，可以加上一个选项 -r,选项就是可以让一个命令拥有不同行为属性的参数
+
+移动（重命名）mv: 移动一个文件到另一个文件（特殊的，如果都为普通文件的话，相当于重命名）
+	      $mv test.sh ~/test 
+	      $mv ~/eva ~/test
+	      $mv test.sh scprit.sh #这个相当于重命名
+
+新建文件--> touch: 新建一个文件
+	      $touch test.sh
+	      $vim test.sh    #其实，在实际操作中很少有直接使用touch来创建一个文件，都是通过一个编辑器(比如vim)。
+
+新建一个目录 mkdir: 新建一个文件
+	      $mkdir ~/test/newdir
+
+删除一个文件 rm :删除一个文件
+ 	      $rm test.sh  #删除普通文件
+	      $rm -r ~/test/newdir  #删除一个目录，无论目录是否为空，有一个命令rmdir，这个很少用到，只能删除空的目录
+
+列举文件及其属性 ls: 列举一个文件及其属性
+	      $ ls  #默认的列举当前目录下面的文件，隐藏文件不列出
+	      比如：
+	      wolf@debian:~/test$ ls
+	      test.sh
+	      $ls -a #列举当前目录下面的所有文件，包括隐藏文件
+	      wolf@debian:~/test$ ls -a
+	      .  ..  test.sh  .vim
+	      $ls -l ~/test  #列举目录下面各文件的属性，l 代表long(长列表的意思)
+	      wolf@debian:~/test$ ls -l
+	      总用量 0
+	      -rw-r--r-- 1 wolf wolf 0  7月 17 20:07 test.sh
+	      其中第一字段rw-r--r--意思是 文件属主wolf对test.sh有读，写的权限，wolf组的成员有读的权限，1 的意思是
+	      指向文件的node数为1，如果建立一个文件的硬连接,就会变为2。第二，第三字段分别表示文件的属主，和组。
+	      后一个字段表示文件的大小，该文件为空文件。 后面的时间是文件创建(修改)的时间,最后是文件名。
+	      $ls -i  #列举文件的索引节点(inode)号
+	      wolf@debian:~/test$ ls -ali
+	      总用量 8
+	      2622727 drwxr-xr-x  2 wolf wolf 4096  7月 17 20:14 .
+	      8193 drwxr-xr-x 61 wolf wolf 4096  7月 17 20:17 ..
+	      2622661 lrwxrwxrwx  1 wolf wolf    7  7月 17 20:13 test1.sh -> test.sh
+	      2622730 -rw-r--r--  2 wolf wolf    0  7月 17 20:07 test2.sh
+	      2622730 -rw-r--r--  2 wolf wolf    0  7月 17 20:07 test.sh
+	      2622721 -rw-r--r--  1 wolf wolf    0  7月 17 20:08 .vim
+	      输出的第一字段是索引节点号.
+	      $ls -s #列举文件的块大小
+	      wolf@debian:~/test$ ls -sail ~/test
+	      总用量 8
+	      2622727 4 drwxr-xr-x  2 wolf wolf 4096  7月 17 20:14 .
+	      8193 4 drwxr-xr-x 61 wolf wolf 4096  7月 17 20:36 ..
+	      2622661 0 lrwxrwxrwx  1 wolf wolf    7  7月 17 20:13 test1.sh -> test.sh
+	      2622730 0 -rw-r--r--  2 wolf wolf    0  7月 17 20:07 test2.sh
+	      2622730 0 -rw-r--r--  2 wolf wolf    0  7月 17 20:07 test.sh
+	      2622721 0 -rw-r--r--  1 wolf wolf    0  7月 17 20:08 .vim
+	      输出的第二个字段就是块大小。
+
+查看文件---> cat：查看普通文件.
+              $cat file
+	      wolf@debian:~/test$  cat test.sh
+	      I love my girl .
+	      She is my soul.
+	      I hope I can stay with her in my whole life .
+	      What I want to do is love her.
+	      $cat -n file #为输出加入行号
+	      wolf@debian:~/test$ cat -n test.sh
+	           1	I love my girl .
+		   2	She is my soul.
+		   3	I hope I can stay with her in my whole life .
+		   4	What I want to do is love her.
+	      
+	---> more:分页查看文件
+	     $more file
+	     这个在查看长文档时才显示其优势。
+
+	---> less： 与more差不多。
+
+	---> head/tail： 查看文件的头/尾，默认的是十行
+	     $head -n 2 file #查看文件的前两行
+	     wolf@debian:~/test$ head -n 2 test.sh
+	     I love my girl .
+	     She is my soul.
+	     $tail -n 2 file #查看文件的后两行
+	     wolf@debian:~/test$ tail  -n 2 test.sh
+	     I hope I can stay with her in my whole life .
+	     What I want to do is love her.
+
+
+
+通配符(wildcard,glob):
+* ---> 匹配任意个字符，0到无穷
+? ---> 匹配一个字符
+[a-z],[1-9]  匹配从a 到z,1到9 的字符
+wolf@debian:~/test$ ls test*
+test1.sh  test2.sh  test.sh
+wolf@debian:~/test$ ls test?.sh
+test1.sh  test2.sh
+wolf@debian:~/test$ ls test[1-9].sh
+test1.sh  test2.sh
+
+
+
+
+
+	     
+
+
+
+
+
+
+
+
