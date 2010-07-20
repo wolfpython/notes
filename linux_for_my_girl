@@ -155,6 +155,109 @@ test1.sh  test2.sh
 
 算术计算--->bc : 任意精度的计算器语言(An arbitrary precision calculator language）,
 		说到底，它就是一个计算器程序。
+		wolf@debian:~/public/notes$ bc
+		bc 1.06.95
+		Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+		This is free software with ABSOLUTELY NO WARRANTY.
+		For details type `warranty'. 
+
+		1+2                  #执行普通的加减
+		3
+		x=1                  #因为是一门语言，可以声明一个变量，并为之赋初值
+		y=2
+		x+y
+		3
+		scale=4             #scale指定运算的精度，默认的是0
+		x+y
+		3
+		x/(x+y)
+		.3333
+                此外，bc还有定义函数。调用的功能，感兴趣的参考相关的文档。（unix技术手册）
+
+
+*******************************************************************************************************************************
+上面的是基本的linux命令，下面系统介绍一下linux的档案文件及
+
+Linux档案文件的权限对象分为三类:文件属(owner)主，群组（group)，其他(others).
+属主帐号配置文件位于/etc/passwd，密码放在/etc/shadow，群组记录在/etc/group。
+这三个档案文件非常重要，如果误删的话，有可能导致进不了系统。
+
+linux档案的属性
+ 用开始的ls命令来看看一个文档的属性：
+ wolf@debian:~/test$ ls -l 
+ 总用量 16
+ -rw-r--r-- 1 wolf wolf 1549  7月 19 15:47 1.c
+ -rw-r--r-- 1 wolf wolf  300  7月 19 15:57 2.c
+ -rwxr-xr-x 1 root root 5466  7月 19 16:05 a.out
+ 第一字段是权限， 第二字段是指向索引节点的连接数，第三，第四分别为属主和群组，接下来的是文件
+ 的大小， 最后的修改时间 和文件名。
+
+ 文件的权限
+ 文件的权限分为r(read),w(write),x(excute),可读，可写，可执行。我们可以把他当作二进制数来处理
+ 即：111， 权分别为4，2，1。如果把权限对应的十进制数加起来，就可以这样表示权限。比如：
+ Line[189]的 rw- 可以表示成6。 对于一个普通文档来说rwx权限很好理解，那对于目录呢？
+ ----> r (read contents of the dir): 可以读取目录的结构，比如使用ls 命令。
+ ----> w (write contents of the dir): 可以向目录结构中写，具体的就是新建，修改，删除文件。
+ ----> x (acess dir) : 目录不能执行，x 代表的是进入目录的意思。
+ 由于对目录结构的操作涉及到对目录里面文件的操作，所以，如果要想实际的操作，必须要对该目录具有
+ x权限。
+ 我们来演示一下：
+ root@debian:/home/wolf# ls -ld test
+drwxr-xrw- 2 wolf wolf 4096  7月 19 16:05 test
+root@debian:/home/wolf# su caoli
+caoli@debian:/home/wolf$ ls -ld test
+drwxr-xrw- 2 wolf wolf 4096  7月 19 16:05 test
+caoli@debian:/home/wolf$ mkdir test/caoli  #虽然有W权限，但由于没有X权限，所以无法写入
+mkdir: 无法创建目录"test/caoli": 权限不够
+caoli@debian:/home/wolf$ su
+密码：
+root@debian:/home/wolf# chmod o+x test
+root@debian:/home/wolf# su caoli
+caoli@debian:/home/wolf$ mkdir test/caoli
+caoli@debian:/home/wolf$ ls test/caoli
+caoli@debian:/home/wolf$ ls test/caoli -l
+总用量 0
+caoli@debian:/home/wolf$ ls test/caoli -ld
+drwxr-xr-x 2 caoli caoli 4096  7月 20 22:28 test/caoli
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 于是乎，就有两种方式改变文件的权限。
+ ---> 字母：
+ root@debian:/home/wolf/test# ls -l a.out
+ -rwxr-xr-x 1 root root 5466  7月 19 16:05 a.out
+ root@debian:/home/wolf/test# chmod u-w,g+w,o-r a.out #还有一个字母是a，表示全部的类别。
+ root@debian:/home/wolf/test# ls -l a.out
+ -r-xrwx--x 1 root root 5466  7月 19 16:05 a.out
+ ---> 数字:
+ root@debian:/home/wolf/test# chmod 711 a.out  #就是把每个用户的权限对应的十进制值加起来
+ root@debian:/home/wolf/test# ls -l a.out
+ -rwx--x--x 1 root root 5466  7月 19 16:05 a.out
+ 总得来说，第一种方法很灵活，但是第二种更常用（对于我而言）
+
+ oop，忘了介绍了第一个字段的第一个字符是什么意思了。
+ 这个字符显示了文档的类型。
+ -  --->  普通文件（包括ascii文件，二进制文件，格式化文件）
+ d  --->  目录
+ l  --->  符合连接文件
+ c  -->   字符设备文件，比如键盘，鼠标，在Unix世界里，一切都是文件,你看不到c盘的存在.
+ b  --->  块设备文件，比如硬盘，U盘。
+ s  --->  套接字(socket)文件
+ p  --->  命名管道文件（pipe）
+
+
+
+
             
 
 
