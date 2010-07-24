@@ -56,3 +56,37 @@ dedicated to my love --caoli
 即时聊天： pidgin: 支持很多协议的聊天框架，最喜欢的还是google talk。
       ---->xchat-IRC: 严格说来不能算是即时聊天软件。
       ---->Eva ：我正在开发中的linux QQ。
+
+
+
+
+
+
+
+
+
+VIM +ctags + Taglist阅读源码
+.vimrc :
+set nu
+set cindent
+set smartindent
+
+$mkdir ~/.vim
+$cd ~/.vim
+$unzip talist_45.zip 
+$ls
+doc  plugin  taglist_45.zip
+$vim
+...:helptag ~/.vim/doc  #产生文档tag
+...:help taglist.txt  #查看文档
+
+阅读源码的时候，要使用ctags -R产生tag，然后用vim阅读
+$vim test.c
+...:TlistOpen  #打开taglist
+...:TlistClose #关闭taglist
+
+几个键的用法：
+Ctrl-]  跳转到变量的定义出(本质是tag)
+gf      打开一个文件 go file 之意。
+Ctrl－o 返回
+Ctrl-ww 跳转到另外一个窗口
