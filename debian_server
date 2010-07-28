@@ -1,0 +1,17 @@
+如果管理一个server，系统必然由很多用户共同分享硬件资源，尤其是硬盘。有一个工具quota， 用来限制磁盘的使用量。
+debian squeeze
+
+$aptitude install quota quotatool 
+
+
+
+ftp服务器
+我们选中ProFTP这款开源软件。
+#aptitude install proftpd 
+选中，standalone模式，而不是作为inetd的一项服务。
+向其配置文件中加入：
+DefaultRoot ~
+IdentLookups off
+ServerIdent on "FTP Server ready"
+重启ProFTPD
+

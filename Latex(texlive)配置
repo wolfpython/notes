@@ -1,0 +1,330 @@
+最近试着在自己的本搞了下Latex，发现现在在Debian的系统下安装Latex实在是方便多了，不要做什么配置就可以使用UTF8的编码，而且最重要的是可以不再依靠Simsun字体就可以编写漂亮的文章了。如何来做？下面我们就一起来体验一下Debian的便利吧～～
+
+1 安装texlive latex
+
+# apt-get install texlive-latex-base
+
+汗啊，偶一直使用这样的方法来安装软件，而由apt来自动解决安装依赖关系，而这也正是apt提供给我们的便利之处。
+
+2 安装cjk
+
+# apt-get install latex-cjk-chinese
+
+3 安装中文字体
+
+# apt-get install latex-cjk-chinese-arphic-gbsn00lp latex-cjk-chinese-arphic-gkai00mp  
+
+安装了这些软件包以后，我们就可以编写一个简单的测试文件来测试一下我们的Latex是否可以正常工作了。
+
+编写下面的Latex测试文件：
+
+\documentclass{article}
+\begin{document}
+Hello,\LaTeXe
+\end{document}
+
+将上面的内容存为Hello.tex，运行下面的命令：
+
+$ latex Hello.tex
+
+如果一切正常，则会生成一个Hello.dvi的文件，我们可以使用xdvi或是其他的相应工具打开，我们就会看到生成后的效果。
+
+下面我们就可以测试支持中文的情况了，我们使用下面的测试文件：
+
+\documentclass{article}
+\usepackage{CJKutf8}
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}
+你好，\LaTeXe
+\end{CJK*}
+\end{document}
+
+保存退出，运行latex命令，查看生成的结果。
+
+
+CJK 安装usung,ukai
+1. $wget ftp://cle.linux.org.tw/pub2/tex/cjk/fonts/nsungt1/nsungt1-1.4.2.tar.gz
+2. $wget ftp://cle.linux.org.tw/pub2/tex/cjk/fonts/nkait1/nkait1-1.4.2.tar.gz
+3. $tar -jxvf  nsungt1-1.4.2.tar.gz
+4. $tar -jxvf nkait1-1.4.2.tar.gz
+5. $./nsungt1-1.4.2/install.sh
+6. $./nkait1-1.4.2/install.sh
+\documentclass[12pt,a4paper]{article}
+\usepackage{CJKutf8}
+\begin{document}
+\begin{CJK}{UTF8}{nsung}
+\section{New Sung 新宋字型 \LaTeX\ CJK 測試}
+晉太元中，武陵人，捕魚為業，緣溪行，忘路之遠近；忽逢桃
+花林，夾岸數百步，中無雜樹，芳草鮮美，落英繽紛，漁人甚
+異之。復前行，欲窮其林。林盡水源，便得一山。山有小口，
+彷彿若有光，便捨船，從口入。
+. . . . . .碁嫺。凃凉双崐喆峯酶酞肽脲腚釟迌堃韮。
+角觸過骨。許功蓋測試。这里是简体字。许功盖测试。
+這裡是日文：こんにちは 世界。
+\end{CJK}
+\end{document}
+
+二.采用xelatex
+安装了texlive2009, 及texlive-xetex包，
+$aptitude install texlive-base texlive-xetex
+这里面采用底层的支持，即xelatex支持系统自带的字体，用xeCJK来配置字体。
+$fc-list #查看系统自带的字体,在我的debian上他为
+Liberation Mono:style=Regular
+Nimbus Sans L:style=Regular Italic
+LMMathSymbols8:style=Regular
+LMMathSymbols9:style=Regular
+LMMathSymbols6:style=Regular
+LMMathSymbols7:style=Regular
+LMMathSymbols5:style=Regular
+DejaVu Serif,DejaVu Serif Condensed:style=Condensed,Book
+WenQuanYi Bitmap Song:style=Bold
+LMMathItalic9:style=Regular
+LMMathItalic8:style=Regular
+LMMathItalic7:style=Regular
+LMMathItalic6:style=Regular
+LMMathItalic5:style=Regular
+LMMonoLt10:style=Oblique
+LMSans9:style=Regular
+LMSans8:style=Regular
+URW Palladio L:style=Roman
+DejaVu Serif,DejaVu Serif Condensed:style=Condensed Bold Italic,Bold Italic
+Century Schoolbook L:style=Bold Italic
+DejaVu Serif,DejaVu Serif Condensed:style=Condensed Bold,Bold
+Liberation Sans:style=Regular
+DejaVu Sans,DejaVu Sans Condensed:style=Condensed Oblique,Oblique
+DejaVu Sans Mono:style=Bold Oblique
+LMMonoPropLt10:style=Bold
+cmex10:style=Regular
+Liberation Serif:style=Bold Italic
+FreeSans:style=obyčejné,Mittel,µεσαία,Medium,Normal,Medio,Gemiddeld,odmiana zwykła,Обычный,navadno,Vừa
+LMRomanDemi10:style=Regular
+LMRoman5:style=Bold
+LMRoman7:style=Bold
+LMRoman6:style=Bold
+LMRoman9:style=Bold
+LMRoman8:style=Bold
+LMSans10:style=Bold
+DejaVu Serif:style=Bold Italic
+LMMonoPropLt10:style=BoldOblique
+LMSansQuot8:style=BoldOblique
+LMMathExtension10:style=Regular
+Nimbus Sans L:style=Bold
+LMSansDemiCond10:style=Regular
+OpenSymbol:style=Regular
+LMMonoProp10:style=Oblique
+LMMonoLtCond10:style=Oblique
+文鼎ＰＬ中楷,AR PL KaitiM Big5:style=Regular
+LMRomanCaps10:style=Oblique
+URW Chancery L:style=Medium Italic
+Bitstream Charter:style=Bold Italic
+wasy10:style=Normal
+LMRomanSlant10:style=Bold
+LMMonoLt10:style=BoldOblique
+esint10:style=regular
+DejaVu Sans:style=Bold Oblique
+Nimbus Roman No9 L:style=Regular
+AR PL UMing TW:style=Light
+Century Schoolbook L:style=Bold
+Century Schoolbook L:style=Italic
+Gentium:style=Regular
+AR PL UMing HK:style=Light
+文泉驿等宽微米黑,文泉驛等寬微米黑,WenQuanYi Micro Hei Mono:style=Regular
+FreeSerif:style=FettKursiv,BoldItalic,NegritaCursiva,GrasItalique,VetCursief,ОбычныйКурсив,polkrepko ležeče
+AR PL UMing CN:style=Light
+Gentium Basic:style=Bold Italic
+Nimbus Sans L:style=Regular
+Gentium Book Basic:style=Bold
+Gentium Book Basic:style=Italic
+URW Palladio L:style=Italic
+LMMathItalic5:style=Bold
+LMMathItalic7:style=Bold
+Nimbus Sans L:style=Bold Condensed
+LMSans8:style=Oblique
+LMSans9:style=Oblique
+URW Gothic L:style=Demi
+Gentium Basic:style=Regular
+Liberation Serif:style=Bold
+LMRoman12:style=Regular
+LMRoman10:style=Regular
+LMRoman17:style=Regular
+Liberation Mono:style=Bold Italic
+Nimbus Roman No9 L:style=Medium Italic
+Bitstream Charter:style=Regular
+msam10:style=Regular
+GentiumAlt:style=Italic
+Nimbus Mono L:style=Bold Oblique
+LMRomanDemi10:style=Oblique
+Dingbats:style=Regular
+cmsy10:style=Regular
+LMSansDemiCond10:style=Oblique
+Nimbus Roman No9 L:style=Medium
+LMMonoCaps10:style=Oblique
+FreeSerif:style=Mittel,µεσαία,Medium,Normal,Gemiddeld,navadno
+LMMonoSlant10:style=Regular
+Nimbus Sans L:style=Bold Italic
+LMMonoPropLt10:style=Oblique
+LMMathSymbols10:style=Regular
+Courier 10 Pitch:style=Bold Italic
+AR PL UKai TW MBE:style=Book
+cmr10:style=Regular
+文鼎ＰＬ简报宋,AR PL SungtiL GB:style=Regular
+LMMathItalic10:style=Bold
+FreeSerif:style=Fett,Bold,Negrita,Gras,Vet,Обычный,polkrepko
+LMRomanCaps10:style=Regular
+DejaVu Sans:style=Oblique
+LMMonoLt10:style=Bold
+Nimbus Mono L:style=Regular
+FreeSans:style=Oblique,ležeče
+GentiumAlt:style=Regular
+Bitstream Charter:style=Italic
+msbm10:style=Regular
+LMRomanUnsl10:style=Regular
+URW Gothic L:style=Book
+LMRomanDunh10:style=Oblique
+LMMonoProp10:style=Regular
+LMRoman10:style=Italic
+LMRoman12:style=Italic
+Gentium Book Basic:style=Bold Italic
+LMSansQuot8:style=Oblique
+Liberation Sans:style=Bold
+DejaVu Sans Mono:style=Oblique
+FreeMono:style=Negreta cursiva,tučné kurzíva,fed kursiv,Fett Kursiv,Έντονα Πλάγια,BoldOblique,Negrita Cursiva,Lihavoitu Kursivoi,Gras Italique,Félkövér dőlt,Grassetto Corsivo,Vet Cursief,Halvfet Kursiv,Pogrubiona kursywa,Negrito Itálico,Полужирный Курсив,Tučná kurzíva,Fet Kursiv,Kalın İtalik,polkrepko ležeče,Lodi etzana
+LMRoman9:style=Italic
+LMRoman8:style=Italic
+DejaVu Sans,DejaVu Sans Condensed:style=Condensed Bold Oblique,Bold Oblique
+LMRoman7:style=Italic
+LMMathItalic10:style=Regular
+LMMathItalic12:style=Regular
+Courier 10 Pitch:style=Italic
+AR PL UKai CN:style=Book
+LMRomanSlant17:style=Regular
+LMRomanSlant10:style=Regular
+LMRomanSlant12:style=Regular
+AR PL UKai HK:style=Book
+Liberation Serif:style=Regular
+LMSansQuot8:style=Regular
+AR PL UKai TW:style=Book
+LMMonoPropLt10:style=Regular
+DejaVu Sans,DejaVu Sans Light:style=ExtraLight
+Liberation Sans:style=Bold Italic
+文泉驿正黑,文泉驛正黑,WenQuanYi Zen Hei:style=Regular
+Nimbus Sans L:style=Regular Condensed Italic
+FreeSans:style=Bold,polkrepko
+URW Bookman L:style=Demi Bold
+URW Bookman L:style=Light
+FreeMono:style=Negreta,tučné,fed,Fett,Έντονα,Bold,Negrita,Lihavoitu,Gras,Félkövér,Grassetto,Vet,Halvfet,Pogrubiony,Negrito,Полужирный,Fet,Kalın,polkrepko,đậm,Lodia
+URW Gothic L:style=Demi Oblique
+LMMonoLt10:style=Regular
+Standard Symbols L:style=Regular
+FreeMono:style=Normal,obyčejné,Standard,Κανονικά,Medium,Normaali,Normál,Normale,Standaard,Normalny,Обычный,Normálne,navadno,thường,Arrunta
+Courier 10 Pitch:style=Regular
+DejaVu Sans,DejaVu Sans Condensed:style=Condensed,Book
+DejaVu Sans,DejaVu Sans Condensed:style=Condensed Bold,Bold
+Liberation Mono:style=Bold
+文泉驿微米黑,文泉驛微米黑,WenQuanYi Micro Hei:style=Regular
+URW Palladio L:style=Bold
+FreeSerif:style=Kursiv,Λειψίας,Italic,Cursiva,Italique,Cursief,Курсив,ležeče
+Nimbus Sans L:style=Regular Condensed
+Gentium Book Basic:style=Regular
+文鼎ＰＬ細上海宋,AR PL Mingti2L Big5:style=Regular,Reguler
+LMSans17:style=Oblique
+LMSans12:style=Oblique
+LMSans10:style=Oblique
+URW Bookman L:style=Light Italic
+DejaVu Serif,DejaVu Serif Condensed:style=Condensed Italic,Italic
+WenQuanYi Bitmap Song:style=Regular
+Century Schoolbook L:style=Roman
+Nimbus Roman No9 L:style=Regular Italic
+Courier 10 Pitch:style=Bold
+DejaVu Sans:style=Bold
+cmmi10:style=Regular
+Gentium:style=Italic
+DejaVu Sans:style=Book
+URW Gothic L:style=Book Oblique
+URW Palladio L:style=Bold Italic
+unifont:style=Medium
+LMMathSymbols10:style=Bold
+LMMono10:style=Italic
+LMSansQuot8:style=Bold
+LMMono8:style=Regular
+LMMono9:style=Regular
+DejaVu Serif:style=Italic
+Nimbus Mono L:style=Regular Oblique
+文鼎ＰＬ简中楷,AR PL KaitiM GB:style=Regular
+LMMathSymbols5:style=Bold
+LMMathSymbols7:style=Bold
+文泉驿等宽正黑,文泉驛等寬正黑,WenQuanYi Zen Hei Mono:style=Regular
+LMSans10:style=BoldOblique
+Symbol:style=Regular
+LMRomanSlant9:style=Regular
+LMRomanSlant8:style=Regular
+LMMonoLtCond10:style=Regular
+LMRoman9:style=Regular
+LMRoman8:style=Regular
+LMRoman7:style=Regular
+LMRoman6:style=Regular
+LMRoman5:style=Regular
+Gentium Basic:style=Italic
+DejaVu Sans Mono:style=Book
+DejaVu Sans Mono:style=Bold
+eufm10:style=Regular
+Liberation Serif:style=Italic
+Nimbus Mono L:style=Bold
+FreeSans:style=BoldOblique,polkrepko ležeče
+Liberation Mono:style=Italic
+LMSans12:style=Regular
+LMSans10:style=Regular
+LMSans17:style=Regular
+AR PL UMing TW MBE:style=Light
+Bitstream Charter:style=Bold
+LMRomanDunh10:style=Regular
+FreeMono:style=Cursiva,kurzíva,kursiv,Πλάγια,Oblique,Kursivoitu,Italique,Dőlt,Corsivo,Cursief,Kursywa,Itálico,Курсив,İtalik,ležeče,nghiêng,Etzana
+LMMono10:style=Regular
+LMMono12:style=Regular
+文泉驿点阵正黑,文泉驛點陣正黑,WenQuanYi Zen Hei Sharp:style=Regular
+Gentium Basic:style=Bold
+LMRoman10:style=Bold
+LMRoman12:style=Bold
+Nimbus Sans L:style=Bold Condensed Italic
+URW Bookman L:style=Demi Bold Italic
+LMRoman10:style=BoldItalic
+Liberation Sans:style=Italic
+DejaVu Serif:style=Book
+LMMonoCaps10:style=Regular
+DejaVu Serif:style=Bold
+还是比较可观的吧。
+
+下面给一个小例子，试试，
+\documentclass{article}
+\usepackage{xeCJK}
+\setCJKmainfont{WenQuanYi Zen Hei}
+\begin{document}
+你好，\TeX Live 2009！
+\end{document}
+
+$xelatex test.tex
+
+
+安装Adobe字体
+到网上下载Adobe Reader9的字体包
+http://www.adobe.com/support/downloads/detail.jsp?ftpID=4429
+
+解压后把otf字体复制到/usr/share/fonts/adobe
+$su
+#mkdir /usr/share/fonts/adobe
+#cp * /usr/share/fonts/adobe
+#cd /usr/share/fonts/adobe
+#chown wolf *
+#fc-cache -fsv
+#fc-list |grep Adobe 
+已经有了
+给一个小例子：
+\documentclass{article}
+\usepackage{xeCJK}
+%\setCJKmainfont{WenQuanYi Zen Hei}
+
+\setCJKmainfont{Adobe Song Std}
+\begin{document}
+你好，\TeX Live 2009！
+\end{document}
+

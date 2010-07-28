@@ -1,0 +1,50 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec,hyperref}
+\usepackage{xeCJK}
+\setCJKmainfont{AR PL KaitiM GB}
+\setmainfont{Liberation Mono}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt minus 0.1pt
+%\title{教程:使用c.vim插件打造自己的C/C++ IDE}
+\begin{document}
+
+\title{教程:使用c.vim插件打造自己的C/C++ IDE}
+\author{译者:wolfpythonlondon \texttt{wolfpythonlondon@gmail.com} \\ 刘宇辉 \texttt{lyh19901223@gmail.com}}
+\date{Jul 26 2010}
+\maketitle
+
+这篇文章是正在进行中的《Vi/Vim Tips and Tricks》系列中的一部分。作为
+一个程序员，在编码的时候，你可能要做很多重复性的工作，比如:\\
+
+\begin{itemize}
+\item{添加头文件}
+\item{添加函数/框架的注释}
+\item{包含缺省的代码块}
+\item{语法检查}
+\item{阅读函数的文档}
+\item{注释掉某段代码或者去掉注释}
+\end{itemize}
+%\section
+
+支持C语言的vim 插件提供了一个简便的方式解决以上的所有问题，这为C和C++程序员节省了许多时间和击键。
+
+这个插件是由Fritz Mehner 写的，他描述这个插件的功能：“编写，运行程序。插入语句，习语，注释。\\
+
+他也强调了以下的一些特点:\\
+\begin{itemize}
+\item{以编辑C/C++程序为中心的语句}
+\item{显著的加快写代码的速度}
+\item{从开始就以专业的风格编写代码和注释}
+\item{重用代码片段}\\
+\end{itemize}
+
+这篇文章描述了3步安装这个插件和七个功能强大的特色。
+
+\section*{3步安装C.Vim插件}
+\subsection*{步骤一：下载C.Vim插件}
+从\href{http://www.vim.org}{vim.org}下载插件。
+
+\$cd /usr/src
+
+\$wget http://www.vim.org/script/download\_script.php?srt\_id-9679
+\end{document}
