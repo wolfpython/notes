@@ -43,6 +43,8 @@ dedicated to my love --caoli
 
 字典: ---> stardict:很优秀的字典框架，但是最近貌似辞典不好下载。
       ---> sdcv: stardict的命令行版本。
+      ---> goldendict：很优秀的字典，默认的抓取wikipedia的内容。
+           可以使用stardict的字典文件.
 
 
 编码：
