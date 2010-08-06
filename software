@@ -22,6 +22,8 @@ dedicated to my love --caoli
                     但是某些发行版要求手动安装解码器，尤其是桌面发行版。
             $rhythmbox&  #从命令行启动，丢到后台工作
 	    VOA电台:rtsp://a247.r.akareal.net/live/D/247/2110/v001/reflector:48984
+	    BBC music:http://www.bbc.co.uk/6music/ram/6music_hi.asx
+	    CRI:mms://livexwb.cri.com.cn/fm915
       
 影视：---> 电影播放机：发行版默认的电影播放器。
 
