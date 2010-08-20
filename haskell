@@ -1,0 +1,62 @@
+ghci 的一些常用命令：
+:l(oad) scriptName.hs
+:r(eload) scirptName.hs
+:set editor editorname -- 设定编辑器，比如vim
+:e(ditor) file  --编辑文件
+:e(ditor)       --编辑当前的脚本
+:t(ype)         --查看函数，表达式等的类型
+:q(uit)         --退出解释器
+Sumary:ghci的很多命令都是可以用首字母来缩写。
+
+
+
+tuple(元组)
+
+tuple 和list 的比较：
+1) list 的元素必须是同一类型。tuple的可以是不同类型。
+2）list的长度(length)从类型上是无法得出的（[a]）；tuple的长度（arity）是可以得到的([a],[b]).
+3) list 可以是无限的; tuple不能是无限的。
+
+prelude定义的一些函数：
+：head  --取非空列表的第一个元素
+：tail  --取非空列表的除第一个元素以外的任何元素
+：take  --取列表的前N个元素
+：drop  --非take
+：length--计算列表的长度
+：sum   --计算列表的元素和
+：product0--计算列表的元素积
+：reverse--倒置列表
+：[]!!n --取列表的第n个元素
+
+
+haskell的基础类型
+1) Bool 包含逻辑运算值 Fasle,True
+2) Char 包含单个的字符 'a', 'A','3'
+3) String ([Char]) 包含连续的字符的列表
+4) Int  包含精确度有限制的整数
+5）Integer包含任意精度的整数
+6) Float  包含单精度浮点型值
+7) list   连续的同类型的元素
+8）tuple  包含连续的有限元素
+
+haskell中函数也是有类型的。就是运算结果的类型。
+Curried 函数:
+
+多态：一个函数可以用于多种类型，就叫多态。比如：
+>:t length
+length::[a] -> Int
+
+类:
+Eq,Ord,Show,Read,Num,Integral, Fractional
+
+
+函数:
+定义函数的几种结构：
+条件表达式
+卫兵表达式
+模式匹配
+
+
+
+
+
