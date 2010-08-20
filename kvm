@@ -1,0 +1,10 @@
+debian squeeze(testing)安装Kvm 内核虚拟机
+
+#aptitude install qemu-kvm virt-manager bridge-utils uml-utilities
+
+virt-manager是图形化的虚拟机管理器。守护进程libvirt-bin会被自动安装.
+把用户加如libvirt组
+#adduser wolf libvirt
+
+注意选择要选择启动介质为硬盘和光驱两种。  否则在安装windows 及像centos这样
+的操作系统时会无法启动（重启后安装的）。
