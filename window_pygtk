@@ -1,0 +1,23 @@
+windows平台建立pygtk开发环境
+
+linux（debian)上不用配置即可进行pygtk开发。windows平台上的也不是很复杂。
+
+按照官方给的思路：
+In order to install PyGTK on Windows you need:
+
+    * A Python interpreter for Windows (you can get it at the Python downloads) page.
+        * The GTK+ runtime. We recommend to install it using the official GTK+ bundle (gtk+-bundle*.zip files). Just choose the latest version available.
+	      To fully install this bundle you need to uncompress its contents in a folder and manually add the bin subfolder to the system path.
+	          * The PyGTK, PyCairo and PyGObject modules (available from this site, just follow the links and choose the lastest version).
+		        When downloading them, you must make sure that the PyCairo, PyGObject and PyGTK versions fit the corresponding Python interpreter version and you have a recent enough GTK+ runtime. The python version used to build those extensions is written in the installer name (e.g. 'py2.6' for Python 2.6).
+
+	*python解释器得安装了(我的是python2.6)
+	*GTK+ runtime。下载地址： http://ftp.gnome.org/pub/GNOME/binaries/win32/gtk+/ 选择最新的。
+	这一不重解压文件，把bin目录加入到path变量中。
+	*下载PyGTK,PyCairo,PyGObject模块。安装即可.
+
+
+测试：
+python (打开解释器)
+import gtk
+如果没有抛出异常则安装成功。
