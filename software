@@ -23,6 +23,7 @@ dedicated to my love --caoli
             $rhythmbox&  #从命令行启动，丢到后台工作
       
 影视：---> 电影播放机：发行版默认的电影播放器。
+	   MPlayer:万能影音播放器(unix-like OS)
 
 刻录：---> cdrecord : CLI的刻录软件，不是很常用。
       ---> brasero: 非常方便的GUI刻录软件，如果有了她，刻录方便不少，但是占用
