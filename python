@@ -244,4 +244,16 @@ setup(name = "nameOfModule",
 python setup.py install 
 
 
+text processing
+os模块处理文件系统
+os.getcwd()
+os.listdir()
+os.stat(path)
+os.path.split(path)
+os.path.join()
+os.path.normcase(path)
+os.walk(top, topdown=True,
+		onerror=None, followlinks = False)
 
+正则表达式：
+re
