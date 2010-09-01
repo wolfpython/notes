@@ -198,6 +198,50 @@ getopt.getopt 和getopt.gnu_getopt
 
 多进程:
 os.fork()
+os.execl()
+
+多线程:
+threading.Thread
+
+
+再谈模块:
+dir() 函数查找module信息
+>>> import sys
+>>> dir(sys)
+['__displayhook__', '__doc__', '__excepthook__', '__name__', '__package__', '__stderr__', '__stdin__', '__stdout__', '_clear_type_cache', '_current_frames', '_getframe', 'api_version', 'argv', 'builtin_module_names', 'byteorder', 'call_tracing', 'callstats', 'copyright', 'displayhook', 'dont_write_bytecode', 'exc_info', 'excepthook', 'exec_prefix', 'executable', 'exit', 'flags', 'float_info', 'float_repr_style', 'getcheckinterval', 'getdefaultencoding', 'getdlopenflags', 'getfilesystemencoding', 'getprofile', 'getrecursionlimit', 'getrefcount', 'getsizeof', 'gettrace', 'hexversion', 'int_info', 'intern', 'maxsize', 'maxunicode', 'meta_path', 'modules', 'path', 'path_hooks', 'path_importer_cache', 'platform', 'prefix', 'ps1', 'ps2', 'pydebug', 'setcheckinterval', 'setdlopenflags', 'setfilesystemencoding', 'setprofile', 'setrecursionlimit', 'settrace', 'stderr', 'stdin', 'stdout', 'subversion', 'version', 'version_info', 'warnoptions']
+在导入(import)模块的时候，python依据sys.path路径来搜索模块
+>>> import foo
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named foo
+>>> import sys
+>>> print(sys.path)
+['', '/usr/lib/python3.1', '/usr/lib/python3.1/plat-linux2', '/usr/lib/python3.1/lib-dynload', '/usr/lib/python3.1/dist-packages', '/usr/local/lib/python3.1/dist-packages']
+
+构建自己的模块和包
+面向对象的思想：
+*封装(encapsulation)
+*继承(inheritance)
+*多态(polymorphism)
+构建自己的模块，至少要完成如下：
+*定义自己的错误和异常
+自定义的异常是Exception的子类
+*定义api
+_(一个下划线)开头的变量（函数),默认是不被导入的，如果需要导入，自己定义__all__函数，例如：
+__all__ = ["wolf", "wolfName", "wolfAge"]
+*文档
+*测试自己的模块
+
+安装模块
+使用python的distutils包，
+首先创建衣蛾setup脚本，setup.py
+from distutils.core import setup
+setup(name = "nameOfModule",
+		version="2.0",
+		py_modules=["nameoOfModule"],)
+
+后执行
+python setup.py install 
 
 
 
