@@ -1,0 +1,203 @@
+单引号，双引号，三引号
+
+无论单引号，双引号还是三引号，所括住的内容都是字符串。
+单引号，双引号和三引号，可以相互包含，而不会使解释器混乱。三引号可以跨行，（
+python会自动加上\n）其他的两个不可以。用print输出时，按照字符串的内容输出。
+
+
+python中数的表示
+最新的python中，数分为：
+整数(可以无限大), 浮点型数，虚数(eg.12j/J).可以用type()函数来查看一个数字的类型
+>>> type(1)
+<class 'int'>
+>>> type(1.0)
+<class 'float'>
+>>> type(1j)
+<class 'complex'>
+
+python中无论什么类型的两个实数相除(/)，都会返回浮点型值。取余(%),返回的是余数.print格式分隔符(format specifier):
+%f #浮点型输出,可以指定精度。eg.  %.02f, %10.02f
+%E(e) #科学计数法输出
+%X(x) #十六进制输出
+%o #八进制输出
+
+python变量名只是内存中一块数据的别名。
+python中有些名字是保留的。如下：
+and, as ,assert,break, class ,continue,def, elif, else,
+except, del, exec, False, finally, for, from, global, if, import, 
+in, is ,lambda, not, None, or, pass, print, raise, return, try,True,
+while, with, yield
+
+python的复杂数据类型
+tuple(元组):不可改变的一组数据,可以容纳任何类型的数据 
+表示方法：()
+方法：
+a = ("a","b","c")
+索引(index）： a[2]
+长度： len(a)
+
+list(列表):可改变的一组数据，可以容纳任何类型的数据
+表示方法：[]
+方法：
+a = [ "apple","orange", "egg"]
+索引(index): a[2]
+长度:len(a)
+append(): a.append("jack") #增加一个item
+extend():y a.extend(["tom","US"]) #把一个列表的元素加入已有列表
+pop() : a.pop(index)   #删除index位置的元素,如果index为空，则为最后一个
+
+dictionary(字典):一组序列值。key必须是不可变的，比如string,number,tuple,
+key value可以是任意类型。
+表示方法：｛｝
+方法：
+a = { 1:"wolf", 2:"python",3 :"london"}
+索引(index): 按值索引, a[1]
+keys(): a.keys()  #返回所有的key
+values(): a.values #返回所有的key values
+
+set (集合):一组不可重复的数据，类似于dict，但是又没有key values。
+
+特殊类型：
+None,nothing ,一般的函数返回的都是None
+布尔类型（True, False): 
+
+
+贯穿于string, list ,tuple中的切片slice
+a[2:3]
+
+函数：
+函数的一个属性docstring, myfunction.__doc__
+dir显示了一个对象的所有属性。
+函数变量的作用域
+设置缺省的变量值
+python允许在函数里定义函数
+
+
+python中的模块
+当import一个模块后，这个模块内的所有对象都被放在这个模块的作用域内。（重新
+构建一个作用域).from ...import 把对象放在当前的作用域.
+package(包),是文件的集合，但是必须有__init__.py文件，它告诉python，这个目录
+不是一个普通的目录，是一个包。因为包不像module，导入一个包，首先要处理的就是
+__init__.py文件，在这个文件中可以指定那些module可以使用，怎么使用( 默认情况下）
+__name__是模块的都有的一个属性，它指的是模块的名字， __main__就是模块的名字，无论他是什么，这个通常用来测试用。
+
+
+文件：
+open()创建一个文件对象，write，写入文件.
+readline(),返回文件的一行.
+read()返回整个文件作为一个string。
+readlines()返回整个文件作为一个列表，列表里是以行为单位为一字符串.无须完全加载到内存中.
+python在操作文件的过程中，遇到错误，就会raise个IOError的异常。
+
+os模块:
+os模块包含另外一个模块，os.path，
+os.path.join:
+>>> os.path.join("/home/wolf", "programming")
+'/home/wolf/programming'
+os.path.split():
+>>> os.path.split("/home/wolf/programming")
+('/home/wolf', 'programming')
+os.path.splitext():
+>>> os.path.splitext("icon.py")
+('icon', '.py')
+os.path.abspath():
+>>> os.path.abspath("icon.py")
+'/home/wolf/programming/python/icon.py'
+os.path.isfile(),os.path.isdir():
+>>> os.path.isfile("icon.py")
+True
+>>> os.path.isdir("/home/wolf")
+os.path.getsize():
+>>> os.path.getsize("/home/wolf/programming/python/icon.py")
+397
+
+
+
+目录：
+os.listdir():>>> os.listdir("/")
+['mnt', 'proc', 'lost+found', 'tmp', 'bin', 'sys', 'vmlinuz.old', 'initrd.img', 'selinux', 'home', '.ure', 'root', 'media', 'sbin', 'boot', 'vmlinuz', 'var', 'opt', 'srv', 'usr', 'etc', 'lib', 'cdrom', 'initrd.img.old', 'dev']
+>>> sorted(os.listdir("/"))
+['.ure', 'bin', 'boot', 'cdrom', 'dev', 'etc', 'home', 'initrd.img', 'initrd.img.old', 'lib', 'lost+found', 'media', 'mnt', 'opt', 'proc', 'root', 'sbin', 'selinux', 'srv', 'sys', 'tmp', 'usr', 'var', 'vmlinuz', 'vmlinuz.old']
+
+
+time模块
+time.ctime:
+>>> buildTime = os.path.getmtime("/home/wolf")
+>>> print(time.ctime(buildTime))
+Tue Aug 31 17:04:20 2010
+
+重命名，移动，复制，删除文件
+shutil模块提供了这些功能
+shutil.move :移动文件
+>>> import shutil
+>>> shutil.move("file", "/tmp/file")
+shutil.copy():
+>>> shutil.copy("file","/home/wolf")
+os.remove():
+>>> os.remove("/home/wolf/file.txt")
+
+创建，删除目录：
+os.mkdir()，os.rmdir(): os.rmdir()只能删除空文件
+>>> os.mkdir("/home/wolf/python")
+>>> os.rmdir("/home/wolf/python")
+如果要删除一个没有,shutil.rmtree()
+>>> shutil.rmtree("/tmp/test")
+
+python 中的通配符
+*  #匹配任何字符（串）
+？ #匹配一个字符
+[] #匹配括号中的选项
+[!] #匹配非括号中的选项
+[1-9],[a-z],匹配1－9，a-z中的任意字符(数字)
+模块glob
+glob.glob返回符合条件的路径名
+>>> import glob
+>>> glob.glob("/tmp/[so]*")
+['/tmp/scim-helper-manager-socket-wolf', '/tmp/ssh-VWuCMO2736', '/tmp/orbit-wolf', '/tmp/scim-panel-socket:0-wolf', '/tmp/scim-socket-frontend-wolf', '/tmp/svi4c.tmp', '/tmp/seahorse-WYEPIf']
+
+
+lambda 函数：lambda函数又叫无名函数.
+>>>lambda x: x*x
+filter(): 过滤函数，依据一定的函数，返回符合条件的元素
+map()： 把相应的元素映射为一定的值
+在python3.1中,map 返回迭代器,在以前的版本中返回一个列表
+list comprehension 也有同样的功能，比如：
+>>> a = map(lambda x : x*x , [1,2,3])
+>>> print(*a)
+1 4 9
+>>> [x*x for x in [1,2,3]]
+[1, 4, 9]
+
+
+迭代器：
+python  提供了很多中方法创建迭代器。
+其中之一就是range()函数
+>>> foo = range(2,9,2)
+>>> foo
+range(2, 9, 2)
+>>> print(*foo)
+2 4 6 8
+range()产生一个迭代器，但是也有线性数据结构的性质
+>>> foo[1]
+4
+>>> foo[3]
+8
+好处就是占用的内存比较小，无论生成的数据是多少.
+
+
+
+字符串格式化之字典
+>>>person = {"name": "jack", "age": 20, "status":"student"}
+>>> print("%(name)s" % person)
+jack
+
+
+python库小瞥
+getopt:
+getopt.getopt 和getopt.gnu_getopt
+
+多进程:
+os.fork()
+
+
+
