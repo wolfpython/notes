@@ -1,0 +1,45 @@
+\documentclass{book}
+\usepackage{color,CJKutf8}
+\begin{document}
+
+%\begin{algorithm}
+\begin{CJK}{UTF8}{nsung}
+\title{Python 教程}
+\author{译者：wolf python london \texttt{wolfpythonlondon@gmail.com}}
+\date{08/11/2010}
+\maketitle
+
+
+\section*{7.2  读写文件}
+
+open()函数返回一个文件对象，在通常情况下传递给它两个参数：open(filename, mode). \\
+
+f ={\color{red} open}{\color{blue} ('/tmp/workfile', 'w')}\\
+
+第一个参数是包含文件名的字符串。第二个参数是包含一些字符的字符串，这些字符描述了文件被使用的方式。当文件只用来读时，mode就是'r'，当只用来写的时候，就是'w'（在路径下的文件名相同的文件将被抹去),'a'则是打开文件追加内容，任何写入文件的内容都将自动被加在文件末尾。'r+'打开文件既可读也可写。mode参数是可选择的；'r'是缺省的打开文件模式。\\
+
+通常情况下，文件都是以文本文件的方式打开，也就是，我们把字符串读出或者写入文件，这些文件是以特定的编码格式存储的（缺省的是UTF－8）。在mode后面的'b'表示以二进制模式打开文件：现在，数据是以字节对象读出或者写入文件。这个模式用于所有不包含文本的文件。\\
+
+在文本模式下，缺省的动作是在读文件时把平台相关的换行符（unix 是$\backslash$n，windows是$\backslash$r$\backslash$t)转换为$\backslash$n,在写入文件事，把$\backslash$n转换为平台相关的换行符。这个“暗箱”操作对于文本文件是大有裨益的，但是对于二进制数据（比如在JPEG和EXE文件中)却是致命的。记住在读写这类文件时，使用二进制模式。\\
+
+
+\subsection*{7.2.1  文件对象的方法}
+
+这个部分的余下例子假定文件对象f已经被创建。\\
+
+f.read(size),读取文件一些数据，并作为字符串或字节对象返回。size是一个可选择的数字参数。当size被忽略或者为负数时，文件整体都被读取并返回。如果文件大小是你的内存容量的两倍，你应该对此负责。否则，至多size字节被读取，返回。如果到达文件末尾，f.read()返回空字符串('').\\
+
+f.{\color{red}read()}
+
+'this is the entire file.$\backslash$n'
+
+f.{\color{red}read()}
+
+''\\
+	
+f.readline()从文件读取一整行，并且在字符串末尾留下一个换行符。
+
+
+
+\end{CJK}
+\end{document}
