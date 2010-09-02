@@ -257,3 +257,30 @@ os.walk(top, topdown=True,
 
 正则表达式：
 re
+
+
+python高级应用
+
+1.testing ： PyUnit
+
+
+2.GUI
+
+3.database
+DBM: 以dict存储在硬盘上，有很多中实现,字典的Key 和value都必须是string
+除非需要dbm的特别功能，用dbm模块.python会自动选择最好的dbm实现.
+就像打开一个普通的文件一样，open()函数，close()函数，增加元素的方法就是
+用字典实现。比如：
+import dbm 
+db = dbm.open("websites", "c")
+
+db["www.python.org"] = "python home page"
+
+print(db["www.python.org"])
+
+db.close()
+
+relational DB: 关系型数据库。数据库-->表-->记录(行).
+primary key ：在列中是唯一的，
+foreign key: 是另外的表的一个列
+
