@@ -284,3 +284,18 @@ relational DB: 关系型数据库。数据库-->表-->记录(行).
 primary key ：在列中是唯一的，
 foreign key: 是另外的表的一个列
 
+sqlite3模块
+首先建立连接：
+conn = sqlite3.connect("db")
+创建cursor对象:
+c = conn.cursor()
+调用cursor对象:
+cursor.execute()
+可以执行的操作：
+新建,插入，查询，更新，相应的sql语句.
+
+
+
+
+Django：
+

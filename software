@@ -24,6 +24,7 @@ dedicated to my love --caoli
 	    VOA电台:rtsp://a247.r.akareal.net/live/D/247/2110/v001/reflector:48984
 	    BBC music:http://www.bbc.co.uk/6music/ram/6music_hi.asx
 	    CRI:mms://livexwb.cri.com.cn/fm915
+       --->一个在线的电台大杂烩：http://www.mediayou.net/web/search.asp?lan=chn#
       
 影视：---> 电影播放机：发行版默认的电影播放器。
 	   MPlayer:万能影音播放器(unix-like OS)
@@ -56,6 +57,8 @@ dedicated to my love --caoli
       ---->QtCreator: 用来对QT进行编码。
       ---->Eric:在pyQt编程时，会用到，支持python,和ruby。
       ---->IDLE: 官方的PYTHON IDE， 在交互界面使用非常舒服。
+调试器：-->gdb
+	-->nemiver ：gdb的前端，图形化调试器
 
 
 互联网：
