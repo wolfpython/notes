@@ -38,6 +38,10 @@ dedicated to my love --caoli
 文档：---> Vim : 处理日常的文档的书写，代码的编辑。
       ---> Emacs：同上。
       ---> openoffice.org:安装了，但是很少用，启动慢。
+      ---> evince: gnome
+      DE标准的PDF阅读器,可以阅读PDF,DVI,PS格式的文件,甚至可以读取jpg图片.
+      ---> TeX/LaTeX/XeTeX:非常优秀的排版系统.我使用它翻译了(和别人合作)一本书.
+      在这里 https://github.com/wolfpython/thinkpython
      
 图像处理： gimp:优秀的图像处理软件，功能及其强大。
       ---> dia: 用来处理流程图基本图形的画写。
@@ -56,7 +60,9 @@ dedicated to my love --caoli
       ----> Anjuta: 朴素的IDE，可以处理绝大多数的编程语言。
       ---->QtCreator: 用来对QT进行编码。
       ---->Eric:在pyQt编程时，会用到，支持python,和ruby。
-      ---->IDLE: 官方的PYTHON IDE， 在交互界面使用非常舒服。
+      ---->IDLE: 官方的PYTHON IDE，
+		   在交互界面使用非常舒服,但是在Debian上有问题,经常在输入完后无法感知回车键也就。
+	           无法执行语句了.而且Mandriva/Mageia并没有显式的把IDLE呈现给用户.
 调试器：-->gdb
 	-->nemiver ：gdb的前端，图形化调试器
 	-->DDD：
@@ -68,12 +74,18 @@ dedicated to my love --caoli
       ---->xchat-IRC: 严格说来不能算是即时聊天软件。
       ---->Eva ：我正在开发中的linux QQ。
 
-邮件客户端:evolutin:非常亲切的邮件收发客户端,GUI
+邮件客户端:evolutin:非常亲切的邮件收发客户端,GUI,但是我基本不使用.
      ---> mutt:
      
 feed阅读: lifeera: rss阅读器
 
 新闻组客户端： tin
+
+浏览器: Iceweasel(firefox):
+	links:
+	w3m:
+	lynx:在线阅读官方文档时经常会使用这个浏览器.
+
 
 
 
