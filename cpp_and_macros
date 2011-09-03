@@ -5,7 +5,7 @@ Macro(宏)来源于希腊语,意思就是大,远.在计算机科学中指的是�
 讨论inline函数)在运行时调入栈中运行.而且不同的语言对宏的处理也是不同的,比如C
 语言中,宏是无法区分作用域的(编译单元内的作用域),但是在metapost中,恰恰是可以
 在宏体里定义局部变量的.
-
+参看:http://en.wikipedia.org/wiki/Macro_%28computer_science%29
 
 下面讨论C语言中的宏.
 谈到宏,不得不提到preprocess directives(预处理指令).预处理指令是预处理器在
@@ -93,3 +93,85 @@ MUL(2+3,4+5);
 
 
 
+Preprocessor(预处理器),在计算机科学中指的是一个处理代码输入并且把输出做为另外
+一个程序输入的程序,它也是一个程序.参看:http://en.wikipedia.org/wiki/Preprocessor
+GNU的预处理器可以处理C/C++/Objective-c,因为都和C沾边(或者就是从开始遗留下来的
+习惯)所以就叫C PreProcessor(cpp 不是c plus plus:-) )
+
+CPP处理预处理指令,有#include,#define(undef),#if(ifdef,ifndef,else if,elif,endif),#error
+,#line, #pragma,#,##,当然预处理也处理注释(comment),而且优先于预处理指令.
+
+1.文件包含(file inclusion)
+
+#include指令
+
+#include <stdio.h>      从标准路径搜索stdio.h
+#include "nids.h"
+	从当前目录开始搜索nids.h如果找不到再到命令行参数指定的目录寻找
+	最后是标准目录下寻找.
+	
+2.宏定义(macros defination)
+
+前述.
+
+3.条件编译(conditinal compilation)
+
+#if __STDC__ == 1
+#if defined FREEBSD
+#if !defined FREEBSD
+#endif
+
+#ifdef FREEBSD
+#else if
+#define LINUX
+#endif
+
+4.错误产生(error generation)
+#error this line shouldnt be reached 
+
+5.行号控制(line control)
+#line 299 "ip.c"  下一行是ip.c的299行
+#line 299         下一行是本文件的299行
+
+6 #,##
+#和##常常用于宏定义里,这两个是预处理运算符,不是指令,因为预处理指令不能用于宏定义.就像C99添加的_Pragma操作符.
+
+#define tempfile(dir) #dir "/%s"
+tempfile(/usr/tmp)被扩展成  "/usr/tmp" "/%s",也就是 "/usr/tmp/%s"
+#把宏参数字符串化(C语言表示的字符串),而且这个的"优先级"比较高.
+看一个来自cpp手册的例子:
+#define xstr(s) str(s)
+#define str(s) #s
+#define foo 4
+str (foo)       由于有#,表示参数首先被字符串化,所以不再有任何扩展.
+	→ "foo"
+xstr (foo)      没有#,所以参数被扩展.
+	→ xstr (4)
+	→ str (4)
+	→ "4"
+
+解释:
+s is stringified when it is used in str, so it is not macro-expanded first. But
+s is
+an ordinary argument to xstr, so it is completely macro-expanded before xstr
+itself is
+expanded . Therefore, by the time str gets to its argument, it has already been macro-expanded.
+
+
+
+#define cat(x,y) x##y
+cat(2,3)   扩展为23
+cat(wolf,python) 扩展为wlfpython
+##把tokens连接起来(tokens concatenation)
+通常##两边的tokens可以是标识符,数字或者运算符,不可以是C语言表示的字符串.
+比如cat("2","3")是错误的.
+
+
+7.#pragma
+#pragma用于向编译器提供信息.(由于是指令,所以无法用于宏定义,C99定义了
+_Pragma运算符)
+
+#pragma once 可以用于防止头文件被重复包含(另外一种方式是使用条件编译)
+
+8.空指令 #
+#后面仅跟着一个换行符,就是一个空指令,什么也不做,在预处理阶段没有动它.
