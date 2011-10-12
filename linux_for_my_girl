@@ -85,7 +85,7 @@ linux 基本命令
 	      What I want to do is love her.
 	      $cat -n file #为输出加入行号
 	      wolf@debian:~/test$ cat -n test.sh
-	           1	I love my girl .
+	          1	I love my girl .
 		   2	She is my soul.
 		   3	I hope I can stay with her in my whole life .
 		   4	What I want to do is love her.
@@ -259,7 +259,14 @@ drwxr-xr-x 2 caoli caoli 4096  7月 20 22:28 test/caoli
 
 
             
+find命令
+命令格式： find [path...] [expression]
+$find . -name "*python"   #用通配符的方式匹配文件
+$find . -regex  ".*python" #用grep方式的正则表达式匹配文件
+$find . -regex ".*python" -exec wc -l {} \ #用-exec 命令扩展，{}为占位符，\表示命令扩展结束.
 
+grep命令
+命令格式: 
 
 
 
