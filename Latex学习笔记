@@ -1,0 +1,15 @@
+\vspace行的垂直间距。 
+
+\flushleft,\flushright,\centre左对齐，又对齐，居中。
+
+\makeindex生成索引.在导言区使用\usepackage{makeidx}
+
+\frontmatter接着\begin{document}使用，把页码转换为罗马数字.
+
+\input{filename}只是简单的载入文本.
+
+\newpage另起一页
+
+\huge ,\Large字体大小
+
+
