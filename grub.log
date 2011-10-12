@@ -1,0 +1,17 @@
+在grub2中，硬盘的起始位置还是0，而分区的起始变为了1， 而grub legacy是0。
+
+安装grub(linux)。
+#grub-install /dev/hda
+
+
+ 创建一个grub可启动CD
+$mkdir iso
+$mkdir -p iso/boot/grub
+$cp /usr/lib/grub/i386-pc/stage2_eltorito iso/boot/grub
+$mkisofs -R -b boot/grub/stage2_eltorito -no-emul-boot \
+		-boot-load-size 4 -boot-info-table -o grub.iso iso
+
+
+配置文件grub.cfg
+grub-mkconfig可以产生grub.cfg
+/etc/default/grub控制grub-mkconfig的操作。

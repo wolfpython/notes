@@ -1,0 +1,41 @@
+最近开始使用chinanet无线上网,但是使用的是pppoe协议.自己理解就是相当于把媒介
+电缆换成了无线而已.
+
+在pppoe配置完过后,可以连接网络,但是在察看网络连接的时候,发现了一个没有见过的
+问题:
+
+$/sbin/ifconfig 
+eth0      Link encap:Ethernet  HWaddr 00:22:64:64:6d:03  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:22 Memory:dc500000-dc520000 
+
+eth0:avahi Link encap:Ethernet  HWaddr 00:22:64:64:6d:03  
+          inet addr:169.254.4.218  Bcast:169.254.255.255  Mask:255.255.0.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          Interrupt:22 Memory:dc500000-dc520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:120 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:120 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:6000 (5.8 KiB)  TX bytes:6000 (5.8 KiB)
+上面的输出略去的wlan0和ppp0信息比较奇怪的是这个虚拟设备avahi是什么东西?从
+何而来?在网上发现了avahi的首页(http://avahi.org/),首页上介绍avahi是:
+
+Avahi is a system which facilitates service discovery on a local network via the
+mDNS/DNS-SD protocol suite. This enables you to plug your laptop or computer
+into a network and instantly be able to view other people who you can chat with,
+     find printers to print to or find files being shared. Compatible technology
+is found in Apple MacOS X (branded Bonjour and sometimes Zeroconf).
+
+简单来说Avahi就是一个在局域网里面帮助自动配置网络的工具,使用的是mDNS/DNS-SD
+协议族.这样大家就可以方便的在网络之间移动接入局域网.
+
+
