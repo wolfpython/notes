@@ -13,19 +13,22 @@
 %\setmainfont{DejaVu Sans Mono:style=Book}
 \XeTeXlinebreaklocale "zh"  %断行设置为中文格式
 \XeTeXlinebreakskip=0pt plus 1pt minus 0.1pt
+\addtolength{\textwidth}{4cm}
 
-\title{TCP/IP高效编程\\   [2ex] \Large{ --------笔记}}
+
+\title{Effective Tcp/ip Programming阅读 \\[2ex] \large{------笔记}}
 \author{刘宇辉 \texttt{wolfpythonlondon@gmail.com}}
 \date{\today}
 
 \begin{document}
 \maketitle
 
-\section{socket API}
+\section{Socket API}
 
 \lstset{language=C,
         %backgroundcolor=\color{green},
         numbers=left,
+        breaklines,
         basicstyle=\ttfamily\small,
         keywordstyle=\color{red}\ttfamily,
         identifierstyle=\color{blue}\ttfamily,
@@ -34,7 +37,9 @@
         caption=\lstname,
         captionpos=b}
 
-\lstinputlisting[name=simplec.c]{../code/etip/simplec.c}
-
+\lstinputlisting[name=main.cpp,
+ %       linerange={28-85},
+ %       firstnumber=28,
+        stepnumber=2]{/home/wolf/public/notes/blogs/code/etip/simplec.c} 
 
 \end{document}
