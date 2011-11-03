@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec,hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[BoldFont,SlangFont,CJKchecksingle]{xeCJK}
+%载入粗体，斜体，禁止单个汉字一行
+
+%\setCJKmainfont{AR PL KaitiM GB}
+\setCJKmainfont{AR PL SungtiL GB} %缺省汉字字体为简体
+\setCJKfamilyfont{kai}{AR PL KaitiM GB}
+\setCJKfamilyfont{hei}{WenQuanYi Zen Hei}
+
+%\setmainfont{DejaVu Sans Mono:style=Book}
+\XeTeXlinebreaklocale "zh"  %断行设置为中文格式
+\XeTeXlinebreakskip=0pt plus 1pt minus 0.1pt
+\addtolength{\textwidth}{4cm}
+
+
+\title{Evaq源码阅读}
+\author{刘宇辉 \texttt{wolfpythonlondon@gmail.com}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{main函数}
+
+\lstset{language=C++,
+        %backgroundcolor=\color{green},
+        numbers=left,
+        breaklines,
+        basicstyle=\ttfamily\small,
+        keywordstyle=\color{red}\ttfamily,
+        identifierstyle=\color{blue}\ttfamily,
+        stringstyle=\ttfamily,
+        commentstyle=\ttfamily,
+        caption=\lstname,
+        captionpos=b}
+
+\lstinputlisting[name=main.cpp,
+        linerange={28-85},
+        firstnumber=28,
+        stepnumber=2]{/home/wolf/sourcecode/eva/src/main.cpp} 
+
+\end{document}

@@ -1,0 +1,3 @@
+fatal: remote error: 
+  You can't push to git://github.com/wolfpython/notes.git
+  Use git@github.com:wolfpython/notes.git
