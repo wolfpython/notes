@@ -1,0 +1,4 @@
+#ignore the tmp files when compiling the tex file
+*.aux,*.log,*.out
+#ignore the .swp file gernerated by Vim
+*.swp
