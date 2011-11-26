@@ -1,0 +1,14 @@
+This dir consists of the sys config files in my box( Debian stable,
+testing,and unstable,Gentoo, Mageia, FreeBSD and NetBSD).
+I dont want to keep all the config file same in different box, 'cause 
+that's useless and make no sense.
+
+I dont mean to keep my home dir as a git repos, but cp the config files
+from my home dir and remove the *.* prefix if possible.
+
+The list of the config would be listed here:
+vimrc
+vim
+
+
+
