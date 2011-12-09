@@ -519,7 +519,7 @@ msgstr "以及许多不知名的 beta 测试者和 bug 报告者，帮助了这�
 #: ../control-center:90
 #, c-format
 msgid "Mageia"
-msgstr ""
+msgstr "Mageia"
 
 #: ../control-center:100 ../control-center:105
 #, c-format
@@ -1139,14 +1139,15 @@ msgstr "- %s: %s\n"
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "Funda Wang,ShiyuTang"
+msgstr "Funda Wang,ShiyuTang,Walter"
 
 #: ../control-center:1471
 #, c-format
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "fundawang@gmail.com,shiyutang_i18n@yahoo.com.cn"
+msgstr ""
+"fundawang@gmail.com,shiyutang_i18n@yahoo.com.cn,wolfpythonlondon@gmail.com"
 
 #: ../control-center:1473
 #, c-format
@@ -1170,7 +1171,7 @@ msgstr "Mandriva SA 版权所有 (C) %s"
 #: ../control-center:1487
 #, c-format
 msgid "Copyright (C) %s Mageia"
-msgstr ""
+msgstr "版权 (C) %s Mageia"
 
 #: ../control-center:1493
 #, c-format
@@ -1180,7 +1181,7 @@ msgstr "作者"
 #: ../control-center:1494
 #, c-format
 msgid "Mageia Contributors"
-msgstr ""
+msgstr "Mageia贡献者"
 
 #: ../drakconsole:27
 #, c-format
@@ -1477,14 +1478,14 @@ msgstr "在一组计算机上管理已安装的软件包"
 #: ../lib/MDV/Control_Center.pm:349
 #, c-format
 msgid "Configure authentication for Mageia tools"
-msgstr ""
+msgstr "为Mageia工具配置认证信息"
 
 #: ../lib/MDV/Control_Center.pm:350
 #, c-format
 msgid ""
 "Define authentication required to access individual Mageia configuration "
 "tools "
-msgstr ""
+msgstr "定义访问个人Mageia配置的认证工具"
 
 #: ../lib/MDV/Control_Center.pm:358
 #, c-format
@@ -1918,4 +1919,4 @@ msgstr "屏幕分辨率"
 
 #: ../drakconf.desktop.in.h:1
 msgid "Mageia Control Center"
-msgstr ""
+msgstr "Mageia控制中心"
