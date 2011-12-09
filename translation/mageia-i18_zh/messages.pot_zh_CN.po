@@ -350,8 +350,7 @@ msgstr "值"
 #. (c.config.organisation)
 #: root/email/forgot_password.tt:2
 msgid "Your %1 account has been requested to change the password. If you did not do this, or you do not want to change your password; you can just do nothing."
-msgstr "您的 %1
-帐号已经被要求更换密码，如果您没有要求更换密码，或者不想更换密码，可以忽略这个"
+msgstr "您的 %1 帐号已经被要求更换密码，如果您没有要求更换密码，或者不想更换密码，可以忽略这个"
 
 #. (c.config.organisation)
 #: root/email/activation.tt:2
