@@ -18,382 +18,383 @@ msgstr ""
 
 #: lib/CatDap/Controller/register.pm:133
 msgid "Activation"
-msgstr ""
+msgstr "激活"
 
 #: root/admin/account_addoc.tt:28 root/admin/account_modify.tt:24
 #: root/admin/group_modify.tt:18 root/user/index.tt:19 root/user/index.tt:48
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: root/admin/account_modify.tt:85
 msgid "Add ObjectClass"
-msgstr ""
+msgstr "添加对象类"
 
 #: root/admin/account_modify.tt:47
 msgid "Add attribute"
-msgstr ""
+msgstr "添加属性"
 
 #. (oc, dn)
 #: root/admin/account_addoc.tt:1
 msgid "Adding objectclass %1 to dn %2"
-msgstr ""
+msgstr "添加对象类 %1 到DN %2"
 
 #: lib/CatDap/Controller/register.pm:49
 msgid "Addresses do not match"
-msgstr ""
+msgstr "地址不符"
 
 #: lib/CatDap/Controller/register.pm:89
 msgid "An account already exists with this email address"
-msgstr ""
+msgstr "这个email地址已经被使用"
 
 #: lib/CatDap/Controller/register.pm:94
 msgid "An account already exists with this username"
-msgstr ""
+msgstr "这个用户名已经存在"
 
 #. ($errors)
 #: lib/CatDap/Controller/register.pm:145
 msgid "An error occured sending the email, but your account was created. Please try the password recovery process if you entered the correct email address. Errors %1"
-msgstr ""
+msgstr "发送email失败，但您的帐号已经建立。如果您输入的email地址正确，请尝试使用密码恢复机制。错误 %1"
 
 #. ($errors)
 #: lib/CatDap/Controller/admin.pm:548
 msgid "An error occured sending the email, but your account was created. Please try the password recovery process if you entered the correct email address: %1"
-msgstr ""
+msgstr "发送email失败，但您的帐号已经建立。如果您输入的email地址正确，请尝试使用密码恢复机制。错误 %1"
 
 #. ($errors)
 #: lib/CatDap/Controller/forgot_password.pm:110
 msgid "An error occured sending the email, please try again later. Errors %1"
-msgstr ""
+msgstr "发送email失败，请稍后重试。错误 %1"
 
 #: root/admin/account_addoc.tt:9 root/admin/account_modify.tt:8
 #: root/admin/group_modify.tt:5 root/user/index.tt:4
 msgid "Attribute"
-msgstr ""
+msgstr "属性"
 
 #: lib/CatDap/Controller/register.pm:56
 msgid "Cannot check /etc/passwd, please warn system administrators"
-msgstr ""
+msgstr "无法检查/etc/passwd,请通知系统管理员"
 
 #: root/register/index.tt:29
 msgid "Captcha"
-msgstr ""
+msgstr "验证码"
 
 #: root/user/firstlogin.tt:14 root/user/password.tt:15
 msgid "Change"
-msgstr ""
+msgstr "变化"
 
 #: root/user/fake.tt:2
 msgid "Change password"
-msgstr ""
+msgstr "修改密码"
 
 #: root/register/complete.tt:5
 msgid "Check your mail for activation instructions."
-msgstr ""
+msgstr "请检查email,按照说明激活帐号"
 
 #: root/forgot_password/complete.tt:5
 msgid "Check your mail for password reset instructions."
-msgstr ""
+msgstr "请检查email，按照说明重设密码"
 
 #: root/register/index.tt:24
 msgid "Confirm Email address"
-msgstr ""
+msgstr "确认email地址"
 
 #: root/user/password.tt:5
 msgid "Current password"
-msgstr ""
+msgstr "当前密码"
 
 #. (cn)
 #. (entry.cn)
 #: root/email/activation.tt:1 root/email/admin/password.tt:1
 #: root/email/forgot_password.tt:1
 msgid "Dear %1,"
-msgstr ""
+msgstr "亲爱的 %1"
 
 #: root/admin/account_modify.tt:27 root/user/index.tt:22
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: root/user/fake.tt:1
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: root/admin/account.tt:33 root/admin/account.tt:8
 #: root/admin/account_promote.tt:6 root/register/index.tt:20
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: root/forgot_password/index.tt:8 root/register/index.tt:21
 msgid "Email address"
-msgstr ""
+msgstr "Email地址"
 
 #: root/forgot_password/complete.tt:1
 msgid "Email sent."
-msgstr ""
+msgstr "email已发送"
 
 #: root/forgot_password/confirm.tt:2
 msgid "Enter new password."
-msgstr ""
+msgstr "输入新密码。"
 
 #: root/register/index.tt:32
 msgid "Enter text"
-msgstr ""
+msgstr "输入文本"
 
 #: lib/CatDap/Controller/forgot_password.pm:62
 #: lib/CatDap/Controller/forgot_password.pm:76
 msgid "Error while searching for account: "
-msgstr ""
+msgstr "搜寻账户时发生错误： "
 
 #: root/admin/account.tt:34 root/admin/account_promote.tt:7
 msgid "First Name"
-msgstr ""
+msgstr "名"
 
 #: root/register/index.tt:13
 msgid "First name"
-msgstr ""
+msgstr "名"
 
 #: root/forgot_password/index.tt:2
 msgid "Forgot your password?"
-msgstr ""
+msgstr "忘记密码了？"
 
 #: lib/CatDap/Controller/forgot_password.pm:98
 msgid "Forgotten password"
-msgstr ""
+msgstr "忘记密码"
 
 #: root/index.tt:17
 msgid "Forgotten password?"
-msgstr ""
+msgstr "忘记密码了？"
 
 #: root/admin/account.tt:36 root/admin/account.tt:9
 #: root/admin/account_promote.tt:9
 msgid "Full Name"
-msgstr ""
+msgstr "全名"
 
 #: root/admin/group.tt:27
 msgid "Group Name"
-msgstr ""
+msgstr "组名"
 
 #: root/admin/group.tt:9
 msgid "Group name"
-msgstr ""
+msgstr "组名"
 
 #: root/admin/account_modify.tt:2
 msgid "Groups"
-msgstr ""
+msgstr "组"
 
 #: lib/CatDap/Controller/register.pm:52
 msgid "Incorrect validation text, please try again"
-msgstr ""
+msgstr "输入文本有误，请重试"
 
 #: lib/CatDap/Controller/forgot_password.pm:45
 #: lib/CatDap/Controller/register.pm:46
 msgid "Invalid email address"
-msgstr ""
+msgstr "不合法的email地址"
 
 #: lib/CatDap/Controller/register.pm:42
 msgid "Invalid username"
-msgstr ""
+msgstr "不正确的用户名"
 
 #: lib/CatDap/Controller/register.pm:59
 msgid "Invalid username, already used by system"
-msgstr ""
+msgstr "用户名不正确，已经被系统使用"
 
 #: root/template/header:10 root/user/fake.tt:3
 msgid "Log out"
-msgstr ""
+msgstr "注销"
 
 #: root/index.tt:1 root/index.tt:13
 msgid "Login"
-msgstr ""
+msgstr "登入"
 
 #: root/forgot_password/confirm.tt:8 root/user/firstlogin.tt:5
 #: root/user/password.tt:9
 msgid "New Password"
-msgstr ""
+msgstr "新密码"
 
 #: lib/CatDap/Controller/user.pm:295
 msgid "New passwords dont match"
-msgstr ""
+msgstr "新密码不符合"
 
 #: root/forgot_password/complete.tt:4
 msgid "Operation was successful."
-msgstr ""
+msgstr "操作成功。"
 
 #: root/index.tt:10
 msgid "Password : "
-msgstr ""
+msgstr "密码: "
 
 #: lib/CatDap/Controller/user.pm:289
 msgid "Password incorrect"
-msgstr ""
+msgstr "密码不正确"
 
 #: lib/CatDap/Controller/admin.pm:551
 msgid "Password reset and email sent"
-msgstr ""
+msgstr "密码已重置，并发送到email"
 
 #: root/register/index.tt:12
 msgid "Personal Information"
-msgstr ""
+msgstr "个人信息"
 
 #: root/email/admin/password.tt:5
 msgid "Please click below to change your password"
-msgstr ""
+msgstr "请点击下面，改变您的密码"
 
 #: root/admin/index.tt:1
 msgid "Please use the menus above."
-msgstr ""
+msgstr "请使用上面的菜单"
 
 #: root/admin/account_promote.tt:25
 msgid "Primary group"
-msgstr ""
+msgstr "主要群组"
 
 #: lib/CatDap/Controller/forgot_password.pm:82
 msgid "Privileged accounts may not recover passwords via this mechanism"
-msgstr ""
+msgstr "特权帐号不通过这种机制恢复密码"
 
 #: root/admin/account_modify.tt:71
 msgid "Promote"
-msgstr ""
+msgstr "提升"
 
 #: root/admin/account_modify.tt:62
 msgid "Promote user to posixAccount with primary group:"
-msgstr ""
+msgstr "提升用户到主要群组的posixAccount:"
 
 #: root/index.tt:16 root/register/index.tt:3 root/register/index.tt:35
 msgid "Register"
-msgstr ""
+msgstr "注册"
 
 #: root/register/complete.tt:1
 msgid "Registration completed"
-msgstr ""
+msgstr "注册完毕"
 
 #: root/register/complete.tt:4
 msgid "Registration was successful."
-msgstr ""
+msgstr "注册成功"
 
 #: root/forgot_password/confirm.tt:11 root/user/firstlogin.tt:10
 #: root/user/password.tt:12
 msgid "Repeat New Password"
-msgstr ""
+msgstr "重新输入新密码"
 
 #: root/admin/account_modify.tt:1 root/forgot_password/index.tt:12
 msgid "Reset password"
-msgstr ""
+msgstr "重置密码"
 
 #: root/admin/account.tt:22
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: root/admin/account.tt:4 root/admin/group.tt:5
 msgid "Search by"
-msgstr ""
+msgstr "搜索依靠"
 
 #: root/admin/account_promote.tt:4
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 #: root/forgot_password/confirm.tt:16
 msgid "Set new password"
-msgstr ""
+msgstr "设置新密码"
 
 #: root/register/check.tt:1
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: root/admin/account.tt:10 root/admin/account.tt:35
 #: root/admin/account_promote.tt:8 root/register/index.tt:16
 msgid "Surname"
-msgstr ""
+msgstr "姓"
 
 #: lib/CatDap/Controller/register.pm:70
 msgid "The first name supplied contains illegal characters"
-msgstr ""
+msgstr "名中含有非法字符"
 
 #: lib/CatDap/Controller/register.pm:75
 msgid "The surname supplied contains illegal characters"
-msgstr ""
+msgstr "姓中含有非法字符"
 
 #: lib/CatDap/Controller/forgot_password.pm:67
 msgid "This email address is not bound to an account"
-msgstr ""
+msgstr "这个email地址没有绑定到某个帐号"
 
 #: root/email/activation.tt:3
 msgid "To activate your account, please follow the link below."
-msgstr ""
+msgstr "点击下面的连接，激活您的账号。"
 
 #: root/email/forgot_password.tt:3
 msgid "To reset your password, please follow the link below."
-msgstr ""
+msgstr "点击下面的连接，重置您的密码。"
 
 #: root/admin/account_modify.tt:35 root/user/index.tt:29
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 #: root/admin/account.tt:32 root/admin/account.tt:7
 #: root/admin/account_promote.tt:5 root/register/index.tt:7
 #: root/register/index.tt:8
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: root/index.tt:6
 msgid "Username : "
-msgstr ""
+msgstr "用户名： "
 
 #: lib/CatDap/Controller/register.pm:65
 msgid "Username is not authorized to be used"
-msgstr ""
+msgstr "用户名没有认证"
 
 #: root/admin/account_addoc.tt:10 root/admin/account_modify.tt:9
 #: root/admin/group_modify.tt:6 root/user/index.tt:4
 msgid "Value"
-msgstr ""
+msgstr "值"
 
 #. (c.config.organisation)
 #: root/email/forgot_password.tt:2
 msgid "Your %1 account has been requested to change the password. If you did not do this, or you do not want to change your password; you can just do nothing."
-msgstr ""
+msgstr "您的 %1
+帐号已经被要求更换密码，如果您没有要求更换密码，或者不想更换密码，可以忽略这个"
 
 #. (c.config.organisation)
 #: root/email/activation.tt:2
 msgid "Your %1 account has been successfully created, but requires activation."
-msgstr ""
+msgstr "您的%1帐号已经成功创建，但需要激活"
 
 #. (c.user.username)
 #: root/email/admin/password.tt:3
 msgid "Your password was reset by %1"
-msgstr ""
+msgstr "您的密码重置为%1"
 
 #: lib/CatDap/Controller/user.pm:61
 msgid "Your session has expired"
-msgstr ""
+msgstr "您的会话已经过期"
 
 #: root/admin/account.tt:15 root/admin/group.tt:15
 msgid "contains"
-msgstr ""
+msgstr "包含"
 
 #: root/admin/group_modify.tt:14
 msgid "delete"
-msgstr ""
+msgstr "删除"
 
 #: root/admin/account.tt:17 root/admin/group.tt:17
 msgid "greater than or equal to"
-msgstr ""
+msgstr "大于等于"
 
 #: root/admin/account.tt:16 root/admin/group.tt:16
 msgid "is exactly"
-msgstr ""
+msgstr "等于"
 
 #: root/admin/account.tt:18 root/admin/group.tt:18
 msgid "less than"
-msgstr ""
+msgstr "小于"
 
 #: root/admin/group.tt:10
 msgid "member"
-msgstr ""
+msgstr "成员"
 
 #: lib/CatDap/Controller/admin.pm:535
 msgid "password reset"
-msgstr ""
+msgstr "密码重置"
 
 #: root/admin/account_modify.tt:53
 msgid "with value"
-msgstr ""
+msgstr "值为"
