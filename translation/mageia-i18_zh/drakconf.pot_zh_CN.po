@@ -1,0 +1,1921 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: control-center\n"
+"POT-Creation-Date: 2011-05-03 15:20+0200\n"
+"PO-Revision-Date: 2011-12-09 02:48+0000\n"
+"Last-Translator: walter  lewis <lyh19901223@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../contributors.pl:11
+#, c-format
+msgid "Packagers"
+msgstr "打包者"
+
+#: ../contributors.pl:12 ../contributors.pl:40
+#, c-format
+msgid "Per Oyvind Karlsen"
+msgstr "Per Oyvind Karlsen"
+
+#: ../contributors.pl:12
+#, c-format
+msgid ""
+"massive packages rebuilding and cleaning, games, sparc port, proofreading of "
+"Mandriva tools"
+msgstr "繁杂的软件包重建和清理，游戏，sparc 移植，Mandriva 工具审阅"
+
+#: ../contributors.pl:13
+#, c-format
+msgid "Guillaume Rousse"
+msgstr "Guillaume Rousse"
+
+#: ../contributors.pl:13
+#, c-format
+msgid "cowsay introduction"
+msgstr "cowsay 引入"
+
+#: ../contributors.pl:14
+#, c-format
+msgid "Olivier Thauvin"
+msgstr "Olivier Thauvin"
+
+#: ../contributors.pl:14
+#, c-format
+msgid "figlet introduction, Distriblint (checking rpm in the distro)"
+msgstr "figlet 引入，Distriblint(检查发行版中的 rpm)"
+
+#: ../contributors.pl:15
+#, c-format
+msgid "Marcel Pol"
+msgstr "Marcel Pol"
+
+#: ../contributors.pl:15
+#, c-format
+msgid "xfce4, updated abiword, mono"
+msgstr "xfce4，更新的 abiword，mono"
+
+#: ../contributors.pl:16
+#, c-format
+msgid "Ben Reser"
+msgstr "Ben Reser"
+
+#: ../contributors.pl:16
+#, c-format
+msgid ""
+"updated nc with debian patches, fixed some perl packages, dnotify startup "
+"script, urpmc, hddtemp, wipe, etc..."
+msgstr "更新了 nc 中的 debian 软件包，修正了某些 perl 包，dnotify 启动脚本，urpmc，hddtemp，wipe，等等"
+
+#: ../contributors.pl:17 ../contributors.pl:42
+#, c-format
+msgid "Thomas Backlund"
+msgstr "Thomas Backlund"
+
+#: ../contributors.pl:17
+#, c-format
+msgid ""
+"\"deep and broad\" kernel work (many new patches before integration in "
+"official kernel)"
+msgstr "深入广泛的内核工作(集成到官方内核之前的新补丁)"
+
+#: ../contributors.pl:18
+#, c-format
+msgid "Svetoslav Slavtchev"
+msgstr "Svetoslav Slavtchev"
+
+#: ../contributors.pl:18
+#, c-format
+msgid "kernel work (audio- and video-related patches)"
+msgstr "内核工作(影音相关的补丁)"
+
+#: ../contributors.pl:19
+#, c-format
+msgid "Danny Tholen"
+msgstr "Danny Tholen"
+
+#: ../contributors.pl:19
+#, c-format
+msgid "patches to some packages, kfiresaver, xwine. ppc kernel-benh."
+msgstr "某些软件包的补丁，kfiresaver，xwine，ppc kernel-benh"
+
+#: ../contributors.pl:20
+#, c-format
+msgid "Buchan Milne"
+msgstr "Buchan Milne"
+
+#: ../contributors.pl:20
+#, c-format
+msgid ""
+"Samba 3.0 (prerelease) that co-exists with Samba 2.2.x, Samba-2.2.x, GIS "
+"software (grass, mapserver), cursor_themes collection, misc server-side "
+"contributions"
+msgstr "与 Samba 2.2.x 和平共处的 Samba 3.0(预览版)，Samba-2.2.x，GIS 软件，光标主题收集，杂类服务器端贡献"
+
+#: ../contributors.pl:21
+#, c-format
+msgid "Goetz Waschk"
+msgstr "Goetz Waschk"
+
+#: ../contributors.pl:21
+#, c-format
+msgid ""
+"xine, totem, gstreamer, mplayer, vlc, vcdimager, xmms and plugins gnome-"
+"python, rox desktop"
+msgstr "xine、totem、gstreamer、mplayer、vlc、vcdimager、xmms 及插件、gnome-python，rox 桌面"
+
+#: ../contributors.pl:22
+#, c-format
+msgid "Austin Acton"
+msgstr "Austin Acton"
+
+#: ../contributors.pl:22
+#, c-format
+msgid ""
+"audio/video/MIDI apps, scientific apps, audio/video production howtos, "
+"bluetooth, pyqt & related"
+msgstr "影音程序，科学程序，影音制作指南，蓝牙，pyqt 及相关内容。"
+
+#: ../contributors.pl:23
+#, c-format
+msgid "Spencer Anderson"
+msgstr "Spencer Anderson"
+
+#: ../contributors.pl:23
+#, c-format
+msgid "ATI/gatos/DRM stuff, opengroupware.org"
+msgstr "ATI/gatos/DRM 事务，opengroupware.org"
+
+#: ../contributors.pl:24
+#, c-format
+msgid "Andrey Borzenkov"
+msgstr "Andrey Borzenkov"
+
+#: ../contributors.pl:24
+#, c-format
+msgid "supermount-ng and other kernel work"
+msgstr "supermount-ng 和其它核心工作"
+
+#: ../contributors.pl:25
+#, c-format
+msgid "Oden Eriksson"
+msgstr "Oden Eriksson"
+
+#: ../contributors.pl:25
+#, c-format
+msgid "most web-based packages and many security-related packages"
+msgstr "大多数基于 Web 的软件包及安全相关的软件包"
+
+#: ../contributors.pl:26
+#, c-format
+msgid "Stefan VanDer Eijk"
+msgstr "Stefan VanDer Eijk"
+
+#: ../contributors.pl:26
+#, c-format
+msgid "slbd distro checking, devel dependencies"
+msgstr "slbd 发行版检查，开发依赖性"
+
+#: ../contributors.pl:27
+#, c-format
+msgid "David Walser"
+msgstr "David Walser"
+
+#: ../contributors.pl:27
+#, c-format
+msgid "rpmsync script, foolproof MIDI playback, tweaked libao"
+msgstr "rpmsync 脚本，MIDI 回放，调整 libao"
+
+#: ../contributors.pl:28
+#, c-format
+msgid "Andi Payn"
+msgstr "Andi Payn"
+
+#: ../contributors.pl:28
+#, c-format
+msgid "many extra gnome applets and python modules"
+msgstr "许多额外的 gnome 小程序和 python 模块"
+
+#: ../contributors.pl:29 ../contributors.pl:41
+#, c-format
+msgid "Tibor Pittich"
+msgstr "Tibor Pittich"
+
+#: ../contributors.pl:29
+#, c-format
+msgid ""
+"sk-i18n, contributed several packages, openldap testing and integration, "
+"bind-sdb-ldap, several years of using cooker and bug hunting, etc..."
+msgstr "sk-i18n，贡献了几个软件包，openldap 测试和集成，bind-sdb-ldap，几年来的 cooker 使用和 bug 狙击，等等..."
+
+#: ../contributors.pl:30
+#, c-format
+msgid "Pascal Terjan"
+msgstr "Pascal Terjan"
+
+#: ../contributors.pl:30
+#, c-format
+msgid "some ruby stuff, php-pear packages, various other stuff."
+msgstr "某些注音处理，php-pear 软件包，各种软件包。"
+
+#: ../contributors.pl:31
+#, c-format
+msgid "Michael Reinsch"
+msgstr "Michael Reinsch"
+
+#: ../contributors.pl:31
+#, c-format
+msgid "moin wiki clone, beep-media-player, im-ja and some other packages"
+msgstr "moin wiki 克隆，beep-media-player，im-ja 和其它软件包"
+
+#: ../contributors.pl:32
+#, c-format
+msgid "Christophe Guilloux"
+msgstr "Christophe Guilloux"
+
+#: ../contributors.pl:32
+#, c-format
+msgid "bug reports, help with thunderbird package,..."
+msgstr "错误报告，thunderbird 软件包的协助……"
+
+#: ../contributors.pl:33
+#, c-format
+msgid "Brook Humphrey"
+msgstr "Brook Humphrey"
+
+#: ../contributors.pl:33
+#, c-format
+msgid ""
+"testing and bug reports, Dovecot, bibletime, sword, help with pure-ftpd, "
+"spamassassin, maildrop, clamav."
+msgstr "测试和错误报告，Dovecot，bibletime，sword，pure-ftpd 的帮助，spamassassin，maildrop，clamav。"
+
+#: ../contributors.pl:34
+#, c-format
+msgid "Olivier Blin"
+msgstr "Olivier Blin"
+
+#: ../contributors.pl:34
+#, c-format
+msgid ""
+"http proxy support in installer, kernel 2.6 support in sndconfig, samba3 "
+"support in LinNeighborhood, fixes and enhancements in urpmi, bootsplash and "
+"drakxtools"
+msgstr "安装程序中的 http 代理支持，sndconfig 中的内核 2.6 支持，LinNeighborhood 中的 samba3 支持，urpmi 的修正和改进，启动屏幕和 drakxtools"
+
+#: ../contributors.pl:35
+#, c-format
+msgid "Emmanuel Blindauer"
+msgstr "Emmanuel Blindauer"
+
+#: ../contributors.pl:35
+#, c-format
+msgid "lm_sensors for 2.6 kernel, testing, some contrib packages."
+msgstr "2.6 内核下的 lm_sensors，测试，某些 contrib 软件包。"
+
+#: ../contributors.pl:36
+#, c-format
+msgid "Matthias Debus"
+msgstr "Matthias Debus"
+
+#: ../contributors.pl:36
+#, c-format
+msgid "sim, pine and some other contrib packages."
+msgstr "sim、pine 和某些其它 contrib 软件包。"
+
+#: ../contributors.pl:37
+#, c-format
+msgid "Documentation"
+msgstr "文档"
+
+#: ../contributors.pl:38
+#, c-format
+msgid "SunnyDubey"
+msgstr "SunnyDubey"
+
+#: ../contributors.pl:38
+#, c-format
+msgid "wrote/edited parts of gi/docs/HACKING file"
+msgstr "编写/编辑了部分 gi/doc/HACKING "
+
+#: ../contributors.pl:39
+#, c-format
+msgid "Translators"
+msgstr "翻译者"
+
+#: ../contributors.pl:40
+#, c-format
+msgid "Norwegian Bokmal (nb) translator and coordinator, i18n work"
+msgstr "挪威博克马尔语(nb)翻译者和领导者，i18n 工作"
+
+#: ../contributors.pl:41
+#, c-format
+msgid "\"one-man\" mdk sk-i18n team"
+msgstr "单兵作战的 mdk sk-i18n 团队"
+
+#: ../contributors.pl:42
+#, c-format
+msgid "Finnish translator and coordinator"
+msgstr "芬兰语翻译者和领导者"
+
+#: ../contributors.pl:43
+#, c-format
+msgid "Reinout Van Schouwen"
+msgstr "Reinout Van Schouwen"
+
+#: ../contributors.pl:43
+#, c-format
+msgid "Dutch translator and coordinator"
+msgstr "荷兰语的翻译者和领导者"
+
+#: ../contributors.pl:44
+#, c-format
+msgid "Keld Simonsen"
+msgstr "Keld Simonsen"
+
+#: ../contributors.pl:44
+#, c-format
+msgid "Danish translator (and some Bokmal too:-)"
+msgstr "丹麦语翻译者(以及部分 Bokmal 语)"
+
+#: ../contributors.pl:45
+#, c-format
+msgid "Karl Ove Hufthammer"
+msgstr "Karl Ove Hufthammer"
+
+#: ../contributors.pl:45
+#, c-format
+msgid "Norwegian Nynorsk (nn) translator and coordinator"
+msgstr "挪威 Nynorsk 语(nn)翻译者和领导者"
+
+#: ../contributors.pl:46
+#, c-format
+msgid "Marek Laane"
+msgstr "Marek Laane"
+
+#: ../contributors.pl:46
+#, c-format
+msgid "Estonian translator"
+msgstr "爱沙尼亚语翻译者"
+
+#: ../contributors.pl:47
+#, c-format
+msgid "Andrea Celli"
+msgstr "Andrea Celli"
+
+#: ../contributors.pl:47 ../contributors.pl:48 ../contributors.pl:49
+#, c-format
+msgid "Italian Translator"
+msgstr "意大利语翻译者"
+
+#: ../contributors.pl:48 ../contributors.pl:64
+#, c-format
+msgid "Simone Riccio"
+msgstr "Simone Riccio"
+
+#: ../contributors.pl:49 ../contributors.pl:65
+#, c-format
+msgid "Daniele Pighin"
+msgstr "Daniele Pighin"
+
+#: ../contributors.pl:50 ../contributors.pl:68
+#, c-format
+msgid "Vedran Ljubovic"
+msgstr "Vedran Ljubovic"
+
+#: ../contributors.pl:50
+#, c-format
+msgid "Bosnian translator"
+msgstr "波斯尼亚翻译者"
+
+#: ../contributors.pl:51
+#, c-format
+msgid "Testers"
+msgstr "测试者"
+
+#: ../contributors.pl:52
+#, c-format
+msgid "Benoit Audouard"
+msgstr "Benoit Audouard"
+
+#: ../contributors.pl:52
+#, c-format
+msgid "testing and bug reporting, integration of eagle-usb driver"
+msgstr "测试和错误报告，集成 eagle-usb 驱动程序"
+
+#: ../contributors.pl:53
+#, c-format
+msgid "Bernhard Gruen"
+msgstr "Bernhard Gruen"
+
+#: ../contributors.pl:53 ../contributors.pl:54 ../contributors.pl:55
+#: ../contributors.pl:56 ../contributors.pl:57 ../contributors.pl:58
+#: ../contributors.pl:59 ../contributors.pl:60 ../contributors.pl:61
+#: ../contributors.pl:62
+#, c-format
+msgid "testing and bug reporting"
+msgstr "测试和错误报告"
+
+#: ../contributors.pl:54
+#, c-format
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#: ../contributors.pl:55
+#, c-format
+msgid "Felix Miata"
+msgstr "Felix Miata"
+
+#: ../contributors.pl:56
+#, c-format
+msgid "Tim Sawchuck"
+msgstr "Tim Sawchuck"
+
+#: ../contributors.pl:57
+#, c-format
+msgid "Eric Fernandez"
+msgstr "Eric Fernandez"
+
+#: ../contributors.pl:58
+#, c-format
+msgid "Ricky Ng-Adam"
+msgstr "Ricky Ng-Adam"
+
+#: ../contributors.pl:59
+#, c-format
+msgid "Pierre Jarillon"
+msgstr "Pierre Jarillon"
+
+#: ../contributors.pl:60
+#, c-format
+msgid "Michael Brower"
+msgstr "Michael Brower"
+
+#: ../contributors.pl:61
+#, c-format
+msgid "Frederik Himpe"
+msgstr "Frederik Himpe"
+
+#: ../contributors.pl:62
+#, c-format
+msgid "Jason Komar"
+msgstr "Jason Komar"
+
+#: ../contributors.pl:63
+#, c-format
+msgid "Raphael Gertz"
+msgstr "Raphael Gertz"
+
+#: ../contributors.pl:63
+#, c-format
+msgid "testing, bug report, Nvidia package try"
+msgstr "测试，错误报告，Nvidia 软件包"
+
+#: ../contributors.pl:64 ../contributors.pl:65 ../contributors.pl:66
+#: ../contributors.pl:67 ../contributors.pl:68 ../contributors.pl:69
+#, c-format
+msgid "testing, bug reporting"
+msgstr "测试，错误报告"
+
+#: ../contributors.pl:66
+#, c-format
+msgid "Fabrice FACORAT"
+msgstr "Fabrice FACORAT"
+
+#: ../contributors.pl:67
+#, c-format
+msgid "Mihai Dobrescu"
+msgstr "Mihai Dobrescu"
+
+#: ../contributors.pl:69
+#, c-format
+msgid "Mary V. Jones-Giampalo"
+msgstr "Mary V. Jones-Giampalo"
+
+#: ../contributors.pl:70
+#, c-format
+msgid "Vincent Meyer"
+msgstr "Vincent Meyer"
+
+#: ../contributors.pl:70
+#, c-format
+msgid "MD, testing, bug reporting"
+msgstr "MD，测试，错误报告"
+
+#: ../contributors.pl:71
+#, c-format
+msgid ""
+"And many unnamed and unknown beta testers and bug reporters that helped make "
+"sure it all worked right."
+msgstr "以及许多不知名的 beta 测试者和 bug 报告者，帮助了这一程序工作良好。"
+
+#: ../control-center:90
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: ../control-center:100 ../control-center:105
+#, c-format
+msgid "%s Control Center"
+msgstr "%s 控制中心"
+
+#: ../control-center:106 ../control-center:1059
+#, c-format
+msgid "Loading... Please wait"
+msgstr "正在装入...请稍候"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:151 ../control-center:155
+#, c-format
+msgid "Software Management"
+msgstr "软件管理"
+
+#: ../control-center:166 ../control-center:354 ../control-center:389
+#: ../control-center:547
+#, c-format
+msgid "Others"
+msgstr "其它"
+
+#: ../control-center:176
+#, c-format
+msgid "Server wizards"
+msgstr "服务器向导"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:179 ../control-center:182
+#, c-format
+msgid "Sharing"
+msgstr "共享"
+
+#: ../control-center:185
+#, c-format
+msgid "Configure FTP"
+msgstr "配置 FTP"
+
+#: ../control-center:186
+#, c-format
+msgid "Set up an FTP server"
+msgstr "设置 FTP 服务器"
+
+#: ../control-center:188
+#, c-format
+msgid "Configure Samba"
+msgstr "配置 Samba"
+
+#: ../control-center:189
+#, c-format
+msgid ""
+"Set up a file and print server for workstations running Linux and non-Linux "
+"systems"
+msgstr "为运行 Linux 和非 Linux 系统的工作站设置文件和打印服务器"
+
+#: ../control-center:191
+#, c-format
+msgid "Manage Samba share"
+msgstr "管理 Samba 共享"
+
+#: ../control-center:192
+#, c-format
+msgid "Manage, create special share, create public/user share"
+msgstr "管理、创建特殊共享，创建公开/用户共享"
+
+#: ../control-center:194
+#, c-format
+msgid "Configure web server"
+msgstr "配置 Web 服务器"
+
+#: ../control-center:195
+#, c-format
+msgid "Set up a web server"
+msgstr "设置 Web 服务器"
+
+#: ../control-center:197
+#, c-format
+msgid "Configure installation server"
+msgstr "配置安装服务器"
+
+#: ../control-center:198
+#, c-format
+msgid "Set up server for network installations of %s"
+msgstr "设置 %s 的网络安装服务器"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:208 ../control-center:211
+#, c-format
+msgid "Network Services"
+msgstr "网络服务"
+
+#: ../control-center:214
+#, c-format
+msgid "Configure DHCP"
+msgstr "配置 DHCP"
+
+#: ../control-center:215
+#, c-format
+msgid "Set up a DHCP server"
+msgstr "设置 DHCP 服务器"
+
+#: ../control-center:217
+#, c-format
+msgid "Configure DNS"
+msgstr "配置 DNS"
+
+#: ../control-center:218
+#, c-format
+msgid "Set up a DNS server (network name resolution)"
+msgstr "设置 DNS 服务器(网络名称解析)"
+
+#: ../control-center:220
+#, c-format
+msgid "Configure proxy"
+msgstr "配置代理服务器"
+
+#: ../control-center:221
+#, c-format
+msgid "Configure a web caching proxy server"
+msgstr "配置 Web 缓存代理服务器"
+
+#: ../control-center:223
+#, c-format
+msgid "Configure time"
+msgstr "配置时间"
+
+#: ../control-center:224
+#, c-format
+msgid ""
+"Set the time of the server to be synchronized with an external time server"
+msgstr "设置将服务器的时间与外部时间服务器同步"
+
+#: ../control-center:226 ../control-center:227
+#, c-format
+msgid "OpenSSH daemon configuration"
+msgstr "OpenSSH 守护程序配置"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#. -PO: this message is already translated in drakx domain from which MCC will
+#. searchs it:
+#: ../control-center:238 ../control-center:241 ../lib/MDV/Control_Center.pm:67
+#, c-format
+msgid "Authentication"
+msgstr "认证"
+
+#: ../control-center:245
+#, c-format
+msgid "Configure NIS and Autofs"
+msgstr "配置 NIS 和 Autofs"
+
+#: ../control-center:246
+#, c-format
+msgid "Configure the NIS and Autofs services"
+msgstr "配置 NIS 和 Autofs 服务"
+
+#: ../control-center:248
+#, c-format
+msgid "Configure LDAP"
+msgstr "配置 LDAP"
+
+#: ../control-center:249
+#, c-format
+msgid "Configure the LDAP directory services"
+msgstr "配置 LDAP 目录服务"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:260 ../control-center:263
+#, c-format
+msgid "Groupware"
+msgstr "群件"
+
+#: ../control-center:266
+#, c-format
+msgid "Configure news"
+msgstr "配置新闻"
+
+#: ../control-center:267
+#, c-format
+msgid "Configure a newsgroup server"
+msgstr "配置新闻组服务器"
+
+#: ../control-center:269
+#, c-format
+msgid "Configure groupware"
+msgstr "配置群件"
+
+#: ../control-center:270
+#, c-format
+msgid "Configure a groupware server"
+msgstr "配置群件服务器"
+
+#: ../control-center:272
+#, c-format
+msgid "Configure mail"
+msgstr "配置邮件"
+
+#: ../control-center:273
+#, c-format
+msgid "Configure the Internet Mail services"
+msgstr "配置 Internet 邮件服务"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:285 ../control-center:288
+#, c-format
+msgid "Online Administration"
+msgstr "在线管理"
+
+#: ../control-center:304
+#, c-format
+msgid "Local administration"
+msgstr "本地管理"
+
+#: ../control-center:305
+#, c-format
+msgid "Configure the local machine via web interface"
+msgstr "通过 Web 界面配置本地计算机"
+
+#: ../control-center:305
+#, c-format
+msgid "You don't seem to have webmin installed. Local config is disabled"
+msgstr "您似乎没有安装 Webmin。本地配置被禁止"
+
+#: ../control-center:307
+#, c-format
+msgid "Remote administration"
+msgstr "远程管理"
+
+#: ../control-center:308
+#, c-format
+msgid "Click here if you want to configure a remote box via Web interface"
+msgstr "如果您想要通过 Web 界面配置远程计算机，请单击此处"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:322
+#, c-format
+msgid "Hardware"
+msgstr "硬件"
+
+#: ../control-center:325
+#, c-format
+msgid "Manage your hardware"
+msgstr "管理硬件"
+
+#: ../control-center:332
+#, c-format
+msgid "Configure graphics"
+msgstr "配置图形"
+
+#: ../control-center:339
+#, c-format
+msgid "Configure mouse and keyboard"
+msgstr "配置鼠标和键盘"
+
+#: ../control-center:346
+#, c-format
+msgid "Configure printing and scanning"
+msgstr "配置打印和扫描"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:364 ../drakxconf:31
+#, c-format
+msgid "Network & Internet"
+msgstr "网络和 Internet"
+
+#: ../control-center:367 ../lib/MDV/Control_Center.pm:419
+#, c-format
+msgid "Manage your network devices"
+msgstr "管理网络设备"
+
+#: ../control-center:380
+#, c-format
+msgid "Personalize and Secure your network"
+msgstr "个性化和保卫网络"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:399
+#, c-format
+msgid "System"
+msgstr "系统"
+
+#: ../control-center:402
+#, c-format
+msgid "Manage system services"
+msgstr "管理系统服务"
+
+#: ../control-center:411
+#, c-format
+msgid "Localization"
+msgstr "本地化"
+
+#: ../control-center:418
+#, c-format
+msgid "Administration tools"
+msgstr "管理工具"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:435
+#, c-format
+msgid "Network Sharing"
+msgstr "网络共享"
+
+#: ../control-center:438
+#, c-format
+msgid "Configure Windows(R) shares"
+msgstr "配置 Windows(R) 共享"
+
+#: ../control-center:445
+#, c-format
+msgid "Configure NFS shares"
+msgstr "配置 NFS 共享"
+
+#: ../control-center:452
+#, c-format
+msgid "Configure WebDAV shares"
+msgstr "配置 WebDAV 共享"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:462 ../control-center:465
+#, c-format
+msgid "Local disks"
+msgstr "本地磁盘"
+
+#: ../control-center:489
+#, c-format
+msgid "CD-ROM (%s)"
+msgstr "CD-ROM(%s)"
+
+#: ../control-center:490
+#, c-format
+msgid "Set where your \"%s\" CD-ROM drive is mounted"
+msgstr "设定 CD-ROM 驱动器“%s”载入到哪里"
+
+#: ../control-center:492
+#, c-format
+msgid "DVD-ROM (%s)"
+msgstr "DVD-ROM(%s)"
+
+#: ../control-center:493
+#, c-format
+msgid "Set where your \"%s\" DVD-ROM drive is mounted"
+msgstr "设定 DVD-ROM 驱动器“%s”载入到哪里"
+
+#: ../control-center:495
+#, c-format
+msgid "CD/DVD burner (%s)"
+msgstr "CD/DVD 刻录机(%s)"
+
+#: ../control-center:496
+#, c-format
+msgid "Set where your \"%s\" CD/DVD burner is mounted"
+msgstr "设定 CD/DVD 刻录机“%s”载入到哪里"
+
+#: ../control-center:498
+#, c-format
+msgid "ZIP drive"
+msgstr "ZIP 驱动器"
+
+#: ../control-center:499
+#, c-format
+msgid "Set where your ZIP drive is mounted"
+msgstr "设定将您的 ZIP 驱动器载入到哪里"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:511 ../control-center:514
+#, c-format
+msgid "Security"
+msgstr "安全"
+
+#. -PO: please keep the following message very short: it must fit in the left
+#. list of MCC!!!
+#: ../control-center:529
+#, c-format
+msgid "Boot"
+msgstr "启动"
+
+#: ../control-center:532
+#, c-format
+msgid "Configure boot steps"
+msgstr "配置启动步骤"
+
+#: ../control-center:541
+#, c-format
+msgid "Boot look'n feel"
+msgstr "启动观感"
+
+#: ../control-center:558
+#, c-format
+msgid "Additional wizards"
+msgstr "额外向导"
+
+#: ../control-center:613 ../control-center:614 ../control-center:615
+#: ../control-center:627
+#, c-format
+msgid "/_Options"
+msgstr "/选项(_O)"
+
+#: ../control-center:613
+#, c-format
+msgid "/Display _Logs"
+msgstr "/显示日志(_L)"
+
+#: ../control-center:614
+#, c-format
+msgid "/_Embedded Mode"
+msgstr "/嵌入模式(_E)"
+
+#: ../control-center:615
+#, c-format
+msgid "/Expert mode in _wizards"
+msgstr "/在向导中使用专家模式(_W)"
+
+#: ../control-center:625 ../control-center:626
+#, c-format
+msgid "/_File"
+msgstr "/文件(_F)"
+
+#: ../control-center:626
+#, c-format
+msgid "/_Quit"
+msgstr "/退出(_Q)"
+
+#: ../control-center:626
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../control-center:626
+#, c-format
+msgid "Quit"
+msgstr "退出"
+
+#: ../control-center:647 ../control-center:650 ../control-center:663
+#, c-format
+msgid "/_Themes"
+msgstr "/主题(_T)"
+
+#: ../control-center:653
+#, c-format
+msgid ""
+"This action will restart the control center.\n"
+"Any change not applied will be lost."
+msgstr ""
+"此操作将重新启动控制中心。\n"
+"所有没有应用的改变都将会丢失。"
+
+#: ../control-center:663
+#, c-format
+msgid "/_More themes"
+msgstr "/更多主题(_M)"
+
+#: ../control-center:665 ../control-center:666 ../control-center:667
+#: ../control-center:668 ../control-center:669 ../control-center:670
+#: ../control-center:673
+#, c-format
+msgid "/_Help"
+msgstr "/帮助(_H)"
+
+#: ../control-center:666 ../control-center:667 ../control-center:668
+#: ../control-center:669
+#, c-format
+msgid "Help"
+msgstr "帮助"
+
+#: ../control-center:667
+#, c-format
+msgid "/_Release notes"
+msgstr "/版本注解(_R)"
+
+#: ../control-center:668
+#, c-format
+msgid "/What's _New?"
+msgstr "/新增内容(_N)"
+
+#: ../control-center:669
+#, c-format
+msgid "/_Errata"
+msgstr "/勘误(_E)"
+
+#: ../control-center:670
+#, c-format
+msgid "/_Report Bug"
+msgstr "/故障报告(_R)"
+
+#: ../control-center:673
+#, c-format
+msgid "/_About..."
+msgstr "/关于(_A)..."
+
+#: ../control-center:731
+#, c-format
+msgid "Cancel"
+msgstr "取消"
+
+#: ../control-center:751
+#, c-format
+msgid "%s Control Center %s [on %s]"
+msgstr "%s 控制中心 %s [位于 %s]"
+
+#: ../control-center:1038 ../control-center:1103
+#, c-format
+msgid "Error"
+msgstr "错误"
+
+#: ../control-center:1038
+#, c-format
+msgid ""
+"There's a bug in translations of your language (%s)\n"
+"\n"
+"Please report that bug."
+msgstr ""
+"您所用的语言(%s)中有翻译错误\n"
+"\n"
+"请向我们报告。"
+
+#: ../control-center:1103
+#, c-format
+msgid "Impossible to run unknown '%s' program"
+msgstr "无法运行未知的“%s”程序"
+
+#: ../control-center:1122
+#, c-format
+msgid "The modifications done in the current module won't be saved."
+msgstr "在当前模块中所作的修改将不会被保存。"
+
+#: ../control-center:1209
+#, c-format
+msgid "cannot fork: %s"
+msgstr "无法创建子进程：%s"
+
+#: ../control-center:1232
+#, c-format
+msgid "cannot fork and exec \"%s\" since it is not executable"
+msgstr "无法创建子进程并执行“%s”，原因是该文件不可执行"
+
+#: ../control-center:1371
+#, c-format
+msgid "This program has exited abnormally"
+msgstr "此程序异常结束"
+
+#: ../control-center:1380
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: ../control-center:1390 ../drakconsole:31
+#, c-format
+msgid "Close"
+msgstr "关闭"
+
+#: ../control-center:1397
+#, c-format
+msgid "More themes"
+msgstr "更多主题"
+
+#: ../control-center:1399
+#, c-format
+msgid "Getting new themes"
+msgstr "获取新的主题"
+
+#: ../control-center:1400
+#, c-format
+msgid "Additional themes"
+msgstr "额外主题"
+
+#: ../control-center:1402
+#, c-format
+msgid "Get additional themes on www.damz.net"
+msgstr "在 www.damz.net 里获得额外主题"
+
+#: ../control-center:1410
+#, c-format
+msgid "About - %s Control Center"
+msgstr "关于 - %s 控制中心"
+
+#: ../control-center:1418
+#, c-format
+msgid "Authors: "
+msgstr "作者："
+
+#: ../control-center:1422
+#, c-format
+msgid "(perl version)"
+msgstr "(perl 版本)"
+
+#: ../control-center:1427
+#, c-format
+msgid "Artwork: "
+msgstr "美工："
+
+#: ../control-center:1432
+#, c-format
+msgid "Helene Durosini"
+msgstr "Helene Durosini"
+
+#. -PO: this is used as "language: translator" in credits part of the about
+#. dialog:
+#: ../control-center:1454
+#, c-format
+msgid "- %s: %s\n"
+msgstr "- %s: %s\n"
+
+#: ../control-center:1469
+#, c-format
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Funda Wang,ShiyuTang"
+
+#: ../control-center:1471
+#, c-format
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "fundawang@gmail.com,shiyutang_i18n@yahoo.com.cn"
+
+#: ../control-center:1473
+#, c-format
+msgid "Translator: "
+msgstr "翻译者："
+
+#. -PO: Here, first %s will be replaced by 'Mageia'
+#. -PO: second %s will be replaced by the version (eg: "Mageia 1 (Free)
+#. Control Center")
+#: ../control-center:1482
+#, c-format
+msgid "%s %s (%s) Control Center"
+msgstr "%s %s (%s) 控制中心"
+
+#. -PO: here %s is eg: "1999-2008"
+#: ../control-center:1487
+#, c-format
+msgid "Copyright (C) %s Mandriva SA"
+msgstr "Mandriva SA 版权所有 (C) %s"
+
+#: ../control-center:1487
+#, c-format
+msgid "Copyright (C) %s Mageia"
+msgstr ""
+
+#: ../control-center:1493
+#, c-format
+msgid "Authors"
+msgstr "作者"
+
+#: ../control-center:1494
+#, c-format
+msgid "Mageia Contributors"
+msgstr ""
+
+#: ../drakconsole:27
+#, c-format
+msgid "DrakConsole"
+msgstr "控制台"
+
+#: ../drakxconf:28
+#, c-format
+msgid "Display"
+msgstr "显示"
+
+#: ../drakxconf:29
+#, c-format
+msgid "Keyboard"
+msgstr "键盘"
+
+#: ../drakxconf:30
+#, c-format
+msgid "Mouse"
+msgstr "鼠标"
+
+#: ../drakxconf:32
+#, c-format
+msgid "Users and groups"
+msgstr "用户和组"
+
+#: ../drakxconf:33
+#, c-format
+msgid "Services"
+msgstr "服务"
+
+#: ../drakxconf:34
+#, c-format
+msgid "Firewall"
+msgstr "防火墙"
+
+#: ../drakxconf:35
+#, c-format
+msgid "Boot loader"
+msgstr "引导程序"
+
+#: ../drakxconf:36
+#, c-format
+msgid "Auto Install"
+msgstr "自动安装"
+
+#: ../drakxconf:37
+#, c-format
+msgid "Internet connection sharing"
+msgstr "Internet 连接共享"
+
+#: ../drakxconf:38
+#, c-format
+msgid "3D Desktop effects"
+msgstr "立体桌面效果"
+
+#: ../drakxconf:39
+#, c-format
+msgid "Partitions"
+msgstr "分区"
+
+#: ../drakxconf:42
+#, c-format
+msgid "Control Center"
+msgstr "控制中心"
+
+#: ../drakxconf:42
+#, c-format
+msgid "Choose the tool you want to use"
+msgstr "选择您想要使用的工具"
+
+#: ../lib/MDV/Control_Center.pm:55 ../lib/MDV/Control_Center.pm:56
+#, c-format
+msgid "Configure 3D Desktop effects"
+msgstr "配置三维桌面效果"
+
+#: ../lib/MDV/Control_Center.pm:68
+#, c-format
+msgid ""
+"Select the authentication method (local, NIS, LDAP, Windows Domain, ...)"
+msgstr "选择身份验证方式(本地、NIS、LDAP、Windows 域……)"
+
+#: ../lib/MDV/Control_Center.pm:77
+#, c-format
+msgid "Set up autologin to automatically log in"
+msgstr "设置自动登录以便以特定用户的身份自动登录"
+
+#: ../lib/MDV/Control_Center.pm:78
+#, c-format
+msgid "Enable autologin and select the user to automatically log in"
+msgstr "启用自动登录并选择自动登录所使用的用户"
+
+#: ../lib/MDV/Control_Center.pm:87
+#, c-format
+msgid "Backups"
+msgstr "备份"
+
+#: ../lib/MDV/Control_Center.pm:88
+#, c-format
+msgid "Configure backups of the system and of the users' data"
+msgstr "配置系统及用户数据的备份"
+
+#: ../lib/MDV/Control_Center.pm:98
+#, c-format
+msgid "Snapshots"
+msgstr "快照"
+
+#: ../lib/MDV/Control_Center.pm:108
+#, c-format
+msgid "Set up boot system"
+msgstr "设置启动系统"
+
+#: ../lib/MDV/Control_Center.pm:109
+#, c-format
+msgid "Set up how the system boots"
+msgstr "设置系统引导方式"
+
+#: ../lib/MDV/Control_Center.pm:118
+#, c-format
+msgid "Set up boot graphical theme of system"
+msgstr "选择系统的图形化启动主题"
+
+#: ../lib/MDV/Control_Center.pm:119
+#, c-format
+msgid "Select the graphical theme of the system while booting"
+msgstr "选择系统引导时所用的图形主题"
+
+#: ../lib/MDV/Control_Center.pm:128 ../lib/MDV/Control_Center.pm:129
+#, c-format
+msgid "Share the Internet connection with other local machines"
+msgstr "将 Internet 连接共享给其它计算机"
+
+#: ../lib/MDV/Control_Center.pm:138 ../lib/MDV/Control_Center.pm:139
+#, c-format
+msgid "Set up a new network interface (LAN, ISDN, ADSL, ...)"
+msgstr "设置新的网络连接(局域网、ISDN、ADSL……)"
+
+#: ../lib/MDV/Control_Center.pm:148
+#, c-format
+msgid "Internet access"
+msgstr "Internet 访问"
+
+#: ../lib/MDV/Control_Center.pm:149
+#, c-format
+msgid "Alter miscellaneous internet settings"
+msgstr "更改各类 Internet 设置"
+
+#: ../lib/MDV/Control_Center.pm:158 ../lib/MDV/Control_Center.pm:159
+#, c-format
+msgid "Open a console as administrator"
+msgstr "打开管理员用的控制台"
+
+#: ../lib/MDV/Control_Center.pm:169 ../lib/MDV/Control_Center.pm:170
+#, c-format
+msgid "Manage date and time"
+msgstr "管理日期和时间"
+
+#: ../lib/MDV/Control_Center.pm:179
+#, c-format
+msgid "Set up display manager"
+msgstr "设置显示管理器"
+
+#: ../lib/MDV/Control_Center.pm:180
+#, c-format
+msgid "Choose the display manager that enables to select which user to log in"
+msgstr "选择显示管理器，以使不同用户登录"
+
+#: ../lib/MDV/Control_Center.pm:189 ../lib/MDV/Control_Center.pm:190
+#, c-format
+msgid "Configure a fax server"
+msgstr "配置传真服务器"
+
+#: ../lib/MDV/Control_Center.pm:199
+#, c-format
+msgid "Set up your personal firewall"
+msgstr "设置个人防火墙"
+
+#: ../lib/MDV/Control_Center.pm:200
+#, c-format
+msgid ""
+"Set up a personal firewall in order to protect the computer and the network"
+msgstr "设置个人防火墙，以便保护计算机和网络"
+
+#: ../lib/MDV/Control_Center.pm:209 ../lib/MDV/Control_Center.pm:210
+#, c-format
+msgid "Manage, add and remove fonts. Import Windows(TM) fonts"
+msgstr "管理、添加及删除字体。导入 Windows(r) 字体"
+
+#: ../lib/MDV/Control_Center.pm:219 ../lib/MDV/Control_Center.pm:220
+#, c-format
+msgid "Set up the graphical server"
+msgstr "设置图形服务器"
+
+#: ../lib/MDV/Control_Center.pm:229
+#, c-format
+msgid "Manage disk partitions"
+msgstr "管理磁盘分区"
+
+#: ../lib/MDV/Control_Center.pm:230
+#, c-format
+msgid "Create, delete and resize hard disk partitions"
+msgstr "创建、删除和更改硬盘分区大小"
+
+#: ../lib/MDV/Control_Center.pm:239 ../lib/MDV/Control_Center.pm:240
+#, c-format
+msgid "Browse and configure hardware"
+msgstr "浏览及配置硬件"
+
+#: ../lib/MDV/Control_Center.pm:250 ../lib/MDV/Control_Center.pm:251
+#, c-format
+msgid "Sound Configuration"
+msgstr "声音配置"
+
+#: ../lib/MDV/Control_Center.pm:260
+#, c-format
+msgid "Hosts definitions"
+msgstr "主机定义"
+
+#: ../lib/MDV/Control_Center.pm:261
+#, c-format
+msgid "Manage hosts definitions"
+msgstr "管理主机定义"
+
+#: ../lib/MDV/Control_Center.pm:270
+#, c-format
+msgid "Install & Remove Software"
+msgstr "安装/删除软件"
+
+#: ../lib/MDV/Control_Center.pm:271
+#, c-format
+msgid "Install, uninstall software"
+msgstr "安装和删除软件"
+
+#: ../lib/MDV/Control_Center.pm:281
+#, c-format
+msgid "Advanced setup for network interfaces and firewall"
+msgstr "网卡和防火墙的高级设置"
+
+#: ../lib/MDV/Control_Center.pm:282
+#, c-format
+msgid "Set up network interfaces failover and firewall replication"
+msgstr "设置网络接口后备及防火墙再造"
+
+#: ../lib/MDV/Control_Center.pm:291 ../lib/MDV/Control_Center.pm:292
+#, c-format
+msgid "Set up the keyboard layout"
+msgstr "设置键盘布局"
+
+#: ../lib/MDV/Control_Center.pm:301
+#, c-format
+msgid "Kolab"
+msgstr "Kolab"
+
+#: ../lib/MDV/Control_Center.pm:302
+#, c-format
+msgid "Set up a groupware server"
+msgstr "配置群件服务器"
+
+#: ../lib/MDV/Control_Center.pm:311
+#, c-format
+msgid "Manage localization for your system"
+msgstr "管理系统的本地化"
+
+#: ../lib/MDV/Control_Center.pm:312
+#, c-format
+msgid "Select the language and the country or region of the system"
+msgstr "选择系统的语言和国家/地区设置"
+
+#: ../lib/MDV/Control_Center.pm:320 ../lib/MDV/Control_Center.pm:321
+#, c-format
+msgid "View and search system logs"
+msgstr "查看并搜索系统日志"
+
+#: ../lib/MDV/Control_Center.pm:330
+#, c-format
+msgid "Manage connections"
+msgstr "管理连接"
+
+#: ../lib/MDV/Control_Center.pm:331
+#, c-format
+msgid "Reconfigure a network interface"
+msgstr "重新配置网络连接"
+
+#: ../lib/MDV/Control_Center.pm:340
+#, c-format
+msgid "Manage computer group"
+msgstr "管理一组计算机"
+
+#: ../lib/MDV/Control_Center.pm:341
+#, c-format
+msgid "Manage installed software packages on a group of computers"
+msgstr "在一组计算机上管理已安装的软件包"
+
+#: ../lib/MDV/Control_Center.pm:349
+#, c-format
+msgid "Configure authentication for Mageia tools"
+msgstr ""
+
+#: ../lib/MDV/Control_Center.pm:350
+#, c-format
+msgid ""
+"Define authentication required to access individual Mageia configuration "
+"tools "
+msgstr ""
+
+#: ../lib/MDV/Control_Center.pm:358
+#, c-format
+msgid "Update your system"
+msgstr "更新您的系统"
+
+#: ../lib/MDV/Control_Center.pm:359
+#, c-format
+msgid ""
+"Look at available updates and apply any fixes or upgrades to installed "
+"packages"
+msgstr "查看可用的更新并将修正和更新应用到已安装的软件包上"
+
+#: ../lib/MDV/Control_Center.pm:369
+#, c-format
+msgid "Menu Style"
+msgstr "菜单风格"
+
+#: ../lib/MDV/Control_Center.pm:370
+#, c-format
+msgid "Menu Style Configuration"
+msgstr "菜单风格配置"
+
+#: ../lib/MDV/Control_Center.pm:379 ../lib/MDV/Control_Center.pm:380
+#, c-format
+msgid "Import Windows(TM) documents and settings"
+msgstr "导入 Windows® 文档和设置"
+
+#: ../lib/MDV/Control_Center.pm:389
+#, c-format
+msgid "Monitor connections"
+msgstr "监视连接"
+
+#: ../lib/MDV/Control_Center.pm:390
+#, c-format
+msgid "Monitor the network connections"
+msgstr "监视网络连接"
+
+#: ../lib/MDV/Control_Center.pm:399 ../lib/MDV/Control_Center.pm:400
+#, c-format
+msgid "Set up the pointer device (mouse, touchpad)"
+msgstr "设置指点设备(鼠标、触摸板)"
+
+#: ../lib/MDV/Control_Center.pm:408 ../lib/MDV/Control_Center.pm:409
+#, c-format
+msgid "Parental Controls"
+msgstr "家长控制"
+
+#: ../lib/MDV/Control_Center.pm:418
+#, c-format
+msgid "Network Center"
+msgstr "网络中心"
+
+#: ../lib/MDV/Control_Center.pm:428
+#, c-format
+msgid "Manage different network profiles"
+msgstr "管理不同的网络配置文件"
+
+#: ../lib/MDV/Control_Center.pm:429
+#, c-format
+msgid "Activate and manage network profiles"
+msgstr "激活并管理网络配置文件"
+
+#: ../lib/MDV/Control_Center.pm:438
+#, c-format
+msgid "Access NFS shared drives and directories"
+msgstr "访问通过 NFS 共享的驱动器和目录"
+
+#: ../lib/MDV/Control_Center.pm:439
+#, c-format
+msgid "Set NFS mount points"
+msgstr "设置 NFS 挂载点"
+
+#: ../lib/MDV/Control_Center.pm:448
+#, c-format
+msgid "Share drives and directories using NFS"
+msgstr "使用 NFS 共享驱动器和目录"
+
+#: ../lib/MDV/Control_Center.pm:449
+#, c-format
+msgid "Manage NFS shares"
+msgstr "管理 NFS 共享"
+
+#: ../lib/MDV/Control_Center.pm:459
+#, c-format
+msgid "Package Stats"
+msgstr "软件包统计"
+
+#: ../lib/MDV/Control_Center.pm:460
+#, c-format
+msgid "Show statistics about usage of installed software packages"
+msgstr "显示已安装软件包的使用统计"
+
+#: ../lib/MDV/Control_Center.pm:469
+#, c-format
+msgid "Share your hard disk partitions"
+msgstr "共享您的硬盘分区"
+
+#: ../lib/MDV/Control_Center.pm:470
+#, c-format
+msgid "Set up sharing of your hard disk partitions"
+msgstr "设置您的硬盘分区共享"
+
+#: ../lib/MDV/Control_Center.pm:479 ../lib/MDV/Control_Center.pm:481
+#, c-format
+msgid "Set up the printer(s), the print job queues, ..."
+msgstr "设置打印机、打印队列……"
+
+#: ../lib/MDV/Control_Center.pm:491
+#, c-format
+msgid "Scheduled tasks"
+msgstr "计划任务"
+
+#: ../lib/MDV/Control_Center.pm:492
+#, c-format
+msgid "Schedule programs to run periodically or at given times"
+msgstr "定期运行程序或在给定时间运行程序"
+
+#: ../lib/MDV/Control_Center.pm:501
+#, c-format
+msgid "Proxy"
+msgstr "代理服务器"
+
+#: ../lib/MDV/Control_Center.pm:502
+#, c-format
+msgid "Set up a proxy server for files and web browsing"
+msgstr "设置文件和 Web 浏览所用的代理服务器"
+
+#: ../lib/MDV/Control_Center.pm:510
+#, c-format
+msgid "Remote Control (Linux/Unix, Windows)"
+msgstr "远程控制(Linux/Unix，Windows)"
+
+#: ../lib/MDV/Control_Center.pm:511
+#, c-format
+msgid "Remote Control of another machine (Linux/Unix, Windows)"
+msgstr "远程控制另外一台计算机(Linux/Unix，Windows)"
+
+#: ../lib/MDV/Control_Center.pm:520
+#, c-format
+msgid "Remove a connection"
+msgstr "删除连接"
+
+#: ../lib/MDV/Control_Center.pm:521
+#, c-format
+msgid "Delete a network interface"
+msgstr "删除网络连接"
+
+#: ../lib/MDV/Control_Center.pm:531 ../lib/MDV/Control_Center.pm:532
+#, c-format
+msgid "Wireless connection"
+msgstr "无线连接"
+
+#: ../lib/MDV/Control_Center.pm:541
+#, c-format
+msgid "Access Windows (SMB) shared drives and directories"
+msgstr "访问通过 Windows (SMB) 共享的驱动器和目录"
+
+#: ../lib/MDV/Control_Center.pm:542
+#, c-format
+msgid "Configuration of Windows (Samba) shared drives and directories"
+msgstr "配置 Windows (Samba) 的共享驱动器和目录"
+
+#: ../lib/MDV/Control_Center.pm:551
+#, c-format
+msgid "Share drives and directories with Windows (SMB) systems"
+msgstr "将驱动器和目录共享给 Windows (SMB)系统"
+
+#: ../lib/MDV/Control_Center.pm:552
+#, c-format
+msgid "Manage configuration of Samba"
+msgstr "管理 Samba 配置"
+
+#: ../lib/MDV/Control_Center.pm:561 ../lib/MDV/Control_Center.pm:562
+#, c-format
+msgid "Set up scanner"
+msgstr "设置扫描仪"
+
+#: ../lib/MDV/Control_Center.pm:571
+#, c-format
+msgid "Configure system security, permissions and audit"
+msgstr "配置系统的安全、权限和审核"
+
+#: ../lib/MDV/Control_Center.pm:572
+#, c-format
+msgid "Set the system security level, periodic security audit and permissions"
+msgstr "设置系统安全等级、定期安全审核和权限"
+
+#: ../lib/MDV/Control_Center.pm:582 ../lib/MDV/Control_Center.pm:583
+#, c-format
+msgid "Manage system services by enabling or disabling them"
+msgstr "启用或禁用系统服务"
+
+#: ../lib/MDV/Control_Center.pm:592
+#, c-format
+msgid "Configure media sources for install and update"
+msgstr "配置安装和更新所用的介质源"
+
+#: ../lib/MDV/Control_Center.pm:593
+#, c-format
+msgid "Select from where software packages are downloaded "
+msgstr "选择从哪里下载软件包"
+
+#: ../lib/MDV/Control_Center.pm:603
+#, c-format
+msgid "Configure updates frequency"
+msgstr "配置更新频率"
+
+#: ../lib/MDV/Control_Center.pm:612
+#, c-format
+msgid "Access to extended maintenance"
+msgstr "延保服务"
+
+#: ../lib/MDV/Control_Center.pm:621
+#, c-format
+msgid "Configure TOMOYO Linux policy"
+msgstr "配置 TOMOYO Linux 策略"
+
+#: ../lib/MDV/Control_Center.pm:622
+#, c-format
+msgid "View and configure TOMOYO Linux security policy"
+msgstr "查看和配置 TOMOYO Linux 安全策略"
+
+#. -PO: here power means electrical power
+#. -PO: UPS==Uninterruptible power supply
+#: ../lib/MDV/Control_Center.pm:634 ../lib/MDV/Control_Center.pm:637
+#, c-format
+msgid "Set up a UPS for power monitoring"
+msgstr "设置监视电源的 UPS"
+
+#: ../lib/MDV/Control_Center.pm:647
+#, c-format
+msgid "Manage users on system"
+msgstr "管理系统中的用户"
+
+#: ../lib/MDV/Control_Center.pm:648
+#, c-format
+msgid "Add, remove or change users of the system"
+msgstr "添加、删除或更改系统的用户"
+
+#: ../lib/MDV/Control_Center.pm:658
+#, c-format
+msgid "Virtualization"
+msgstr "虚拟化"
+
+#: ../lib/MDV/Control_Center.pm:659
+#, c-format
+msgid "Virtual machines management"
+msgstr "虚拟机管理"
+
+#: ../lib/MDV/Control_Center.pm:668 ../lib/MDV/Control_Center.pm:669
+#, c-format
+msgid "Configure VPN connection to secure network access"
+msgstr "配置 VPN 连接，以便进入私有网络"
+
+#: ../lib/MDV/Control_Center.pm:678
+#, c-format
+msgid "Access WebDAV shared drives and directories"
+msgstr "访问 WebDAV 共享的驱动器和目录"
+
+#: ../lib/MDV/Control_Center.pm:679
+#, c-format
+msgid "Set WebDAV mount points"
+msgstr "设置 WebDAV 挂载点"
+
+#: ../menus_launcher.pl:19 ../menus_launcher.pl:41
+#, c-format
+msgid "Menu Configuration Center"
+msgstr "菜单配置中心"
+
+#: ../menus_launcher.pl:28
+#, c-format
+msgid "System menu"
+msgstr "系统菜单"
+
+#: ../menus_launcher.pl:29 ../menus_launcher.pl:36 ../print_launcher.pl:31
+#, c-format
+msgid "Configure..."
+msgstr "配置..."
+
+#: ../menus_launcher.pl:31
+#, c-format
+msgid "User menu"
+msgstr "用户菜单"
+
+#: ../menus_launcher.pl:41
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Choose which menu you want to configure"
+msgstr ""
+"\n"
+"\n"
+"选择您想要配置的菜单"
+
+#: ../print_launcher.pl:14 ../print_launcher.pl:21
+#, c-format
+msgid "Printing configuration"
+msgstr "打印配置"
+
+#: ../print_launcher.pl:30
+#, c-format
+msgid "Click here to configure the printing system"
+msgstr "单击此处配置打印系统"
+
+#: ../print_launcher.pl:37
+#, c-format
+msgid "Done"
+msgstr "完成"
+
+#: ../data/autologin.desktop.in.h:1
+msgid "Autologin"
+msgstr "自动登录"
+
+#: ../data/clock.desktop.in.h:1
+msgid "Date and time"
+msgstr "日期和时间"
+
+#: ../data/connection.desktop.in.h:1
+msgid "New connection"
+msgstr "新建连接"
+
+#: ../data/drakautoinst.desktop.in.h:1
+msgid "Auto Install floppy"
+msgstr "自动安装软盘"
+
+#: ../data/drakboot.desktop.in.h:1
+msgid "Boot Loading"
+msgstr "引导程序"
+
+#: ../data/drakcronat.desktop.in.h:1
+msgid "Programs scheduling"
+msgstr "计划任务"
+
+#: ../data/drakdm.desktop.in.h:1
+msgid "Display manager"
+msgstr "显示管理器"
+
+#: ../data/drakfloppy.desktop.in.h:1
+msgid "Boot floppy"
+msgstr "启动软盘"
+
+#: ../data/drakfont.desktop.in.h:1
+msgid "Fonts"
+msgstr "字体"
+
+#: ../data/drakperm.desktop.in.h:1
+msgid "Permissions"
+msgstr "权限"
+
+#: ../data/draksec.desktop.in.h:1
+msgid "Levels and Checks"
+msgstr "级别和检查"
+
+#: ../data/drakxtv.desktop.in.h:1
+msgid "TV Cards"
+msgstr "电视卡"
+
+#: ../data/fileshare.desktop.in.h:1
+msgid "Partition Sharing"
+msgstr "分区共享"
+
+#: ../data/harddrive.desktop.in.h:1
+msgid "Hard Drives"
+msgstr "硬盘"
+
+#: ../data/logdrake.desktop.in.h:1
+msgid "Logs"
+msgstr "日志"
+
+#: ../data/menudrake.desktop.in.h:1
+msgid "Menus"
+msgstr "菜单"
+
+#: ../data/MountPoints.directory.in.h:1
+msgid "Mount Points"
+msgstr "挂载点"
+
+#: ../data/nfs.desktop.in.h:1
+msgid "NFS mount points"
+msgstr "NFS 挂载点"
+
+#: ../data/printerdrake.desktop.in.h:1
+msgid "Printers"
+msgstr "打印机"
+
+#: ../data/proxy.desktop.in.h:1
+msgid "Proxy Configuration"
+msgstr "代理服务器配置"
+
+#: ../data/removable.desktop.in.h:1
+msgid "Removable devices"
+msgstr "可移动设备"
+
+#: ../data/remove-connection.desktop.in.h:1
+msgid "Remove Connection"
+msgstr "删除连接"
+
+#: ../data/samba.desktop.in.h:1
+msgid "Samba mount points"
+msgstr "Samba 挂载点"
+
+#: ../data/scannerdrake.desktop.in.h:1
+msgid "Scanners"
+msgstr "扫描仪"
+
+#: ../data/SystemConfig.directory.in.h:1
+msgid "System Settings"
+msgstr "系统设置"
+
+#: ../data/userdrake.desktop.in.h:1
+msgid "Users and Groups"
+msgstr "用户和组"
+
+#: ../data/webdav.desktop.in.h:1
+msgid "WebDAV mount points"
+msgstr "WebDAV 挂载点"
+
+#: ../data/XFDrake.desktop.in.h:1
+msgid "Graphical server"
+msgstr "图形服务器"
+
+#: ../data/XFDrake-Monitor.desktop.in.h:1
+msgid "Monitor"
+msgstr "显示器"
+
+#: ../data/XFDrake-Resolution.desktop.in.h:1
+msgid "Screen Resolution"
+msgstr "屏幕分辨率"
+
+#: ../drakconf.desktop.in.h:1
+msgid "Mageia Control Center"
+msgstr ""

@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Identity / CatDap\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2011-12-09 02:33+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: lib/CatDap/Controller/register.pm:133
+msgid "Activation"
+msgstr ""
+
+#: root/admin/account_addoc.tt:28 root/admin/account_modify.tt:24
+#: root/admin/group_modify.tt:18 root/user/index.tt:19 root/user/index.tt:48
+msgid "Add"
+msgstr ""
+
+#: root/admin/account_modify.tt:85
+msgid "Add ObjectClass"
+msgstr ""
+
+#: root/admin/account_modify.tt:47
+msgid "Add attribute"
+msgstr ""
+
+#. (oc, dn)
+#: root/admin/account_addoc.tt:1
+msgid "Adding objectclass %1 to dn %2"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:49
+msgid "Addresses do not match"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:89
+msgid "An account already exists with this email address"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:94
+msgid "An account already exists with this username"
+msgstr ""
+
+#. ($errors)
+#: lib/CatDap/Controller/register.pm:145
+msgid "An error occured sending the email, but your account was created. Please try the password recovery process if you entered the correct email address. Errors %1"
+msgstr ""
+
+#. ($errors)
+#: lib/CatDap/Controller/admin.pm:548
+msgid "An error occured sending the email, but your account was created. Please try the password recovery process if you entered the correct email address: %1"
+msgstr ""
+
+#. ($errors)
+#: lib/CatDap/Controller/forgot_password.pm:110
+msgid "An error occured sending the email, please try again later. Errors %1"
+msgstr ""
+
+#: root/admin/account_addoc.tt:9 root/admin/account_modify.tt:8
+#: root/admin/group_modify.tt:5 root/user/index.tt:4
+msgid "Attribute"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:56
+msgid "Cannot check /etc/passwd, please warn system administrators"
+msgstr ""
+
+#: root/register/index.tt:29
+msgid "Captcha"
+msgstr ""
+
+#: root/user/firstlogin.tt:14 root/user/password.tt:15
+msgid "Change"
+msgstr ""
+
+#: root/user/fake.tt:2
+msgid "Change password"
+msgstr ""
+
+#: root/register/complete.tt:5
+msgid "Check your mail for activation instructions."
+msgstr ""
+
+#: root/forgot_password/complete.tt:5
+msgid "Check your mail for password reset instructions."
+msgstr ""
+
+#: root/register/index.tt:24
+msgid "Confirm Email address"
+msgstr ""
+
+#: root/user/password.tt:5
+msgid "Current password"
+msgstr ""
+
+#. (cn)
+#. (entry.cn)
+#: root/email/activation.tt:1 root/email/admin/password.tt:1
+#: root/email/forgot_password.tt:1
+msgid "Dear %1,"
+msgstr ""
+
+#: root/admin/account_modify.tt:27 root/user/index.tt:22
+msgid "Delete"
+msgstr ""
+
+#: root/user/fake.tt:1
+msgid "Edit"
+msgstr ""
+
+#: root/admin/account.tt:33 root/admin/account.tt:8
+#: root/admin/account_promote.tt:6 root/register/index.tt:20
+msgid "Email"
+msgstr ""
+
+#: root/forgot_password/index.tt:8 root/register/index.tt:21
+msgid "Email address"
+msgstr ""
+
+#: root/forgot_password/complete.tt:1
+msgid "Email sent."
+msgstr ""
+
+#: root/forgot_password/confirm.tt:2
+msgid "Enter new password."
+msgstr ""
+
+#: root/register/index.tt:32
+msgid "Enter text"
+msgstr ""
+
+#: lib/CatDap/Controller/forgot_password.pm:62
+#: lib/CatDap/Controller/forgot_password.pm:76
+msgid "Error while searching for account: "
+msgstr ""
+
+#: root/admin/account.tt:34 root/admin/account_promote.tt:7
+msgid "First Name"
+msgstr ""
+
+#: root/register/index.tt:13
+msgid "First name"
+msgstr ""
+
+#: root/forgot_password/index.tt:2
+msgid "Forgot your password?"
+msgstr ""
+
+#: lib/CatDap/Controller/forgot_password.pm:98
+msgid "Forgotten password"
+msgstr ""
+
+#: root/index.tt:17
+msgid "Forgotten password?"
+msgstr ""
+
+#: root/admin/account.tt:36 root/admin/account.tt:9
+#: root/admin/account_promote.tt:9
+msgid "Full Name"
+msgstr ""
+
+#: root/admin/group.tt:27
+msgid "Group Name"
+msgstr ""
+
+#: root/admin/group.tt:9
+msgid "Group name"
+msgstr ""
+
+#: root/admin/account_modify.tt:2
+msgid "Groups"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:52
+msgid "Incorrect validation text, please try again"
+msgstr ""
+
+#: lib/CatDap/Controller/forgot_password.pm:45
+#: lib/CatDap/Controller/register.pm:46
+msgid "Invalid email address"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:42
+msgid "Invalid username"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:59
+msgid "Invalid username, already used by system"
+msgstr ""
+
+#: root/template/header:10 root/user/fake.tt:3
+msgid "Log out"
+msgstr ""
+
+#: root/index.tt:1 root/index.tt:13
+msgid "Login"
+msgstr ""
+
+#: root/forgot_password/confirm.tt:8 root/user/firstlogin.tt:5
+#: root/user/password.tt:9
+msgid "New Password"
+msgstr ""
+
+#: lib/CatDap/Controller/user.pm:295
+msgid "New passwords dont match"
+msgstr ""
+
+#: root/forgot_password/complete.tt:4
+msgid "Operation was successful."
+msgstr ""
+
+#: root/index.tt:10
+msgid "Password : "
+msgstr ""
+
+#: lib/CatDap/Controller/user.pm:289
+msgid "Password incorrect"
+msgstr ""
+
+#: lib/CatDap/Controller/admin.pm:551
+msgid "Password reset and email sent"
+msgstr ""
+
+#: root/register/index.tt:12
+msgid "Personal Information"
+msgstr ""
+
+#: root/email/admin/password.tt:5
+msgid "Please click below to change your password"
+msgstr ""
+
+#: root/admin/index.tt:1
+msgid "Please use the menus above."
+msgstr ""
+
+#: root/admin/account_promote.tt:25
+msgid "Primary group"
+msgstr ""
+
+#: lib/CatDap/Controller/forgot_password.pm:82
+msgid "Privileged accounts may not recover passwords via this mechanism"
+msgstr ""
+
+#: root/admin/account_modify.tt:71
+msgid "Promote"
+msgstr ""
+
+#: root/admin/account_modify.tt:62
+msgid "Promote user to posixAccount with primary group:"
+msgstr ""
+
+#: root/index.tt:16 root/register/index.tt:3 root/register/index.tt:35
+msgid "Register"
+msgstr ""
+
+#: root/register/complete.tt:1
+msgid "Registration completed"
+msgstr ""
+
+#: root/register/complete.tt:4
+msgid "Registration was successful."
+msgstr ""
+
+#: root/forgot_password/confirm.tt:11 root/user/firstlogin.tt:10
+#: root/user/password.tt:12
+msgid "Repeat New Password"
+msgstr ""
+
+#: root/admin/account_modify.tt:1 root/forgot_password/index.tt:12
+msgid "Reset password"
+msgstr ""
+
+#: root/admin/account.tt:22
+msgid "Search"
+msgstr ""
+
+#: root/admin/account.tt:4 root/admin/group.tt:5
+msgid "Search by"
+msgstr ""
+
+#: root/admin/account_promote.tt:4
+msgid "Select"
+msgstr ""
+
+#: root/forgot_password/confirm.tt:16
+msgid "Set new password"
+msgstr ""
+
+#: root/register/check.tt:1
+msgid "Success"
+msgstr ""
+
+#: root/admin/account.tt:10 root/admin/account.tt:35
+#: root/admin/account_promote.tt:8 root/register/index.tt:16
+msgid "Surname"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:70
+msgid "The first name supplied contains illegal characters"
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:75
+msgid "The surname supplied contains illegal characters"
+msgstr ""
+
+#: lib/CatDap/Controller/forgot_password.pm:67
+msgid "This email address is not bound to an account"
+msgstr ""
+
+#: root/email/activation.tt:3
+msgid "To activate your account, please follow the link below."
+msgstr ""
+
+#: root/email/forgot_password.tt:3
+msgid "To reset your password, please follow the link below."
+msgstr ""
+
+#: root/admin/account_modify.tt:35 root/user/index.tt:29
+msgid "Update"
+msgstr ""
+
+#: root/admin/account.tt:32 root/admin/account.tt:7
+#: root/admin/account_promote.tt:5 root/register/index.tt:7
+#: root/register/index.tt:8
+msgid "Username"
+msgstr ""
+
+#: root/index.tt:6
+msgid "Username : "
+msgstr ""
+
+#: lib/CatDap/Controller/register.pm:65
+msgid "Username is not authorized to be used"
+msgstr ""
+
+#: root/admin/account_addoc.tt:10 root/admin/account_modify.tt:9
+#: root/admin/group_modify.tt:6 root/user/index.tt:4
+msgid "Value"
+msgstr ""
+
+#. (c.config.organisation)
+#: root/email/forgot_password.tt:2
+msgid "Your %1 account has been requested to change the password. If you did not do this, or you do not want to change your password; you can just do nothing."
+msgstr ""
+
+#. (c.config.organisation)
+#: root/email/activation.tt:2
+msgid "Your %1 account has been successfully created, but requires activation."
+msgstr ""
+
+#. (c.user.username)
+#: root/email/admin/password.tt:3
+msgid "Your password was reset by %1"
+msgstr ""
+
+#: lib/CatDap/Controller/user.pm:61
+msgid "Your session has expired"
+msgstr ""
+
+#: root/admin/account.tt:15 root/admin/group.tt:15
+msgid "contains"
+msgstr ""
+
+#: root/admin/group_modify.tt:14
+msgid "delete"
+msgstr ""
+
+#: root/admin/account.tt:17 root/admin/group.tt:17
+msgid "greater than or equal to"
+msgstr ""
+
+#: root/admin/account.tt:16 root/admin/group.tt:16
+msgid "is exactly"
+msgstr ""
+
+#: root/admin/account.tt:18 root/admin/group.tt:18
+msgid "less than"
+msgstr ""
+
+#: root/admin/group.tt:10
+msgid "member"
+msgstr ""
+
+#: lib/CatDap/Controller/admin.pm:535
+msgid "password reset"
+msgstr ""
+
+#: root/admin/account_modify.tt:53
+msgid "with value"
+msgstr ""
