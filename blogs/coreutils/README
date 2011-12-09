@@ -1,0 +1,6 @@
+This dir contains the blogs(notes) I write when reading the source code of GNU
+coreutils or something equivalents such as the programs or commonds in the
+NetBSD or FreeBSD 's bin, sbin, usr.bin, usr.sbin etc.
+
+Reference:
+Code Reading: The openSource perspective
