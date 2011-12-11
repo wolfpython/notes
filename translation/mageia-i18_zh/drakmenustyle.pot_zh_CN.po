@@ -23,7 +23,7 @@ msgstr "使用系统管理员设置"
 #: ../drakmenustyle:38
 #, c-format
 msgid "Mageia menu"
-msgstr ""
+msgstr "Mageia菜单"
 
 #: ../drakmenustyle:39
 #, c-format
