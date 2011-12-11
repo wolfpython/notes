@@ -18,7 +18,7 @@ msgstr ""
 #: ../draklive-install:99
 #, c-format
 msgid "Mageia Live"
-msgstr ""
+msgstr "Mageia Live"
 
 #: ../draklive-install:103
 #, c-format
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../mageia-draklive-install.desktop.in.h:1
 msgid "Install your Mageia live system to disk"
-msgstr ""
+msgstr "安装Mageia live系统到磁盘上"
 
 #: ../mageia-draklive-install.desktop.in.h:2
 msgid "Live Install"
