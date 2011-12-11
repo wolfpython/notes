@@ -1,0 +1,725 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: drakpxelinux\n"
+"POT-Creation-Date: 2005-09-16 22:46+0200\n"
+"PO-Revision-Date: 2011-12-11 11:48+0000\n"
+"Last-Translator: walter  lewis <lyh19901223@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../drakpxelinux.pl:70
+#, c-format
+msgid "PXE Label: the name to be displayed in the PXE menu (an ASCII word/number)"
+msgstr "PXE 标签：PXE 菜单中所显示的名称(一个 ASCII 单词或数字)"
+
+#: ../drakpxelinux.pl:71
+#, c-format
+msgid "Server: IP address of server, that contains the installation directory"
+msgstr "服务器：服务器的 IP 地址，其中包含了安装目录"
+
+#: ../drakpxelinux.pl:72
+#, c-format
+msgid "Kernel: memdisk or vmlinuz"
+msgstr "内核：memdisk 或 vmlinuz"
+
+#: ../drakpxelinux.pl:73
+#, c-format
+msgid "Initrd: network boot image (network.img) or all.rdz"
+msgstr "Initrd: 网络启动映像(network.img)或 all.rdz"
+
+#: ../drakpxelinux.pl:74
+#, c-format
+msgid "Interface: network interface used for the installation process"
+msgstr "网卡：用于安装过程的网卡安装"
+
+#: ../drakpxelinux.pl:75
+#, c-format
+msgid "Network: DHCP or an IP address"
+msgstr "网络：DHCP 或 IP 地址"
+
+#: ../drakpxelinux.pl:76
+#, c-format
+msgid "Directory: full path to Mageia Linux install server directory"
+msgstr "目录：Mageia Linux安装服务器目录的绝对路径"
+
+#: ../drakpxelinux.pl:77
+#, c-format
+msgid "Installation method: NFS or HTTP"
+msgstr "安装方式：选择 NFS 或 HTTP"
+
+#: ../drakpxelinux.pl:78
+#, c-format
+msgid "Ramsize: ramsize parameter on boot image"
+msgstr "内存大小：在启动盘上调整内存大小"
+
+#: ../drakpxelinux.pl:79
+#, c-format
+msgid "Display: export display to another computer (e.g.: 10.0.1.33:0)"
+msgstr "显示：将显示导出至另外的计算机(如：10.0.1.33:0)"
+
+#: ../drakpxelinux.pl:80
+#, c-format
+msgid "VGA: if you encounter any problem with VGA, please adjust"
+msgstr "VGA：如果您遇到了一些 VGA 上的问题，请调整。"
+
+#: ../drakpxelinux.pl:85
+#, c-format
+msgid "network boot image (network.img) or all.rdz"
+msgstr "网络启动映像(network.img)或 all.rdz"
+
+#: ../drakpxelinux.pl:86
+#, c-format
+msgid "memdisk in case of network.img, or vmlinuz"
+msgstr "如果是 network.img，则是 memdisk，否则就是 vmlinuz"
+
+#: ../drakpxelinux.pl:87
+#, c-format
+msgid "if you encounter any problem with VGA, please adjust"
+msgstr "如果您遇到了一些 VGA 上的问题，请调整"
+
+#: ../drakpxelinux.pl:88
+#, c-format
+msgid "network interface used for the installation process"
+msgstr "安装过程所使用的网卡"
+
+#: ../drakpxelinux.pl:89
+#, c-format
+msgid "Information displayed in PXE help (F1 key)"
+msgstr "PXE 帮助(F1 键)中显示的信息"
+
+#: ../drakpxelinux.pl:90
+#, c-format
+msgid "DHCP or an IP address"
+msgstr "DHCP 或 IP 地址"
+
+#: ../drakpxelinux.pl:91
+#, c-format
+msgid "full path to Mageia Linux install server directory"
+msgstr "Mageia Linux安装服务器绝对路径"
+
+#: ../drakpxelinux.pl:92
+#, c-format
+msgid "installation method: choose NFS or HTTP"
+msgstr "安装方式: 选择 NFS 或 HTTP。"
+
+#: ../drakpxelinux.pl:93
+#, c-format
+msgid "ramsize parameter on boot image"
+msgstr "启动盘上的 ramsize 参数"
+
+#: ../drakpxelinux.pl:94
+#, c-format
+msgid "export display on another computer (e.g.: 10.0.1.33:0)"
+msgstr "将显示导出至另外一台计算机(即：10.0.1.33:0)"
+
+#: ../drakpxelinux.pl:96
+#, c-format
+msgid "IP address of server, that contains the installation directory"
+msgstr "包含安装目录的服务器的 IP 地址。"
+
+#: ../drakpxelinux.pl:97
+#, c-format
+msgid "lists all PXE entries, the default boot is the selected one"
+msgstr "列出全部 PXE 项，默认启动为所选项"
+
+#: ../drakpxelinux.pl:98
+#, c-format
+msgid "launches a wizard to setup a PXE server"
+msgstr "调用向导设置 PXE 服务器"
+
+#: ../drakpxelinux.pl:99
+#, c-format
+msgid "edits the PXE entry selected with a dialog box"
+msgstr "用对话框编辑选中的 PXE 项"
+
+#: ../drakpxelinux.pl:100
+#, c-format
+msgid "removes the selected PXE entry"
+msgstr "删除选中的 PXE 项"
+
+#: ../drakpxelinux.pl:101
+#, c-format
+msgid "apply change to configuration file"
+msgstr "将更改应用到配置文件"
+
+#: ../drakpxelinux.pl:102
+#, c-format
+msgid "launches a wizard to add a PXE entry "
+msgstr "调用向导添加 PXE 项"
+
+#: ../drakpxelinux.pl:103
+#, c-format
+msgid "get help from online documentation"
+msgstr "从在线文档获得帮助"
+
+#: ../drakpxelinux.pl:121 ../drakpxelinux.pl:1117 ../drakpxelinux.pl:1207
+#, c-format
+msgid "Error"
+msgstr "出错"
+
+#: ../drakpxelinux.pl:121 ../drakpxelinux.pl:1117
+#, c-format
+msgid "The PXE server wizard has unexpectedly failed:"
+msgstr "PXE 服务器向导意外失败:"
+
+#: ../drakpxelinux.pl:135 ../drakpxelinux.pl:825
+#, c-format
+msgid "PXE server"
+msgstr "PXE 服务器"
+
+#: ../drakpxelinux.pl:135
+#, c-format
+msgid "Restarting PXE server..."
+msgstr "正在重新启动 PXE 服务器..."
+
+#: ../drakpxelinux.pl:136 ../drakpxelinux.pl:146 ../drakpxelinux.pl:328
+#: ../drakpxelinux.pl:331 ../drakpxelinux.pl:334 ../drakpxelinux.pl:420
+#: ../drakpxelinux.pl:438 ../drakpxelinux.pl:497 ../drakpxelinux.pl:499
+#: ../drakpxelinux.pl:503 ../drakpxelinux.pl:509 ../drakpxelinux.pl:517
+#: ../drakpxelinux.pl:689 ../drakpxelinux.pl:727
+#, c-format
+msgid "Error!"
+msgstr "错误！"
+
+#: ../drakpxelinux.pl:136
+#, c-format
+msgid "Error Restarting PXE server"
+msgstr "重新启动 PXE 服务器出错"
+
+#: ../drakpxelinux.pl:146
+#, c-format
+msgid ""
+"missing %s\n"
+"\n"
+"Please install the pxe package."
+msgstr ""
+"缺少 %s\n"
+"\n"
+"请安装 pxe 软件包。"
+
+#: ../drakpxelinux.pl:306 ../drakpxelinux.pl:1196
+#, c-format
+msgid "Add a PXE entry"
+msgstr "添加 PXE 项"
+
+#: ../drakpxelinux.pl:309
+#, c-format
+msgid "Add an all.rdz boot image"
+msgstr "添加 all.rdz 启动映像"
+
+#: ../drakpxelinux.pl:309
+#, c-format
+msgid "To boot through the network, the networked computer needs a boot image. Morever we need to name this image, so each boot image is related to a name in the PXE menu. Thus, the user can choose which image he wants to boot through PXE."
+msgstr "要通过网络启动，网络计算机需要有引导映像。除此以外，我们还需要为此映像命名，这样每个引导映像在 PXE 菜单中就有一个对应的名字了。用户可以通过 PXE 选择想要启动哪个映像。"
+
+#: ../drakpxelinux.pl:309
+#, c-format
+msgid "For technical reasons, in case of multiple boot images, it's simpler to boot the networked computer through a kernel (vmlinuz), and to provide one file with all needed drivers (in our case all.rdz)."
+msgstr "从技术方面考虑，如果有多个引导映像的话，通过内核(vmlinuz)并提供包含所需全部驱动程序的文件(all.rdz)来启动网络计算机更加容易。"
+
+#: ../drakpxelinux.pl:314
+#, c-format
+msgid ""
+"When this wizard has finished, the all.rdz image and kernel vmlinuz will be copied into \n"
+"%s.\n"
+"\n"
+"The PXE menu list will be updated with this new entry."
+msgstr ""
+"当此向导完成后，all.rdz 映像以及内核 vmlinuz 将被复制到\n"
+"%s。\n"
+"\n"
+"PXE 菜单列表将会用此新项更新。"
+
+#: ../drakpxelinux.pl:316
+#, c-format
+msgid "PXE label:"
+msgstr "PXE 标签:"
+
+#: ../drakpxelinux.pl:317
+#, c-format
+msgid "name displayed in PXE menu (please provide an ASCII word or a number, without spaces)"
+msgstr "PXE 菜单中所显示的名称(一个单词或数字，无空格)"
+
+#: ../drakpxelinux.pl:318
+#, c-format
+msgid "PXE information:"
+msgstr "PXE 信息:"
+
+#: ../drakpxelinux.pl:319
+#, c-format
+msgid ""
+"The PXE information is used to explain the role of the boot image,\n"
+"e.g.:\n"
+"Mageia Linux 10 rescue disk\n"
+"Mageia Linux cooker install via http"
+msgstr ""
+"PXE信息用来解释启动镜像的角色,\n"
+"比如：\n"
+"Mageia Linux 10 救援磁盘\n"
+"Mageia Linux cooker 通过http 安装"
+
+#: ../drakpxelinux.pl:320
+#, c-format
+msgid "Full path to all.rdz image source:"
+msgstr "all.rdz 映像源的完整路径:"
+
+#: ../drakpxelinux.pl:321
+#, c-format
+msgid "Provide the full path to all.rdz image location"
+msgstr "提供 all.rdz 映像位置的完整路径"
+
+#: ../drakpxelinux.pl:322
+#, c-format
+msgid "Full path to vmlinuz source:"
+msgstr "vmlinuz 源的完整路径:"
+
+#: ../drakpxelinux.pl:323
+#, c-format
+msgid "Provide the full path to vmlinuz kernel location"
+msgstr "提供 vmlinuz 内核源的完整路径"
+
+#: ../drakpxelinux.pl:328 ../drakpxelinux.pl:438
+#, c-format
+msgid "PXE label should be an ASCII word/number without space. Please adjust"
+msgstr "PXE 标签应该是不带空格的 ASCII 单词/数字。请调整"
+
+#: ../drakpxelinux.pl:331
+#, c-format
+msgid "Please enter a correct path to all.rdz"
+msgstr "请输入 all.rdz 的正确路径"
+
+#: ../drakpxelinux.pl:334
+#, c-format
+msgid "Please enter a correct path to vmlinuz"
+msgstr "请输入 vmlinuz 的正确路径"
+
+#: ../drakpxelinux.pl:339
+#, c-format
+msgid "add a PXE entry"
+msgstr "添加 PXE 项"
+
+#: ../drakpxelinux.pl:339
+#, c-format
+msgid "add a PXE entry in your PXE server configuration..."
+msgstr "在您的 PXE 服务器配置中添加新的 PXE 项..."
+
+#: ../drakpxelinux.pl:370
+#, c-format
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: ../drakpxelinux.pl:371
+#, c-format
+msgid "The wizard successfully added the PXE boot image."
+msgstr "向导成功地添加了 PXE 引导映像。"
+
+#: ../drakpxelinux.pl:395 ../drakpxelinux.pl:475
+#, c-format
+msgid "Local"
+msgstr "本地"
+
+#: ../drakpxelinux.pl:395
+#, c-format
+msgid "You can't remove local entry."
+msgstr "您无法删除本地项。"
+
+#: ../drakpxelinux.pl:420
+#, c-format
+msgid ""
+"Found a similar entry in PXE list labeled: %s.\n"
+"Choose another label please"
+msgstr ""
+"在 PXE 列表中标签为 %s 中找到类似项。\n"
+"请选择另外一个标签"
+
+#: ../drakpxelinux.pl:433
+#, c-format
+msgid "Clone %s entry"
+msgstr "克隆 %s 项"
+
+#: ../drakpxelinux.pl:475
+#, c-format
+msgid "You can't modify local entry."
+msgstr "您无法修改本地项。"
+
+#: ../drakpxelinux.pl:491
+#, c-format
+msgid "Selection"
+msgstr "选择"
+
+#: ../drakpxelinux.pl:497
+#, c-format
+msgid "Should be a directory."
+msgstr "应该是一个目录。"
+
+#: ../drakpxelinux.pl:499
+#, c-format
+msgid "Should be a file"
+msgstr "应该是一个文件"
+
+#: ../drakpxelinux.pl:503
+#, c-format
+msgid "Should be a boot sector file"
+msgstr "应该是启动扇区文件"
+
+#: ../drakpxelinux.pl:509
+#, c-format
+msgid "Should be an initrd file"
+msgstr "应该是 initrd 文件"
+
+#: ../drakpxelinux.pl:517
+#, c-format
+msgid "Should be a perl script"
+msgstr "应该是 perl 脚本"
+
+#: ../drakpxelinux.pl:541
+#, c-format
+msgid "Select kernel to boot"
+msgstr "选择要启动的内核"
+
+#: ../drakpxelinux.pl:558
+#, c-format
+msgid "Select associated initrd"
+msgstr "选择关联的 initrd"
+
+#: ../drakpxelinux.pl:586
+#, c-format
+msgid "Select directory"
+msgstr "选择目录"
+
+#: ../drakpxelinux.pl:621 ../drakpxelinux.pl:870
+#, c-format
+msgid "DHCP or IP address"
+msgstr "DHCP 或 IP 地址"
+
+#: ../drakpxelinux.pl:641
+#, c-format
+msgid "PXE entry"
+msgstr "PXE 项"
+
+#: ../drakpxelinux.pl:643 ../drakpxelinux.pl:870
+#, c-format
+msgid "Label"
+msgstr "标签"
+
+#: ../drakpxelinux.pl:644 ../drakpxelinux.pl:870
+#, c-format
+msgid "Entry description"
+msgstr "项描述"
+
+#: ../drakpxelinux.pl:646
+#, c-format
+msgid "Kernel image: "
+msgstr "内核映像: "
+
+#: ../drakpxelinux.pl:647
+#, c-format
+msgid "Initrd image: "
+msgstr "Initrd 映像: "
+
+#: ../drakpxelinux.pl:651
+#, c-format
+msgid "Mageia Linux installer options"
+msgstr ""
+
+#: ../drakpxelinux.pl:653 ../drakpxelinux.pl:870
+#, c-format
+msgid "Ramdisk size"
+msgstr "内存盘大小"
+
+#: ../drakpxelinux.pl:654 ../drakpxelinux.pl:870
+#, c-format
+msgid "Custom options"
+msgstr "自定义选项"
+
+#: ../drakpxelinux.pl:655 ../drakpxelinux.pl:870
+#, c-format
+msgid "Frame buffer resolution"
+msgstr "帧缓存分辨率"
+
+#: ../drakpxelinux.pl:656 ../drakpxelinux.pl:870
+#, c-format
+msgid "Remote IP of X server"
+msgstr "X 服务器的远程 IP"
+
+#: ../drakpxelinux.pl:657
+#, c-format
+msgid "Automatic Options"
+msgstr "自动选项"
+
+#: ../drakpxelinux.pl:659 ../drakpxelinux.pl:870
+#, c-format
+msgid "Installation method"
+msgstr "安装方式"
+
+#: ../drakpxelinux.pl:660 ../drakpxelinux.pl:870
+#, c-format
+msgid "Network interface"
+msgstr "网卡"
+
+#: ../drakpxelinux.pl:666 ../drakpxelinux.pl:870
+#, c-format
+msgid "Remote server name"
+msgstr "远程服务器名称"
+
+#: ../drakpxelinux.pl:668 ../drakpxelinux.pl:870
+#, c-format
+msgid "Remote installation directory"
+msgstr "远程安装目录"
+
+#: ../drakpxelinux.pl:689
+#, c-format
+msgid "Please enter a valid IP address."
+msgstr "请输入有效的 IP 地址。"
+
+#: ../drakpxelinux.pl:716
+#, c-format
+msgid "online PXE documentation"
+msgstr "在线 PXE 文档"
+
+#: ../drakpxelinux.pl:727
+#, c-format
+msgid "Your %s doesn't match your actual IP address configuration. Relaunching the PXE server wizard to readjust it."
+msgstr "您的 %s 与您的实际 IP 地址配置不符。请重新调用 PXE 向导进行调整。"
+
+#: ../drakpxelinux.pl:741
+#, c-format
+msgid "PXE Wizard"
+msgstr "PXE 向导"
+
+#: ../drakpxelinux.pl:745
+#, c-format
+msgid "PXE wizard"
+msgstr "PXE 向导"
+
+#: ../drakpxelinux.pl:745
+#, c-format
+msgid "Set a PXE server."
+msgstr "设置 PXE 服务器。"
+
+#: ../drakpxelinux.pl:745
+#, c-format
+msgid "This wizard will help you to configure the PXE server, and PXE boot image management. PXE (Pre-boot eXecution Environment) is a protocol designed by Intel that allows computers to boot through the network. PXE is stored in the ROM of new generation network cards. When the computer boots up, the BIOS loads the PXE ROM in the memory and executes it. A menu is displayed, allowing the computer to boot an operating system loaded through the network."
+msgstr "本向导将帮助您配置 PXE 服务器和 PXE 引导映像管理。PXE(Pre-boot Execution Environment，预启动执行环境)是一个由 Intel 设计的协议，它使得计算机能通过网络启动。对于新一代网卡，PXE 保存在其 ROM 中。当计算机启动时，BIOS 装载 PXE ROM 到内存中，并且执行。一个菜单将会显示出来，允许计算机从网络中启动操作系统。"
+
+#: ../drakpxelinux.pl:750
+#, c-format
+msgid "Set PXE server"
+msgstr "设置 PXE 服务器"
+
+#: ../drakpxelinux.pl:750
+#, c-format
+msgid "We need to use a special dhcpd.conf file with PXE parameter. To set up such a DHCP server, launch the DHCP wizard and check the box 'Enable PXE'. If you don't do that, PXE query will not be answered by this server."
+msgstr "我们需要使用带 PXE 参数的特殊 dhcpd.conf。要设置这样的 DHCP 服务器，请调用 DHCP 配置向导，选中复选框“启用 PXE”。如果您不这样做的话，此服务器将无法响应 PXE 查询。"
+
+#: ../drakpxelinux.pl:750
+#, c-format
+msgid "Now the wizard will configure all needed default configuration files to allow computers to boot through the network."
+msgstr "向导现在将配置允许计算机从网络启动所需的全部默认配置文件。"
+
+#: ../drakpxelinux.pl:755
+#, c-format
+msgid "PXE server Interface"
+msgstr "PXE 服务器界面"
+
+#: ../drakpxelinux.pl:763
+#, c-format
+msgid "The wizard will now prepare all default files to set up your PXE server"
+msgstr "向导现在将要准备所有的默认文件，以设置您的 PXE 服务器"
+
+#: ../drakpxelinux.pl:768
+#, c-format
+msgid "TFTP directory:        %s"
+msgstr "TFTP 目录:       %s"
+
+#: ../drakpxelinux.pl:769
+#, c-format
+msgid "Boot image path:       %s"
+msgstr "启动映像路径:       %s"
+
+#: ../drakpxelinux.pl:770
+#, c-format
+msgid "PXE config file:       %s"
+msgstr "PXE 配置文件:       %s"
+
+#: ../drakpxelinux.pl:771
+#, c-format
+msgid "PXE help file:       %s"
+msgstr "PXE 帮助文件:       %s"
+
+#: ../drakpxelinux.pl:778
+#, c-format
+msgid "End of PXE server configuration"
+msgstr "PXE 服务器配置结束"
+
+#: ../drakpxelinux.pl:779
+#, c-format
+msgid "The wizard successfully configured your PXE server. Now you can configure the PXE menu entry."
+msgstr "向导成功地配置了您的 PXE 服务器。您现在可以配置 PXE 菜单项了。"
+
+#: ../drakpxelinux.pl:825
+#, c-format
+msgid "Configuring a PXE server on your system..."
+msgstr "正在您的系统中配置 PXE 服务器..."
+
+#: ../drakpxelinux.pl:870
+#, c-format
+msgid "Kernel image"
+msgstr "内核映像"
+
+#: ../drakpxelinux.pl:870
+#, c-format
+msgid "Initrd image"
+msgstr "Initrd 映像"
+
+#: ../drakpxelinux.pl:880
+#, c-format
+msgid "MAC address"
+msgstr "MAC 地址"
+
+#: ../drakpxelinux.pl:881
+#, c-format
+msgid "Installation profile"
+msgstr "安装配置文件"
+
+#: ../drakpxelinux.pl:882
+#, c-format
+msgid "Boot profile"
+msgstr "启动配置文件"
+
+#: ../drakpxelinux.pl:883
+#, c-format
+msgid "Computer Name"
+msgstr "计算机名称"
+
+#: ../drakpxelinux.pl:944 ../drakpxelinux.pl:949
+#, c-format
+msgid "None"
+msgstr "无"
+
+#: ../drakpxelinux.pl:1044 ../drakpxelinux.pl:1049 ../drakpxelinux.pl:1171
+#, c-format
+msgid "Add profile"
+msgstr "添加配置文件"
+
+#: ../drakpxelinux.pl:1049
+#, c-format
+msgid "The %s profile already exists!"
+msgstr "%s 配置文件已经存在！"
+
+#: ../drakpxelinux.pl:1106
+#, c-format
+msgid "Please configure a PXE server"
+msgstr "请配置 PXE 服务器"
+
+#: ../drakpxelinux.pl:1106
+#, c-format
+msgid ""
+"It seems this is the first time you run this tool.\n"
+"A wizard will appear to configure your PXE server."
+msgstr ""
+"似乎这是您第一次运行此工具。\n"
+"现在即将出现一个向导帮助您配置 PXE 服务器。"
+
+#: ../drakpxelinux.pl:1124
+#, c-format
+msgid "Drakpxelinux"
+msgstr "Drakpxelinux"
+
+#: ../drakpxelinux.pl:1160
+#, c-format
+msgid "Drakpxelinux manage your PXE server"
+msgstr "Drakpxelinux 可管理您的 PXE 服务器"
+
+#: ../drakpxelinux.pl:1163
+#, c-format
+msgid "PXE configuration file"
+msgstr "PXE 配置文件"
+
+#: ../drakpxelinux.pl:1168
+#, c-format
+msgid "Profiles list"
+msgstr "配置文件列表"
+
+#: ../drakpxelinux.pl:1172
+#, c-format
+msgid "Clone profile"
+msgstr "克隆配置文件"
+
+#: ../drakpxelinux.pl:1174 ../drakpxelinux.pl:1180 ../drakpxelinux.pl:1199
+#, c-format
+msgid "Info"
+msgstr "信息"
+
+#: ../drakpxelinux.pl:1174
+#, c-format
+msgid "No need to clone local profile."
+msgstr "无需克隆本地配置文件。"
+
+#: ../drakpxelinux.pl:1178
+#, c-format
+msgid "Remove profile"
+msgstr "删除配置文件"
+
+#: ../drakpxelinux.pl:1180
+#, c-format
+msgid "Can't remove local profile."
+msgstr "无法删除本地配置文件。"
+
+#: ../drakpxelinux.pl:1187
+#, c-format
+msgid "Default boot:"
+msgstr "默认启动:"
+
+#: ../drakpxelinux.pl:1199
+#, c-format
+msgid "Local profile is special, and doesn't need a new entry."
+msgstr "本地配置文件比较特殊，不需要新项。"
+
+#: ../drakpxelinux.pl:1207
+#, c-format
+msgid "The PXE entry wizard has unexpectedly failed:"
+msgstr "添加 PXE 项向导意外失败:"
+
+#: ../drakpxelinux.pl:1210
+#, c-format
+msgid "Remove PXE entry"
+msgstr "删除 PXE 项"
+
+#: ../drakpxelinux.pl:1215
+#, c-format
+msgid "Edit PXE entry"
+msgstr "编辑 PXE 项"
+
+#: ../drakpxelinux.pl:1220
+#, c-format
+msgid "Clone PXE entry"
+msgstr "克隆 PXE 项"
+
+#: ../drakpxelinux.pl:1226
+#, c-format
+msgid "Systems"
+msgstr "系统"
+
+#: ../drakpxelinux.pl:1232
+#, c-format
+msgid "Set installation profile"
+msgstr "设定安装配置文件"
+
+#: ../drakpxelinux.pl:1242
+#, c-format
+msgid "Set boot profile"
+msgstr "设定启动配置文件"
+
+#: ../drakpxelinux.pl:1253
+#, c-format
+msgid "Log"
+msgstr "日志"

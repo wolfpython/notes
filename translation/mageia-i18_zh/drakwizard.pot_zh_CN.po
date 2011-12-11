@@ -1,0 +1,1659 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: drakwizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-26 15:44+0100\n"
+"PO-Revision-Date: 2011-12-11 11:56+0000\n"
+"Last-Translator: walter  lewis <lyh19901223@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../Wiztemplate.pm:31
+msgid "configuration wizard"
+msgstr "配置向导"
+
+#: ../Wiztemplate.pm:60 ../ftp_wizard/Proftpd.pm:136
+#: ../proxy_wizard/Squid.pm:94 ../proxy_wizard/Squid.pm:101
+#: ../time_wizard/Ntp.pm:131 ../time_wizard/Ntp.pm:138
+#: ../web_wizard/Apache.pm:90
+msgid "Warning."
+msgstr "警告。"
+
+#: ../Wiztemplate.pm:64 ../dns_wizard/Bind.pm:225 ../ftp_wizard/Proftpd.pm:141
+msgid "Error."
+msgstr "出错。"
+
+#: ../Wiztemplate.pm:78 ../client_wizard/Bind_client.pm:97
+#: ../dhcp_wizard/Dhcp.pm:128 ../dns_wizard/Bind.pm:283
+#: ../dns_wizard/Bind.pm:289 ../dns_wizard/Bind.pm:296
+#: ../ftp_wizard/Proftpd.pm:168 ../proxy_wizard/Squid.pm:185
+#: ../pxe_wizard/Pxe.pm:295 ../pxe_wizard/Pxe.pm:307 ../pxe_wizard/Pxe.pm:319
+#: ../pxe_wizard/Pxe.pm:324 ../sshd_wizard/Sshd.pm:192
+#: ../web_wizard/Apache.pm:149
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: ../client_wizard/Bind_client.pm:38 ../client_wizard/Bind_client.pm:55
+msgid "DNS Client Wizard"
+msgstr "DNS 客户向导"
+
+#: ../client_wizard/Bind_client.pm:47
+msgid "You must first run the DNS server wizard"
+msgstr "您必须先运行 DNS 服务器向导"
+
+#: ../client_wizard/Bind_client.pm:55
+msgid ""
+"A client of your local network is a machine connected to the network having "
+"its own name and IP address."
+msgstr "局域网客户机是指连接到您网络上的一个机器，它有自己的名字和 IP 地址。"
+
+#: ../client_wizard/Bind_client.pm:55
+msgid "Press next to begin, or Cancel to leave this wizard."
+msgstr "按“下一步”将开始，按“取消”将退出此向导。"
+
+#: ../client_wizard/Bind_client.pm:55
+msgid ""
+"The server will use the information you enter here to make the name of the "
+"client available to other machines into your network."
+msgstr "服务器会使用您输入的内容，让您网络上的其他机器可以使用名字访问这个客户机。"
+
+#: ../client_wizard/Bind_client.pm:55
+msgid "This wizard will help you in adding a new client in your local DNS."
+msgstr "此向导将帮助您把一个新的客户机添加到您的本地 DNS。"
+
+#: ../client_wizard/Bind_client.pm:61
+msgid "(you don't need to type the domain after the name)"
+msgstr "(在名字后面不必输入域名)"
+
+#: ../client_wizard/Bind_client.pm:61 ../dns_wizard/Bind.pm:133
+msgid "Client identification:"
+msgstr "客户机身份:"
+
+#: ../client_wizard/Bind_client.pm:61 ../dns_wizard/Bind.pm:133
+msgid ""
+"Note that the given IP address and client name should be unique in the "
+"network."
+msgstr "注意提供的 IP 地址和客户机名字在网络上应该是唯一的。"
+
+#: ../client_wizard/Bind_client.pm:61 ../dns_wizard/Bind.pm:133
+msgid ""
+"Your client on the network will be identified by name, as in clientname."
+"company.net. Every machine on the network must have a (unique) IP address, "
+"in the usual dotted syntax."
+msgstr "您的网络客户机将通过名字来鉴别，例如 clientname.company.net。网络中每台机器必须有一个(唯一的)IP 地址，使用常规的点分隔语法。"
+
+#: ../client_wizard/Bind_client.pm:67 ../dns_wizard/Bind.pm:137
+msgid "Name of the machine:"
+msgstr "机器名:"
+
+#: ../client_wizard/Bind_client.pm:68 ../dns_wizard/Bind.pm:138
+msgid "IP address of the machine:"
+msgstr "机器的 IP 地址:"
+
+#: ../client_wizard/Bind_client.pm:73 ../dhcp_wizard/Dhcp.pm:93
+#: ../dhcp_wizard/Dhcp.pm:103 ../dns_wizard/Bind.pm:220
+msgid "Warning"
+msgstr "警告"
+
+#: ../client_wizard/Bind_client.pm:73 ../dhcp_wizard/Dhcp.pm:93
+#: ../dns_wizard/Bind.pm:220 ../web_wizard/Apache.pm:90
+msgid "You are in dhcp, server may not work with your configuration."
+msgstr "您在使用 dhcp，服务器可能无法按照您的配置工作。"
+
+#: ../client_wizard/Bind_client.pm:78 ../client_wizard/Bind_client.pm:83
+#: ../dhcp_wizard/Dhcp.pm:98 ../dhcp_wizard/Dhcp.pm:108
+#: ../dns_wizard/Bind.pm:72 ../drakwizard.pl:84 ../ftp_wizard/Proftpd.pm:92
+#: ../ftp_wizard/Proftpd.pm:111 ../ftp_wizard/Proftpd.pm:114
+#: ../ftp_wizard/Proftpd.pm:132 ../proxy_wizard/Squid.pm:67
+#: ../sshd_wizard/Sshd.pm:93 ../sshd_wizard/Sshd.pm:150
+#: ../web_wizard/Apache.pm:113 ../web_wizard/Apache.pm:128
+msgid "Error"
+msgstr "出错"
+
+#: ../client_wizard/Bind_client.pm:78
+msgid "System error, no configuration done"
+msgstr "系统错误，没有完成配置"
+
+#: ../client_wizard/Bind_client.pm:83
+msgid "This is not a valid address... press next to continue"
+msgstr "这个地址无效...按“下一步”继续"
+
+#: ../client_wizard/Bind_client.pm:88
+msgid "Adding a new client to your network"
+msgstr "添加新的客户机到您的网络"
+
+#: ../client_wizard/Bind_client.pm:88
+msgid ""
+"The wizard collected the following parameters needed to add a client to your "
+"network:"
+msgstr "为了把一个客户机添加到您的网络，向导收集了下列需要的参数:"
+
+#: ../client_wizard/Bind_client.pm:88
+msgid ""
+"To accept these values, and add your client, click the Next button or use "
+"the Back button to correct them."
+msgstr "要接受这些值，并添加您的客户机，请单击“下一步”按钮或使用“上一步”按钮来修改它们。"
+
+#: ../client_wizard/Bind_client.pm:90
+msgid "Client name"
+msgstr "客户名"
+
+#: ../client_wizard/Bind_client.pm:91
+msgid "Client IP:"
+msgstr "客户机 IP:"
+
+#: ../client_wizard/Bind_client.pm:97
+msgid "The wizard successfully added the client."
+msgstr "向导成功地添加了客户。"
+
+#: ../common/Wizcommon.pm:57
+msgid ""
+"You need to readjust your hostname. 'localhost' is not a correct hostname "
+"for a DNS server. Hostname must be a FQDN: Fully Qualified Domain Name"
+msgstr "您需要重新调整您的主机名。对于 DNS 服务器，“localhost”是错误的主机名。主机名必须是 FQDN: 全称域名"
+
+#: ../common/Wizcommon.pm:60
+msgid ""
+"You need to readjust your domainname. For a DNS server you need a correct "
+"domainname, not equal to localdomain or none. Hostname must be a FQDN: Fully "
+"Qualified Domain Name. Launch drakconnect to adjust it."
+msgstr "您需要重新调整您的主机名。对于 DNS 服务器，您需要正确的域名，而不能是localdomain 或不设置。主机名必须是 FQDN: 全称域名。请使用 DrakConnect 进行调整。"
+
+#: ../dhcp_wizard/Dhcp.pm:38 ../dhcp_wizard/Dhcp.pm:53
+msgid "DHCP Wizard"
+msgstr "DHCP 向导"
+
+#: ../dhcp_wizard/Dhcp.pm:53
+msgid ""
+"DHCP is a service that automatically assigns networking addresses to your "
+"workstations."
+msgstr "DHCP 是一个服务，它能够为您的工作站自动指派网络地址。"
+
+#: ../dhcp_wizard/Dhcp.pm:53
+msgid "This wizard will help you configuring the DHCP services of your server."
+msgstr "此向导将帮助您在本服务器上配置 DHCP 服务。"
+
+#: ../dhcp_wizard/Dhcp.pm:58
+msgid "Interface the dhcp server must listen to"
+msgstr "DHCP 服务器必须监听的网卡"
+
+#: ../dhcp_wizard/Dhcp.pm:73
+msgid ""
+"If you want to enable PXE in your dhcp server please check the box (Pre-boot "
+"eXecution Environment, a protocol that allows computers to boot through the "
+"network)."
+msgstr "如果您想要在您的 DHCP 服务器中启用 PXE，请选中此框(预启动执行环境 PXE，是一个允许计算机通过网络启动的协议)。"
+
+#: ../dhcp_wizard/Dhcp.pm:73
+msgid "Range of addresses used by DHCP"
+msgstr "DHCP 使用的地址范围"
+
+#: ../dhcp_wizard/Dhcp.pm:73
+msgid ""
+"Select the range of addresses assigned to the workstations by the DHCP "
+"service; unless you have special needs, you can safely accept the proposed "
+"values. (ie: 192.168.100.20 192.168.100.40)"
+msgstr "选择 DHCP 服务将要分配给各个工作站的地址范围；除非您有特殊要求，接受建议的值是安全的。(如: 192.168.100.20 192.168.100.40)"
+
+#: ../dhcp_wizard/Dhcp.pm:84 ../dhcp_wizard/Dhcp.pm:118
+msgid "Lowest IP address:"
+msgstr "最低的 IP 地址:"
+
+#: ../dhcp_wizard/Dhcp.pm:85 ../dhcp_wizard/Dhcp.pm:119
+msgid "Highest IP address:"
+msgstr "最高的 IP 地址:"
+
+#: ../dhcp_wizard/Dhcp.pm:86 ../dhcp_wizard/Dhcp.pm:120
+msgid "Gateway IP address:"
+msgstr "网关 IP 地址:"
+
+#: ../dhcp_wizard/Dhcp.pm:87 ../dhcp_wizard/Dhcp.pm:122
+msgid "Enable PXE:"
+msgstr "启用 PXE:"
+
+#: ../dhcp_wizard/Dhcp.pm:98
+msgid "The IP range specified is not correct."
+msgstr "指定的 IP 范围不对。"
+
+#: ../dhcp_wizard/Dhcp.pm:103
+msgid "The IP range specified is not in server address range."
+msgstr "指定的 IP 范围并不位于服务器地址的范围内。"
+
+#: ../dhcp_wizard/Dhcp.pm:108
+msgid "The IP of the server must not be in range."
+msgstr "服务器的 IP 必须不位于范围内。"
+
+#: ../dhcp_wizard/Dhcp.pm:113
+msgid "Configuring the DHCP server"
+msgstr "配置 DHCP 服务器"
+
+#: ../dhcp_wizard/Dhcp.pm:113
+msgid ""
+"The wizard collected the following parameters needed to configure your DHCP "
+"service:"
+msgstr "为了配置 DHCP 服务，向导收集了下列需要的参数:"
+
+#: ../dhcp_wizard/Dhcp.pm:115 ../ftp_wizard/Proftpd.pm:148
+#: ../ftp_wizard/Proftpd.pm:149 ../ftp_wizard/Proftpd.pm:150
+#: ../ftp_wizard/Proftpd.pm:151 ../ftp_wizard/Proftpd.pm:152
+#: ../ftp_wizard/Proftpd.pm:153 ../web_wizard/Apache.pm:136
+#: ../web_wizard/Apache.pm:137
+msgid "disabled"
+msgstr "已禁用"
+
+#: ../dhcp_wizard/Dhcp.pm:115 ../ftp_wizard/Proftpd.pm:148
+#: ../ftp_wizard/Proftpd.pm:149 ../ftp_wizard/Proftpd.pm:150
+#: ../ftp_wizard/Proftpd.pm:151 ../ftp_wizard/Proftpd.pm:152
+#: ../ftp_wizard/Proftpd.pm:153 ../web_wizard/Apache.pm:136
+#: ../web_wizard/Apache.pm:137
+msgid "enabled"
+msgstr "已启用"
+
+#: ../dhcp_wizard/Dhcp.pm:121
+msgid "Interface:"
+msgstr "网卡:"
+
+#: ../dhcp_wizard/Dhcp.pm:128
+msgid "The wizard successfully configured the DHCP services."
+msgstr "向导成功地配置了 DHCP 服务。"
+
+#: ../dhcp_wizard/Dhcp.pm:133 ../dns_wizard/Bind.pm:303
+#: ../ftp_wizard/Proftpd.pm:174 ../proxy_wizard/Squid.pm:190
+#: ../pxe_wizard/Pxe.pm:331 ../sshd_wizard/Sshd.pm:198
+#: ../web_wizard/Apache.pm:154
+msgid "Failed"
+msgstr "失败"
+
+#: ../dhcp_wizard/Dhcp.pm:134 ../proxy_wizard/Squid.pm:191
+#: ../web_wizard/Apache.pm:155
+msgid "Relaunch drakwizard, and try to change some parameters."
+msgstr "重新调用配置向导，然后试着更新一些参数。"
+
+#: ../dns_wizard/Bind.pm:82 ../dns_wizard/Bind.pm:836
+msgid "Master DNS server"
+msgstr "主 DNS 服务器"
+
+#: ../dns_wizard/Bind.pm:83 ../dns_wizard/Bind.pm:160
+#: ../dns_wizard/Bind.pm:850
+msgid "Slave DNS server"
+msgstr "从 DNS 服务器"
+
+#: ../dns_wizard/Bind.pm:84
+msgid "Add host in DNS"
+msgstr "在 DNS 中添加主机"
+
+#: ../dns_wizard/Bind.pm:85
+msgid "Remove host in DNS"
+msgstr "在 DNS 中删除主机"
+
+#: ../dns_wizard/Bind.pm:104
+msgid ""
+"DNS (Domain Name Server) is the service that maps an IP address of a machine "
+"with an internet host name."
+msgstr "DNS(Domain Name Server，域名服务器)是通过网络主机名字找到相应机器的服务。"
+
+#: ../dns_wizard/Bind.pm:104
+msgid "DNS Master configuration wizard"
+msgstr "主 DNS 配置向导"
+
+#: ../dns_wizard/Bind.pm:104
+msgid ""
+"This wizard will help you configuring the DNS services of your server. This "
+"configuration will provide a local DNS service for local computers names, "
+"with non-local requests forwarded to an outside DNS."
+msgstr "此向导将帮助您配置您服务器上的 DNS 服务。所做的配置将提供 DNS 服务以解析本地的计算机名字，非本地的请求将被转发给外部的 DNS。"
+
+#: ../dns_wizard/Bind.pm:125
+msgid "DNS server Interface"
+msgstr "DNS 服务器接口"
+
+#: ../dns_wizard/Bind.pm:133
+msgid "(You don't need to add the domain after the name)"
+msgstr "(在名字后面不必添加域名)"
+
+#: ../dns_wizard/Bind.pm:135 ../dns_wizard/Bind.pm:255
+msgid "Server:"
+msgstr "服务器:"
+
+#: ../dns_wizard/Bind.pm:136 ../dns_wizard/Bind.pm:256
+msgid "DNS Domainname:"
+msgstr "DNS 域名:"
+
+#: ../dns_wizard/Bind.pm:152
+msgid "Choose the host you want to remove in the following list."
+msgstr "请在下面的列表中选择您想要删除的主机。"
+
+#: ../dns_wizard/Bind.pm:152
+msgid "Remove a host in existing DNS configuration."
+msgstr "在现有的 DNS 配置中删除主机。"
+
+#: ../dns_wizard/Bind.pm:152
+msgid "Remove host:"
+msgstr "删除主机:"
+
+#: ../dns_wizard/Bind.pm:154
+msgid "Computer Name:"
+msgstr "计算机名:"
+
+#: ../dns_wizard/Bind.pm:160
+msgid ""
+"A slave name server will take some of the burden away from your primary name "
+"server, and will also function as a backup server, in case your master "
+"server is unreachable."
+msgstr "从域名服务器能够分担一部分主域名服务器的负担，并且可以作为一个备份用的服务器，在您的主服务器无法连接上时继续提供服务。"
+
+#: ../dns_wizard/Bind.pm:162 ../dns_wizard/Bind.pm:247
+msgid "IP Address of the master DNS server:"
+msgstr "主 DNS 服务器的 IP 地址:"
+
+#: ../dns_wizard/Bind.pm:177
+msgid ""
+"Forwarding occurs on only those queries for which the server is not "
+"authoritative and  does not have the answer in its cache."
+msgstr "向前查询只在要查询的服务器是非官方的或者在服务器的缓存中没有相应的回应的情况下发生。"
+
+#: ../dns_wizard/Bind.pm:177
+msgid "IP of your forwarder"
+msgstr "转发器的 IP 地址:"
+
+#: ../dns_wizard/Bind.pm:177
+msgid ""
+"If you need it and know your IP forwarder enter IP address of it, if you "
+"dont know leave it blank"
+msgstr "如果您需要它，并且知道您的转发器的 IP 地址的话，请输入它；否则，请您留空。"
+
+#: ../dns_wizard/Bind.pm:183 ../dns_wizard/Bind.pm:276
+msgid "External DNS:"
+msgstr "外部 DNS:"
+
+#: ../dns_wizard/Bind.pm:197
+msgid "Add search domain"
+msgstr "添加搜索域"
+
+#: ../dns_wizard/Bind.pm:197
+msgid ""
+"Domainname of this server is automatically added, and you dont need to add "
+"it here."
+msgstr "域名是服务器自动添加的，所以您不必在此处添加。"
+
+#: ../dns_wizard/Bind.pm:197
+msgid ""
+"Search list for host-name lookup.  The search list is normally determined "
+"from the local domain name; by default, it contains only the local domain "
+"name. This may be changed by listing the desired domain search path "
+"following the search keyword"
+msgstr "主机名查询的搜索列表。这个搜索列表通常由本地域名所决定；默认情况下，它仅仅包含本地域名。它可以通过列出想要的搜索关键词的域搜索路径来修改。"
+
+#: ../dns_wizard/Bind.pm:200 ../dns_wizard/Bind.pm:277
+msgid "Default domain name to search:"
+msgstr "搜索的默认域名:"
+
+#: ../dns_wizard/Bind.pm:205
+msgid ""
+"This is not a valid IP address for your forwarder... press next to continue"
+msgstr "您的转发器 IP 地址无效...按“下一步”继续"
+
+#: ../dns_wizard/Bind.pm:210
+msgid "This is not a valid Master DNS IP address... press next to continue"
+msgstr "主 DNS 服务器的 IP 地址无效...按“下一步”继续"
+
+#: ../dns_wizard/Bind.pm:215
+msgid "This is not a valid IP address... press next to continue"
+msgstr "这个 IP 地址无效...按“下一步”继续"
+
+#: ../dns_wizard/Bind.pm:225
+msgid ""
+"It seems that host is already in your DNS configuration... press next to "
+"continue"
+msgstr "看起来主机已经在您的 DNS 配置中了...按“下一步”继续"
+
+#: ../dns_wizard/Bind.pm:230
+msgid "Error:"
+msgstr "错误:"
+
+#: ../dns_wizard/Bind.pm:230
+msgid ""
+"It seems that this is not present in your DNS configuration... press next to "
+"continue"
+msgstr "看起来它并不在您的 DNS 配置中...按“下一步”继续"
+
+#: ../dns_wizard/Bind.pm:235
+msgid ""
+"It seems that no DNS server has been set through wizard. Please run DNS "
+"wizard: Master DNS server."
+msgstr "看起来在向导中并没有设定 DNS 服务器。请运行 DNS 向导: 主 DNS 服务器。"
+
+#: ../dns_wizard/Bind.pm:240
+msgid ""
+"It seems that you are not a master DNS server, so I can't add/remove host."
+msgstr "看起来您的 DNS 服务器并不是主 DNS 服务器，而仅仅是从服务器。所以我无法添加/删除主机。"
+
+#: ../dns_wizard/Bind.pm:245
+msgid "Wizard will Now build your DNS slave configuration"
+msgstr "向导现在将创建您的从 DNS 配置"
+
+#: ../dns_wizard/Bind.pm:245
+msgid "with this configuration:"
+msgstr "使用这个配置:"
+
+#: ../dns_wizard/Bind.pm:253
+msgid "Client with this identification will be added to your DNS"
+msgstr "采用这个标识的客户端将被添加到您的 DNS"
+
+#: ../dns_wizard/Bind.pm:257 ../dns_wizard/Bind.pm:266
+msgid "Computer name:"
+msgstr "计算机名:"
+
+#: ../dns_wizard/Bind.pm:258
+msgid "Computer IP address:"
+msgstr "计算机的 IP 地址:"
+
+#: ../dns_wizard/Bind.pm:264
+msgid "Client with this identification will be removed from your DNS"
+msgstr "采用这个标识的客户端将被从您的 DNS 中删除"
+
+#: ../dns_wizard/Bind.pm:272
+msgid ""
+"The DNS server is about to be configured with the following configuration"
+msgstr "这个 DNS 服务器即将按照以下配置情况进行配置"
+
+#: ../dns_wizard/Bind.pm:274
+msgid "Server Hostname:"
+msgstr "服务器主机名:"
+
+#: ../dns_wizard/Bind.pm:275
+msgid "Domainname:"
+msgstr "域名:"
+
+#: ../dns_wizard/Bind.pm:284
+msgid "The wizard successfully added the host in your DNS."
+msgstr "向导成功地在您的 DNS 中添加了主机。"
+
+#: ../dns_wizard/Bind.pm:290
+msgid "The wizard successfully removed the host from your DNS."
+msgstr "向导成功地从您的 DNS 中删除了主机。"
+
+#: ../dns_wizard/Bind.pm:297
+msgid "The wizard successfully configured the DNS service of your server."
+msgstr "向导已成功地为您的服务器配置了 DNS 服务。"
+
+#: ../dns_wizard/Bind.pm:304
+msgid "Please Relaunch drakwizard, and try to change some parameters."
+msgstr "请重新调用配置向导，然后试着更新一些参数。"
+
+#: ../dns_wizard/Bind.pm:836
+msgid "Configuring your system as Master DNS server ..."
+msgstr "正在将您的系统配置为主 DNS 服务器..."
+
+#: ../dns_wizard/Bind.pm:850
+msgid "Configuring your system as Slave DNS server ..."
+msgstr "将您的系统配置为从 DNS 服务器..."
+
+#: ../drakwizard.pl:42
+msgid "Apache2 web server"
+msgstr "Apache2 Web 服务器"
+
+#: ../drakwizard.pl:51
+msgid "Proxy"
+msgstr "代理服务器"
+
+#: ../drakwizard.pl:52 ../sshd_wizard/Sshd.pm:73
+msgid "OpenSSH daemon configuration"
+msgstr "OpenSSH 守护程序配置"
+
+#: ../drakwizard.pl:53
+msgid "Time server"
+msgstr "时间服务器"
+
+#: ../drakwizard.pl:54
+msgid "DHCP server"
+msgstr "DHCP 服务器"
+
+#: ../drakwizard.pl:55
+msgid "DNS server"
+msgstr "DNS 服务器"
+
+#: ../drakwizard.pl:59 ../ftp_wizard/Proftpd.pm:85
+msgid "FTP server"
+msgstr "FTP 服务器"
+
+#: ../drakwizard.pl:72
+msgid "Drakwizard wizard selection"
+msgstr "选择 Drakwizard 向导"
+
+#: ../drakwizard.pl:73
+msgid "Please select a wizard"
+msgstr "请选择一个向导"
+
+#: ../ftp_wizard/Proftpd.pm:40
+msgid "FTP wizard"
+msgstr "FTP 向导"
+
+#: ../ftp_wizard/Proftpd.pm:79
+msgid "FTP server configuration wizard"
+msgstr "FTP 服务器配置向导"
+
+#: ../ftp_wizard/Proftpd.pm:79
+msgid "This wizard will help you configuring an FTP server for your network."
+msgstr "此向导将帮助您在网络中配置 FTP 服务器。"
+
+#: ../ftp_wizard/Proftpd.pm:85
+msgid "Select the kind of FTP service you want to activate:"
+msgstr "选择您要激活的 FTP 服务类型:"
+
+#: ../ftp_wizard/Proftpd.pm:85
+msgid ""
+"Your server can act as an FTP server toward your internal network (intranet) "
+"and as an FTP server for the Internet."
+msgstr "您的服务器可以向内部网络(Intranet)提供 FTP 服务，也可以向 Internet 提供 FTP 服务。"
+
+#: ../ftp_wizard/Proftpd.pm:87
+msgid "Enable the FTP server for the intranet"
+msgstr "启用 Intranet 的 FTP 服务器"
+
+#: ../ftp_wizard/Proftpd.pm:88
+msgid "Enable the FTP server for the Internet"
+msgstr "启用 Internet 的 FTP 服务器"
+
+#: ../ftp_wizard/Proftpd.pm:92
+msgid ""
+"Please choose whether to allow a connection to FTP server from internal or "
+"external hosts."
+msgstr "请选择是允许从内部主机还是从外部主机连接到 FTP 服务器。"
+
+#: ../ftp_wizard/Proftpd.pm:99
+msgid "Admin email: email address of the FTP administrator."
+msgstr "管理员电子邮件: FTP 维护者的电子邮件地址。"
+
+#: ../ftp_wizard/Proftpd.pm:99
+msgid "FTP Proftpd server options, step 1"
+msgstr "FTP 服务器选项，第一步"
+
+#: ../ftp_wizard/Proftpd.pm:99
+msgid "Permit root login: allow root to log on FTP server."
+msgstr "允许 root 登录: 允许 root 登录到 FTP 服务器。"
+
+#: ../ftp_wizard/Proftpd.pm:105
+msgid "Server name:"
+msgstr "服务器名称:"
+
+#: ../ftp_wizard/Proftpd.pm:106
+msgid "Admin email:"
+msgstr "管理员电子邮件:"
+
+#: ../ftp_wizard/Proftpd.pm:107 ../sshd_wizard/Sshd.pm:88
+#: ../sshd_wizard/Sshd.pm:184
+msgid "Permit root login:"
+msgstr "允许 root 登录:"
+
+#: ../ftp_wizard/Proftpd.pm:111
+msgid ""
+"I can't find bash in list of shells! It seems you have modified it by hand! "
+"Please correct."
+msgstr "在 shell 列表中找不到 bash。可能您自行修改了该列表！请纠正。"
+
+#: ../ftp_wizard/Proftpd.pm:114
+msgid "Need a server name"
+msgstr "需要服务器名"
+
+#: ../ftp_wizard/Proftpd.pm:119
+msgid "Allow FTP resume: allow resume upload or download on FTP server."
+msgstr "允许 FTP 续传: 允许在 FTP 服务器上使用上传和下载的断点续传功能。"
+
+#: ../ftp_wizard/Proftpd.pm:119
+msgid "Allow FXP: allow file transfer via another FTP."
+msgstr "允许 FXP: 允许通过其他 FTP 进行文件传输。"
+
+#: ../ftp_wizard/Proftpd.pm:119
+msgid "Chroot home user: users will only see their home directory."
+msgstr "Chroot Home 用户: 用户只能看见他们的主目录。"
+
+#: ../ftp_wizard/Proftpd.pm:119
+msgid "FTP server options, step 2"
+msgstr "FTP 服务器选项，第二步"
+
+#: ../ftp_wizard/Proftpd.pm:127 ../ftp_wizard/Proftpd.pm:156
+msgid "FTP Port:"
+msgstr "FTP 端口:"
+
+#: ../ftp_wizard/Proftpd.pm:128
+msgid "Chroot home user:"
+msgstr "Chroot Home 用户:"
+
+#: ../ftp_wizard/Proftpd.pm:129
+msgid "Allow FTP resume:"
+msgstr "允许 FTP 续传:"
+
+#: ../ftp_wizard/Proftpd.pm:130
+msgid "Allow FXP:"
+msgstr "允许 FXP:"
+
+#: ../ftp_wizard/Proftpd.pm:132
+msgid "FTP Port should be a number."
+msgstr "FTP 端口应该是一个数字。"
+
+#: ../ftp_wizard/Proftpd.pm:136
+msgid "You are in DHCP, server may not work with your configuration."
+msgstr "您在使用 DHCP，服务器可能无法按照您的配置工作。"
+
+#: ../ftp_wizard/Proftpd.pm:141
+msgid "Sorry, you must be root to do this..."
+msgstr "对不起，您必须是 root 才能执行此操作..."
+
+#: ../ftp_wizard/Proftpd.pm:146
+msgid ""
+"The wizard collected the following parameters needed to configure your FTP "
+"server"
+msgstr "为了配置您的 FTP 服务器，向导收集了下列需要的参数"
+
+#: ../ftp_wizard/Proftpd.pm:146
+msgid ""
+"To accept those values, and configure your server, click the next button or "
+"use the back button to correct them"
+msgstr "要接受这些值，并配置您的服务器，请单击“下一步”按钮或使用“上一步”按钮来修改它们"
+
+#: ../ftp_wizard/Proftpd.pm:157
+msgid "Intranet FTP server:"
+msgstr "Intranet FTP 服务器:"
+
+#: ../ftp_wizard/Proftpd.pm:158
+msgid "Internet FTP server:"
+msgstr "Internet FTP 服务器:"
+
+#: ../ftp_wizard/Proftpd.pm:159
+msgid "Permit root Login"
+msgstr "允许 root 登录"
+
+#: ../ftp_wizard/Proftpd.pm:160
+msgid "Chroot Home user"
+msgstr "Chroot Home 用户"
+
+#: ../ftp_wizard/Proftpd.pm:161
+msgid "Allow FTP resume"
+msgstr "允许 FTP 续传"
+
+#: ../ftp_wizard/Proftpd.pm:162
+msgid "Allow FXP"
+msgstr "允许 FXP"
+
+#: ../ftp_wizard/Proftpd.pm:168
+msgid "The wizard successfully configured your intranet/Internet FTP server"
+msgstr "向导成功地配置了您的 Intranet/Internet FTP 服务器"
+
+#: ../ftp_wizard/Proftpd.pm:175 ../pxe_wizard/Pxe.pm:332
+#: ../sshd_wizard/Sshd.pm:199
+msgid "Please relaunch drakwizard, and try to change some parameters."
+msgstr "请重新调用配置向导，然后试着更新一些参数。"
+
+#: ../proxy_wizard/Squid.pm:42
+msgid "All - No access restriction"
+msgstr "全部 - 没有访问限制"
+
+#: ../proxy_wizard/Squid.pm:43
+msgid "Local Network - access for local network (recommended)"
+msgstr "局域网 - 允许局域网访问(推荐)"
+
+#: ../proxy_wizard/Squid.pm:44
+msgid "Localhost - access restricted to this server only"
+msgstr "本机 - 只允许这个服务器访问"
+
+#: ../proxy_wizard/Squid.pm:47
+msgid "No upper level proxy (recommended)"
+msgstr "没有上级代理(推荐)"
+
+#: ../proxy_wizard/Squid.pm:48
+msgid "Define an upper level proxy"
+msgstr "定义一个上级代理"
+
+#: ../proxy_wizard/Squid.pm:52
+msgid "Squid wizard"
+msgstr "Squid 向导"
+
+#: ../proxy_wizard/Squid.pm:78
+msgid "Proxy Configuration Wizard"
+msgstr "代理服务器配置向导"
+
+#: ../proxy_wizard/Squid.pm:78
+msgid ""
+"Squid is a web caching proxy server, it allows faster web access for your "
+"local network."
+msgstr "Squid 是一个 Web 缓存代理服务器，它允许从您的局域网更快的访问 Web。"
+
+#: ../proxy_wizard/Squid.pm:78
+msgid "This wizard will help you in configuring your proxy server."
+msgstr "此向导将帮助您配置代理服务器。"
+
+#: ../proxy_wizard/Squid.pm:83
+msgid "Proxy Port"
+msgstr "代理服务器端口"
+
+#: ../proxy_wizard/Squid.pm:83
+msgid ""
+"Proxy port value sets what port the proxy server will listen on for http "
+"requests. Default is 3128, other common value can be 8080, the port value "
+"needs to be greater than 1024."
+msgstr "代理端口指定代理服务器监听 HTTP 请求所使用的端口。缺省值是 3128，其他常用的值是 8080，端口号需要大于 1024。"
+
+#: ../proxy_wizard/Squid.pm:89
+msgid "Proxy port:"
+msgstr "代理服务器端口:"
+
+#: ../proxy_wizard/Squid.pm:94
+msgid ""
+"Press Next if you want to keep this value, or Back to correct your choice."
+msgstr "如果您要保留这个值，请按“下一步”。要修改您的选择，请按“上一步”。"
+
+#: ../proxy_wizard/Squid.pm:94
+msgid "You have entered a port that may be useful for this service:"
+msgstr "您输入的断口可能被此服务占用:"
+
+#: ../proxy_wizard/Squid.pm:101
+msgid "Press back to change the value."
+msgstr "按“上一步”修改值。"
+
+#: ../proxy_wizard/Squid.pm:101
+msgid "You must choose a port greater than 1024 and lower than 65535"
+msgstr "请选择一个 1024 到 65535 之间的端口号"
+
+#: ../proxy_wizard/Squid.pm:105
+msgid ""
+"Disk Cache is the amount of disk space that can be used for caching on disk."
+msgstr "磁盘缓存是可以用作缓存的磁盘空间总量。"
+
+#: ../proxy_wizard/Squid.pm:105
+msgid "For your information, here is /var/spool/squid space on disk:"
+msgstr "注意，/var/spool/squid 的磁盘空间是:"
+
+#: ../proxy_wizard/Squid.pm:105
+msgid ""
+"Memory Cache is the amount of RAM dedicated to cache memory operations (note "
+"that actual memory usage of the whole squid process is bigger)."
+msgstr "内存缓冲区是专门用于缓冲内存操作的 RAM 总量(注意整个 squid 进程实际使用的内存量比这个还多)"
+
+#: ../proxy_wizard/Squid.pm:105
+msgid "Proxy Cache Size"
+msgstr "代理缓存大小"
+
+#: ../proxy_wizard/Squid.pm:111 ../proxy_wizard/Squid.pm:164
+#: ../proxy_wizard/Squid.pm:177
+msgid "Memory cache (MB):"
+msgstr "内存缓冲区(MB):"
+
+#: ../proxy_wizard/Squid.pm:112 ../proxy_wizard/Squid.pm:165
+#: ../proxy_wizard/Squid.pm:178
+msgid "Disk space (MB):"
+msgstr "磁盘空间(MB):"
+
+#: ../proxy_wizard/Squid.pm:117
+msgid "Access Control"
+msgstr "访问控制"
+
+#: ../proxy_wizard/Squid.pm:117
+msgid ""
+"Choose the level that suits your needs. If you don't know, the Local Network "
+"level is usually the most appropriate. Beware that the All level may be not "
+"secure."
+msgstr "选择适合您需要的级别。如果不清楚，通常局域网是合适的级别。注意并非所有的级别都足够安全。"
+
+#: ../proxy_wizard/Squid.pm:117
+msgid "The proxy can be configured to use different access control levels"
+msgstr "可以配置代理使用不同的访问控制级别"
+
+#: ../proxy_wizard/Squid.pm:130
+msgid ""
+"Access will be allowed for hosts on the network. Here is the information "
+"found about your current local network, you can modify it if needed."
+msgstr "将允许网络上的主机访问。这里是您当前的局域网的有关信息，如果需要您可以修改。"
+
+#: ../proxy_wizard/Squid.pm:130
+msgid "Grant access on local network"
+msgstr "允许局域网访问"
+
+#: ../proxy_wizard/Squid.pm:130
+msgid ""
+"You can use either a numeric format like \"192.168.1.0/255.255.255.0\" or a "
+"text format like \".domain.net\""
+msgstr "可以使用数字格式，如“192.168.1.0/255.255.255.0”，或者文字格式，如“.domain.net”"
+
+#: ../proxy_wizard/Squid.pm:135
+msgid "Authorized network:"
+msgstr "授权的网络:"
+
+#: ../proxy_wizard/Squid.pm:135
+msgid ""
+"Use numeric format like \"192.168.1.0/255.255.255.0\" or a text format like "
+"\".domain.net\""
+msgstr "可以使用数字格式，如“192.168.1.0/255.255.255.0”，或者文字格式，如“.domain.net”"
+
+#: ../proxy_wizard/Squid.pm:140
+msgid ""
+"As an option, Squid can be configured in proxy cascading. You can add a new "
+"upper level proxy by specifying its hostname and port."
+msgstr "可选的，SQUID 可以配置成多层代理。您可以指定上级代理的主机名和端口。"
+
+#: ../proxy_wizard/Squid.pm:140 ../proxy_wizard/Squid.pm:153
+msgid "Cache hierarchy"
+msgstr "缓存层次"
+
+#: ../proxy_wizard/Squid.pm:140
+msgid ""
+"You can safely select \"No upper level proxy\" if you don't need this "
+"feature."
+msgstr "如果不需要，请选择“没有上级代理”。"
+
+#: ../proxy_wizard/Squid.pm:153
+msgid ""
+"Enter the qualified hostname (like \"cache.domain.net\") and the port of the "
+"proxy to use."
+msgstr "输入代理使用的完整的主机名(如“cache.domain.net”)和端口。"
+
+#: ../proxy_wizard/Squid.pm:155 ../proxy_wizard/Squid.pm:167
+msgid "Upper level proxy hostname:"
+msgstr "上级代理服务器主机名:"
+
+#: ../proxy_wizard/Squid.pm:156 ../proxy_wizard/Squid.pm:168
+msgid "Upper level proxy port:"
+msgstr "上级代理端口:"
+
+#: ../proxy_wizard/Squid.pm:161 ../proxy_wizard/Squid.pm:174
+msgid "Configuring the Proxy"
+msgstr "配置代理"
+
+#: ../proxy_wizard/Squid.pm:161 ../proxy_wizard/Squid.pm:174
+msgid ""
+"The wizard collected the following parameters needed to configure your proxy:"
+msgstr "为了配置您的代理服务器，向导收集了下列需要的参数:"
+
+#: ../proxy_wizard/Squid.pm:161 ../proxy_wizard/Squid.pm:174
+#: ../web_wizard/Apache.pm:134
+msgid ""
+"To accept these values, and configure your server, click the Next button or "
+"use the Back button to correct them."
+msgstr "要接受这些值，并配置您的服务器，请单击“下一步”按钮或使用“上一步”按钮来修改它们。"
+
+#: ../proxy_wizard/Squid.pm:163 ../proxy_wizard/Squid.pm:176
+msgid "Port:"
+msgstr "端口:"
+
+#: ../proxy_wizard/Squid.pm:166 ../proxy_wizard/Squid.pm:179
+msgid "Access Control:"
+msgstr "访问控制:"
+
+#: ../proxy_wizard/Squid.pm:185
+msgid "The wizard has successfully configured your proxy server."
+msgstr "向导成功地配置了您的代理服务器。"
+
+#: ../proxy_wizard/Squid.pm:237 ../web_wizard/Apache.pm:252
+#, perl-format
+msgid "Start %s server on boot"
+msgstr "在系统启动时启动 %s 服务器"
+
+#: ../proxy_wizard/Squid.pm:237 ../web_wizard/Apache.pm:252
+#, perl-format
+msgid "Would you like to start the %s service automatically on every boot?"
+msgstr "您希望每次系统启动时都自动启动 %s 服务吗？"
+
+#: ../proxy_wizard/Squid.pm:242
+msgid "Configuring your system as a Proxy server..."
+msgstr "正在将您的系统配置为代理服务器..."
+
+#: ../proxy_wizard/Squid.pm:242
+msgid "Squid proxy"
+msgstr "Squid 代理服务器"
+
+#: ../pxe_wizard/Pxe.pm:60
+msgid "PXE Wizard"
+msgstr "PXE 向导"
+
+#: ../pxe_wizard/Pxe.pm:78
+msgid ""
+"You need to readjust your domainname, not equal to localdomain or none. "
+"Please launch drakconnect to adjust it."
+msgstr "您需要重新调整您的主机名，不能是 localdomain 或不设置。请使用 DrakConnect 进行调整。"
+
+#: ../pxe_wizard/Pxe.pm:85 ../pxe_wizard/Pxe.pm:192
+msgid "Set PXE server"
+msgstr "设置 PXE 服务器"
+
+#: ../pxe_wizard/Pxe.pm:87
+msgid "Remove boot image in PXE"
+msgstr "在 PXE 中删除启动映像"
+
+#: ../pxe_wizard/Pxe.pm:88
+msgid "Modify boot image in PXE"
+msgstr "修改 PXE 中的启动映像"
+
+#: ../pxe_wizard/Pxe.pm:89
+msgid "Add all.rdz image (Mageia release )"
+msgstr ""
+
+#: ../pxe_wizard/Pxe.pm:111
+msgid "PXE wizard"
+msgstr "PXE 向导"
+
+#: ../pxe_wizard/Pxe.pm:111
+msgid "Set a PXE server."
+msgstr "设置 PXE 服务器。"
+
+#: ../pxe_wizard/Pxe.pm:111
+msgid ""
+"This wizard will help you configuring the PXE server, and PXE boot image "
+"management. PXE (Pre-boot eXecution Environment) is a protocol designed by "
+"Intel that allows computers to boot through the network. PXE is stored in "
+"the ROM of new generation network cards. When the computer boots up, the "
+"BIOS loads the PXE ROM in the memory and executes it. A menu is displayed, "
+"allowing the computer to boot an operating system loaded through the network."
+msgstr "本向导将帮助您配置 PXE 服务器和 PXE 引导映像管理。PXE(Pre-boot Execution Environment，预启动执行环境)是一个由 Intel 设计的协议，它使得计算机能通过网络启动。对于新一代网卡，PXE 保存在其 ROM 中。当计算机启动时，BIOS 装载 PXE ROM 到内存中，并且执行。一个菜单将会显示出来，允许计算机从网络中启动操作系统。"
+
+#: ../pxe_wizard/Pxe.pm:126
+msgid "What do you want to do:"
+msgstr "您想要执行何种操作:"
+
+#: ../pxe_wizard/Pxe.pm:132
+msgid "Add a boot image"
+msgstr "添加启动映像"
+
+#: ../pxe_wizard/Pxe.pm:132 ../pxe_wizard/Pxe.pm:142
+msgid ""
+"PXE description is used to explain the role of the boot image, e.g.: "
+"Mageia 1 image, Mageia cauldron image.."
+msgstr ""
+
+#: ../pxe_wizard/Pxe.pm:132 ../pxe_wizard/Pxe.pm:142
+msgid ""
+"PXE name: the name displayed in PXE menu (please provide an ASCII word or a "
+"number, with no spaces)"
+msgstr "PXE 名称: PXE 菜单中所显示的名称(一个单词或数字，无空格)"
+
+#: ../pxe_wizard/Pxe.pm:132
+msgid "Path to image: provide the full path to the network boot image"
+msgstr "映像的路径: 网络启动映像的完整路径"
+
+#: ../pxe_wizard/Pxe.pm:132
+msgid ""
+"To boot through network, the network computer needs a boot image. Moreover "
+"we need to name this image, so each boot image is related to a name in PXE "
+"menu. User can then choose which image he wants to boot through PXE."
+msgstr "要通过网络启动，网络计算机需要有引导映像。除此以外，我们还需要为此映像命名，这样每个引导映像在 PXE 菜单中就有一个对应的名字了。用户可以通过 PXE 选择想要启动哪个映像。"
+
+#: ../pxe_wizard/Pxe.pm:142
+msgid "Add all.rdz boot image"
+msgstr "添加 all.rdz 启动映像"
+
+#: ../pxe_wizard/Pxe.pm:142
+msgid ""
+"For technical reason, in case of multiple boot image, it's more simple to "
+"boot network computer through a kernel (vmlinuz), and provide one file with "
+"all drivers needed (in our case all.rdz)."
+msgstr "从技术方面考虑，如果有多个引导映像的话，通过内核(vmlinuz)并提供包含所需全部驱动程序的文件(all.rdz)来启动网络计算机更加容易。"
+
+#: ../pxe_wizard/Pxe.pm:142
+msgid "Path to all.rdz: provide the full path to all.rdz image"
+msgstr "all.rdz 的路径: all.rdz 映像的完整路径"
+
+#: ../pxe_wizard/Pxe.pm:142
+msgid ""
+"To boot through network, network computers need a boot image. Moreover we "
+"need to name this image, so each boot image is related to a name in PXE "
+"menu. So user can choose which image he wants to boot through PXE."
+msgstr "要通过网络启动，网络计算机需要有引导映像。除此以外，我们还需要为此映像命名，这样每个引导映像在 PXE 菜单中就有一个对应的名字了。用户可以通过 PXE 选择想要启动哪个映像。"
+
+#: ../pxe_wizard/Pxe.pm:153
+msgid ""
+"Please choose the PXE boot image you want to remove from the PXE server."
+msgstr "选择您想要从 PXE 服务器上删除的 PXE 启动映像。"
+
+#: ../pxe_wizard/Pxe.pm:153
+msgid "Remove a boot image"
+msgstr "删除引导映像"
+
+#: ../pxe_wizard/Pxe.pm:153
+msgid "The PXE boot image, and the related entry in PXE menu will be deleted."
+msgstr "PXE 引导映像及其在 PXE 菜单中的相应项将被删除。"
+
+#: ../pxe_wizard/Pxe.pm:155
+msgid "Boot image to remove:"
+msgstr "要删除的引导映像:"
+
+#: ../pxe_wizard/Pxe.pm:161
+msgid "Add options to boot image"
+msgstr "将选项添加到引导映像"
+
+#: ../pxe_wizard/Pxe.pm:161
+msgid ""
+"In some cases, you want to add some options to the PXE boot image. This "
+"wizard provides an easy way to customize a boot image with common parameters."
+msgstr "在某些情况下，您可能想要在 PXE 引导映像中添加一些选项。此向导提供了一种用公共参数自定义引导映像的便捷方式。"
+
+#: ../pxe_wizard/Pxe.pm:161
+msgid ""
+"Please choose, from the list below, the PXE boot image you want to modify"
+msgstr "请从下面的列表中选择您想要要修改的 PXE 引导映像"
+
+#: ../pxe_wizard/Pxe.pm:163 ../pxe_wizard/Pxe.pm:172 ../pxe_wizard/Pxe.pm:250
+msgid "Boot image to modify:"
+msgstr "要修改的启动映像:"
+
+#: ../pxe_wizard/Pxe.pm:170
+msgid "Add option to the PXE boot image"
+msgstr "将选项添加到 PXE 启动盘"
+
+#: ../pxe_wizard/Pxe.pm:170
+msgid ""
+"Install directory: the full path to Mageia install server directory"
+msgstr ""
+
+#: ../pxe_wizard/Pxe.pm:170
+msgid "Installation method: choose NFS or HTTP."
+msgstr "安装方式: 选择 NFS 或 HTTP。"
+
+#: ../pxe_wizard/Pxe.pm:170
+msgid ""
+"Server IP: IP address of the server, which contains installation directory. "
+"You can create one with Mageia install server wizard."
+msgstr ""
+
+#: ../pxe_wizard/Pxe.pm:173 ../pxe_wizard/Pxe.pm:251
+msgid "Server IP:"
+msgstr "服务器 IP:"
+
+#: ../pxe_wizard/Pxe.pm:174 ../pxe_wizard/Pxe.pm:252
+msgid "Install directory:"
+msgstr "安装目录:"
+
+#: ../pxe_wizard/Pxe.pm:175 ../pxe_wizard/Pxe.pm:253
+msgid "Installation method:"
+msgstr "安装方式:"
+
+#: ../pxe_wizard/Pxe.pm:180
+msgid "ACPI option: Advanced Configuration and Power Interface"
+msgstr "ACPI 选项: 高级配置和电源接口"
+
+#: ../pxe_wizard/Pxe.pm:180
+msgid ""
+"Network client interface: the network interface used for the installation "
+"process."
+msgstr "网卡: 通过哪块网卡安装。"
+
+#: ../pxe_wizard/Pxe.pm:180
+msgid "Ramsize: adjust the ramsize parameter on boot image."
+msgstr "内存大小: 在启动盘上调整内存大小。"
+
+#: ../pxe_wizard/Pxe.pm:180
+msgid "VGA option: if you encounter any problem with VGA, please adjust. "
+msgstr "VGA 选项: 如果您遇到了一些 VGA 上的问题，请调整。"
+
+#: ../pxe_wizard/Pxe.pm:182 ../pxe_wizard/Pxe.pm:254
+msgid "Network client interface:"
+msgstr "网卡:"
+
+#: ../pxe_wizard/Pxe.pm:183 ../pxe_wizard/Pxe.pm:255
+msgid "Ramsize:"
+msgstr "内存大小:"
+
+#: ../pxe_wizard/Pxe.pm:184 ../pxe_wizard/Pxe.pm:256
+msgid "VGA option:"
+msgstr "VGA 选项:"
+
+#: ../pxe_wizard/Pxe.pm:185 ../pxe_wizard/Pxe.pm:257
+msgid "ACPI option:"
+msgstr "ACPI 选项:"
+
+#: ../pxe_wizard/Pxe.pm:186 ../pxe_wizard/Pxe.pm:258
+msgid "APIC option:"
+msgstr "APIC 选项:"
+
+#: ../pxe_wizard/Pxe.pm:187 ../pxe_wizard/Pxe.pm:259
+msgid "Custom option:"
+msgstr "自定义选项:"
+
+#: ../pxe_wizard/Pxe.pm:192
+msgid ""
+"Now the wizard will configure all needed default configuration files to "
+"allow computers to boot through the network."
+msgstr "向导现在将配置允许计算机从网络启动所需的全部默认配置文件。"
+
+#: ../pxe_wizard/Pxe.pm:192
+msgid ""
+"We need to use a special dhcpd.conf file with PXE parameter. To set up such "
+"a DHCP server, launch the DHCP wizard and check the box 'Enable PXE'. If you "
+"don't do that, PXE query will not be answered by this server."
+msgstr "我们需要使用带 PXE 参数的特殊 dhcpd.conf。要设置这样的 DHCP 服务器，请调用 DHCP 配置向导，选中复选框“启用 PXE”。如果您不这样做的话，此服务器将无法响应 PXE 查询。"
+
+#: ../pxe_wizard/Pxe.pm:196
+msgid ""
+"Please provide a bootable image. To boot through a network, network "
+"computers need a boot image."
+msgstr "请提供可引导映像。要通过网络启动，网络计算机需要有引导映像。"
+
+#: ../pxe_wizard/Pxe.pm:200
+msgid "We need an all.rdz or a network.img image. Please add one."
+msgstr "我们需要 all.rdz 或 network.img 映像。请先添加。"
+
+#: ../pxe_wizard/Pxe.pm:208
+msgid ""
+"Please provide an all.rdz image, which contains all drivers. You can find "
+"one on the first CD of the Mageia distribution, in the /isolinux/"
+"alt0/ directory."
+msgstr ""
+
+#: ../pxe_wizard/Pxe.pm:212 ../pxe_wizard/Pxe.pm:216
+#, perl-format
+msgid "Please choose an image from a different directory than %s."
+msgstr "请从不同于 %s 文件夹的文件夹中选择一个映像文件。"
+
+#: ../pxe_wizard/Pxe.pm:220
+msgid ""
+"Please provide a correct PXE name: one ASCII word or one number with no "
+"spaces."
+msgstr "请提供正确的 PXE 名称: 一个单词或数字，没有空格。"
+
+#: ../pxe_wizard/Pxe.pm:224
+msgid ""
+"To add/remove/modify PXE boot image, you need to run 'Set PXE server' before."
+msgstr "要添加、删除或修改 PXE 启动映像，您需要先运行“设置 PXE 服务器”。"
+
+#: ../pxe_wizard/Pxe.pm:229 ../pxe_wizard/Pxe.pm:233
+msgid "A similar name is already used in PXE menu"
+msgstr "相似的名字已经在 PXE 菜单中用过了"
+
+#: ../pxe_wizard/Pxe.pm:229 ../pxe_wizard/Pxe.pm:233
+msgid "Please provide another one."
+msgstr "请使用另外一个。"
+
+#: ../pxe_wizard/Pxe.pm:237
+msgid "The wizard will now prepare all default files to set your PXE server"
+msgstr "向导现在将要准备所有的默认文件，以设置您的 PXE 服务器"
+
+#: ../pxe_wizard/Pxe.pm:239
+msgid "TFTP directory:"
+msgstr "TFTP 目录:"
+
+#: ../pxe_wizard/Pxe.pm:240
+msgid "Boot image path:"
+msgstr "启动映像路径:"
+
+#: ../pxe_wizard/Pxe.pm:241
+msgid "PXE 'default' file:"
+msgstr "PXE“默认”文件:"
+
+#: ../pxe_wizard/Pxe.pm:242
+msgid "PXE 'help' file:"
+msgstr "PXE“帮助”文件:"
+
+#: ../pxe_wizard/Pxe.pm:248
+msgid "The wizard will now modify boot options with those parameters:"
+msgstr "向导现在将启动选项的这些参数:"
+
+#: ../pxe_wizard/Pxe.pm:265
+msgid "The wizard will now remove this PXE boot image"
+msgstr "向导现在将删除此 PXE 引导映像"
+
+#: ../pxe_wizard/Pxe.pm:267
+msgid "PXE entry to remove:"
+msgstr "要删除的 PXE 项:"
+
+#: ../pxe_wizard/Pxe.pm:274 ../pxe_wizard/Pxe.pm:284
+msgid "The wizard will now add this PXE boot image"
+msgstr "向导现在将添加此 PXE 引导映像"
+
+#: ../pxe_wizard/Pxe.pm:296
+msgid "The wizard successfully added the PXE boot image."
+msgstr "向导成功地添加了 PXE 引导映像。"
+
+#: ../pxe_wizard/Pxe.pm:308
+msgid "The wizard successfully removed the PXE boot image."
+msgstr "向导成功地删除了 PXE 引导映像。"
+
+#: ../pxe_wizard/Pxe.pm:320
+msgid "The wizard successfully modified the boot option."
+msgstr "向导成功地修改了启动选项。"
+
+#: ../pxe_wizard/Pxe.pm:325
+msgid "The wizard successfully configured your PXE server."
+msgstr "向导成功地配置了您的 PXE 服务器。"
+
+#: ../pxe_wizard/Pxe.pm:624
+msgid "Configuring PXE server on your system..."
+msgstr "正在您的系统中配置 PXE 服务器..."
+
+#: ../pxe_wizard/Pxe.pm:624
+msgid "PXE server"
+msgstr "PXE 服务器"
+
+#: ../sshd_wizard/Sshd.pm:67
+msgid "Newbie - classical options"
+msgstr "新手 - 经典选项"
+
+#: ../sshd_wizard/Sshd.pm:68
+msgid "Expert - advanced ssh options"
+msgstr "专家 - 高级 ssh 选项"
+
+#: ../sshd_wizard/Sshd.pm:73
+msgid "Which type of configuration do you want to do:"
+msgstr "您想要执行何种配置:"
+
+#: ../sshd_wizard/Sshd.pm:81
+msgid "SSH server, classical options"
+msgstr "SSH 服务器，经典选项"
+
+#: ../sshd_wizard/Sshd.pm:89 ../sshd_wizard/Sshd.pm:185
+msgid "Listen address:"
+msgstr "监听地址:"
+
+#: ../sshd_wizard/Sshd.pm:89
+msgid "Specifies the local addresses sshd should listen on."
+msgstr "指定 sshd 应监听的本地地址。"
+
+#: ../sshd_wizard/Sshd.pm:90 ../sshd_wizard/Sshd.pm:186
+msgid "Port number:"
+msgstr "端口号:"
+
+#: ../sshd_wizard/Sshd.pm:90
+msgid "Specifies the port number that sshd listens on. The default is 22."
+msgstr "请指定 sshd 应监听的端口号。默认为 22。"
+
+#: ../sshd_wizard/Sshd.pm:93
+msgid "Port should be a number"
+msgstr "端口号应该是数字"
+
+#: ../sshd_wizard/Sshd.pm:104
+msgid "Authentication Method"
+msgstr "身份验证方式"
+
+#: ../sshd_wizard/Sshd.pm:114
+msgid "RSA auth:"
+msgstr "RSA 验证:"
+
+#: ../sshd_wizard/Sshd.pm:115
+msgid "PubKey auth:"
+msgstr "公钥验证:"
+
+#: ../sshd_wizard/Sshd.pm:116
+msgid "Auth key file:"
+msgstr "验证密钥文件:"
+
+#: ../sshd_wizard/Sshd.pm:117
+msgid "Password auth:"
+msgstr "密码验证:"
+
+#: ../sshd_wizard/Sshd.pm:118
+msgid "Ignore rhosts file:"
+msgstr "忽略 rhosts 文件:"
+
+#: ../sshd_wizard/Sshd.pm:119
+msgid "Permit empty password:"
+msgstr "允许空密码:"
+
+#: ../sshd_wizard/Sshd.pm:124
+msgid "Log"
+msgstr "日志"
+
+#: ../sshd_wizard/Sshd.pm:124
+msgid ""
+"Log level: gives the verbosity level that is used when logging messages from "
+"sshd."
+msgstr "日志级别：指定 sshd 登录消息所使用的详细级别。"
+
+#: ../sshd_wizard/Sshd.pm:124
+msgid ""
+"Syslog facility: gives the facility code that is used when logging messages "
+"from sshd"
+msgstr "系统日志特性：指定 sshd 的登录消息所用的功能代码。"
+
+#: ../sshd_wizard/Sshd.pm:130
+msgid "Syslog facility:"
+msgstr "系统日志功能："
+
+#: ../sshd_wizard/Sshd.pm:131
+msgid "Log level:"
+msgstr "日志级别:"
+
+#: ../sshd_wizard/Sshd.pm:136
+msgid "Login options"
+msgstr "登录选项"
+
+#: ../sshd_wizard/Sshd.pm:136
+msgid ""
+"Print last log: whether sshd should print the date and time when the user "
+"last logged in"
+msgstr "打印上次日志：ssh 是否应打印用户上次登录的日期和时间"
+
+#: ../sshd_wizard/Sshd.pm:144
+msgid "Login Grace time:"
+msgstr "登录等待时间:"
+
+#: ../sshd_wizard/Sshd.pm:144
+msgid ""
+"The server disconnects after this time if the user has not successfully "
+"logged in. If the value is 0, there is no time limit. The default is 120 "
+"seconds."
+msgstr "如果用户在指定时间内尚未登录成功，则服务器将断开连接。如果此值为 0，则代表没有时间限制。默认值为 120 秒。"
+
+#: ../sshd_wizard/Sshd.pm:145
+msgid "Keep alive:"
+msgstr "保持连接:"
+
+#: ../sshd_wizard/Sshd.pm:146
+msgid "Print motd:"
+msgstr "打印 motd:"
+
+#: ../sshd_wizard/Sshd.pm:147
+msgid "Print last log:"
+msgstr "打印上次登录:"
+
+#: ../sshd_wizard/Sshd.pm:150
+msgid "Login grace time should be a number"
+msgstr "登录等待时间应该是数字"
+
+#: ../sshd_wizard/Sshd.pm:155
+msgid ""
+"Strict modes: specifies whether sshd should check file modes and ownership "
+"of the user's files and home directory before accepting login. This is "
+"normally desirable because novices sometimes accidentally leave their "
+"directory or files world-writable"
+msgstr "严格模式: 指定 sshd 是否应在接受登录前先检查用户文件和主目录的文件模式和所有权。大多数系统管理都会需要此特性，因为新手经常将他们的目录或文件不小心设置为任何人可写。"
+
+#: ../sshd_wizard/Sshd.pm:155
+msgid "User Login options"
+msgstr "用户登录选项"
+
+#: ../sshd_wizard/Sshd.pm:163
+msgid "Strict modes:"
+msgstr "严格模式:"
+
+#: ../sshd_wizard/Sshd.pm:164
+msgid "Allow users:"
+msgstr "允许用户:"
+
+#: ../sshd_wizard/Sshd.pm:164
+msgid ""
+"If specified, login is allowed only for user names that match one of the "
+"patterns. ie: erwan aginies guibo"
+msgstr "如果指定的话，只允许指定的用户登录。如: erwan aginies guibo"
+
+#: ../sshd_wizard/Sshd.pm:165
+msgid "Deny users:"
+msgstr "禁止的用户:"
+
+#: ../sshd_wizard/Sshd.pm:165
+msgid ""
+"Login is disallowed for user names that match one of the patterns. ie: "
+"pirate guillomovitch"
+msgstr "禁止列出的用户登录。如: pirate guillomovitch"
+
+#: ../sshd_wizard/Sshd.pm:170
+msgid "Compression: Specifies whether compression is allowed."
+msgstr "压缩: 指定是否允许压缩。"
+
+#: ../sshd_wizard/Sshd.pm:170
+msgid ""
+"X11 forwarding: specifies whether X11 forwarding is permitted. Note that "
+"disabling X11 forwarding does not prevent users from forwarding X11 traffic, "
+"as users can always install their own forwarders."
+msgstr "X11 转发：指定是否允许 X11 转发。请注意禁用 X11 转发无法阻止用户转发 X11 流量，因为用户总可以安装自己的转发器。"
+
+#: ../sshd_wizard/Sshd.pm:176
+msgid "Compression:"
+msgstr "压缩:"
+
+#: ../sshd_wizard/Sshd.pm:177
+msgid "X11 forwarding:"
+msgstr "X11 转发:"
+
+#: ../sshd_wizard/Sshd.pm:182
+msgid "Summary of OpenSSH configuration."
+msgstr "OpenSSH 配置概要。"
+
+#: ../sshd_wizard/Sshd.pm:192
+msgid "The wizard successfully configured your SSH server."
+msgstr "向导成功地配置了您的 SSH 服务器。"
+
+#: ../sshd_wizard/Sshd.pm:252
+msgid "Configuring your OpenSSH server..."
+msgstr "正在配置您的 OpenSSH 服务器..."
+
+#: ../sshd_wizard/Sshd.pm:252
+msgid "OpenSSH server"
+msgstr "OpenSSH 服务器"
+
+#: ../time_wizard/Ntp.pm:37
+msgid "Time wizard"
+msgstr "时间向导"
+
+#: ../time_wizard/Ntp.pm:51
+msgid "Try again"
+msgstr "再试一次"
+
+#: ../time_wizard/Ntp.pm:52
+msgid "Save config without test"
+msgstr "不经测试保存配置"
+
+#: ../time_wizard/Ntp.pm:73
+msgid ""
+"This wizard will help you to set the time of your server synchronized with "
+"an external time server."
+msgstr "此向导将帮助您配置您服务器的时间，与一个外部时间服务器同步。"
+
+#: ../time_wizard/Ntp.pm:73
+msgid "Thus your server will be the local time server for your network."
+msgstr "这样您到服务器将成为您局域网上的时间服务器。"
+
+#: ../time_wizard/Ntp.pm:73
+msgid "press next to begin, or cancel to leave this wizard"
+msgstr "点击“下一步”开始，或“取消”离开此向导"
+
+#: ../time_wizard/Ntp.pm:78
+msgid ""
+"(we recommend using the server pool.ntp.org twice as this server randomly "
+"points to available time servers)"
+msgstr "(我们推荐您使用两个都使用 pool.ntp.org，因为此服务器会随机指向可用的时间服务器)"
+
+#: ../time_wizard/Ntp.pm:78
+msgid "Select a primary a secondary and a third server from the list."
+msgstr "从列表中选择一个主服务器、一个辅服务器和一个第三服务器。"
+
+#: ../time_wizard/Ntp.pm:78
+msgid "Time servers"
+msgstr "时间服务器"
+
+#: ../time_wizard/Ntp.pm:85 ../time_wizard/Ntp.pm:123
+msgid "Primary time server:"
+msgstr "主时间服务器:"
+
+#: ../time_wizard/Ntp.pm:86 ../time_wizard/Ntp.pm:124
+msgid "Secondary time server:"
+msgstr "辅时间服务器:"
+
+#: ../time_wizard/Ntp.pm:87 ../time_wizard/Ntp.pm:125
+msgid "Third time server:"
+msgstr "第三时间服务器:"
+
+#: ../time_wizard/Ntp.pm:92 ../time_wizard/Ntp.pm:107
+msgid "Choose a timezone"
+msgstr "选择一个时区"
+
+#: ../time_wizard/Ntp.pm:99
+msgid "Choose a region:"
+msgstr "选择一个区域:"
+
+#: ../time_wizard/Ntp.pm:112
+msgid "Choose a city:"
+msgstr "选择一个城市:"
+
+#: ../time_wizard/Ntp.pm:117
+msgid ""
+"If the time server is not immediately available (network or other reason), "
+"there will be about a 30 second delay."
+msgstr "如果由于网络或其他原因，不能马上连接到时间服务器，您可能要等待 30 秒钟。"
+
+#: ../time_wizard/Ntp.pm:117
+msgid "Press next to start the time servers test."
+msgstr "点击“下一步”开始测试时间服务器。"
+
+#: ../time_wizard/Ntp.pm:117
+msgid "Testing the time servers availability"
+msgstr "测试时间服务器是否可用"
+
+#: ../time_wizard/Ntp.pm:126
+msgid "Time zone:"
+msgstr "时区:"
+
+#: ../time_wizard/Ntp.pm:139
+msgid "The time servers are not responding. The causes could be:"
+msgstr "时间服务器没有响应。原因可能是:"
+
+#: ../time_wizard/Ntp.pm:140
+msgid "- non existent time servers"
+msgstr "- 没有时间服务器"
+
+#: ../time_wizard/Ntp.pm:141
+msgid "- no outside network"
+msgstr "- 没有外部网络"
+
+#: ../time_wizard/Ntp.pm:142
+msgid "- other reasons..."
+msgstr "- 其它原因..."
+
+#: ../time_wizard/Ntp.pm:143
+msgid ""
+"- You can try again to contact time servers, or save configuration without "
+"actually setting time."
+msgstr "- 您可以再次尝试连接时间服务器，或保存配置而不实际设定时间。"
+
+#: ../time_wizard/Ntp.pm:159
+msgid "Time server configuration saved"
+msgstr "时间服务器配置已保存"
+
+#: ../time_wizard/Ntp.pm:159
+msgid "Your server can now act as a time server for your local network."
+msgstr "您的服务器现在可以对您的局域网提供时间服务。"
+
+#: ../web_wizard/Apache.pm:40
+msgid "Web wizard"
+msgstr "Web 向导"
+
+#: ../web_wizard/Apache.pm:64
+#, perl-format
+msgid "%s does not exist."
+msgstr "%s 不存在。"
+
+#: ../web_wizard/Apache.pm:72
+msgid "This wizard will help you configuring the Web server for your network."
+msgstr "此向导将帮助您配置您网络的 Web 服务器。"
+
+#: ../web_wizard/Apache.pm:72
+msgid "Web server configuration wizard"
+msgstr "Web 服务器配置向导"
+
+#: ../web_wizard/Apache.pm:78
+msgid "Don't check any box if you don't want to activate your Web server."
+msgstr "如果您不想激活您的 Web 服务器，不要选中任何复选框。"
+
+#: ../web_wizard/Apache.pm:78
+msgid "Select the kind of Web service you want to activate:"
+msgstr "选择您想激活的 Web 服务:"
+
+#: ../web_wizard/Apache.pm:78
+msgid "Web server"
+msgstr "Web 服务器"
+
+#: ../web_wizard/Apache.pm:78
+msgid ""
+"Your server can act as a Web server toward your internal network (intranet) "
+"and as a Web server for the Internet."
+msgstr "您的服务器可以在您的网络(Intranet)上作为 Web 服务器，也可以对 Internet 提供 Web 服务。"
+
+#: ../web_wizard/Apache.pm:84
+msgid "Enable the Web server for the intranet"
+msgstr "启用 Intranet 用的 Web 服务器"
+
+#: ../web_wizard/Apache.pm:85
+msgid "Enable the Web server for the Internet"
+msgstr "启用 Internet 用的 Web 服务器"
+
+#: ../web_wizard/Apache.pm:95
+msgid ""
+"* User module: allows users to have a directory in their home directories "
+"available on your http server via http://www.yourserver.com/~user, you will "
+"be asked for the name of this directory afterward."
+msgstr "* 用户模块: 允许用户在其主目录中获得一个目录，通过您服务器上的 http://www.yourserver.com/~user 进行访问。您稍候将会被问到此目录的名称。"
+
+#: ../web_wizard/Apache.pm:95
+msgid "Modules:"
+msgstr "模块:"
+
+#: ../web_wizard/Apache.pm:98
+msgid ""
+"Allows users to get a directory in their home directories available on your "
+"http server via http://www.yourserver.com/~user."
+msgstr "允许用户在其主目录中获得一个目录，通过您服务器上的http://www.yourserver.com/~user 进行访问。"
+
+#: ../web_wizard/Apache.pm:104 ../web_wizard/Apache.pm:116
+msgid ""
+"Type the name of the directory users should create in their homes (without "
+"~/) to get it available via http://www.yourserver.com/~user"
+msgstr "请输入用户应该在其主目录中创建的目录名(不包括~/)，这样就可以通过 http://www.yourserver.com/~user 访问"
+
+#: ../web_wizard/Apache.pm:113
+msgid "You must specify a user directory."
+msgstr "您必须指定用户目录。"
+
+#: ../web_wizard/Apache.pm:116
+msgid "user http sub-directory: ~/"
+msgstr "使用 http 子目录: ~/"
+
+#: ../web_wizard/Apache.pm:121
+msgid "Type the path of the directory you want being the document root."
+msgstr "输入您想要做为文档根的目录路径。"
+
+#: ../web_wizard/Apache.pm:124 ../web_wizard/Apache.pm:142
+msgid "Document root:"
+msgstr "文档根:"
+
+#: ../web_wizard/Apache.pm:128
+msgid "The path you entered does not exist."
+msgstr "您输入的路径不存在。"
+
+#: ../web_wizard/Apache.pm:134
+msgid "Configuring the Web server"
+msgstr "配置 Web 服务器"
+
+#: ../web_wizard/Apache.pm:134
+msgid ""
+"The wizard collected the following parameters needed to configure your Web "
+"server"
+msgstr "为了配置您的 WEB 服务器，向导收集了下列需要的参数:"
+
+#: ../web_wizard/Apache.pm:140
+msgid "Intranet web server:"
+msgstr "Intranet Web 服务器:"
+
+#: ../web_wizard/Apache.pm:141
+msgid "Internet web server:"
+msgstr "Internet Web 服务器:"
+
+#: ../web_wizard/Apache.pm:143
+msgid "User directory:"
+msgstr "用户目录:"
+
+#: ../web_wizard/Apache.pm:149
+msgid "The wizard successfully configured your intranet/Internet Web server"
+msgstr "向导成功地配置了您的 Intranet/Internet Web 服务器"
+
+#: ../web_wizard/Apache.pm:257
+msgid "Apache server"
+msgstr "Apache 服务器"
+
+#: ../web_wizard/Apache.pm:257
+msgid "Configuring your system as Apache server ..."
+msgstr "正在将您的系统配置为 Apache 服务器..."
