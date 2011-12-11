@@ -1,0 +1,6296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: drakx-net\n"
+"POT-Creation-Date: 2011-11-18 13:57+0100\n"
+"PO-Revision-Date: 2011-12-11 12:11+0000\n"
+"Last-Translator: walter  lewis <lyh19901223@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../bin/drakconnect-old:45
+#, c-format
+msgid "Network configuration (%d adapters)"
+msgstr "网络配置(%d 网卡)"
+
+#: ../bin/drakconnect-old:64 ../bin/drakinvictus:105
+#, c-format
+msgid "Interface"
+msgstr "网卡"
+
+#: ../bin/drakconnect-old:64 ../bin/drakconnect-old:208 ../bin/drakhosts:187
+#: ../lib/network/connection/ethernet.pm:141
+#: ../lib/network/drakconnect/edit.pm:151 ../lib/network/netconnect.pm:633
+#: ../lib/network/vpn/openvpn.pm:223
+#, c-format
+msgid "IP address"
+msgstr "IP 地址"
+
+#: ../bin/drakconnect-old:64 ../bin/drakids:261
+#: ../lib/network/drakconnect/edit.pm:135
+#: ../lib/network/drakconnect/edit.pm:393 ../lib/network/netconnect.pm:477
+#, c-format
+msgid "Protocol"
+msgstr "协议"
+
+#: ../bin/drakconnect-old:64 ../lib/network/netconnect.pm:463
+#, c-format
+msgid "Driver"
+msgstr "驱动程序"
+
+#: ../bin/drakconnect-old:64
+#, c-format
+msgid "State"
+msgstr "状态"
+
+#: ../bin/drakconnect-old:79
+#, c-format
+msgid "Hostname: "
+msgstr "主机名: "
+
+#: ../bin/drakconnect-old:81
+#, c-format
+msgid "Configure hostname..."
+msgstr "配置主机名..."
+
+#: ../bin/drakconnect-old:95 ../bin/drakconnect-old:171
+#, c-format
+msgid "LAN configuration"
+msgstr "局域网配置"
+
+#: ../bin/drakconnect-old:100
+#, c-format
+msgid "Configure Local Area Network..."
+msgstr "配置局域网..."
+
+#: ../bin/drakconnect-old:106 ../bin/draknfs:192 ../bin/net_applet:217
+#: ../lib/network/drakconnect/edit.pm:71
+#, c-format
+msgid "Help"
+msgstr "帮助"
+
+#: ../bin/drakconnect-old:108 ../bin/drakinvictus:140
+#: ../lib/network/drakconnect/edit.pm:72 ../lib/network/drakconnect/edit.pm:76
+#, c-format
+msgid "Apply"
+msgstr "应用"
+
+#: ../bin/drakconnect-old:110 ../bin/drakconnect-old:263
+#: ../bin/draknetprofile:159 ../bin/net_monitor:388
+#: ../lib/network/drakconnect/global.pm:88
+#, c-format
+msgid "Cancel"
+msgstr "取消"
+
+#: ../bin/drakconnect-old:111 ../bin/drakconnect-old:178
+#: ../bin/drakconnect-old:265 ../bin/draknetprofile:161 ../bin/net_monitor:389
+#: ../lib/network/drakconnect/global.pm:89
+#, c-format
+msgid "Ok"
+msgstr "确定"
+
+#: ../bin/drakconnect-old:113 ../bin/drakgw:351 ../bin/draknfs:584
+#: ../bin/draksambashare:229 ../lib/network/connection_manager.pm:74
+#: ../lib/network/connection_manager.pm:89
+#: ../lib/network/connection_manager.pm:206
+#: ../lib/network/connection_manager.pm:235
+#: ../lib/network/connection_manager.pm:353
+#: ../lib/network/drakconnect/edit.pm:466 ../lib/network/drakvpn.pm:49
+#: ../lib/network/netcenter.pm:150 ../lib/network/netcenter.pm:150
+#: ../lib/network/netconnect.pm:186 ../lib/network/netconnect.pm:208
+#: ../lib/network/netconnect.pm:305 ../lib/network/netconnect.pm:733
+#: ../lib/network/thirdparty.pm:352 ../lib/network/thirdparty.pm:367
+#, c-format
+msgid "Please wait"
+msgstr "请稍候"
+
+#: ../bin/drakconnect-old:115 ../lib/network/drakconnect/edit.pm:468
+#, c-format
+msgid "Please Wait... Applying the configuration"
+msgstr "请稍候...正在应用配置"
+
+#: ../bin/drakconnect-old:141
+#, c-format
+msgid "Deactivate now"
+msgstr "立即禁用"
+
+#: ../bin/drakconnect-old:141
+#, c-format
+msgid "Activate now"
+msgstr "立即激活"
+
+#: ../bin/drakconnect-old:175
+#, c-format
+msgid ""
+"You do not have any configured interface.\n"
+"Configure them first by clicking on 'Configure'"
+msgstr ""
+"您没有配置好的网卡。\n"
+"单击“配置”先配置网卡"
+
+#: ../bin/drakconnect-old:189
+#, c-format
+msgid "LAN Configuration"
+msgstr "LAN 配置"
+
+#: ../bin/drakconnect-old:201
+#, c-format
+msgid "Adapter %s: %s"
+msgstr "适配器 %s: %s"
+
+#: ../bin/drakconnect-old:209 ../bin/drakgw:181
+#: ../lib/network/connection/ethernet.pm:148
+#: ../lib/network/drakconnect/edit.pm:156
+#, c-format
+msgid "Netmask"
+msgstr "子网掩码"
+
+#: ../bin/drakconnect-old:210
+#, c-format
+msgid "Boot Protocol"
+msgstr "启动协议"
+
+#: ../bin/drakconnect-old:211
+#, c-format
+msgid "Started on boot"
+msgstr "开机时启动"
+
+#: ../bin/drakconnect-old:212 ../lib/network/connection/ethernet.pm:159
+#: ../lib/network/drakconnect/edit.pm:199
+#, c-format
+msgid "DHCP client"
+msgstr "DHCP 客户端"
+
+#: ../bin/drakconnect-old:247
+#, c-format
+msgid ""
+"This interface has not been configured yet.\n"
+"Run the \"%s\" assistant from the Mageia Linux Control Center"
+msgstr ""
+
+#: ../bin/drakconnect-old:247 ../bin/net_applet:105
+#: ../lib/network/drakconnect/global.pm:36
+#, c-format
+msgid "Set up a new network interface (LAN, ISDN, ADSL, ...)"
+msgstr "设置新的网络连接(局域网、ISDN、ADSL……)"
+
+#: ../bin/drakconnect-old:273 ../bin/drakconnect-old:305
+#: ../lib/network/drakconnect.pm:16 ../lib/network/drakconnect/edit.pm:515
+#, c-format
+msgid "No IP"
+msgstr "没有 IP"
+
+#: ../bin/drakconnect-old:306 ../lib/network/drakconnect.pm:17
+#: ../lib/network/drakconnect/edit.pm:516
+#, c-format
+msgid "No Mask"
+msgstr "没有掩码"
+
+#: ../bin/drakconnect-old:307 ../lib/network/drakconnect.pm:18
+#, c-format
+msgid "up"
+msgstr "上移"
+
+#: ../bin/drakconnect-old:307 ../lib/network/drakconnect.pm:18
+#, c-format
+msgid "down"
+msgstr "下移"
+
+#: ../bin/drakgw:71
+#, c-format
+msgid "Internet Connection Sharing"
+msgstr "Internet 连接共享"
+
+#: ../bin/drakgw:75
+#, c-format
+msgid ""
+"You are about to configure your computer to share its Internet connection.\n"
+"With that feature, other computers on your local network will be able to use this computer's Internet connection.\n"
+"\n"
+"Make sure you have configured your Network/Internet access using drakconnect before going any further.\n"
+"\n"
+"Note: you need a dedicated Network Adapter to set up a Local Area Network (LAN). Please disable Mageia Firewall for the network adapter connected to your LAN connection before proceeding."
+msgstr ""
+"现在将要把您电脑上的 Internet 连接配置为共享给其它电脑。\n"
+"使用此特性, 局域网上的其它计算机都将可以使用本机上的 Internet 连接。\n"
+"\n"
+"请确定在继续操作之前已经使用 DrakConnect 配置了您的网络/Internet 访问。\n"
+"\n"
+"注意: 您另外需要一块专用的网卡来设置局域网(LAN)。在继续前，您应该先将 Mageia 防火墙从与局域网连接的网卡上去掉。"
+
+#: ../bin/drakgw:91
+#, c-format
+msgid ""
+"The setup of Internet Connection Sharing has already been done.\n"
+"It's currently enabled.\n"
+"\n"
+"What would you like to do?"
+msgstr ""
+"Internet 连接共享的设置已经完成。\n"
+"目前连接共享已被启用。\n"
+"\n"
+"您要做什么?"
+
+#: ../bin/drakgw:95
+#, c-format
+msgid ""
+"The setup of Internet connection sharing has already been done.\n"
+"It's currently disabled.\n"
+"\n"
+"What would you like to do?"
+msgstr ""
+"Internet 连接共享的设置已经完成。\n"
+"目前连接共享已被禁用。\n"
+"\n"
+"您要做什么?"
+
+#: ../bin/drakgw:101 ../lib/network/drakconnect/edit.pm:373
+#, c-format
+msgid "Disable"
+msgstr "禁用"
+
+#: ../bin/drakgw:101 ../lib/network/drakconnect/edit.pm:373
+#, c-format
+msgid "Enable"
+msgstr "启用"
+
+#: ../bin/drakgw:101
+#, c-format
+msgid "Reconfigure"
+msgstr "重新配置"
+
+#: ../bin/drakgw:122
+#, c-format
+msgid "Please select the network interface directly connected to the internet."
+msgstr "请选择直接连接到 Internet 的网卡。"
+
+#: ../bin/drakgw:123 ../lib/network/drakconnect/delete.pm:26
+#: ../lib/network/netconnect.pm:379 ../lib/network/netconnect.pm:414
+#, c-format
+msgid "Net Device"
+msgstr "网络设备"
+
+#: ../bin/drakgw:141
+#, c-format
+msgid ""
+"There is only one network adapter on your system configured for LAN connections:\n"
+"\n"
+"%s\n"
+"\n"
+"I am about to setup your Local Area Network with that adapter.\n"
+"\n"
+"If you have any other adapter connected to Local Area Network,\n"
+"disable the firewall protection on it using drakfirewall before\n"
+"configuring Internet Connection sharing."
+msgstr ""
+"您的系统中只有一块网卡被配置为局域网连接:\n"
+"\n"
+"%s\n"
+"\n"
+"现在即将使用该网卡配置局域网。\n"
+"\n"
+"如果您有连接到局域网的其它网卡，请在配置 Internet 连接共享前先使用 drakfirewall 禁用防火墙保护。"
+
+#: ../bin/drakgw:156
+#, c-format
+msgid "Please choose what network adapter will be connected to your Local Area Network."
+msgstr "请选择您将使用哪张网卡连接您的局域网。"
+
+#: ../bin/drakgw:177
+#, c-format
+msgid "Local Area Network settings"
+msgstr "局域网设置"
+
+#: ../bin/drakgw:180 ../lib/network/vpn/openvpn.pm:229
+#, c-format
+msgid "Local IP address"
+msgstr "本地 IP 地址"
+
+#: ../bin/drakgw:182
+#, c-format
+msgid "The internal domain name"
+msgstr "内部域名"
+
+#: ../bin/drakgw:188 ../bin/drakhosts:100 ../bin/drakhosts:236
+#: ../bin/drakhosts:243 ../bin/drakhosts:250 ../bin/drakinvictus:72
+#: ../bin/draknetprofile:166 ../bin/draknetprofile:186 ../bin/draknfs:93
+#: ../bin/draknfs:282 ../bin/draknfs:429 ../bin/draknfs:431 ../bin/draknfs:434
+#: ../bin/draknfs:526 ../bin/draknfs:533 ../bin/draknfs:605 ../bin/draknfs:612
+#: ../bin/draknfs:619 ../bin/draksambashare:393 ../bin/draksambashare:400
+#: ../bin/draksambashare:403 ../bin/draksambashare:455
+#: ../bin/draksambashare:479 ../bin/draksambashare:552
+#: ../bin/draksambashare:629 ../bin/draksambashare:695
+#: ../bin/draksambashare:795 ../bin/draksambashare:803
+#: ../bin/draksambashare:942 ../bin/draksambashare:1096
+#: ../bin/draksambashare:1115 ../bin/draksambashare:1147
+#: ../bin/draksambashare:1253 ../bin/draksambashare:1355
+#: ../bin/draksambashare:1364 ../bin/draksambashare:1386
+#: ../bin/draksambashare:1395 ../bin/draksambashare:1414
+#: ../bin/draksambashare:1423 ../bin/draksambashare:1435
+#: ../lib/network/connection/xdsl.pm:361
+#: ../lib/network/connection_manager.pm:62
+#: ../lib/network/connection_manager.pm:68
+#: ../lib/network/connection_manager.pm:84
+#: ../lib/network/connection_manager.pm:92
+#: ../lib/network/connection_manager.pm:177
+#: ../lib/network/connection_manager.pm:181
+#: ../lib/network/connection_manager.pm:223
+#: ../lib/network/connection_manager.pm:481
+#: ../lib/network/drakconnect/delete.pm:12
+#: ../lib/network/drakconnect/edit.pm:506
+#: ../lib/network/drakconnect/edit.pm:510
+#: ../lib/network/drakconnect/edit.pm:519 ../lib/network/drakvpn.pm:45
+#: ../lib/network/drakvpn.pm:52 ../lib/network/ndiswrapper.pm:30
+#: ../lib/network/ndiswrapper.pm:45 ../lib/network/ndiswrapper.pm:118
+#: ../lib/network/ndiswrapper.pm:124 ../lib/network/netconnect.pm:135
+#: ../lib/network/netconnect.pm:188 ../lib/network/netconnect.pm:234
+#: ../lib/network/netconnect.pm:275 ../lib/network/netconnect.pm:847
+#: ../lib/network/thirdparty.pm:123 ../lib/network/thirdparty.pm:141
+#: ../lib/network/thirdparty.pm:230 ../lib/network/thirdparty.pm:232
+#: ../lib/network/thirdparty.pm:253
+#, c-format
+msgid "Error"
+msgstr "错误"
+
+#: ../bin/drakgw:188
+#, c-format
+msgid ""
+"Potential LAN address conflict found in current config of %s!\n"
+""
+msgstr "在当前的 %s 配置中发现可能的 LAN 地址冲突！\n"
+
+#: ../bin/drakgw:204
+#, c-format
+msgid "Domain Name Server (DNS) configuration"
+msgstr "域名服务器(DNS)配置"
+
+#: ../bin/drakgw:208
+#, c-format
+msgid "Use this gateway as domain name server"
+msgstr "使用此网关作为域名服务器"
+
+#: ../bin/drakgw:209
+#, c-format
+msgid "The DNS Server IP"
+msgstr "DNS 服务器 IP"
+
+#: ../bin/drakgw:236
+#, c-format
+msgid ""
+"DHCP Server Configuration.\n"
+"\n"
+"Here you can select different options for the DHCP server configuration.\n"
+"If you do not know the meaning of an option, simply leave it as it is."
+msgstr ""
+"DHCP 服务器配置。\n"
+"\n"
+"在此您可以选择 DHCP 服务器配置的不同选项。\n"
+"如果您不知道选项的含义, 那么就不管它, 不必进行修改。"
+
+#: ../bin/drakgw:243
+#, c-format
+msgid "Use automatic configuration (DHCP)"
+msgstr "使用自动重新配置(DHCP)"
+
+#: ../bin/drakgw:244
+#, c-format
+msgid "The DHCP start range"
+msgstr "DHCP 起始范围"
+
+#: ../bin/drakgw:245
+#, c-format
+msgid "The DHCP end range"
+msgstr "DHCP 终止范围"
+
+#: ../bin/drakgw:246
+#, c-format
+msgid "The default lease (in seconds)"
+msgstr "默认租期(以秒为单位)"
+
+#: ../bin/drakgw:247
+#, c-format
+msgid "The maximum lease (in seconds)"
+msgstr "最长租期(以秒为单位)"
+
+#: ../bin/drakgw:270
+#, c-format
+msgid "Proxy caching server (SQUID)"
+msgstr "代理缓存服务器(SQUID)"
+
+#: ../bin/drakgw:274
+#, c-format
+msgid "Use this gateway as proxy caching server"
+msgstr "使用此网关作为代理缓存服务器"
+
+#: ../bin/drakgw:275
+#, c-format
+msgid "Admin mail"
+msgstr "管理员电子邮件"
+
+#: ../bin/drakgw:276
+#, c-format
+msgid "Visible hostname"
+msgstr "可见主机名"
+
+#: ../bin/drakgw:277
+#, c-format
+msgid "Proxy port"
+msgstr "代理端口"
+
+#: ../bin/drakgw:278
+#, c-format
+msgid "Cache size (MB)"
+msgstr "缓存大小(MB)"
+
+#: ../bin/drakgw:297
+#, c-format
+msgid "Broadcast printer information"
+msgstr "广播打印机信息"
+
+#: ../bin/drakgw:308
+#, c-format
+msgid ""
+"No ethernet network adapter configured for LAN has been detected on your system.\n"
+"\n"
+"Please run the hardware configuration tool to configure it, and ensure that the Mageia firewall is not enabled for network adapter connected to your LAN network."
+msgstr ""
+"您的系统上没有检测到配置为局域网的以太网卡。\n"
+"\n"
+"请运行硬件配置工具配置网卡，然后确保 Mageia 防火墙没有在与局域网连接的网卡上启用。"
+
+#: ../bin/drakgw:316
+#, c-format
+msgid "Internet Connection Sharing is now enabled."
+msgstr "Internet 连接共享现已启用。"
+
+#: ../bin/drakgw:322
+#, c-format
+msgid "Internet Connection Sharing is now disabled."
+msgstr "Internet 连接共享现已禁用。"
+
+#: ../bin/drakgw:328
+#, c-format
+msgid ""
+"Everything has been configured.\n"
+"You may now share Internet connection with other computers on your Local Area Network, using automatic network configuration (DHCP) and\n"
+" a Transparent Proxy Cache server (SQUID)."
+msgstr ""
+"所有配置都已完成了。\n"
+"您现在可以利用自动网络设置(DHCP)和透明代理缓存服务器(SQUID)让您的局域网上其它的电脑共享您的互联网连接了。"
+
+#: ../bin/drakgw:351
+#, c-format
+msgid "Disabling servers..."
+msgstr "正在禁用服务器..."
+
+#: ../bin/drakgw:365
+#, c-format
+msgid "Firewalling configuration detected!"
+msgstr "发现防火墙配置！"
+
+#: ../bin/drakgw:366
+#, c-format
+msgid "Warning! An existing firewalling configuration has been detected. You may need some manual fixes after installation."
+msgstr "警告！发现原来的配置利用了防火墙功能。您可能需要在安装之后手工修改。"
+
+#: ../bin/drakgw:371
+#, c-format
+msgid "Configuring..."
+msgstr "正在配置..."
+
+#: ../bin/drakgw:372
+#, c-format
+msgid "Configuring firewall..."
+msgstr "正在配置防火墙..."
+
+#: ../bin/drakhosts:100
+#, c-format
+msgid "Please add an host to be able to modify it."
+msgstr "请先添加主机，然后再修改。"
+
+#: ../bin/drakhosts:110
+#, c-format
+msgid "Please modify information"
+msgstr "请修改信息"
+
+#: ../bin/drakhosts:111
+#, c-format
+msgid "Please delete information"
+msgstr "请删除信息"
+
+#: ../bin/drakhosts:112
+#, c-format
+msgid "Please add information"
+msgstr "请添加信息"
+
+#: ../bin/drakhosts:116
+#, c-format
+msgid "IP address:"
+msgstr "IP 地址:"
+
+#: ../bin/drakhosts:117
+#, c-format
+msgid "Host name:"
+msgstr "主机名:"
+
+#: ../bin/drakhosts:118
+#, c-format
+msgid "Host Aliases:"
+msgstr "主机别名:"
+
+#: ../bin/drakhosts:122 ../bin/draknfs:116 ../bin/draksambashare:230
+#: ../bin/draksambashare:253 ../bin/draksambashare:397
+#: ../bin/draksambashare:625 ../bin/draksambashare:791
+#, c-format
+msgid "Error!"
+msgstr "错误！"
+
+#: ../bin/drakhosts:122
+#, c-format
+msgid "Please enter a valid IP address."
+msgstr "请输入有效的 IP 地址。"
+
+#: ../bin/drakhosts:187 ../lib/network/connection/ethernet.pm:225
+#, c-format
+msgid "Host name"
+msgstr "主机名"
+
+#: ../bin/drakhosts:187
+#, c-format
+msgid "Host Aliases"
+msgstr "主机别名"
+
+#: ../bin/drakhosts:197 ../bin/drakhosts:227
+#, c-format
+msgid "Manage hosts definitions"
+msgstr "管理主机定义"
+
+#: ../bin/drakhosts:213 ../bin/drakhosts:240 ../bin/draknfs:369
+#, c-format
+msgid "Modify entry"
+msgstr "修改项"
+
+#: ../bin/drakhosts:232 ../bin/draknfs:601 ../bin/draksambashare:1348
+#: ../bin/draksambashare:1379 ../bin/draksambashare:1410
+#, c-format
+msgid "Add"
+msgstr "添加"
+
+#: ../bin/drakhosts:233
+#, c-format
+msgid "Add entry"
+msgstr "添加项"
+
+#: ../bin/drakhosts:236
+#, c-format
+msgid "Failed to add host."
+msgstr "添加主机失败。"
+
+#: ../bin/drakhosts:239 ../bin/draknfs:608 ../bin/draksambashare:1305
+#: ../bin/draksambashare:1350 ../bin/draksambashare:1381
+#: ../bin/draksambashare:1418
+#, c-format
+msgid "Modify"
+msgstr "修改"
+
+#: ../bin/drakhosts:243
+#, c-format
+msgid "Failed to Modify host."
+msgstr "修改主机失败。"
+
+#: ../bin/drakhosts:246 ../bin/drakids:95 ../bin/drakids:104
+#: ../bin/draknfs:615 ../bin/draksambashare:1306 ../bin/draksambashare:1358
+#: ../bin/draksambashare:1389 ../bin/draksambashare:1426
+#, c-format
+msgid "Remove"
+msgstr "删除"
+
+#: ../bin/drakhosts:250
+#, c-format
+msgid "Failed to remove host."
+msgstr "删除主机失败。"
+
+#: ../bin/drakhosts:253 ../bin/drakinvictus:141 ../bin/draknetprofile:219
+#: ../bin/net_applet:221 ../lib/network/drakroam.pm:93
+#: ../lib/network/netcenter.pm:178
+#, c-format
+msgid "Quit"
+msgstr "退出"
+
+#: ../bin/drakids:28
+#, c-format
+msgid "Allowed addresses"
+msgstr "允许的地址"
+
+#: ../bin/drakids:40 ../bin/drakids:71 ../bin/drakids:190 ../bin/drakids:199
+#: ../bin/drakids:224 ../bin/drakids:233 ../bin/drakids:243 ../bin/drakids:335
+#: ../bin/net_applet:145 ../bin/net_applet:353
+#: ../lib/network/drakfirewall.pm:309 ../lib/network/drakfirewall.pm:313
+#: ../lib/network/net_applet/ifw.pm:61 ../lib/network/net_applet/ifw.pm:89
+#, c-format
+msgid "Interactive Firewall"
+msgstr "交互式防火墙"
+
+#: ../bin/drakids:71 ../bin/drakids:190 ../bin/drakids:199 ../bin/drakids:224
+#: ../bin/drakids:233 ../bin/drakids:243 ../bin/drakids:335
+#: ../bin/net_applet:353 ../lib/network/net_applet/ifw.pm:61
+#, c-format
+msgid "Unable to contact daemon"
+msgstr "无法连接守护程序"
+
+#: ../bin/drakids:82 ../bin/drakids:110
+#, c-format
+msgid "Log"
+msgstr "日志"
+
+#: ../bin/drakids:86 ../bin/drakids:105 ../lib/network/net_applet/ifw.pm:219
+#, c-format
+msgid "Allow"
+msgstr "允许"
+
+#: ../bin/drakids:87 ../bin/drakids:96 ../lib/network/net_applet/ifw.pm:220
+#, c-format
+msgid "Block"
+msgstr "屏蔽"
+
+#: ../bin/drakids:88 ../bin/drakids:97 ../bin/drakids:106 ../bin/drakids:117
+#: ../bin/drakids:130 ../bin/drakids:138 ../bin/draknfs:197
+#: ../bin/net_monitor:122
+#, c-format
+msgid "Close"
+msgstr "关闭"
+
+#: ../bin/drakids:91
+#, c-format
+msgid "Allowed services"
+msgstr "允许的服务"
+
+#: ../bin/drakids:100
+#, c-format
+msgid "Blocked services"
+msgstr "屏蔽的服务"
+
+#: ../bin/drakids:114
+#, c-format
+msgid "Clear logs"
+msgstr "清除日志"
+
+#: ../bin/drakids:115 ../bin/drakids:120 ../lib/network/net_applet/ifw.pm:158
+#, c-format
+msgid "Blacklist"
+msgstr "黑名单"
+
+#: ../bin/drakids:116 ../bin/drakids:133 ../lib/network/net_applet/ifw.pm:163
+#, c-format
+msgid "Whitelist"
+msgstr "白名单"
+
+#: ../bin/drakids:124
+#, c-format
+msgid "Remove from blacklist"
+msgstr "从黑名单中移除"
+
+#: ../bin/drakids:125
+#, c-format
+msgid "Move to whitelist"
+msgstr "移动到白名单"
+
+#: ../bin/drakids:137
+#, c-format
+msgid "Remove from whitelist"
+msgstr "从白名单中移除"
+
+#: ../bin/drakids:256
+#, c-format
+msgid "Date"
+msgstr "日期"
+
+#: ../bin/drakids:257
+#, c-format
+msgid "Remote host"
+msgstr "远程主机"
+
+#: ../bin/drakids:258 ../lib/network/vpn/openvpn.pm:117
+#, c-format
+msgid "Type"
+msgstr "类型"
+
+#: ../bin/drakids:259 ../bin/drakids:292
+#, c-format
+msgid "Service"
+msgstr "服务"
+
+#: ../bin/drakids:260
+#, c-format
+msgid "Network interface"
+msgstr "网卡"
+
+#: ../bin/drakids:291
+#, c-format
+msgid "Application"
+msgstr "应用程序"
+
+#: ../bin/drakids:293
+#, c-format
+msgid "Status"
+msgstr "状态"
+
+#: ../bin/drakids:295
+#, c-format
+msgid "Allowed"
+msgstr "已允许"
+
+#: ../bin/drakids:296
+#, c-format
+msgid "Blocked"
+msgstr "已屏蔽"
+
+#: ../bin/drakinvictus:36
+#, c-format
+msgid "Invictus Firewall"
+msgstr "防火城"
+
+#: ../bin/drakinvictus:53
+#, c-format
+msgid "Start as master"
+msgstr "以主机启动"
+
+#: ../bin/drakinvictus:72
+#, c-format
+msgid "A password is required."
+msgstr "需要密码。"
+
+#: ../bin/drakinvictus:100
+#, c-format
+msgid "This tool allows to set up network interfaces failover and firewall replication."
+msgstr "此工具允许设置网络接口冗余和防火墙再造。"
+
+#: ../bin/drakinvictus:102
+#, c-format
+msgid "Network redundancy (leave empty if interface is not used)"
+msgstr "网络冗余(如果接口不使用的话请留空)"
+
+#: ../bin/drakinvictus:105
+#, c-format
+msgid "Real address"
+msgstr "真实地址"
+
+#: ../bin/drakinvictus:105
+#, c-format
+msgid "Virtual shared address"
+msgstr "虚拟共享地址"
+
+#: ../bin/drakinvictus:105
+#, c-format
+msgid "Virtual ID"
+msgstr "虚拟 ID"
+
+#: ../bin/drakinvictus:110 ../lib/network/netconnect.pm:615
+#: ../lib/network/vpn/vpnc.pm:56
+#, c-format
+msgid "Password"
+msgstr "密码"
+
+#: ../bin/drakinvictus:114
+#, c-format
+msgid "Firewall replication"
+msgstr "防火墙再造"
+
+#: ../bin/drakinvictus:116
+#, c-format
+msgid "Synchronize firewall conntrack tables"
+msgstr "同步防火墙反攻击表"
+
+#: ../bin/drakinvictus:123
+#, c-format
+msgid "Synchronization network interface"
+msgstr "同步网卡"
+
+#: ../bin/drakinvictus:132
+#, c-format
+msgid "Connection mark bit"
+msgstr "连接标志字"
+
+#: ../bin/draknetprofile:37
+#, c-format
+msgid "Network profiles"
+msgstr "网络配置文件"
+
+#: ../bin/draknetprofile:66
+#, c-format
+msgid "Module"
+msgstr "模块"
+
+#: ../bin/draknetprofile:67
+#, c-format
+msgid "Enabled"
+msgstr "启用"
+
+#: ../bin/draknetprofile:68 ../lib/network/drakconnect/edit.pm:423
+#, c-format
+msgid "Description"
+msgstr "描述"
+
+#: ../bin/draknetprofile:84
+#, c-format
+msgid "Profile"
+msgstr "配置文件"
+
+#: ../bin/draknetprofile:152
+#, c-format
+msgid "New profile..."
+msgstr "新建配置文件..."
+
+#: ../bin/draknetprofile:155
+#, c-format
+msgid "Please specify the name of the new network profile to be created (e.g., work, home, roaming, ..). This new profile will be created based on current settings, and you'll be able to configure your system configuration as usual afterwards."
+msgstr "请指定要创建的新网络配置文件的名称(如 work、home、roaming 等等)。这一新的网络配置文件将会基于当前设置创建，您稍候也可以按照通常的方式对您的系统进行配置。"
+
+#: ../bin/draknetprofile:166
+#, c-format
+msgid "The \"%s\" profile already exists!"
+msgstr "配置文件“%s”已经存在！"
+
+#: ../bin/draknetprofile:172
+#, c-format
+msgid "New profile created"
+msgstr "创建了新的配置文件"
+
+#: ../bin/draknetprofile:172
+#, c-format
+msgid "You are now using network profile %s. You can configure your system as usual, and all your network settings from now on will be saved into this profile."
+msgstr "您现在正在使用网络配置文件 %s。您可以按通常的方式配置您的系统，而您自现在开始所有与网络有关的设置都将保存在此配置文件中。"
+
+#: ../bin/draknetprofile:183 ../lib/network/drakconnect/global.pm:34
+#: ../lib/network/drakvpn.pm:70 ../lib/network/drakvpn.pm:100
+#: ../lib/network/ndiswrapper.pm:103 ../lib/network/netconnect.pm:500
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: ../bin/draknetprofile:183
+#, c-format
+msgid "Are you sure you want to delete the default profile?"
+msgstr "您确定想要删除默认配置文件吗？"
+
+#: ../bin/draknetprofile:186
+#, c-format
+msgid "You can not delete the current profile. Please switch to a different profile first."
+msgstr "您不能删除当前配置文件。请先切换到不同的配置文件。"
+
+#: ../bin/draknetprofile:194 ../bin/draknfs:356
+#, c-format
+msgid "Advanced"
+msgstr "高级"
+
+#: ../bin/draknetprofile:198
+#, c-format
+msgid "Select the netprofile modules:"
+msgstr "选择网络配置文件模块："
+
+#: ../bin/draknetprofile:211
+#, c-format
+msgid "This tool allows you to control network profiles."
+msgstr "此工具允许您控制网络配置文件。"
+
+#: ../bin/draknetprofile:212
+#, c-format
+msgid "Select a network profile:"
+msgstr "选择网络配置文件："
+
+#: ../bin/draknetprofile:216
+#, c-format
+msgid "Activate"
+msgstr "激活"
+
+#: ../bin/draknetprofile:217
+#, c-format
+msgid "New"
+msgstr "新建"
+
+#: ../bin/draknetprofile:218
+#, c-format
+msgid "Delete"
+msgstr "删除"
+
+#: ../bin/draknfs:49
+#, c-format
+msgid "map root user as anonymous"
+msgstr "将 root 用户映射为匿名者"
+
+#: ../bin/draknfs:50
+#, c-format
+msgid "map all users to anonymous user"
+msgstr "将所有用户映射为匿名用户"
+
+#: ../bin/draknfs:51
+#, c-format
+msgid "No user UID mapping"
+msgstr "无用户 UID 映射"
+
+#: ../bin/draknfs:52
+#, c-format
+msgid "allow real remote root access"
+msgstr "允许真正的远程 root 访问"
+
+#: ../bin/draknfs:66 ../bin/draknfs:67 ../bin/draknfs:68
+#: ../bin/draksambashare:175 ../bin/draksambashare:176
+#: ../bin/draksambashare:177
+#, c-format
+msgid "/_File"
+msgstr "/文件(_F)"
+
+#: ../bin/draknfs:67 ../bin/draksambashare:176
+#, c-format
+msgid "/_Write conf"
+msgstr "/写入配置(_W)"
+
+#: ../bin/draknfs:68 ../bin/draksambashare:177
+#, c-format
+msgid "/_Quit"
+msgstr "/退出(_Q)"
+
+#: ../bin/draknfs:68 ../bin/draksambashare:177
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../bin/draknfs:71 ../bin/draknfs:72 ../bin/draknfs:73
+#, c-format
+msgid "/_NFS Server"
+msgstr "/_NFS 服务器"
+
+#: ../bin/draknfs:72 ../bin/draksambashare:181
+#, c-format
+msgid "/_Restart"
+msgstr "/_重新启动"
+
+#: ../bin/draknfs:73 ../bin/draksambashare:182
+#, c-format
+msgid "/R_eload"
+msgstr "/重新装入(_E)"
+
+#: ../bin/draknfs:92
+#, c-format
+msgid "NFS server"
+msgstr "NFS 服务器"
+
+#: ../bin/draknfs:92
+#, c-format
+msgid "Restarting/Reloading NFS server..."
+msgstr "正在重新启动/重新装入 NFS 服务器..."
+
+#: ../bin/draknfs:93
+#, c-format
+msgid "Error Restarting/Reloading NFS server"
+msgstr "重新启动/重新装入 NFS 服务器出错"
+
+#: ../bin/draknfs:109 ../bin/draksambashare:246
+#, c-format
+msgid "Directory selection"
+msgstr "目录选择"
+
+#: ../bin/draknfs:116 ../bin/draksambashare:253
+#, c-format
+msgid "Should be a directory."
+msgstr "应该为目录。"
+
+#: ../bin/draknfs:146
+#, c-format
+msgid ""
+"<span weight=\"bold\">NFS clients</span> may be specified in a number of ways:\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">single host:</span> a host either by an abbreviated name recognized be the resolver, fully qualified domain name, or an IP address\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">netgroups:</span> NIS netgroups may be given as @group.\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">wildcards:</span> machine names may contain the wildcard characters * and ?. For instance: *.cs.foo.edu  matches all  hosts  in the domain cs.foo.edu.\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">IP networks:</span> you can also export directories to all hosts on an IP (sub-)network simultaneously. for example, either `/255.255.252.0' or  `/22'  appended to the network base address result.\n"
+""
+msgstr ""
+"您必须以以下几种方式指定 <span weight=\"bold\">NFS 客户端</span>:\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">单主机:</span> 主机既可以是可被解释器识别的缩写，全称域名，也可以是 IP 地址\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">网络组:</span> 可以通过 @group 的格式指定 NIS 网络组。\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">通配符:</span> 机器名可包含通配符，如 * 和 ?。例如：*.cs.foo.edu 可匹配域 cs.food.edu 中的全部主机。\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">IP 子网:</span> 您还可以同时将目录导出给 IP 子网中的全部主机。例如，追加到网络基地址后的“/255.255.252.0”或“/22”。\n"
+
+#: ../bin/draknfs:161
+#, c-format
+msgid ""
+"<span weight=\"bold\">User ID options</span>\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">map root user as anonymous:</span> map requests from uid/gid 0 to the anonymous uid/gid (root_squash).\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">allow real remote root access:</span> turn off root squashing. This option is mainly useful for diskless clients (no_root_squash).\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">map all users to anonymous user:</span> map all uids and gids to the anonymous  user (all_squash). Useful for NFS-exported public FTP directories, news spool directories, etc. The opposite option is no user UID mapping (no_all_squash), which is the default setting.\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">anonuid and anongid:</span> explicitly set the uid and gid of the anonymous account.\n"
+""
+msgstr ""
+"<span weight=\"bold\">用户 ID 选项</span>\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">将 root 用户映射为匿名用户:</span> 将请求从 uid/gid 0 映射到匿名 uid/gid(root_squash)。\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">允许真正的远程 root 访问:</span> 关闭根挤压。此选项特别适合于无盘工作站(no_root_squash)。\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">将全部用户映射到匿名用户:</span> 将全部 uid 和 gid 映射到匿名用户(all_squash)。一般用于通过 NFS 导出的公开 FTP 目录，新闻池目录等等。具有相反功能的选项是不进行 UID 映射(no_all_squash)，该设置是默认设置。\n"
+"\n"
+"\n"
+"<span foreground=\"royalblue3\">anonuid 和 anongid:</span> 显式设置匿名账户的 uid 和 gid。\n"
+
+#: ../bin/draknfs:177
+#, c-format
+msgid "Synchronous access:"
+msgstr "同步访问:"
+
+#: ../bin/draknfs:178
+#, c-format
+msgid "Secured Connection:"
+msgstr "安全连接:"
+
+#: ../bin/draknfs:179
+#, c-format
+msgid "Read-Only share:"
+msgstr "只读共享:"
+
+#: ../bin/draknfs:180
+#, c-format
+msgid "Subtree checking:"
+msgstr "子树检查:"
+
+#: ../bin/draknfs:182
+#, c-format
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: ../bin/draknfs:183
+#, c-format
+msgid "<span foreground=\"royalblue3\">%s</span> this option requires that requests originate on an internet port less than IPPORT_RESERVED (1024). This option is on by default."
+msgstr "<span foreground=\"royalblue3\">%s</span> 此选项需要发出请求的互联网端口小于 IPPORT_RESERVED (1024)。此选项默认打开。"
+
+#: ../bin/draknfs:184
+#, c-format
+msgid "<span foreground=\"royalblue3\">%s</span> allow either only read or both read and write requests on this NFS volume. The default is to disallow any request which changes the filesystem. This can also be made explicit by using this option."
+msgstr "<span foreground=\"royalblue3\">%s</span> 允许此 NFS 卷上的只读或读写请求。默认值为不允许任何会更改文件系统的请求。您也可以显式使用此选项。"
+
+#: ../bin/draknfs:185
+#, c-format
+msgid "<span foreground=\"royalblue3\">%s</span> disallows the NFS server to violate the NFS protocol and to reply to requests before any changes made by these requests have been committed to stable storage (e.g. disc drive)."
+msgstr "<span foreground=\"royalblue3\">%s</span> 禁止 NFS 暴露 NFS 协议，并在请求对存储设备发生实际更改之前先回复请求。"
+
+#: ../bin/draknfs:186
+#, c-format
+msgid "<span foreground=\"royalblue3\">%s</span> enable subtree checking which can help improve security in some cases, but can decrease reliability. See exports(5) man page for more details."
+msgstr "<span foreground=\"royalblue3\">%s</span> 允许子树检查，在某些情况下这将改善安全性，但可靠性可能降低。更多信息请查看 exports(5) 的手册页。"
+
+#: ../bin/draknfs:191 ../bin/draksambashare:623 ../bin/draksambashare:789
+#, c-format
+msgid "Information"
+msgstr "信息"
+
+#: ../bin/draknfs:271
+#, c-format
+msgid "Directory"
+msgstr "目录"
+
+#: ../bin/draknfs:282
+#, c-format
+msgid "Please add an NFS share to be able to modify it."
+msgstr "请添加 NFS 共享再进行修改。"
+
+#: ../bin/draknfs:379
+#, c-format
+msgid "NFS directory"
+msgstr "NFS 目录"
+
+#: ../bin/draknfs:380 ../bin/draksambashare:382 ../bin/draksambashare:588
+#: ../bin/draksambashare:766
+#, c-format
+msgid "Directory:"
+msgstr "目录:"
+
+#: ../bin/draknfs:381
+#, c-format
+msgid "Host access"
+msgstr "主机访问"
+
+#: ../bin/draknfs:382
+#, c-format
+msgid "Access:"
+msgstr "访问:"
+
+#: ../bin/draknfs:383
+#, c-format
+msgid "User ID Mapping"
+msgstr "用户 ID 映射"
+
+#: ../bin/draknfs:384
+#, c-format
+msgid "User ID:"
+msgstr "用户 ID:"
+
+#: ../bin/draknfs:385
+#, c-format
+msgid "Anonymous user ID:"
+msgstr "匿名用户 ID:"
+
+#: ../bin/draknfs:386
+#, c-format
+msgid "Anonymous Group ID:"
+msgstr "匿名组 ID:"
+
+#: ../bin/draknfs:429
+#, c-format
+msgid "Please specify a directory to share."
+msgstr "请指定要共享的目录。"
+
+#: ../bin/draknfs:431
+#, c-format
+msgid "Can't create this directory."
+msgstr "无法创建此目录。"
+
+#: ../bin/draknfs:434
+#, c-format
+msgid "You must specify hosts access."
+msgstr "您必须指定主机访问。"
+
+#: ../bin/draknfs:514
+#, c-format
+msgid "Share Directory"
+msgstr "共享目录"
+
+#: ../bin/draknfs:514
+#, c-format
+msgid "Hosts Wildcard"
+msgstr "主机通配符"
+
+#: ../bin/draknfs:514
+#, c-format
+msgid "General Options"
+msgstr "常规选项"
+
+#: ../bin/draknfs:514
+#, c-format
+msgid "Custom Options"
+msgstr "自定义选项"
+
+#: ../bin/draknfs:526 ../bin/draksambashare:397 ../bin/draksambashare:625
+#: ../bin/draksambashare:791
+#, c-format
+msgid "Please enter a directory to share."
+msgstr "请输入要共享的目录。"
+
+#: ../bin/draknfs:533
+#, c-format
+msgid "Please use the modify button to set right access."
+msgstr "请使用修改按钮设定访问权限。"
+
+#: ../bin/draknfs:548
+#, c-format
+msgid "Manage NFS shares"
+msgstr "管理 NFS 共享"
+
+#: ../bin/draknfs:584
+#, c-format
+msgid "Starting the NFS-server"
+msgstr "启动 NFS 服务器"
+
+#: ../bin/draknfs:596
+#, c-format
+msgid "DrakNFS manage NFS shares"
+msgstr "DrakNFS 可管理 NFS 共享"
+
+#: ../bin/draknfs:605
+#, c-format
+msgid "Failed to add NFS share."
+msgstr "添加 NFS 共享失败。"
+
+#: ../bin/draknfs:612
+#, c-format
+msgid "Failed to Modify NFS share."
+msgstr "修改 NFS 共享失败。"
+
+#: ../bin/draknfs:619
+#, c-format
+msgid "Failed to remove an NFS share."
+msgstr "删除 NFS 共享失败。"
+
+#: ../bin/draksambashare:65
+#, c-format
+msgid "User name"
+msgstr "用户名"
+
+#: ../bin/draksambashare:72 ../bin/draksambashare:100
+#, c-format
+msgid "Share name"
+msgstr "共享名"
+
+#: ../bin/draksambashare:73 ../bin/draksambashare:101
+#, c-format
+msgid "Share directory"
+msgstr "共享目录"
+
+#: ../bin/draksambashare:74 ../bin/draksambashare:102
+#: ../bin/draksambashare:119
+#, c-format
+msgid "Comment"
+msgstr "注释"
+
+#: ../bin/draksambashare:75 ../bin/draksambashare:120
+#, c-format
+msgid "Browseable"
+msgstr "可浏览"
+
+#: ../bin/draksambashare:76
+#, c-format
+msgid "Public"
+msgstr "公开"
+
+#: ../bin/draksambashare:77 ../bin/draksambashare:125
+#, c-format
+msgid "Writable"
+msgstr "可写入"
+
+#: ../bin/draksambashare:78 ../bin/draksambashare:166
+#, c-format
+msgid "Create mask"
+msgstr "创建掩码"
+
+#: ../bin/draksambashare:79 ../bin/draksambashare:167
+#, c-format
+msgid "Directory mask"
+msgstr "目录掩码"
+
+#: ../bin/draksambashare:80
+#, c-format
+msgid "Read list"
+msgstr "读取列表"
+
+#: ../bin/draksambashare:81 ../bin/draksambashare:126
+#: ../bin/draksambashare:602
+#, c-format
+msgid "Write list"
+msgstr "写入列表"
+
+#: ../bin/draksambashare:82 ../bin/draksambashare:158
+#, c-format
+msgid "Admin users"
+msgstr "管理员用户"
+
+#: ../bin/draksambashare:83 ../bin/draksambashare:159
+#, c-format
+msgid "Valid users"
+msgstr "有效用户"
+
+#: ../bin/draksambashare:84
+#, c-format
+msgid "Inherit Permissions"
+msgstr "继承权限"
+
+#: ../bin/draksambashare:85 ../bin/draksambashare:160
+#, c-format
+msgid "Hide dot files"
+msgstr "隐藏“.”开头的文件"
+
+#: ../bin/draksambashare:86 ../bin/draksambashare:161
+#, c-format
+msgid "Hide files"
+msgstr "隐藏文件"
+
+#: ../bin/draksambashare:87 ../bin/draksambashare:165
+#, c-format
+msgid "Preserve case"
+msgstr "保留大小写"
+
+#: ../bin/draksambashare:88
+#, c-format
+msgid "Force create mode"
+msgstr "强制创建模式"
+
+#: ../bin/draksambashare:89
+#, c-format
+msgid "Force group"
+msgstr "强制组"
+
+#: ../bin/draksambashare:90 ../bin/draksambashare:164
+#, c-format
+msgid "Default case"
+msgstr "默认大小写"
+
+#: ../bin/draksambashare:117
+#, c-format
+msgid "Printer name"
+msgstr "打印机名称"
+
+#: ../bin/draksambashare:118
+#, c-format
+msgid "Path"
+msgstr "路径"
+
+#: ../bin/draksambashare:121 ../bin/draksambashare:594
+#, c-format
+msgid "Printable"
+msgstr "可打印"
+
+#: ../bin/draksambashare:122
+#, c-format
+msgid "Print Command"
+msgstr "打印命令"
+
+#: ../bin/draksambashare:123
+#, c-format
+msgid "LPQ command"
+msgstr "LPQ 命令"
+
+#: ../bin/draksambashare:124
+#, c-format
+msgid "Guest ok"
+msgstr "Guest 可访问"
+
+#: ../bin/draksambashare:127 ../bin/draksambashare:168
+#: ../bin/draksambashare:603
+#, c-format
+msgid "Inherit permissions"
+msgstr "继承权限"
+
+#: ../bin/draksambashare:128
+#, c-format
+msgid "Printing"
+msgstr "打印"
+
+#: ../bin/draksambashare:129
+#, c-format
+msgid "Create mode"
+msgstr "创建模式"
+
+#: ../bin/draksambashare:130
+#, c-format
+msgid "Use client driver"
+msgstr "使用客户端驱动程序"
+
+#: ../bin/draksambashare:156
+#, c-format
+msgid "Read List"
+msgstr "读取列表"
+
+#: ../bin/draksambashare:157
+#, c-format
+msgid "Write List"
+msgstr "写入名单"
+
+#: ../bin/draksambashare:162
+#, c-format
+msgid "Force Group"
+msgstr "强制组"
+
+#: ../bin/draksambashare:163
+#, c-format
+msgid "Force create group"
+msgstr "强制创建组"
+
+#: ../bin/draksambashare:179 ../bin/draksambashare:180
+#: ../bin/draksambashare:181 ../bin/draksambashare:182
+#, c-format
+msgid "/_Samba Server"
+msgstr "/_Samba 服务器"
+
+#: ../bin/draksambashare:180
+#, c-format
+msgid "/_Configure"
+msgstr "/配置(_C)"
+
+#: ../bin/draksambashare:184
+#, c-format
+msgid "/_Help"
+msgstr "/帮助(_H)"
+
+#: ../bin/draksambashare:184
+#, c-format
+msgid "/_Samba Documentation"
+msgstr "/_Samba 文档"
+
+#: ../bin/draksambashare:190 ../bin/draksambashare:191
+#, c-format
+msgid "/_About"
+msgstr "/关于(_A)"
+
+#: ../bin/draksambashare:190
+#, c-format
+msgid "/_Report Bug"
+msgstr "/故障报告(_R)"
+
+#: ../bin/draksambashare:191
+#, c-format
+msgid "/_About..."
+msgstr "/关于(_A)..."
+
+#: ../bin/draksambashare:194
+#, c-format
+msgid "Draksambashare"
+msgstr "Draksambashare"
+
+#: ../bin/draksambashare:196
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../bin/draksambashare:198
+#, c-format
+msgid "This is a simple tool to easily manage Samba configuration."
+msgstr "这一简单工具可轻松管理 Samba 配置。"
+
+#: ../bin/draksambashare:200
+#, c-format
+msgid "Mageia"
+msgstr "Mageia"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith
+#. <jsmith@nowhere.com>")
+#: ../bin/draksambashare:205
+#, c-format
+msgid ""
+"_: Translator(s) name(s) & email(s)\n"
+""
+msgstr "Funda Wang <fundawang@gmail.com>\n"
+
+#: ../bin/draksambashare:229
+#, c-format
+msgid "Restarting/Reloading Samba server..."
+msgstr "正在重新启动/重新装入 Samba 服务器..."
+
+#: ../bin/draksambashare:230
+#, c-format
+msgid "Error Restarting/Reloading Samba server"
+msgstr "重新启动/重新装入 Samba 服务器出错"
+
+#: ../bin/draksambashare:370 ../bin/draksambashare:567
+#: ../bin/draksambashare:687
+#, c-format
+msgid "Open"
+msgstr "打开"
+
+#: ../bin/draksambashare:373
+#, c-format
+msgid "DrakSamba add entry"
+msgstr "DrakSamba 添加项"
+
+#: ../bin/draksambashare:377
+#, c-format
+msgid "Add a share"
+msgstr "添加共享"
+
+#: ../bin/draksambashare:380
+#, c-format
+msgid "Name of the share:"
+msgstr "共享名称:"
+
+#: ../bin/draksambashare:381 ../bin/draksambashare:587
+#: ../bin/draksambashare:767
+#, c-format
+msgid "Comment:"
+msgstr "注释:"
+
+#: ../bin/draksambashare:393
+#, c-format
+msgid "Share with the same name already exist or share name empty, please choose another name."
+msgstr "同名共享已经存在，或者共享名为空，请另选一个名称。"
+
+#: ../bin/draksambashare:400
+#, c-format
+msgid "Can't create the directory, please enter a correct path."
+msgstr "无法创建目录，请输入正确的路径。"
+
+#: ../bin/draksambashare:403 ../bin/draksambashare:623
+#: ../bin/draksambashare:789
+#, c-format
+msgid "Please enter a Comment for this share."
+msgstr "请输入此共享的注释。"
+
+#: ../bin/draksambashare:440
+#, c-format
+msgid "pdf-gen - a PDF generator"
+msgstr "pdf-gen - PDF 生成器"
+
+#: ../bin/draksambashare:441
+#, c-format
+msgid "printers - all printers available"
+msgstr "打印机 - 可用的全部打印机"
+
+#: ../bin/draksambashare:445
+#, c-format
+msgid "Add Special Printer share"
+msgstr "添加特殊的打印机共享"
+
+#: ../bin/draksambashare:448
+#, c-format
+msgid "Goal of this wizard is to easily create a new special printer Samba share."
+msgstr "此向导的作用是轻松创建特殊的 Samba 共享打印机。"
+
+#: ../bin/draksambashare:455
+#, c-format
+msgid "A PDF generator already exists."
+msgstr "已经存在 PDF 生成器。"
+
+#: ../bin/draksambashare:479
+#, c-format
+msgid "Printers and print$ already exist."
+msgstr "打印机和 print$ 已经存在。"
+
+#: ../bin/draksambashare:529 ../bin/draksambashare:1198
+#, c-format
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: ../bin/draksambashare:530
+#, c-format
+msgid "The wizard successfully added the printer Samba share"
+msgstr "向导成功添加了打印机 Samba 共享"
+
+#: ../bin/draksambashare:552
+#, c-format
+msgid "Please add or select a Samba printer share to be able to modify it."
+msgstr "请添加或选择 Samba 打印机共享，然后再修改。"
+
+#: ../bin/draksambashare:570
+#, c-format
+msgid "DrakSamba Printers entry"
+msgstr "DrakSamba 打印机项"
+
+#: ../bin/draksambashare:583
+#, c-format
+msgid "Printer share"
+msgstr "打印机共享"
+
+#: ../bin/draksambashare:586
+#, c-format
+msgid "Printer name:"
+msgstr "打印机名称:"
+
+#: ../bin/draksambashare:592 ../bin/draksambashare:772
+#, c-format
+msgid "Writable:"
+msgstr "可写入:"
+
+#: ../bin/draksambashare:593 ../bin/draksambashare:773
+#, c-format
+msgid "Browseable:"
+msgstr "可浏览:"
+
+#: ../bin/draksambashare:598
+#, c-format
+msgid "Advanced options"
+msgstr "高级选项"
+
+#: ../bin/draksambashare:600
+#, c-format
+msgid "Printer access"
+msgstr "打印机访问"
+
+#: ../bin/draksambashare:604
+#, c-format
+msgid "Guest ok:"
+msgstr "Guest 可访问:"
+
+#: ../bin/draksambashare:605
+#, c-format
+msgid "Create mode:"
+msgstr "创建模式:"
+
+#: ../bin/draksambashare:609
+#, c-format
+msgid "Printer command"
+msgstr "打印机命令"
+
+#: ../bin/draksambashare:611
+#, c-format
+msgid "Print command:"
+msgstr "打印命令:"
+
+#: ../bin/draksambashare:612
+#, c-format
+msgid "LPQ command:"
+msgstr "LPQ 命令:"
+
+#: ../bin/draksambashare:613
+#, c-format
+msgid "Printing:"
+msgstr "打印:"
+
+#: ../bin/draksambashare:629
+#, c-format
+msgid "create mode should be numeric. ie: 0755."
+msgstr "创建模式必须是数字。如: 0755。"
+
+#: ../bin/draksambashare:690
+#, c-format
+msgid "DrakSamba entry"
+msgstr "DrakSamba 项"
+
+#: ../bin/draksambashare:695
+#, c-format
+msgid "Please add or select a Samba share to be able to modify it."
+msgstr "请添加或选择 Samba 共享，再修改。"
+
+#: ../bin/draksambashare:718
+#, c-format
+msgid "Samba user access"
+msgstr "Samba 用户访问"
+
+#: ../bin/draksambashare:726
+#, c-format
+msgid "Mask options"
+msgstr "掩码选项"
+
+#: ../bin/draksambashare:740
+#, c-format
+msgid "Display options"
+msgstr "显示选项"
+
+#: ../bin/draksambashare:762
+#, c-format
+msgid "Samba share directory"
+msgstr "Samba 共享目录"
+
+#: ../bin/draksambashare:765
+#, c-format
+msgid "Share name:"
+msgstr "共享名:"
+
+#: ../bin/draksambashare:771
+#, c-format
+msgid "Public:"
+msgstr "公开:"
+
+#: ../bin/draksambashare:795
+#, c-format
+msgid "Create mask, create mode and directory mask should be numeric. ie: 0755."
+msgstr "创建掩码、创建模式和目录掩码必须是数字。即: 0755。"
+
+#: ../bin/draksambashare:803
+#, c-format
+msgid "Please create this Samba user: %s"
+msgstr "请创建此 Samba 用户: %s"
+
+#: ../bin/draksambashare:915
+#, c-format
+msgid "Add Samba user"
+msgstr "添加 Samba 用户"
+
+#: ../bin/draksambashare:930
+#, c-format
+msgid "User information"
+msgstr "用户信息"
+
+#: ../bin/draksambashare:932
+#, c-format
+msgid "User name:"
+msgstr "用户名:"
+
+#: ../bin/draksambashare:933
+#, c-format
+msgid "Password:"
+msgstr "密码："
+
+#: ../bin/draksambashare:1047
+#, c-format
+msgid "PDC - primary domain controller"
+msgstr "PDC - 主域控制器"
+
+#: ../bin/draksambashare:1048
+#, c-format
+msgid "Standalone - standalone server"
+msgstr "独立 - 独立服务器"
+
+#: ../bin/draksambashare:1054
+#, c-format
+msgid "Samba Wizard"
+msgstr "Samba 向导"
+
+#: ../bin/draksambashare:1057
+#, c-format
+msgid "Samba server configuration Wizard"
+msgstr "Samba 服务器配置向导"
+
+#: ../bin/draksambashare:1057
+#, c-format
+msgid "Samba allows your server to behave as a file and print server for workstations running non-Linux systems."
+msgstr "Samba 让您的服务器为运行 Linux 以外操作系统的工作站提供文件和打印服务。"
+
+#: ../bin/draksambashare:1073
+#, c-format
+msgid "PDC server: primary domain controller"
+msgstr "PDC 服务器: 主域控制器"
+
+#: ../bin/draksambashare:1073
+#, c-format
+msgid "Server configured as a PDC is responsible for Windows authentication throughout the domain."
+msgstr "配置为 PDC 的服务器担负着域中进行 Windows 验证的责任。"
+
+#: ../bin/draksambashare:1073
+#, c-format
+msgid "Single server installations may use smbpasswd or tdbsam password backends"
+msgstr "单服务器安装可以使用 smbpasswd 或 tdbsam 密码后端"
+
+#: ../bin/draksambashare:1073
+#, c-format
+msgid "Domain master = yes, causes the server to register the NetBIOS name <pdc name>. This name will be recognized by other servers."
+msgstr "域主浏览器 = 是，将导致服务器注册 NetBIOS 名称 <pdc 名称>。此名称可为其它服务器所识别。"
+
+#: ../bin/draksambashare:1090
+#, c-format
+msgid "Wins support:"
+msgstr "Wins 支持:"
+
+#: ../bin/draksambashare:1091
+#, c-format
+msgid "admin users:"
+msgstr "管理员用户:"
+
+#: ../bin/draksambashare:1091
+#, c-format
+msgid "root @adm"
+msgstr "root @adm"
+
+#: ../bin/draksambashare:1092
+#, c-format
+msgid "Os level:"
+msgstr "操作系统级别:"
+
+#: ../bin/draksambashare:1092
+#, c-format
+msgid "The global os level option dictates the operating system level at which Samba will masquerade during a browser election. If you wish to have Samba win an election and become the master browser, you can set the level above that of the operating system on your network with the highest current value. ie: os level = 34"
+msgstr "全局操作系统级别选项将用来当 Samba 在浏览器选择时伪装使用。如果您希望 Samba 进行选择并成为主浏览器，您可以将上面操作系统的级别设定为网络中最高的值，如 os level = 34"
+
+#: ../bin/draksambashare:1096
+#, c-format
+msgid "The domain is wrong."
+msgstr "域不对。"
+
+#: ../bin/draksambashare:1103
+#, c-format
+msgid "Workgroup"
+msgstr "工作组"
+
+#: ../bin/draksambashare:1103
+#, c-format
+msgid "Samba needs to know the Windows Workgroup it will serve."
+msgstr "Samba 要服务的 Windows 工作组。"
+
+#: ../bin/draksambashare:1110 ../bin/draksambashare:1177
+#, c-format
+msgid "Workgroup:"
+msgstr "工作组:"
+
+#: ../bin/draksambashare:1111
+#, c-format
+msgid "Netbios name:"
+msgstr "Netbios 名称:"
+
+#: ../bin/draksambashare:1115
+#, c-format
+msgid "The Workgroup is wrong."
+msgstr "工作组不对。"
+
+#: ../bin/draksambashare:1122 ../bin/draksambashare:1132
+#, c-format
+msgid "Security mode"
+msgstr "安全性模式"
+
+#: ../bin/draksambashare:1122
+#, c-format
+msgid "User level: the client sends a session setup request directly following protocol negotiation. This request provides a username and password."
+msgstr "用户级别: 客户端根据协议直接发送会话建立请求，此请求将提供用户名和密码。"
+
+#: ../bin/draksambashare:1122
+#, c-format
+msgid "Share level: the client authenticates itself separately for each share"
+msgstr "共享级别: 客户端为每个认证提供单独的身份验证"
+
+#: ../bin/draksambashare:1122
+#, c-format
+msgid "Domain level: provides a mechanism for storing all user and group accounts in a central, shared, account repository. The centralized account repository is shared between domain (security) controllers."
+msgstr "域级: 在集中的共享帐户仓库中存储全部用户和组帐户。集中式帐户仓库在域控制器之间共享。"
+
+#: ../bin/draksambashare:1133
+#, c-format
+msgid "Hosts allow"
+msgstr "允许的主机"
+
+#: ../bin/draksambashare:1138
+#, c-format
+msgid "Server Banner."
+msgstr "服务器标语。"
+
+#: ../bin/draksambashare:1138
+#, c-format
+msgid "The banner is the way this server will be described in the Windows workstations."
+msgstr "这个标语会显示在 Windows 网络邻居中这个服务器名字旁边作为描述。"
+
+#: ../bin/draksambashare:1143
+#, c-format
+msgid "Banner:"
+msgstr "标语:"
+
+#: ../bin/draksambashare:1147
+#, c-format
+msgid "The Server Banner is incorrect."
+msgstr "服务器标语不对。"
+
+#: ../bin/draksambashare:1154
+#, c-format
+msgid "Samba Log"
+msgstr "Samba 日志"
+
+#: ../bin/draksambashare:1154
+#, c-format
+msgid "Log file: use file.%m to use a separate log file for each machine that connects"
+msgstr "日志文件：使用 file.%m 为每台连接的计算机是用独立的日志文件"
+
+#: ../bin/draksambashare:1154
+#, c-format
+msgid "Log level: set the log (verbosity) level (0 <= log level <= 10)"
+msgstr "日志级别: 设定日志的详细级别(0 <= 日志级别 <= 10)"
+
+#: ../bin/draksambashare:1154
+#, c-format
+msgid "Max Log size: put a capping on the size of the log files (in Kb)."
+msgstr "日志最大大小：限制日志文件的大小(以 K 字节计)。"
+
+#: ../bin/draksambashare:1161 ../bin/draksambashare:1179
+#, c-format
+msgid "Log file:"
+msgstr "日志文件:"
+
+#: ../bin/draksambashare:1162
+#, c-format
+msgid "Max log size:"
+msgstr "日志最大大小:"
+
+#: ../bin/draksambashare:1163
+#, c-format
+msgid "Log level:"
+msgstr "日志级别:"
+
+#: ../bin/draksambashare:1168
+#, c-format
+msgid "The wizard collected the following parameters to configure Samba."
+msgstr "为了配置 Samba，向导收集了下列需要的参数。"
+
+#: ../bin/draksambashare:1168
+#, c-format
+msgid "To accept these values, and configure your server, click the Next button or use the Back button to correct them."
+msgstr "要接受这些值，并配置您的服务器，请单击“下一步”按钮或使用“上一步”按钮来修改它们。"
+
+#: ../bin/draksambashare:1168
+#, c-format
+msgid "If you have previously create some shares, they will appear in this configuration. Run 'drakwizard sambashare' to manage your shares."
+msgstr "如果您先前创建了共享，此配置中将会显示出来。请运行“drakwizard sambashare”管理您的共享。"
+
+#: ../bin/draksambashare:1176
+#, c-format
+msgid "Samba type:"
+msgstr "Samba 类型:"
+
+#: ../bin/draksambashare:1178
+#, c-format
+msgid "Server banner:"
+msgstr "服务器标语:"
+
+#: ../bin/draksambashare:1180
+#, c-format
+msgid " "
+msgstr " "
+
+#: ../bin/draksambashare:1181
+#, c-format
+msgid "Unix Charset:"
+msgstr "Unix 字符集:"
+
+#: ../bin/draksambashare:1182
+#, c-format
+msgid "Dos Charset:"
+msgstr "Dos 字符集:"
+
+#: ../bin/draksambashare:1183
+#, c-format
+msgid "Display Charset:"
+msgstr "显示字符集:"
+
+#: ../bin/draksambashare:1198
+#, c-format
+msgid "The wizard successfully configured your Samba server."
+msgstr "向导成功地配置了您的 Samba 服务器。"
+
+#: ../bin/draksambashare:1253
+#, c-format
+msgid "The Samba wizard has unexpectedly failed:"
+msgstr "Samba 向导意外失败:"
+
+#: ../bin/draksambashare:1267
+#, c-format
+msgid "Manage Samba configuration"
+msgstr "管理 Samba 配置"
+
+#: ../bin/draksambashare:1355
+#, c-format
+msgid "Failed to Modify Samba share."
+msgstr "修改 Samba 共享失败。"
+
+#: ../bin/draksambashare:1364
+#, c-format
+msgid "Failed to remove a Samba share."
+msgstr "删除 Samba 共享失败。"
+
+#: ../bin/draksambashare:1371
+#, c-format
+msgid "File share"
+msgstr "文件共享"
+
+#: ../bin/draksambashare:1386
+#, c-format
+msgid "Failed to Modify."
+msgstr "修改失败。"
+
+#: ../bin/draksambashare:1395
+#, c-format
+msgid "Failed to remove."
+msgstr "删除失败。"
+
+#: ../bin/draksambashare:1402
+#, c-format
+msgid "Printers"
+msgstr "打印机"
+
+#: ../bin/draksambashare:1414
+#, c-format
+msgid "Failed to add user."
+msgstr "添加用户失败。"
+
+#: ../bin/draksambashare:1423
+#, c-format
+msgid "Failed to change user password."
+msgstr "更改用户密码。"
+
+#: ../bin/draksambashare:1435
+#, c-format
+msgid "Failed to delete user."
+msgstr "删除用户失败。"
+
+#: ../bin/draksambashare:1440
+#, c-format
+msgid "Userdrake"
+msgstr "Drak 用户管理"
+
+#: ../bin/draksambashare:1448
+#, c-format
+msgid "Samba Users"
+msgstr "Samba 用户"
+
+#: ../bin/draksambashare:1456
+#, c-format
+msgid "Please configure your Samba server"
+msgstr "请配置您的 Samba 服务器"
+
+#: ../bin/draksambashare:1456
+#, c-format
+msgid ""
+"It seems this is the first time you run this tool.\n"
+"A wizard will appear to configure a basic Samba server"
+msgstr ""
+"似乎这是您第一次运行此工具。\n"
+"向导将会协助您配置基本的 Samba 服务器"
+
+#: ../bin/draksambashare:1465
+#, c-format
+msgid "DrakSamba manage Samba shares"
+msgstr "DrakSamba 管理 Samba 共享"
+
+#: ../bin/net_applet:96
+#, c-format
+msgid "Network is up on interface %s."
+msgstr "网卡 %s 的网络已通。"
+
+#: ../bin/net_applet:97
+#, c-format
+msgid "IP address: %s"
+msgstr "IP 地址: %s"
+
+#: ../bin/net_applet:98
+#, c-format
+msgid "Gateway: %s"
+msgstr "网关: %s"
+
+#: ../bin/net_applet:99
+#, c-format
+msgid "DNS: %s"
+msgstr "DNS：%s"
+
+#: ../bin/net_applet:100
+#, c-format
+msgid "Connected to %s (link level: %d %%)"
+msgstr "已经连接到 %s(连接等级: %d %%)"
+
+#: ../bin/net_applet:102
+#, c-format
+msgid "Network is down on interface %s."
+msgstr "网卡 %s 的网络已断。"
+
+#: ../bin/net_applet:104
+#, c-format
+msgid ""
+"You do not have any configured Internet connection.\n"
+"Run the \"%s\" assistant from the Mageia Linux Control Center"
+msgstr ""
+
+#: ../bin/net_applet:107 ../lib/network/connection_manager.pm:206
+#, c-format
+msgid "Connecting..."
+msgstr "正在连接..."
+
+#: ../bin/net_applet:133 ../bin/net_monitor:519
+#, c-format
+msgid "Connect %s"
+msgstr "连接 %s"
+
+#: ../bin/net_applet:137 ../bin/net_monitor:519
+#, c-format
+msgid "Disconnect %s"
+msgstr "断开 %s"
+
+#: ../bin/net_applet:141
+#, c-format
+msgid "Monitor Network"
+msgstr "监视网络"
+
+#: ../bin/net_applet:149
+#, c-format
+msgid "Manage wireless networks"
+msgstr "管理无线网络"
+
+#: ../bin/net_applet:153
+#, c-format
+msgid "Manage VPN connections"
+msgstr "管理 VPN 连接"
+
+#: ../bin/net_applet:157
+#, c-format
+msgid "Configure Network"
+msgstr "配置网络"
+
+#: ../bin/net_applet:161
+#, c-format
+msgid "Watched interface"
+msgstr "监视的接口"
+
+#: ../bin/net_applet:162 ../bin/net_applet:165 ../bin/net_applet:168
+#, c-format
+msgid "Auto-detect"
+msgstr "自动检测"
+
+#: ../bin/net_applet:173
+#, c-format
+msgid "Active interfaces"
+msgstr "活动接口"
+
+#: ../bin/net_applet:193
+#, c-format
+msgid "Profiles"
+msgstr "配置文件"
+
+#: ../bin/net_applet:203 ../lib/network/connection.pm:233
+#: ../lib/network/drakvpn.pm:62 ../lib/network/vpn/openvpn.pm:367
+#: ../lib/network/vpn/openvpn.pm:381 ../lib/network/vpn/openvpn.pm:392
+#, c-format
+msgid "VPN connection"
+msgstr "VPN 连接"
+
+#: ../bin/net_applet:434
+#, c-format
+msgid "Network connection"
+msgstr "网络连接"
+
+#: ../bin/net_applet:521
+#, c-format
+msgid "More networks"
+msgstr "更多网络"
+
+#: ../bin/net_applet:548
+#, c-format
+msgid "Interactive Firewall automatic mode"
+msgstr "交互式防火墙自动模式"
+
+#: ../bin/net_applet:553
+#, c-format
+msgid "Always launch on startup"
+msgstr "启动时自动调用"
+
+#: ../bin/net_applet:558
+#, c-format
+msgid "Wireless networks"
+msgstr "无线网络"
+
+#: ../bin/net_applet:565 ../bin/net_monitor:96
+#, c-format
+msgid "Settings"
+msgstr "设置"
+
+#: ../bin/net_monitor:60 ../bin/net_monitor:65
+#, c-format
+msgid "Network Monitoring"
+msgstr "网络监视"
+
+#: ../bin/net_monitor:99
+#, c-format
+msgid "Default connection: "
+msgstr "默认连接:"
+
+#: ../bin/net_monitor:101
+#, c-format
+msgid "Wait please"
+msgstr "请稍候"
+
+#: ../bin/net_monitor:104
+#, c-format
+msgid "Global statistics"
+msgstr "全局统计"
+
+#: ../bin/net_monitor:107
+#, c-format
+msgid "Instantaneous"
+msgstr "瞬时"
+
+#: ../bin/net_monitor:107
+#, c-format
+msgid "Average"
+msgstr "平均"
+
+#: ../bin/net_monitor:108
+#, c-format
+msgid ""
+"Sending\n"
+"speed:"
+msgstr ""
+"发送\n"
+"速度: "
+
+#: ../bin/net_monitor:108 ../bin/net_monitor:109 ../bin/net_monitor:114
+#, c-format
+msgid "unknown"
+msgstr "未知"
+
+#: ../bin/net_monitor:109
+#, c-format
+msgid ""
+"Receiving\n"
+"speed:"
+msgstr ""
+"接收\n"
+"速度: "
+
+#: ../bin/net_monitor:113
+#, c-format
+msgid "Connection time: "
+msgstr "连接时间: "
+
+#: ../bin/net_monitor:120
+#, c-format
+msgid "Use same scale for received and transmitted"
+msgstr "对接收和发出的数据使用同一比例"
+
+#: ../bin/net_monitor:138
+#, c-format
+msgid "Wait please, testing your connection..."
+msgstr "请稍候, 正在测试连接..."
+
+#: ../bin/net_monitor:210 ../bin/net_monitor:223
+#, c-format
+msgid "Disconnecting from Internet "
+msgstr "从 Internet 断开 "
+
+#: ../bin/net_monitor:210 ../bin/net_monitor:223
+#, c-format
+msgid "Connecting to Internet "
+msgstr "正连接到 Internet"
+
+#: ../bin/net_monitor:254
+#, c-format
+msgid "Disconnection from Internet failed."
+msgstr "从 Internet 断开连接失败。"
+
+#: ../bin/net_monitor:255
+#, c-format
+msgid "Disconnection from Internet complete."
+msgstr "从 Internet 断开完成。"
+
+#: ../bin/net_monitor:257
+#, c-format
+msgid "Connection complete."
+msgstr "连接完成。"
+
+#: ../bin/net_monitor:258
+#, c-format
+msgid ""
+"Connection failed.\n"
+"Verify your configuration in the Mageia Linux Control Center."
+msgstr ""
+
+#: ../bin/net_monitor:360
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../bin/net_monitor:385
+#, c-format
+msgid "Color configuration"
+msgstr "颜色配置"
+
+#: ../bin/net_monitor:444 ../bin/net_monitor:457
+#, c-format
+msgid "sent: "
+msgstr "已发送: "
+
+#: ../bin/net_monitor:447 ../bin/net_monitor:461
+#, c-format
+msgid "received: "
+msgstr "已接收: "
+
+#: ../bin/net_monitor:450
+#, c-format
+msgid "average"
+msgstr "平均"
+
+#: ../bin/net_monitor:451
+#, c-format
+msgid "Reset counters"
+msgstr "重置计数器"
+
+#: ../bin/net_monitor:454
+#, c-format
+msgid "Local measure"
+msgstr "本机测量"
+
+#: ../bin/net_monitor:512
+#, c-format
+msgid "Warning, another internet connection has been detected, maybe using your network"
+msgstr "警告, 检测到了另外的 Internet 连接, 可能使用您的网络"
+
+#: ../bin/net_monitor:516 ../lib/network/drakconnect/global.pm:18
+#, c-format
+msgid "Connected"
+msgstr "已连接"
+
+#: ../bin/net_monitor:516 ../lib/network/drakconnect/global.pm:18
+#, c-format
+msgid "Not connected"
+msgstr "未连接"
+
+#: ../bin/net_monitor:523
+#, c-format
+msgid "No internet connection configured"
+msgstr "尚未配置 Internet 连接"
+
+#: ../lib/network/connection.pm:16
+#, c-format
+msgid "Unknown connection type"
+msgstr "未知连接类型"
+
+#: ../lib/network/connection.pm:166
+#, c-format
+msgid "Network access settings"
+msgstr "网络访问设置"
+
+#: ../lib/network/connection.pm:167
+#, c-format
+msgid "Access settings"
+msgstr "访问设置"
+
+#: ../lib/network/connection.pm:168
+#, c-format
+msgid "Address settings"
+msgstr "地址设置"
+
+#: ../lib/network/connection.pm:182 ../lib/network/connection.pm:202
+#: ../lib/network/connection/isdn.pm:155 ../lib/network/netconnect.pm:217
+#: ../lib/network/netconnect.pm:492 ../lib/network/netconnect.pm:588
+#: ../lib/network/netconnect.pm:591
+#, c-format
+msgid "Unlisted - edit manually"
+msgstr "未列出 - 手动编辑"
+
+#: ../lib/network/connection.pm:235 ../lib/network/connection/cable.pm:41
+#: ../lib/network/connection/wireless.pm:46 ../lib/network/vpn/openvpn.pm:129
+#: ../lib/network/vpn/openvpn.pm:173 ../lib/network/vpn/openvpn.pm:341
+#, c-format
+msgid "None"
+msgstr "无"
+
+#: ../lib/network/connection.pm:247
+#, c-format
+msgid "Allow users to manage the connection"
+msgstr "允许用户管理连接"
+
+#: ../lib/network/connection.pm:248
+#, c-format
+msgid "Start the connection at boot"
+msgstr "启动时开启连接"
+
+#: ../lib/network/connection.pm:249
+#, c-format
+msgid "Enable traffic accounting"
+msgstr "启用流量统计"
+
+#: ../lib/network/connection.pm:250
+#, c-format
+msgid "Allow interface to be controlled by Network Manager"
+msgstr ""
+
+#: ../lib/network/connection.pm:251 ../lib/network/drakconnect/edit.pm:292
+#, c-format
+msgid "Metric"
+msgstr "度量衡"
+
+#: ../lib/network/connection.pm:252
+#, c-format
+msgid "MTU"
+msgstr "MTU"
+
+#: ../lib/network/connection.pm:253
+#, c-format
+msgid "Maximum size of network message (MTU). If unsure, left blank."
+msgstr "网络消息的最大大小(MTU)。如果不确定的话，请留空。"
+
+#: ../lib/network/connection.pm:333
+#, c-format
+msgid "Link detected on interface %s"
+msgstr "在网卡 %s 检测到链接"
+
+#: ../lib/network/connection.pm:334 ../lib/network/connection/ethernet.pm:305
+#, c-format
+msgid "Link beat lost on interface %s"
+msgstr "网卡 %s 的链接已断"
+
+#: ../lib/network/connection/cable.pm:10
+#, c-format
+msgid "Cable"
+msgstr "有线"
+
+#: ../lib/network/connection/cable.pm:11
+#, c-format
+msgid "Cable modem"
+msgstr "有线调制解调器"
+
+#: ../lib/network/connection/cable.pm:42
+#, c-format
+msgid "Use BPALogin (needed for Telstra)"
+msgstr "使用 BPALogin (Telstra 需要)"
+
+#: ../lib/network/connection/cable.pm:45
+#: ../lib/network/drakconnect/edit.pm:312 ../lib/network/netconnect.pm:616
+#, c-format
+msgid "Authentication"
+msgstr "身份验证"
+
+#: ../lib/network/connection/cable.pm:47 ../lib/network/connection/ppp.pm:22
+#: ../lib/network/drakconnect/edit.pm:322 ../lib/network/netconnect.pm:355
+#: ../lib/network/vpn/openvpn.pm:395
+#, c-format
+msgid "Account Login (user name)"
+msgstr "账户登录(用户名)"
+
+#: ../lib/network/connection/cable.pm:49 ../lib/network/connection/ppp.pm:23
+#: ../lib/network/drakconnect/edit.pm:323 ../lib/network/netconnect.pm:356
+#: ../lib/network/vpn/openvpn.pm:396
+#, c-format
+msgid "Account Password"
+msgstr "账户密码"
+
+#: ../lib/network/connection/cellular.pm:75
+#, c-format
+msgid "Access Point Name"
+msgstr "访问点名称"
+
+#: ../lib/network/connection/cellular_bluetooth.pm:10
+#, c-format
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: ../lib/network/connection/cellular_bluetooth.pm:11
+#, c-format
+msgid "Bluetooth Dial Up Networking"
+msgstr "蓝牙拨号网络"
+
+#: ../lib/network/connection/cellular_card.pm:8
+#, c-format
+msgid "Wrong PIN number format: it should be 4 digits."
+msgstr "错误的 PIN 数字格式: 应改为四位数字。"
+
+#: ../lib/network/connection/cellular_card.pm:10
+#, c-format
+msgid "GPRS/Edge/3G"
+msgstr "GPRS/Edge/3G"
+
+#: ../lib/network/connection/cellular_card.pm:140
+#, c-format
+msgid "PIN number (4 digits). Leave empty if PIN is not required."
+msgstr "PIN 号码(4位)。如果不需要的话，请留空。"
+
+#: ../lib/network/connection/cellular_card.pm:216
+#, c-format
+msgid "Unable to open device %s"
+msgstr "无法打开设备 %s"
+
+#: ../lib/network/connection/cellular_card.pm:248
+#, c-format
+msgid "Please check that your SIM card is inserted."
+msgstr "请检查您的 SIM 卡是否已经插入。"
+
+#: ../lib/network/connection/cellular_card.pm:259
+#, c-format
+msgid ""
+"You entered a wrong PIN code.\n"
+"Entering the wrong PIN code multiple times may lock your SIM card!"
+msgstr ""
+"您输入的 PIN 代码不对。\n"
+"多次输入错误的 PIN 代码可能导致您的 SIM 卡被锁！"
+
+#: ../lib/network/connection/dvb.pm:9
+#, c-format
+msgid "DVB"
+msgstr "DVB"
+
+#: ../lib/network/connection/dvb.pm:10
+#, c-format
+msgid "Satellite (DVB)"
+msgstr "卫星(DVB)"
+
+#: ../lib/network/connection/dvb.pm:53
+#, c-format
+msgid "Adapter card"
+msgstr "适配卡"
+
+#: ../lib/network/connection/dvb.pm:54
+#, c-format
+msgid "Net demux"
+msgstr "网络互斥"
+
+#: ../lib/network/connection/dvb.pm:55
+#, c-format
+msgid "PID"
+msgstr "PID"
+
+#: ../lib/network/connection/ethernet.pm:11
+#, c-format
+msgid "Ethernet"
+msgstr "以太网"
+
+#: ../lib/network/connection/ethernet.pm:12
+#, c-format
+msgid "Wired (Ethernet)"
+msgstr "有线(以太网)"
+
+#: ../lib/network/connection/ethernet.pm:30
+#, c-format
+msgid "Virtual interface"
+msgstr "虚拟网卡"
+
+#: ../lib/network/connection/ethernet.pm:60
+#, c-format
+msgid "Unable to find network interface for selected device (using %s driver)."
+msgstr "找不到选中设备(使用 %s 驱动程序)的网络网卡。"
+
+#: ../lib/network/connection/ethernet.pm:70 ../lib/network/vpn/openvpn.pm:209
+#, c-format
+msgid "Manual configuration"
+msgstr "手工配置"
+
+#: ../lib/network/connection/ethernet.pm:71
+#, c-format
+msgid "Automatic IP (BOOTP/DHCP)"
+msgstr "自动 IP(BOOTP/DHCP)"
+
+#: ../lib/network/connection/ethernet.pm:132
+#, c-format
+msgid "IP settings"
+msgstr "IP 设置"
+
+#: ../lib/network/connection/ethernet.pm:145
+#, c-format
+msgid ""
+"Please enter the IP configuration for this machine.\n"
+"Each item should be entered as an IP address in dotted-decimal\n"
+"notation (for example, 1.2.3.4)."
+msgstr ""
+"请输入这台电脑的 IP 设置。\n"
+"下列项目要求以句点分隔十进制格式输入的 IP 地址。\n"
+"(例如, 1.2.3.4)"
+
+#: ../lib/network/connection/ethernet.pm:149
+#: ../lib/network/drakconnect/edit.pm:162 ../lib/network/netconnect.pm:665
+#: ../lib/network/vpn/openvpn.pm:214 ../lib/network/vpn/vpnc.pm:39
+#, c-format
+msgid "Gateway"
+msgstr "网关"
+
+#: ../lib/network/connection/ethernet.pm:152
+#: ../lib/network/drakconnect/edit.pm:212
+#, c-format
+msgid "Get DNS servers from DHCP"
+msgstr "从 DHCP 获取 DNS 服务器"
+
+#: ../lib/network/connection/ethernet.pm:154
+#, c-format
+msgid "DNS server 1"
+msgstr "DNS 服务器 1"
+
+#: ../lib/network/connection/ethernet.pm:155
+#, c-format
+msgid "DNS server 2"
+msgstr "DNS 服务器 2"
+
+#: ../lib/network/connection/ethernet.pm:156
+#, c-format
+msgid "Search domain"
+msgstr "搜索网域"
+
+#: ../lib/network/connection/ethernet.pm:157
+#, c-format
+msgid "By default search domain will be set from the fully-qualified host name"
+msgstr "默认情况下, 搜索域名将会根据完全限定的主机名进行设定"
+
+#: ../lib/network/connection/ethernet.pm:160
+#: ../lib/network/drakconnect/edit.pm:209
+#, c-format
+msgid "DHCP timeout (in seconds)"
+msgstr "DHCP 超时(秒)"
+
+#: ../lib/network/connection/ethernet.pm:161
+#: ../lib/network/drakconnect/edit.pm:213
+#, c-format
+msgid "Get YP servers from DHCP"
+msgstr "从 DHCP 获取 YP 服务器"
+
+#: ../lib/network/connection/ethernet.pm:162
+#: ../lib/network/drakconnect/edit.pm:214
+#, c-format
+msgid "Get NTPD servers from DHCP"
+msgstr "从 DHCP 获取 NTPD 服务器"
+
+#: ../lib/network/connection/ethernet.pm:163
+#: ../lib/network/drakconnect/edit.pm:205
+#, c-format
+msgid "DHCP host name"
+msgstr "DHCP 主机名"
+
+#: ../lib/network/connection/ethernet.pm:165
+#, c-format
+msgid "Do not fallback to Zeroconf (169.254.0.0 network)"
+msgstr "默认值不依据 Zeroconf (169.254.0.0 网络)"
+
+#: ../lib/network/connection/ethernet.pm:176
+#: ../lib/network/drakconnect/edit.pm:506
+#, c-format
+msgid "IP address should be in format 1.2.3.4"
+msgstr "IP 地址的格式应该是 1.2.3.4"
+
+#: ../lib/network/connection/ethernet.pm:181
+#: ../lib/network/drakconnect/edit.pm:510
+#, c-format
+msgid "Netmask should be in format 255.255.224.0"
+msgstr "子网掩码的格式应该是 255.255.224.0"
+
+#: ../lib/network/connection/ethernet.pm:186
+#, c-format
+msgid "Warning: IP address %s is usually reserved!"
+msgstr "警告: IP 地址 %s 通常是被保留的！"
+
+#: ../lib/network/connection/ethernet.pm:195
+#, c-format
+msgid "%s is already used by a connection that starts on boot (%s). To use this address with this connection, first disable all other devices which use it, or configure them not to start at boot"
+msgstr "%s 已经被启动时的连接所占用(%s)。要在此连接中使用此地址，首先应禁用该连接上的其它服务，或者将这些服务配置为启动时不要启动"
+
+#: ../lib/network/connection/ethernet.pm:222
+#: ../lib/network/drakconnect/edit.pm:203
+#, c-format
+msgid "Assign host name from DHCP server (or generate a unique one)"
+msgstr "从 DHCP 地址指定主机名(或者生成唯一的主机名)"
+
+#: ../lib/network/connection/ethernet.pm:223
+#, c-format
+msgid "This will allow the server to attribute a name for this machine. If the server does not provides a valid host name, it will be generated automatically."
+msgstr "这将允许服务器为此计算机指定名称。如果服务器不提供有效的主机名的话，系统将会自动生成一个主机名。"
+
+#: ../lib/network/connection/ethernet.pm:226
+#, c-format
+msgid "You should define a hostname for this machine, which will identify this PC. Note that this hostname will be shared among all network connections.  If left blank, 'localhost.localdomain' will be used."
+msgstr "您应该为此计算机定义一个主机名，以便标识这台计算机。请注意，此主机名将会在所有网络连接中共享。如果留空的话，将会使用“localhost.localdomain”。"
+
+#: ../lib/network/connection/ethernet.pm:244
+#: ../lib/network/drakconnect/edit.pm:270
+#, c-format
+msgid "Network Hotplugging"
+msgstr "网络热插拔"
+
+#: ../lib/network/connection/ethernet.pm:248
+#, c-format
+msgid "Enable IPv6 to IPv4 tunnel"
+msgstr "启用 IPv6 到 IPv4 的隧道"
+
+#: ../lib/network/connection/ethernet.pm:304
+#, c-format
+msgid "Link beat detected on interface %s"
+msgstr "网卡 %s 监测到了链接信号"
+
+#: ../lib/network/connection/ethernet.pm:307
+#, c-format
+msgid "Requesting a network address on interface %s (%s protocol)..."
+msgstr "正在通过网卡 %s 请求网络地址(%s 协议)..."
+
+#: ../lib/network/connection/ethernet.pm:308
+#, c-format
+msgid "Got a network address on interface %s (%s protocol)"
+msgstr "通过网卡 %s 获得了网络地址(%s 协议)"
+
+#: ../lib/network/connection/ethernet.pm:309
+#, c-format
+msgid "Failed to get a network address on interface %s (%s protocol)"
+msgstr "通过网卡 %s 获得网络地址失败(%s 协议)"
+
+#: ../lib/network/connection/isdn.pm:8
+#, c-format
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../lib/network/connection/isdn.pm:198 ../lib/network/netconnect.pm:424
+#, c-format
+msgid "ISA / PCMCIA"
+msgstr "ISA / PCMCIA"
+
+#: ../lib/network/connection/isdn.pm:198 ../lib/network/netconnect.pm:424
+#, c-format
+msgid "I do not know"
+msgstr "我不知道"
+
+#: ../lib/network/connection/isdn.pm:199 ../lib/network/netconnect.pm:424
+#, c-format
+msgid "PCI"
+msgstr "PCI"
+
+#: ../lib/network/connection/isdn.pm:200 ../lib/network/netconnect.pm:424
+#, c-format
+msgid "USB"
+msgstr "USB"
+
+#. -PO: POTS means "Plain old telephone service"
+#: ../lib/network/connection/pots.pm:10
+#, c-format
+msgid "POTS"
+msgstr "POTS"
+
+#. -PO: POTS means "Plain old telephone service"
+#. -PO: remove it if it doesn't have an equivalent in your language
+#. -PO: for example, in French, it can be translated as "RTC"
+#: ../lib/network/connection/pots.pm:16
+#, c-format
+msgid "Analog telephone modem (POTS)"
+msgstr "模拟电话调制解调器(POTS)"
+
+#: ../lib/network/connection/ppp.pm:9 ../lib/network/drakconnect/edit.pm:329
+#: ../lib/network/netconnect.pm:78
+#, c-format
+msgid "Script-based"
+msgstr "基于脚本登录"
+
+#: ../lib/network/connection/ppp.pm:10 ../lib/network/drakconnect/edit.pm:329
+#: ../lib/network/netconnect.pm:79
+#, c-format
+msgid "PAP"
+msgstr "PAP"
+
+#: ../lib/network/connection/ppp.pm:11 ../lib/network/drakconnect/edit.pm:329
+#: ../lib/network/netconnect.pm:80
+#, c-format
+msgid "Terminal-based"
+msgstr "基于终端"
+
+#: ../lib/network/connection/ppp.pm:12 ../lib/network/drakconnect/edit.pm:329
+#: ../lib/network/netconnect.pm:81
+#, c-format
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../lib/network/connection/ppp.pm:13 ../lib/network/drakconnect/edit.pm:329
+#: ../lib/network/netconnect.pm:82
+#, c-format
+msgid "PAP/CHAP"
+msgstr "PAP/CHAP"
+
+#: ../lib/network/connection/providers/cellular.pm:15
+#: ../lib/network/connection/providers/cellular_extra.pm:250
+#: ../lib/network/connection/providers/cellular_extra.pm:255
+#: ../lib/network/connection/providers/cellular_extra.pm:259
+#: ../lib/network/connection/providers/cellular_extra.pm:266
+#: ../lib/network/connection/providers/cellular_extra.pm:271
+#: ../lib/network/connection/providers/cellular_extra.pm:277
+#: ../lib/network/connection/providers/xdsl.pm:191
+#: ../lib/network/connection/providers/xdsl.pm:201
+#: ../lib/network/connection/providers/xdsl.pm:210
+#: ../lib/network/connection/providers/xdsl.pm:219
+#, c-format
+msgid "Brazil"
+msgstr "巴西"
+
+#: ../lib/network/connection/providers/cellular.pm:20
+#: ../lib/network/connection/providers/cellular.pm:23
+#: ../lib/network/connection/providers/cellular.pm:26
+#: ../lib/network/connection/providers/cellular.pm:29
+#: ../lib/network/connection/providers/cellular.pm:32
+#: ../lib/network/connection/providers/cellular.pm:35
+#: ../lib/network/connection/providers/cellular.pm:38
+#: ../lib/network/connection/providers/cellular_extra.pm:608
+#: ../lib/network/connection/providers/cellular_extra.pm:613
+#: ../lib/network/connection/providers/cellular_extra.pm:616
+#: ../lib/network/connection/providers/cellular_extra.pm:620
+#: ../lib/network/connection/providers/cellular_extra.pm:623
+#, c-format
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+#: ../lib/network/connection/providers/cellular.pm:42
+#: ../lib/network/connection/providers/cellular.pm:46
+#: ../lib/network/connection/providers/cellular.pm:54
+#: ../lib/network/connection/providers/cellular.pm:60
+#: ../lib/network/connection/providers/cellular.pm:65
+#: ../lib/network/connection/providers/cellular.pm:71
+#: ../lib/network/connection/providers/cellular.pm:75
+#: ../lib/network/connection/providers/cellular.pm:79
+#: ../lib/network/connection/providers/cellular.pm:85
+#: ../lib/network/connection/providers/cellular.pm:89
+#: ../lib/network/connection/providers/cellular_extra.pm:685
+#: ../lib/network/connection/providers/cellular_extra.pm:690
+#: ../lib/network/connection/providers/cellular_extra.pm:693
+#: ../lib/network/connection/providers/cellular_extra.pm:696
+#: ../lib/network/connection/providers/cellular_extra.pm:701
+#: ../lib/network/connection/providers/xdsl.pm:483
+#, c-format
+msgid "Finland"
+msgstr "芬兰"
+
+#: ../lib/network/connection/providers/cellular.pm:92
+#: ../lib/network/connection/providers/cellular.pm:95
+#: ../lib/network/connection/providers/cellular.pm:100
+#: ../lib/network/connection/providers/cellular.pm:105
+#: ../lib/network/connection/providers/cellular.pm:112
+#: ../lib/network/connection/providers/cellular.pm:117
+#: ../lib/network/connection/providers/cellular.pm:122
+#: ../lib/network/connection/providers/cellular.pm:125
+#: ../lib/network/connection/providers/cellular.pm:128
+#: ../lib/network/connection/providers/cellular_extra.pm:709
+#: ../lib/network/connection/providers/cellular_extra.pm:713
+#: ../lib/network/connection/providers/cellular_extra.pm:718
+#: ../lib/network/connection/providers/cellular_extra.pm:722
+#: ../lib/network/connection/providers/cellular_extra.pm:729
+#: ../lib/network/connection/providers/cellular_extra.pm:734
+#: ../lib/network/connection/providers/cellular_extra.pm:741
+#: ../lib/network/connection/providers/cellular_extra.pm:748
+#: ../lib/network/connection/providers/cellular_extra.pm:753
+#: ../lib/network/connection/providers/cellular_extra.pm:756
+#: ../lib/network/connection/providers/cellular_extra.pm:761
+#: ../lib/network/connection/providers/cellular_extra.pm:764
+#: ../lib/network/connection/providers/cellular_extra.pm:769
+#: ../lib/network/connection/providers/cellular_extra.pm:774
+#: ../lib/network/connection/providers/cellular_extra.pm:781
+#: ../lib/network/connection/providers/xdsl.pm:492
+#: ../lib/network/connection/providers/xdsl.pm:504
+#: ../lib/network/connection/providers/xdsl.pm:516
+#: ../lib/network/connection/providers/xdsl.pm:528
+#: ../lib/network/connection/providers/xdsl.pm:539
+#: ../lib/network/connection/providers/xdsl.pm:551
+#: ../lib/network/connection/providers/xdsl.pm:563
+#: ../lib/network/connection/providers/xdsl.pm:575
+#: ../lib/network/connection/providers/xdsl.pm:588
+#: ../lib/network/connection/providers/xdsl.pm:599
+#: ../lib/network/connection/providers/xdsl.pm:610
+#: ../lib/network/netconnect.pm:33
+#, c-format
+msgid "France"
+msgstr "法国"
+
+#: ../lib/network/connection/providers/cellular.pm:131
+#: ../lib/network/connection/providers/cellular.pm:134
+#: ../lib/network/connection/providers/cellular_extra.pm:505
+#: ../lib/network/connection/providers/cellular_extra.pm:512
+#: ../lib/network/connection/providers/cellular_extra.pm:519
+#: ../lib/network/connection/providers/cellular_extra.pm:526
+#: ../lib/network/connection/providers/cellular_extra.pm:531
+#: ../lib/network/connection/providers/cellular_extra.pm:536
+#: ../lib/network/connection/providers/cellular_extra.pm:541
+#: ../lib/network/connection/providers/cellular_extra.pm:547
+#: ../lib/network/connection/providers/cellular_extra.pm:554
+#: ../lib/network/connection/providers/cellular_extra.pm:561
+#: ../lib/network/connection/providers/xdsl.pm:621
+#: ../lib/network/connection/providers/xdsl.pm:630
+#: ../lib/network/connection/providers/xdsl.pm:640
+#, c-format
+msgid "Germany"
+msgstr "德国"
+
+#: ../lib/network/connection/providers/cellular.pm:137
+#: ../lib/network/connection/providers/cellular.pm:142
+#: ../lib/network/connection/providers/cellular.pm:147
+#: ../lib/network/connection/providers/cellular.pm:152
+#: ../lib/network/connection/providers/cellular_extra.pm:1213
+#: ../lib/network/connection/providers/cellular_extra.pm:1216
+#: ../lib/network/connection/providers/cellular_extra.pm:1219
+#: ../lib/network/connection/providers/cellular_extra.pm:1225
+#: ../lib/network/connection/providers/cellular_extra.pm:1228
+#: ../lib/network/connection/providers/cellular_extra.pm:1231
+#: ../lib/network/connection/providers/cellular_extra.pm:1234
+#: ../lib/network/connection/providers/cellular_extra.pm:1237
+#: ../lib/network/connection/providers/cellular_extra.pm:1240
+#: ../lib/network/connection/providers/xdsl.pm:814
+#: ../lib/network/connection/providers/xdsl.pm:825
+#: ../lib/network/connection/providers/xdsl.pm:835
+#: ../lib/network/connection/providers/xdsl.pm:846
+#: ../lib/network/netconnect.pm:35
+#, c-format
+msgid "Italy"
+msgstr "意大利"
+
+#: ../lib/network/connection/providers/cellular.pm:157
+#: ../lib/network/connection/providers/cellular.pm:162
+#: ../lib/network/connection/providers/cellular.pm:167
+#: ../lib/network/connection/providers/cellular.pm:170
+#: ../lib/network/connection/providers/cellular_extra.pm:1711
+#: ../lib/network/connection/providers/cellular_extra.pm:1718
+#: ../lib/network/connection/providers/cellular_extra.pm:1725
+#: ../lib/network/connection/providers/cellular_extra.pm:1728
+#: ../lib/network/connection/providers/cellular_extra.pm:1733
+#: ../lib/network/connection/providers/cellular_extra.pm:1740
+#: ../lib/network/connection/providers/cellular_extra.pm:1747
+#: ../lib/network/connection/providers/xdsl.pm:1001
+#: ../lib/network/connection/providers/xdsl.pm:1011
+#, c-format
+msgid "Poland"
+msgstr "波兰"
+
+#: ../lib/network/connection/providers/cellular.pm:173
+#: ../lib/network/connection/providers/cellular_extra.pm:788
+#: ../lib/network/connection/providers/cellular_extra.pm:791
+#: ../lib/network/connection/providers/cellular_extra.pm:798
+#: ../lib/network/connection/providers/cellular_extra.pm:805
+#: ../lib/network/connection/providers/cellular_extra.pm:810
+#: ../lib/network/connection/providers/cellular_extra.pm:817
+#: ../lib/network/connection/providers/cellular_extra.pm:822
+#: ../lib/network/connection/providers/cellular_extra.pm:829
+#: ../lib/network/connection/providers/cellular_extra.pm:834
+#: ../lib/network/connection/providers/cellular_extra.pm:841
+#: ../lib/network/connection/providers/cellular_extra.pm:848
+#: ../lib/network/connection/providers/cellular_extra.pm:851
+#: ../lib/network/connection/providers/cellular_extra.pm:858
+#: ../lib/network/connection/providers/cellular_extra.pm:861
+#: ../lib/network/connection/providers/cellular_extra.pm:864
+#: ../lib/network/connection/providers/cellular_extra.pm:871
+#: ../lib/network/connection/providers/xdsl.pm:1330
+#: ../lib/network/connection/providers/xdsl.pm:1340
+#: ../lib/network/netconnect.pm:38
+#, c-format
+msgid "United Kingdom"
+msgstr "英国"
+
+#: ../lib/network/connection/providers/cellular.pm:178
+#: ../lib/network/connection/providers/cellular_extra.pm:2175
+#: ../lib/network/connection/providers/cellular_extra.pm:2180
+#: ../lib/network/connection/providers/cellular_extra.pm:2185
+#: ../lib/network/connection/providers/cellular_extra.pm:2190
+#: ../lib/network/connection/providers/cellular_extra.pm:2193
+#: ../lib/network/connection/providers/cellular_extra.pm:2196
+#: ../lib/network/connection/providers/cellular_extra.pm:2199
+#: ../lib/network/connection/providers/cellular_extra.pm:2202
+#: ../lib/network/connection/providers/cellular_extra.pm:2205
+#: ../lib/network/connection/providers/cellular_extra.pm:2208
+#: ../lib/network/connection/providers/cellular_extra.pm:2211
+#: ../lib/network/connection/providers/cellular_extra.pm:2214
+#: ../lib/network/connection/providers/cellular_extra.pm:2217
+#: ../lib/network/connection/providers/cellular_extra.pm:2220
+#: ../lib/network/connection/providers/cellular_extra.pm:2223
+#: ../lib/network/netconnect.pm:37
+#, c-format
+msgid "United States"
+msgstr "美国"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:11
+#: ../lib/network/connection/providers/cellular_extra.pm:18
+#: ../lib/network/connection/providers/xdsl.pm:1320
+#, c-format
+msgid "United Arab Emirates"
+msgstr "阿拉伯联合酋长国"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:23
+#, c-format
+msgid "Albania"
+msgstr "阿尔巴尼亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:26
+#: ../lib/network/connection/providers/cellular_extra.pm:48
+#, c-format
+msgid "Angola"
+msgstr "安哥拉"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:30
+#: ../lib/network/connection/providers/cellular_extra.pm:37
+#: ../lib/network/connection/providers/cellular_extra.pm:43
+#: ../lib/network/connection/providers/xdsl.pm:67
+#: ../lib/network/connection/providers/xdsl.pm:77
+#, c-format
+msgid "Argentina"
+msgstr "阿根廷"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:51
+#: ../lib/network/connection/providers/cellular_extra.pm:57
+#: ../lib/network/connection/providers/cellular_extra.pm:63
+#: ../lib/network/connection/providers/cellular_extra.pm:69
+#: ../lib/network/connection/providers/cellular_extra.pm:75
+#: ../lib/network/connection/providers/cellular_extra.pm:82
+#: ../lib/network/connection/providers/cellular_extra.pm:89
+#: ../lib/network/connection/providers/cellular_extra.pm:96
+#: ../lib/network/connection/providers/cellular_extra.pm:103
+#: ../lib/network/connection/providers/cellular_extra.pm:106
+#: ../lib/network/connection/providers/xdsl.pm:87
+#: ../lib/network/connection/providers/xdsl.pm:96
+#: ../lib/network/connection/providers/xdsl.pm:105
+#, c-format
+msgid "Austria"
+msgstr "奥地利"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:109
+#: ../lib/network/connection/providers/cellular_extra.pm:112
+#: ../lib/network/connection/providers/cellular_extra.pm:117
+#: ../lib/network/connection/providers/cellular_extra.pm:122
+#: ../lib/network/connection/providers/cellular_extra.pm:127
+#: ../lib/network/connection/providers/cellular_extra.pm:133
+#: ../lib/network/connection/providers/cellular_extra.pm:138
+#: ../lib/network/connection/providers/cellular_extra.pm:144
+#: ../lib/network/connection/providers/cellular_extra.pm:148
+#: ../lib/network/connection/providers/cellular_extra.pm:155
+#: ../lib/network/connection/providers/cellular_extra.pm:162
+#: ../lib/network/connection/providers/cellular_extra.pm:168
+#: ../lib/network/connection/providers/xdsl.pm:114
+#: ../lib/network/connection/providers/xdsl.pm:124
+#: ../lib/network/connection/providers/xdsl.pm:134
+#, c-format
+msgid "Australia"
+msgstr "澳大利亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:173
+#: ../lib/network/connection/providers/cellular_extra.pm:176
+#, c-format
+msgid "Azerbaijan"
+msgstr "阿塞拜疆"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:179
+#, c-format
+msgid "Bosnia and Herzegovina"
+msgstr "波黑"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:182
+#, c-format
+msgid "Bahamas"
+msgstr "巴哈马"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:185
+#: ../lib/network/connection/providers/cellular_extra.pm:189
+#: ../lib/network/connection/providers/cellular_extra.pm:192
+#, c-format
+msgid "Bangladesh"
+msgstr "孟加拉"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:197
+#, c-format
+msgid "Barbados"
+msgstr "巴巴多斯"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:200
+#: ../lib/network/connection/providers/cellular_extra.pm:207
+#: ../lib/network/connection/providers/cellular_extra.pm:210
+#: ../lib/network/connection/providers/cellular_extra.pm:215
+#: ../lib/network/connection/providers/cellular_extra.pm:220
+#: ../lib/network/connection/providers/cellular_extra.pm:225
+#: ../lib/network/connection/providers/xdsl.pm:144
+#: ../lib/network/connection/providers/xdsl.pm:153
+#: ../lib/network/connection/providers/xdsl.pm:164
+#: ../lib/network/connection/providers/xdsl.pm:173
+#: ../lib/network/connection/providers/xdsl.pm:182
+#: ../lib/network/netconnect.pm:36
+#, c-format
+msgid "Belgium"
+msgstr "比利时"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:232
+#: ../lib/network/connection/providers/cellular_extra.pm:237
+#: ../lib/network/connection/providers/cellular_extra.pm:244
+#: ../lib/network/connection/providers/xdsl.pm:228
+#: ../lib/network/connection/providers/xdsl.pm:237
+#, c-format
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:282
+#: ../lib/network/connection/providers/cellular_extra.pm:287
+#: ../lib/network/connection/providers/cellular_extra.pm:294
+#: ../lib/network/connection/providers/cellular_extra.pm:299
+#: ../lib/network/connection/providers/cellular_extra.pm:304
+#, c-format
+msgid "Belarus"
+msgstr "白俄罗斯"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:309
+#, c-format
+msgid "Botswana"
+msgstr "博茨瓦纳"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:312
+#: ../lib/network/connection/providers/cellular_extra.pm:319
+#, c-format
+msgid "Canada"
+msgstr "加拿大"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:326
+#, c-format
+msgid "Congo (Kinshasa)"
+msgstr "刚果(金沙萨)"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:331
+#, c-format
+msgid "Congo (Brazzaville)"
+msgstr "刚果(布拉柴维尔)"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:336
+#: ../lib/network/connection/providers/cellular_extra.pm:341
+#: ../lib/network/connection/providers/cellular_extra.pm:348
+#: ../lib/network/connection/providers/xdsl.pm:1258
+#: ../lib/network/connection/providers/xdsl.pm:1267
+#: ../lib/network/connection/providers/xdsl.pm:1277
+#, c-format
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:355
+#, c-format
+msgid "Cote d'Ivoire"
+msgstr "科特迪瓦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:358
+#: ../lib/network/connection/providers/cellular_extra.pm:363
+#: ../lib/network/connection/providers/cellular_extra.pm:368
+#: ../lib/network/connection/providers/cellular_extra.pm:373
+#: ../lib/network/connection/providers/cellular_extra.pm:378
+#: ../lib/network/connection/providers/cellular_extra.pm:383
+#: ../lib/network/connection/providers/cellular_extra.pm:388
+#, c-format
+msgid "Chile"
+msgstr "智利"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:393
+#: ../lib/network/connection/providers/cellular_extra.pm:398
+#, c-format
+msgid "Cameroon"
+msgstr "喀麦隆"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:402
+#: ../lib/network/connection/providers/cellular_extra.pm:407
+#: ../lib/network/connection/providers/xdsl.pm:246
+#: ../lib/network/connection/providers/xdsl.pm:255
+#: ../lib/network/connection/providers/xdsl.pm:264
+#: ../lib/network/connection/providers/xdsl.pm:273
+#: ../lib/network/connection/providers/xdsl.pm:282
+#: ../lib/network/connection/providers/xdsl.pm:291
+#: ../lib/network/connection/providers/xdsl.pm:300
+#: ../lib/network/connection/providers/xdsl.pm:309
+#: ../lib/network/connection/providers/xdsl.pm:318
+#: ../lib/network/connection/providers/xdsl.pm:327
+#: ../lib/network/connection/providers/xdsl.pm:336
+#: ../lib/network/connection/providers/xdsl.pm:345
+#: ../lib/network/connection/providers/xdsl.pm:354
+#: ../lib/network/connection/providers/xdsl.pm:363
+#: ../lib/network/connection/providers/xdsl.pm:372
+#: ../lib/network/connection/providers/xdsl.pm:381
+#: ../lib/network/connection/providers/xdsl.pm:390
+#: ../lib/network/connection/providers/xdsl.pm:399
+#: ../lib/network/connection/providers/xdsl.pm:408
+#: ../lib/network/connection/providers/xdsl.pm:417
+#, c-format
+msgid "China"
+msgstr "中国"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:412
+#, c-format
+msgid "Costa Rica"
+msgstr "哥斯达黎加"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:417
+#: ../lib/network/connection/providers/cellular_extra.pm:422
+#: ../lib/network/connection/providers/cellular_extra.pm:425
+#, c-format
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:430
+#: ../lib/network/connection/providers/cellular_extra.pm:435
+#: ../lib/network/connection/providers/cellular_extra.pm:440
+#: ../lib/network/connection/providers/cellular_extra.pm:445
+#: ../lib/network/connection/providers/cellular_extra.pm:452
+#: ../lib/network/connection/providers/cellular_extra.pm:457
+#: ../lib/network/connection/providers/cellular_extra.pm:462
+#: ../lib/network/connection/providers/cellular_extra.pm:467
+#: ../lib/network/connection/providers/cellular_extra.pm:470
+#: ../lib/network/connection/providers/cellular_extra.pm:475
+#: ../lib/network/connection/providers/cellular_extra.pm:480
+#: ../lib/network/connection/providers/cellular_extra.pm:485
+#: ../lib/network/connection/providers/cellular_extra.pm:490
+#: ../lib/network/connection/providers/cellular_extra.pm:495
+#: ../lib/network/connection/providers/cellular_extra.pm:500
+#: ../lib/network/connection/providers/xdsl.pm:426
+#: ../lib/network/connection/providers/xdsl.pm:436
+#, c-format
+msgid "Czech Republic"
+msgstr "捷克共和国"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:564
+#: ../lib/network/connection/providers/cellular_extra.pm:567
+#: ../lib/network/connection/providers/cellular_extra.pm:570
+#: ../lib/network/connection/providers/cellular_extra.pm:573
+#: ../lib/network/connection/providers/cellular_extra.pm:576
+#: ../lib/network/connection/providers/cellular_extra.pm:581
+#: ../lib/network/connection/providers/cellular_extra.pm:586
+#: ../lib/network/connection/providers/cellular_extra.pm:591
+#: ../lib/network/connection/providers/cellular_extra.pm:596
+#: ../lib/network/connection/providers/cellular_extra.pm:599
+#: ../lib/network/connection/providers/xdsl.pm:446
+#: ../lib/network/connection/providers/xdsl.pm:455
+#: ../lib/network/connection/providers/xdsl.pm:464
+#, c-format
+msgid "Denmark"
+msgstr "丹麦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:602
+#, c-format
+msgid "Dominican Republic"
+msgstr "多米尼加共和国"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:605
+#, c-format
+msgid "Ecuador"
+msgstr "厄瓜多尔"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:628
+#: ../lib/network/connection/providers/cellular_extra.pm:633
+#: ../lib/network/connection/providers/cellular_extra.pm:636
+#: ../lib/network/connection/providers/xdsl.pm:473
+#, c-format
+msgid "Egypt"
+msgstr "埃及"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:641
+#: ../lib/network/connection/providers/cellular_extra.pm:648
+#: ../lib/network/connection/providers/cellular_extra.pm:655
+#: ../lib/network/connection/providers/cellular_extra.pm:658
+#: ../lib/network/connection/providers/cellular_extra.pm:665
+#: ../lib/network/connection/providers/cellular_extra.pm:672
+#: ../lib/network/connection/providers/cellular_extra.pm:679
+#: ../lib/network/connection/providers/cellular_extra.pm:682
+#: ../lib/network/connection/providers/xdsl.pm:1072
+#: ../lib/network/connection/providers/xdsl.pm:1084
+#: ../lib/network/connection/providers/xdsl.pm:1096
+#: ../lib/network/connection/providers/xdsl.pm:1109
+#: ../lib/network/connection/providers/xdsl.pm:1119
+#: ../lib/network/connection/providers/xdsl.pm:1129
+#: ../lib/network/connection/providers/xdsl.pm:1140
+#: ../lib/network/connection/providers/xdsl.pm:1150
+#: ../lib/network/connection/providers/xdsl.pm:1160
+#: ../lib/network/connection/providers/xdsl.pm:1170
+#: ../lib/network/connection/providers/xdsl.pm:1180
+#: ../lib/network/connection/providers/xdsl.pm:1190
+#: ../lib/network/connection/providers/xdsl.pm:1201
+#: ../lib/network/connection/providers/xdsl.pm:1212
+#: ../lib/network/connection/providers/xdsl.pm:1224
+#: ../lib/network/connection/providers/xdsl.pm:1236
+#, c-format
+msgid "Spain"
+msgstr "西班牙"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:706
+#, c-format
+msgid "Fiji"
+msgstr "斐济"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:878
+#, c-format
+msgid "Georgia"
+msgstr "乔治亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:883
+#: ../lib/network/connection/providers/cellular_extra.pm:888
+#: ../lib/network/connection/providers/cellular_extra.pm:891
+#: ../lib/network/connection/providers/cellular_extra.pm:896
+#, c-format
+msgid "Ghana"
+msgstr "加纳"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:899
+#: ../lib/network/connection/providers/cellular_extra.pm:903
+#: ../lib/network/connection/providers/cellular_extra.pm:909
+#: ../lib/network/connection/providers/cellular_extra.pm:912
+#: ../lib/network/connection/providers/xdsl.pm:650
+#, c-format
+msgid "Greece"
+msgstr "希腊"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:917
+#: ../lib/network/connection/providers/cellular_extra.pm:922
+#, c-format
+msgid "Guatemala"
+msgstr "危地马拉"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:925
+#, c-format
+msgid "Guyana"
+msgstr "圭亚那"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:930
+#: ../lib/network/connection/providers/cellular_extra.pm:935
+#: ../lib/network/connection/providers/cellular_extra.pm:938
+#: ../lib/network/connection/providers/cellular_extra.pm:941
+#: ../lib/network/connection/providers/cellular_extra.pm:946
+#: ../lib/network/connection/providers/cellular_extra.pm:949
+#: ../lib/network/connection/providers/cellular_extra.pm:952
+#, c-format
+msgid "Hong Kong"
+msgstr "香港"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:955
+#, c-format
+msgid "Honduras"
+msgstr "洪都拉斯"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:958
+#: ../lib/network/connection/providers/cellular_extra.pm:962
+#: ../lib/network/connection/providers/cellular_extra.pm:968
+#: ../lib/network/connection/providers/cellular_extra.pm:974
+#, c-format
+msgid "Croatia"
+msgstr "克罗地亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:981
+#: ../lib/network/connection/providers/cellular_extra.pm:986
+#: ../lib/network/connection/providers/cellular_extra.pm:991
+#: ../lib/network/connection/providers/cellular_extra.pm:996
+#: ../lib/network/connection/providers/cellular_extra.pm:1001
+#: ../lib/network/connection/providers/cellular_extra.pm:1007
+#: ../lib/network/connection/providers/cellular_extra.pm:1014
+#: ../lib/network/connection/providers/cellular_extra.pm:1021
+#: ../lib/network/connection/providers/cellular_extra.pm:1026
+#: ../lib/network/connection/providers/xdsl.pm:659
+#, c-format
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1031
+#: ../lib/network/connection/providers/cellular_extra.pm:1036
+#: ../lib/network/connection/providers/cellular_extra.pm:1043
+#: ../lib/network/connection/providers/cellular_extra.pm:1047
+#: ../lib/network/connection/providers/cellular_extra.pm:1054
+#: ../lib/network/connection/providers/cellular_extra.pm:1061
+#, c-format
+msgid "Indonesia"
+msgstr "印度尼西亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1066
+#: ../lib/network/connection/providers/cellular_extra.pm:1073
+#: ../lib/network/connection/providers/cellular_extra.pm:1080
+#: ../lib/network/connection/providers/cellular_extra.pm:1085
+#: ../lib/network/connection/providers/cellular_extra.pm:1090
+#: ../lib/network/connection/providers/cellular_extra.pm:1095
+#: ../lib/network/connection/providers/cellular_extra.pm:1101
+#: ../lib/network/connection/providers/xdsl.pm:668
+#, c-format
+msgid "Ireland"
+msgstr "爱尔兰"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1106
+#: ../lib/network/connection/providers/cellular_extra.pm:1112
+#: ../lib/network/connection/providers/cellular_extra.pm:1117
+#: ../lib/network/connection/providers/xdsl.pm:677
+#: ../lib/network/connection/providers/xdsl.pm:687
+#: ../lib/network/connection/providers/xdsl.pm:697
+#: ../lib/network/connection/providers/xdsl.pm:707
+#: ../lib/network/connection/providers/xdsl.pm:717
+#: ../lib/network/connection/providers/xdsl.pm:727
+#: ../lib/network/connection/providers/xdsl.pm:737
+#: ../lib/network/connection/providers/xdsl.pm:747
+#: ../lib/network/connection/providers/xdsl.pm:757
+#: ../lib/network/connection/providers/xdsl.pm:767
+#: ../lib/network/connection/providers/xdsl.pm:777
+#, c-format
+msgid "Israel"
+msgstr "以色列"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1121
+#: ../lib/network/connection/providers/cellular_extra.pm:1126
+#: ../lib/network/connection/providers/cellular_extra.pm:1132
+#: ../lib/network/connection/providers/cellular_extra.pm:1136
+#: ../lib/network/connection/providers/cellular_extra.pm:1141
+#: ../lib/network/connection/providers/cellular_extra.pm:1146
+#: ../lib/network/connection/providers/cellular_extra.pm:1151
+#: ../lib/network/connection/providers/cellular_extra.pm:1155
+#: ../lib/network/connection/providers/cellular_extra.pm:1160
+#: ../lib/network/connection/providers/cellular_extra.pm:1165
+#: ../lib/network/connection/providers/cellular_extra.pm:1170
+#: ../lib/network/connection/providers/cellular_extra.pm:1175
+#: ../lib/network/connection/providers/cellular_extra.pm:1180
+#: ../lib/network/connection/providers/cellular_extra.pm:1185
+#: ../lib/network/connection/providers/cellular_extra.pm:1188
+#: ../lib/network/connection/providers/cellular_extra.pm:1193
+#: ../lib/network/connection/providers/cellular_extra.pm:1198
+#: ../lib/network/connection/providers/xdsl.pm:787
+#, c-format
+msgid "India"
+msgstr "印度"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1203
+#: ../lib/network/connection/providers/cellular_extra.pm:1208
+#: ../lib/network/connection/providers/xdsl.pm:796
+#: ../lib/network/connection/providers/xdsl.pm:805
+#, c-format
+msgid "Iceland"
+msgstr "冰岛"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1243
+#: ../lib/network/connection/providers/cellular_extra.pm:1246
+#, c-format
+msgid "Jamaica"
+msgstr "牙买加"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1253
+#: ../lib/network/connection/providers/cellular_extra.pm:1260
+#: ../lib/network/connection/providers/cellular_extra.pm:1265
+#: ../lib/network/connection/providers/cellular_extra.pm:1270
+#: ../lib/network/connection/providers/cellular_extra.pm:1273
+#, c-format
+msgid "Japan"
+msgstr "日本"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1280
+#: ../lib/network/connection/providers/cellular_extra.pm:1283
+#: ../lib/network/connection/providers/cellular_extra.pm:1288
+#, c-format
+msgid "Kenya"
+msgstr "肯尼亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1291
+#: ../lib/network/connection/providers/cellular_extra.pm:1295
+#, c-format
+msgid "Kuwait"
+msgstr "科威特"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1298
+#, c-format
+msgid "Kazakhstan"
+msgstr "哈萨克斯坦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1304
+#, c-format
+msgid "Laos"
+msgstr "老挝"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1308
+#: ../lib/network/connection/providers/cellular_extra.pm:1313
+#: ../lib/network/connection/providers/cellular_extra.pm:1316
+#, c-format
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1319
+#, c-format
+msgid "Saint Lucia"
+msgstr "圣卢西亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1323
+#: ../lib/network/connection/providers/cellular_extra.pm:1326
+#: ../lib/network/connection/providers/cellular_extra.pm:1329
+#: ../lib/network/connection/providers/cellular_extra.pm:1332
+#: ../lib/network/connection/providers/cellular_extra.pm:1335
+#: ../lib/network/connection/providers/cellular_extra.pm:1338
+#: ../lib/network/connection/providers/xdsl.pm:858
+#, c-format
+msgid "Sri Lanka"
+msgstr "斯里兰卡"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1341
+#: ../lib/network/connection/providers/cellular_extra.pm:1347
+#: ../lib/network/connection/providers/cellular_extra.pm:1351
+#: ../lib/network/connection/providers/cellular_extra.pm:1356
+#: ../lib/network/connection/providers/xdsl.pm:870
+#, c-format
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1363
+#: ../lib/network/connection/providers/cellular_extra.pm:1368
+#: ../lib/network/connection/providers/cellular_extra.pm:1373
+#, c-format
+msgid "Luxembourg"
+msgstr "卢森堡"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1376
+#: ../lib/network/connection/providers/cellular_extra.pm:1381
+#, c-format
+msgid "Latvia"
+msgstr "拉脱维亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1386
+#: ../lib/network/connection/providers/cellular_extra.pm:1391
+#: ../lib/network/connection/providers/xdsl.pm:900
+#, c-format
+msgid "Morocco"
+msgstr "摩洛哥"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1396
+#: ../lib/network/connection/providers/cellular_extra.pm:1401
+#, c-format
+msgid "Moldova"
+msgstr "摩尔多瓦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1404
+#: ../lib/network/connection/providers/cellular_extra.pm:1411
+#: ../lib/network/connection/providers/cellular_extra.pm:1414
+#: ../lib/network/connection/providers/cellular_extra.pm:1419
+#: ../lib/network/connection/providers/cellular_extra.pm:1425
+#: ../lib/network/connection/providers/cellular_extra.pm:1431
+#, c-format
+msgid "Montenegro"
+msgstr ""
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1437
+#, c-format
+msgid "Mongolia"
+msgstr "蒙古"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1440
+#: ../lib/network/connection/providers/cellular_extra.pm:1443
+#: ../lib/network/connection/providers/cellular_extra.pm:1448
+#: ../lib/network/connection/providers/cellular_extra.pm:1451
+#, c-format
+msgid "Macao"
+msgstr "澳门"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1456
+#: ../lib/network/connection/providers/cellular_extra.pm:1459
+#: ../lib/network/connection/providers/cellular_extra.pm:1462
+#, c-format
+msgid "Malta"
+msgstr "马耳他"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1467
+#: ../lib/network/connection/providers/xdsl.pm:879
+#: ../lib/network/connection/providers/xdsl.pm:889
+#, c-format
+msgid "Mauritius"
+msgstr "毛里求斯"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1470
+#, c-format
+msgid "Maldives"
+msgstr "马尔代夫"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1473
+#: ../lib/network/connection/providers/cellular_extra.pm:1480
+#, c-format
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1483
+#: ../lib/network/connection/providers/cellular_extra.pm:1488
+#: ../lib/network/connection/providers/cellular_extra.pm:1493
+#: ../lib/network/connection/providers/cellular_extra.pm:1498
+#: ../lib/network/connection/providers/cellular_extra.pm:1503
+#: ../lib/network/connection/providers/cellular_extra.pm:1507
+#: ../lib/network/connection/providers/cellular_extra.pm:1510
+#, c-format
+msgid "Malaysia"
+msgstr "马来西亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1517
+#, c-format
+msgid "Mozambique"
+msgstr "莫桑比克"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1524
+#: ../lib/network/connection/providers/cellular_extra.pm:1529
+#: ../lib/network/connection/providers/cellular_extra.pm:1534
+#, c-format
+msgid "Nigeria"
+msgstr "尼日利亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1540
+#: ../lib/network/connection/providers/cellular_extra.pm:1545
+#, c-format
+msgid "Nicaragua"
+msgstr "尼加拉瓜"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1550
+#: ../lib/network/connection/providers/cellular_extra.pm:1553
+#: ../lib/network/connection/providers/cellular_extra.pm:1560
+#: ../lib/network/connection/providers/cellular_extra.pm:1565
+#: ../lib/network/connection/providers/cellular_extra.pm:1570
+#: ../lib/network/connection/providers/cellular_extra.pm:1574
+#: ../lib/network/connection/providers/cellular_extra.pm:1579
+#: ../lib/network/connection/providers/cellular_extra.pm:1584
+#: ../lib/network/connection/providers/xdsl.pm:910
+#: ../lib/network/connection/providers/xdsl.pm:919
+#: ../lib/network/connection/providers/xdsl.pm:928
+#: ../lib/network/connection/providers/xdsl.pm:937
+#: ../lib/network/netconnect.pm:34
+#, c-format
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1587
+#: ../lib/network/connection/providers/cellular_extra.pm:1594
+#: ../lib/network/connection/providers/cellular_extra.pm:1599
+#: ../lib/network/connection/providers/cellular_extra.pm:1604
+#: ../lib/network/connection/providers/cellular_extra.pm:1609
+#: ../lib/network/connection/providers/cellular_extra.pm:1612
+#: ../lib/network/connection/providers/cellular_extra.pm:1615
+#: ../lib/network/connection/providers/cellular_extra.pm:1618
+#: ../lib/network/connection/providers/cellular_extra.pm:1621
+#: ../lib/network/connection/providers/cellular_extra.pm:1624
+#: ../lib/network/connection/providers/xdsl.pm:946
+#: ../lib/network/connection/providers/xdsl.pm:952
+#: ../lib/network/connection/providers/xdsl.pm:958
+#: ../lib/network/connection/providers/xdsl.pm:964
+#: ../lib/network/connection/providers/xdsl.pm:970
+#: ../lib/network/connection/providers/xdsl.pm:976
+#: ../lib/network/connection/providers/xdsl.pm:982
+#, c-format
+msgid "Norway"
+msgstr "挪威"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1627
+#, c-format
+msgid "Nepal"
+msgstr "尼泊尔"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1630
+#: ../lib/network/connection/providers/cellular_extra.pm:1635
+#: ../lib/network/connection/providers/cellular_extra.pm:1640
+#, c-format
+msgid "New Zealand"
+msgstr "新西兰"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1645
+#: ../lib/network/connection/providers/cellular_extra.pm:1650
+#, c-format
+msgid "Panama"
+msgstr "巴拿马"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1655
+#, c-format
+msgid "Oman"
+msgstr "阿曼"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1658
+#, c-format
+msgid "Peru"
+msgstr "秘鲁"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1663
+#: ../lib/network/connection/providers/cellular_extra.pm:1670
+#: ../lib/network/connection/providers/cellular_extra.pm:1677
+#: ../lib/network/connection/providers/cellular_extra.pm:1680
+#, c-format
+msgid "Philippines"
+msgstr "菲律宾"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1687
+#: ../lib/network/connection/providers/cellular_extra.pm:1692
+#: ../lib/network/connection/providers/cellular_extra.pm:1695
+#: ../lib/network/connection/providers/cellular_extra.pm:1698
+#: ../lib/network/connection/providers/cellular_extra.pm:1703
+#: ../lib/network/connection/providers/cellular_extra.pm:1708
+#: ../lib/network/connection/providers/xdsl.pm:990
+#, c-format
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1752
+#: ../lib/network/connection/providers/cellular_extra.pm:1757
+#: ../lib/network/connection/providers/cellular_extra.pm:1762
+#: ../lib/network/connection/providers/cellular_extra.pm:1766
+#: ../lib/network/connection/providers/cellular_extra.pm:1771
+#: ../lib/network/connection/providers/xdsl.pm:1022
+#, c-format
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1776
+#, c-format
+msgid "Paraguay"
+msgstr "巴拉圭"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1781
+#: ../lib/network/connection/providers/cellular_extra.pm:1786
+#: ../lib/network/connection/providers/cellular_extra.pm:1793
+#, c-format
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1798
+#: ../lib/network/connection/providers/cellular_extra.pm:1805
+#: ../lib/network/connection/providers/cellular_extra.pm:1811
+#: ../lib/network/connection/providers/cellular_extra.pm:1817
+#, c-format
+msgid "Serbia"
+msgstr ""
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1823
+#: ../lib/network/connection/providers/cellular_extra.pm:1830
+#: ../lib/network/connection/providers/cellular_extra.pm:1837
+#: ../lib/network/connection/providers/cellular_extra.pm:1842
+#: ../lib/network/connection/providers/cellular_extra.pm:1849
+#: ../lib/network/connection/providers/cellular_extra.pm:1852
+#: ../lib/network/connection/providers/cellular_extra.pm:1857
+#: ../lib/network/connection/providers/cellular_extra.pm:1862
+#: ../lib/network/connection/providers/cellular_extra.pm:1867
+#: ../lib/network/connection/providers/cellular_extra.pm:1872
+#: ../lib/network/connection/providers/cellular_extra.pm:1877
+#: ../lib/network/connection/providers/cellular_extra.pm:1882
+#: ../lib/network/connection/providers/cellular_extra.pm:1887
+#: ../lib/network/connection/providers/cellular_extra.pm:1892
+#: ../lib/network/connection/providers/cellular_extra.pm:1898
+#: ../lib/network/connection/providers/cellular_extra.pm:1903
+#: ../lib/network/connection/providers/cellular_extra.pm:1908
+#: ../lib/network/connection/providers/cellular_extra.pm:1914
+#: ../lib/network/connection/providers/cellular_extra.pm:1920
+#: ../lib/network/connection/providers/cellular_extra.pm:1927
+#: ../lib/network/connection/providers/cellular_extra.pm:1933
+#, c-format
+msgid "Russian Federation"
+msgstr "俄联邦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1938
+#: ../lib/network/connection/providers/cellular_extra.pm:1941
+#, c-format
+msgid "Saudi Arabia"
+msgstr "沙特阿拉伯"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1946
+#: ../lib/network/connection/providers/cellular_extra.pm:1949
+#: ../lib/network/connection/providers/cellular_extra.pm:1952
+#: ../lib/network/connection/providers/cellular_extra.pm:1955
+#: ../lib/network/connection/providers/cellular_extra.pm:1958
+#: ../lib/network/connection/providers/cellular_extra.pm:1961
+#: ../lib/network/connection/providers/cellular_extra.pm:1966
+#: ../lib/network/connection/providers/cellular_extra.pm:1969
+#: ../lib/network/connection/providers/cellular_extra.pm:1972
+#: ../lib/network/connection/providers/xdsl.pm:1249
+#, c-format
+msgid "Sweden"
+msgstr "瑞典"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1975
+#: ../lib/network/connection/providers/cellular_extra.pm:1982
+#: ../lib/network/connection/providers/cellular_extra.pm:1987
+#: ../lib/network/connection/providers/xdsl.pm:1042
+#, c-format
+msgid "Singapore"
+msgstr "新加坡"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:1993
+#: ../lib/network/connection/providers/cellular_extra.pm:2000
+#: ../lib/network/connection/providers/cellular_extra.pm:2007
+#: ../lib/network/connection/providers/xdsl.pm:1061
+#, c-format
+msgid "Slovenia"
+msgstr "斯洛文尼亚"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2012
+#: ../lib/network/connection/providers/cellular_extra.pm:2017
+#: ../lib/network/connection/providers/cellular_extra.pm:2022
+#: ../lib/network/connection/providers/cellular_extra.pm:2029
+#, c-format
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2034
+#: ../lib/network/connection/providers/xdsl.pm:1051
+#, c-format
+msgid "Senegal"
+msgstr "塞内加尔"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2039
+#, c-format
+msgid "El Salvador"
+msgstr "萨尔瓦多"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2044
+#: ../lib/network/connection/providers/cellular_extra.pm:2049
+#: ../lib/network/connection/providers/cellular_extra.pm:2054
+#: ../lib/network/connection/providers/xdsl.pm:1286
+#, c-format
+msgid "Thailand"
+msgstr "泰国"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2059
+#: ../lib/network/connection/providers/cellular_extra.pm:2064
+#: ../lib/network/connection/providers/cellular_extra.pm:2069
+#: ../lib/network/connection/providers/cellular_extra.pm:2076
+#: ../lib/network/connection/providers/cellular_extra.pm:2083
+#: ../lib/network/connection/providers/xdsl.pm:1307
+#, c-format
+msgid "Turkey"
+msgstr "土耳其"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2088
+#: ../lib/network/connection/providers/cellular_extra.pm:2093
+#, c-format
+msgid "Trinidad and Tobago"
+msgstr "特立尼达和多巴哥岛"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2098
+#: ../lib/network/connection/providers/cellular_extra.pm:2101
+#: ../lib/network/connection/providers/cellular_extra.pm:2104
+#: ../lib/network/connection/providers/cellular_extra.pm:2107
+#: ../lib/network/connection/providers/cellular_extra.pm:2110
+#, c-format
+msgid "Taiwan"
+msgstr "中国台湾"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2113
+#: ../lib/network/connection/providers/cellular_extra.pm:2118
+#: ../lib/network/connection/providers/cellular_extra.pm:2123
+#: ../lib/network/connection/providers/cellular_extra.pm:2128
+#: ../lib/network/connection/providers/cellular_extra.pm:2133
+#: ../lib/network/connection/providers/cellular_extra.pm:2138
+#: ../lib/network/connection/providers/cellular_extra.pm:2141
+#: ../lib/network/connection/providers/cellular_extra.pm:2146
+#: ../lib/network/connection/providers/cellular_extra.pm:2151
+#: ../lib/network/connection/providers/cellular_extra.pm:2156
+#: ../lib/network/connection/providers/cellular_extra.pm:2162
+#: ../lib/network/connection/providers/cellular_extra.pm:2167
+#, c-format
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2170
+#, c-format
+msgid "Uganda"
+msgstr "乌干达"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2226
+#: ../lib/network/connection/providers/cellular_extra.pm:2231
+#: ../lib/network/connection/providers/cellular_extra.pm:2236
+#, c-format
+msgid "Uruguay"
+msgstr "乌拉圭"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2241
+#, c-format
+msgid "Uzbekistan"
+msgstr "乌兹别克斯坦"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2246
+#, c-format
+msgid "Saint Vincent and the Grenadines"
+msgstr "圣文森特和格林纳丁斯"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2251
+#, c-format
+msgid "Venezuela"
+msgstr "委内瑞拉"
+
+#: ../lib/network/connection/providers/cellular_extra.pm:2255
+#: ../lib/network/connection/providers/cellular_extra.pm:2262
+#: ../lib/network/connection/providers/cellular_extra.pm:2267
+#: ../lib/network/connection/providers/cellular_extra.pm:2272
+#: ../lib/network/connection/providers/cellular_extra.pm:2277
+#, c-format
+msgid "South Africa"
+msgstr "南非"
+
+#: ../lib/network/connection/providers/xdsl.pm:47
+#: ../lib/network/connection/providers/xdsl.pm:57
+#, c-format
+msgid "Algeria"
+msgstr "阿尔及利亚"
+
+#: ../lib/network/connection/providers/xdsl.pm:87
+#: ../lib/network/connection/providers/xdsl.pm:446
+#: ../lib/network/connection/providers/xdsl.pm:650
+#: ../lib/network/connection/providers/xdsl.pm:668
+#: ../lib/network/connection/providers/xdsl.pm:787
+#: ../lib/network/connection/providers/xdsl.pm:1258
+#, c-format
+msgid "Any"
+msgstr "任何"
+
+#: ../lib/network/connection/providers/xdsl.pm:1031
+#, c-format
+msgid "Russia"
+msgstr "俄罗斯"
+
+#: ../lib/network/connection/providers/xdsl.pm:1296
+#, c-format
+msgid "Tunisia"
+msgstr "突尼斯"
+
+#: ../lib/network/connection/wireless.pm:13
+#, c-format
+msgid "Wireless"
+msgstr "无线"
+
+#: ../lib/network/connection/wireless.pm:14
+#, c-format
+msgid "Wireless (Wi-Fi)"
+msgstr "无线(Wi-Fi)"
+
+#: ../lib/network/connection/wireless.pm:30
+#, c-format
+msgid "Use a Windows driver (with ndiswrapper)"
+msgstr "使用 Windows 驱动程序(通过 ndiswrapper)"
+
+#: ../lib/network/connection/wireless.pm:47
+#, c-format
+msgid "Open WEP"
+msgstr "开放 WEP"
+
+#: ../lib/network/connection/wireless.pm:48
+#, c-format
+msgid "Restricted WEP"
+msgstr "限制 WEP"
+
+#: ../lib/network/connection/wireless.pm:49
+#, c-format
+msgid "WPA/WPA2 Pre-Shared Key"
+msgstr "WPA/WPA2 预共享密钥"
+
+#: ../lib/network/connection/wireless.pm:50
+#, c-format
+msgid "WPA/WPA2 Enterprise"
+msgstr "WPA/WPA2 企业"
+
+#: ../lib/network/connection/wireless.pm:281
+#, c-format
+msgid "Windows driver"
+msgstr "Window 驱动程序"
+
+#: ../lib/network/connection/wireless.pm:369
+#, c-format
+msgid "Your wireless card is disabled, please enable the wireless switch (RF kill switch) first."
+msgstr "您的无线网卡已经禁用，请先启用无线开关。"
+
+#: ../lib/network/connection/wireless.pm:459
+#, c-format
+msgid "Wireless settings"
+msgstr "无线设置"
+
+#: ../lib/network/connection/wireless.pm:464
+#: ../lib/network/connection_manager.pm:280
+#: ../lib/network/drakconnect/edit.pm:236
+#, c-format
+msgid "Operating Mode"
+msgstr "操作模式"
+
+#: ../lib/network/connection/wireless.pm:465
+#, c-format
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: ../lib/network/connection/wireless.pm:465
+#, c-format
+msgid "Managed"
+msgstr "受控的"
+
+#: ../lib/network/connection/wireless.pm:465
+#, c-format
+msgid "Master"
+msgstr "主要的"
+
+#: ../lib/network/connection/wireless.pm:465
+#, c-format
+msgid "Repeater"
+msgstr "转发器"
+
+#: ../lib/network/connection/wireless.pm:465
+#, c-format
+msgid "Secondary"
+msgstr "次要的"
+
+#: ../lib/network/connection/wireless.pm:465
+#, c-format
+msgid "Auto"
+msgstr "自动"
+
+#: ../lib/network/connection/wireless.pm:468
+#: ../lib/network/drakconnect/edit.pm:237
+#, c-format
+msgid "Network name (ESSID)"
+msgstr "网络名称(ESSID)"
+
+#: ../lib/network/connection/wireless.pm:470
+#, c-format
+msgid "Encryption mode"
+msgstr "加密模式"
+
+#: ../lib/network/connection/wireless.pm:472
+#: ../lib/network/drakconnect/edit.pm:251
+#, c-format
+msgid "Encryption key"
+msgstr "加密密钥"
+
+#: ../lib/network/connection/wireless.pm:475
+#, c-format
+msgid "Hide password"
+msgstr "隐藏密码"
+
+#: ../lib/network/connection/wireless.pm:477
+#, c-format
+msgid "Force using this key as ASCII string (e.g. for Livebox)"
+msgstr "将此密钥强制使用为 ASCII 字符串(如 Livebox)"
+
+#: ../lib/network/connection/wireless.pm:484
+#, c-format
+msgid "EAP Login/Username"
+msgstr "EAP 登录/用户名"
+
+#: ../lib/network/connection/wireless.pm:486
+#, c-format
+msgid ""
+"The login or username. Format is plain text. If you\n"
+"need to specify domain then try the untested syntax\n"
+"  DOMAIN\\username"
+msgstr ""
+"登录或用户名。格式为纯文本。如果您需要指定域名，请使\n"
+"用以下格式\n"
+"  域\\用户名"
+
+#: ../lib/network/connection/wireless.pm:489
+#, c-format
+msgid "EAP Password"
+msgstr "EAP 密码"
+
+#: ../lib/network/connection/wireless.pm:492
+#, c-format
+msgid ""
+" Password: A string.\n"
+"Note that this is not the same thing as a psk.\n"
+"____________________________________________________\n"
+"RELATED ADDITIONAL INFORMATION:\n"
+"In the Advanced Page, you can select which EAP mode\n"
+"is used for authentication. For the eap mode setting\n"
+"   Auto Detect: implies all possible modes are tried.\n"
+"\n"
+"If Auto Detect fails, try the PEAP TTLS combo bofore others\n"
+"Note:\n"
+"\tThe settings MD5, MSCHAPV2, OTP and GTC imply\n"
+"automatically PEAP and TTLS modes.\n"
+"  TLS mode is completely certificate based and may ignore\n"
+"the username and password values specified here."
+msgstr ""
+" 密码: 字符串。\n"
+"请注意，这与 psk 不一样。\n"
+"____________________________________________________\n"
+"相关的额外信息:\n"
+"在高级页面中，您可以选择进行身份验证的 EAP 模式。对于\n"
+"EAP 模式设置来说，\n"
+"   自动检测: 代表尝试各种可能的模式。\n"
+"\n"
+"如果自动检测失败，则首先尝试 PEAP TTLS 组合\n"
+"注意:\n"
+"\t设置 MD5、MSCHAPV2、OTP 和 GTC 代表自动 PEAP 和 TTLS\n"
+"模式。\n"
+"  TLS 模式完全基于证书，可能在此指定的用户名和密码无效。"
+
+#: ../lib/network/connection/wireless.pm:506
+#, c-format
+msgid "EAP client certificate"
+msgstr "EAP 客户证书"
+
+#: ../lib/network/connection/wireless.pm:508
+#, c-format
+msgid ""
+"The complete path and filename of client certificate. This is\n"
+"only used for EAP certificate based authentication. It could be\n"
+"considered as the alternative to username/password combo.\n"
+" Note: other related settings are shown on the Advanced page."
+msgstr ""
+"客户端证书的完整路径和文件名。这仅用于基于身份验证的 EAP 证书。\n"
+"证书可视为用户名/密码组合的代替品。\n"
+" 注意: 其它相关设置显示于高级页面中。"
+
+#: ../lib/network/connection/wireless.pm:512
+#: ../lib/network/drakconnect/edit.pm:238
+#, c-format
+msgid "Network ID"
+msgstr "网络 ID"
+
+#: ../lib/network/connection/wireless.pm:513
+#: ../lib/network/drakconnect/edit.pm:239
+#, c-format
+msgid "Operating frequency"
+msgstr "运行频率"
+
+#: ../lib/network/connection/wireless.pm:514
+#: ../lib/network/drakconnect/edit.pm:240
+#, c-format
+msgid "Sensitivity threshold"
+msgstr "灵敏度阀值"
+
+#: ../lib/network/connection/wireless.pm:515
+#: ../lib/network/drakconnect/edit.pm:241
+#, c-format
+msgid "Bitrate (in b/s)"
+msgstr "比特率(每秒比特数, b/s)"
+
+#: ../lib/network/connection/wireless.pm:516
+#: ../lib/network/drakconnect/edit.pm:252
+#, c-format
+msgid "RTS/CTS"
+msgstr "RTS/CTS"
+
+#: ../lib/network/connection/wireless.pm:517
+#, c-format
+msgid ""
+"RTS/CTS adds a handshake before each packet transmission to make sure that the\n"
+"channel is clear. This adds overhead, but increase performance in case of hidden\n"
+"nodes or large number of active nodes. This parameter sets the size of the\n"
+"smallest packet for which the node sends RTS, a value equal to the maximum\n"
+"packet size disable the scheme. You may also set this parameter to auto, fixed\n"
+"or off."
+msgstr ""
+"RTS/CTS 在每个信息包发出以前添加一个握手动作, 以保证信道是空的。这会添加开销, \n"
+"但会增加有隐藏节点和很多活跃节点时的性能。这个参数设置了节点发出 RTS 的最小包\n"
+"的大小, 一个等于中止计划的值的大小。您也可以设置这个值为自动、固定或者关闭。"
+
+#: ../lib/network/connection/wireless.pm:524
+#: ../lib/network/drakconnect/edit.pm:253
+#, c-format
+msgid "Fragmentation"
+msgstr "块"
+
+#: ../lib/network/connection/wireless.pm:525
+#: ../lib/network/drakconnect/edit.pm:254
+#, c-format
+msgid "iwconfig command extra arguments"
+msgstr "iwconfig 命令的额外参数"
+
+#: ../lib/network/connection/wireless.pm:526
+#, c-format
+msgid ""
+"Here, one can configure some extra wireless parameters such as:\n"
+"ap, channel, commit, enc, power, retry, sens, txpower (nick is already set as the hostname).\n"
+"\n"
+"See iwconfig(8) man page for further information."
+msgstr ""
+"您可在此配置一些额外的无线参数, 如:\n"
+"ap, channel, commit, enc, power, retry, sens, txpower(nick 已经设定为主机名了)。\n"
+"\n"
+"请参看 iwconfig(8) man page 中的更多信息。"
+
+#. -PO: split the "xyz command extra argument" translated string into two
+#. lines if it's bigger than the english one
+#: ../lib/network/connection/wireless.pm:533
+#: ../lib/network/drakconnect/edit.pm:255
+#, c-format
+msgid "iwspy command extra arguments"
+msgstr "iwspy 命令的额外参数"
+
+#: ../lib/network/connection/wireless.pm:534
+#, c-format
+msgid ""
+"iwspy is used to set a list of addresses in a wireless network\n"
+"interface and to read back quality of link information for each of those.\n"
+"\n"
+"This information is the same as the one available in /proc/net/wireless :\n"
+"quality of the link, signal strength and noise level.\n"
+"\n"
+"See iwpspy(8) man page for further information."
+msgstr ""
+"iwspy 可在无线网卡中设置地址列表, 并会逐一回读连接信息的质量。\n"
+"\n"
+"此信息与 /proc/net/wireless 中的相同: \n"
+"连接质量、信号强度和噪声级别。\n"
+"\n"
+"请参看 iwpspy(8) man page 中的更多信息。"
+
+#: ../lib/network/connection/wireless.pm:542
+#: ../lib/network/drakconnect/edit.pm:256
+#, c-format
+msgid "iwpriv command extra arguments"
+msgstr "iwpriv 命令的额外参数"
+
+#: ../lib/network/connection/wireless.pm:544
+#, c-format
+msgid ""
+"iwpriv enable to set up optionals (private) parameters of a wireless network\n"
+"interface.\n"
+"\n"
+"iwpriv deals with parameters and setting specific to each driver (as opposed to\n"
+"iwconfig which deals with generic ones).\n"
+"\n"
+"In theory, the documentation of each device driver should indicate how to use\n"
+"those interface specific commands and their effect.\n"
+"\n"
+"See iwpriv(8) man page for further information."
+msgstr ""
+"iwpriv 允许为无线网卡设置可选(私有)的参数。\n"
+"\n"
+"iwpriv 会分析您所给出的参数, 并对每个驱动程序分别加以设置(这与设置通用参数的\n"
+"iwconfig 刚好相反)。\n"
+"\n"
+"从道理上说, 每个设备驱动程序的文档都应该明示了如何使用这些网卡特定的命令及命\n"
+"令的效果。\n"
+"\n"
+"请参看 iwpriv(8) man page 中的更多信息。"
+
+#: ../lib/network/connection/wireless.pm:555
+#, c-format
+msgid "EAP Protocol"
+msgstr "EAP 协议"
+
+#: ../lib/network/connection/wireless.pm:556
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "Auto Detect"
+msgstr "自动检测"
+
+#: ../lib/network/connection/wireless.pm:556
+#, c-format
+msgid "WPA2"
+msgstr "WPA2"
+
+#: ../lib/network/connection/wireless.pm:556
+#, c-format
+msgid "WPA"
+msgstr "WPA"
+
+#: ../lib/network/connection/wireless.pm:558
+#, c-format
+msgid ""
+"Auto Detect is recommended as it first tries WPA version 2 with\n"
+"a fallback to WPA version 1"
+msgstr "推荐使用自动检测，因为它首先尝试 WPA 第2版，失败后再尝试 WPA 第1版"
+
+#: ../lib/network/connection/wireless.pm:560
+#, c-format
+msgid "EAP Mode"
+msgstr "EAP 模式"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "PEAP"
+msgstr "PEAP"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "TTLS"
+msgstr "TTLS"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "TLS"
+msgstr "TLS"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "MSCHAPV2"
+msgstr "MSCHAPV2"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "MD5"
+msgstr "MD5"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "OTP"
+msgstr "OTP"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "GTC"
+msgstr "GTC"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "PEAP TTLS"
+msgstr "PEAP TTLS"
+
+#: ../lib/network/connection/wireless.pm:561
+#, c-format
+msgid "TTLS TLS"
+msgstr "TTLS TLS"
+
+#: ../lib/network/connection/wireless.pm:563
+#, c-format
+msgid "EAP key_mgmt"
+msgstr "EAP key_mgmt"
+
+#: ../lib/network/connection/wireless.pm:565
+#, c-format
+msgid ""
+"list of accepted authenticated key management protocols.\n"
+"possible values are WPA-EAP, IEEE8021X, NONE"
+msgstr ""
+"列出可接受的身份验证密钥管理协议。\n"
+"可能的值包括 WPA-EAP、\n"
+"IEEE8021X、无"
+
+#: ../lib/network/connection/wireless.pm:567
+#, c-format
+msgid "EAP outer identity"
+msgstr "EAP 外部身份"
+
+#: ../lib/network/connection/wireless.pm:569
+#, c-format
+msgid ""
+"Anonymous identity string for EAP: to be used as the\n"
+"unencrypted identity with EAP types that support different\n"
+"tunnelled identity, e.g., TTLS"
+msgstr ""
+"EAP 的匿名身份字符串: 用于支持不同的隧道身份的 EAP 不\n"
+"加密身份类型，如 TTLS"
+
+#: ../lib/network/connection/wireless.pm:572
+#, c-format
+msgid "EAP phase2"
+msgstr "EAP phase2"
+
+#: ../lib/network/connection/wireless.pm:574
+#, c-format
+msgid ""
+"Inner authentication with TLS tunnel parameters.\n"
+"input is string with field-value pairs, Examples:\n"
+"auth=MSCHAPV2 for PEAP or\n"
+"autheap=MSCHAPV2 autheap=MD5 for TTLS"
+msgstr ""
+
+#: ../lib/network/connection/wireless.pm:578
+#, c-format
+msgid "EAP CA certificate"
+msgstr "EAP CA 证书"
+
+#: ../lib/network/connection/wireless.pm:580
+#, c-format
+msgid ""
+"Full file path to CA certificate file (PEM/DER). This file\n"
+"can have one or more trusted CA certificates. If ca_cert are not\n"
+"included, server certificate will not be verified. If possible,\n"
+"a trusted CA certificate should always be configured\n"
+"when using TLS or TTLS or PEAP."
+msgstr ""
+"CA 证书文件(PEM/DER)的完整文件路径。此文件可以包含一个或多个\n"
+"可信任的 CA 证书。如果不包括 CA 证书，则服务器证书无法验证。\n"
+"如果可能的话，当使用 TLS 或 TTLS 或 PEAP 时总是应该配置可信的\n"
+"CA 证书。"
+
+#: ../lib/network/connection/wireless.pm:585
+#, c-format
+msgid "EAP certificate subject match"
+msgstr "EAP 证书主题匹配"
+
+#: ../lib/network/connection/wireless.pm:587
+#, c-format
+msgid ""
+" Substring to be matched against the subject of\n"
+"the authentication server certificate. If this string is set,\n"
+"the server certificate is only accepted if it contains this\n"
+"string in the subject.  The subject string is in following format:\n"
+"/C=US/ST=CA/L=San Francisco/CN=Test AS/emailAddress=as@example.com"
+msgstr ""
+
+#: ../lib/network/connection/wireless.pm:592
+#, c-format
+msgid "Extra directives"
+msgstr "额外指令"
+
+#: ../lib/network/connection/wireless.pm:593
+#, c-format
+msgid ""
+"Here one can pass extra settings to wpa_supplicant\n"
+"The expected format is a string field=value pair. Multiple values\n"
+"maybe specified, separating each value with the # character.\n"
+"Note: directives are passed unchecked and may cause the wpa\n"
+"negotiation to fail silently. Supported directives are preserved\n"
+"across editing.\n"
+"Supported directives are :\n"
+"\tdisabled, id_str, bssid, priority, auth_alg, eapol_flags,\n"
+"\tproactive_key_caching, peerkey, ca_path, private_key,\n"
+"\tprivate_key_passwd, dh_file, altsubject_match, phase1,\n"
+"\tfragment_size and eap_workaround, pairwise, group\n"
+"\tOthers such as key_mgmt, eap maybe used to force\n"
+"\tspecial settings different from the U.I settings."
+msgstr ""
+
+#: ../lib/network/connection/wireless.pm:613
+#, c-format
+msgid "An encryption key is required."
+msgstr "需要加密密钥。"
+
+#: ../lib/network/connection/wireless.pm:620
+#, c-format
+msgid "The pre-shared key should have between 8 and 63 ASCII characters, or 64 hexadecimal characters."
+msgstr "预共享密钥应该由 8 到 63 位 ASCII 字符或者 64 位十六进制字符组成。"
+
+#: ../lib/network/connection/wireless.pm:626
+#, c-format
+msgid "The WEP key should have at most %d ASCII characters or %d hexadecimal characters."
+msgstr "WEP 密钥应该至少由 %d 位 ASCII 字符或 %d 位十六进制字符组成。"
+
+#: ../lib/network/connection/wireless.pm:633
+#, c-format
+msgid "Freq should have the suffix k, M or G (for example, \"2.46G\" for 2.46 GHz frequency), or add enough '0' (zeroes)."
+msgstr "频率应该有后缀 k, M 或 G(如“2.46G”代表 2.46 GHz 频率), 或者后带足够的“0”(零)。"
+
+#: ../lib/network/connection/wireless.pm:639
+#, c-format
+msgid "Rate should have the suffix k, M or G (for example, \"11M\" for 11M), or add enough '0' (zeroes)."
+msgstr "速度应该有后缀 k, M 或 G(如“11M”代表 11M), 或者后带足够的“0”(零)。"
+
+#: ../lib/network/connection/wireless.pm:651
+#, c-format
+msgid "Allow access point roaming"
+msgstr "允许访问点漫游"
+
+#: ../lib/network/connection/wireless.pm:776
+#, c-format
+msgid "Associated to wireless network \"%s\" on interface %s"
+msgstr "将无线网络“%s”关联到网卡 %s 上"
+
+#: ../lib/network/connection/wireless.pm:777
+#, c-format
+msgid "Lost association to wireless network on interface %s"
+msgstr "网卡 %s 丢失了到无线网络的关联"
+
+#: ../lib/network/connection/xdsl.pm:8
+#, c-format
+msgid "DSL"
+msgstr "DSL"
+
+#: ../lib/network/connection/xdsl.pm:97 ../lib/network/netconnect.pm:789
+#, c-format
+msgid "Alcatel speedtouch USB modem"
+msgstr "阿尔卡特 Speedtouch USB 调制解调器"
+
+#: ../lib/network/connection/xdsl.pm:125
+#, c-format
+msgid ""
+"The ECI Hi-Focus modem cannot be supported due to binary driver distribution problem.\n"
+"\n"
+"You can find a driver on http://eciadsl.flashtux.org/"
+msgstr ""
+"ECI Hi-Focus 调制解调器不被支持, 这是由于二进制驱动程序发行上的原因。\n"
+"\n"
+"您可以在此网站: http://eciadsl.flashtux.org/ 找到驱动程序。"
+
+#: ../lib/network/connection/xdsl.pm:185
+#, c-format
+msgid "Modems using Conexant AccessRunner chipsets cannot be supported due to binary firmware distribution problem."
+msgstr "由于二进制固件发行问题，无法支持使用 Conexant AccessRunner 芯片的调制解调器。"
+
+#: ../lib/network/connection/xdsl.pm:205
+#, c-format
+msgid "DSL over CAPI"
+msgstr "CAPI 上的 DSL"
+
+#: ../lib/network/connection/xdsl.pm:208
+#, c-format
+msgid "Dynamic Host Configuration Protocol (DHCP)"
+msgstr "动态主机配置协议(DHCP)"
+
+#: ../lib/network/connection/xdsl.pm:209
+#, c-format
+msgid "Manual TCP/IP configuration"
+msgstr "手工配置 TCP/IP"
+
+#: ../lib/network/connection/xdsl.pm:210
+#, c-format
+msgid "Point to Point Tunneling Protocol (PPTP)"
+msgstr "点对点隧道协议(PPTP)"
+
+#: ../lib/network/connection/xdsl.pm:211
+#, c-format
+msgid "PPP over Ethernet (PPPoE)"
+msgstr "以太网上的点对点协议(PPPoE)"
+
+#: ../lib/network/connection/xdsl.pm:212
+#, c-format
+msgid "PPP over ATM (PPPoA)"
+msgstr "异步传输模式下的点对点协议(PPPoA)"
+
+#: ../lib/network/connection/xdsl.pm:252
+#, c-format
+msgid "Virtual Path ID (VPI):"
+msgstr "虚拟路径 ID (VPI):"
+
+#: ../lib/network/connection/xdsl.pm:253
+#, c-format
+msgid "Virtual Circuit ID (VCI):"
+msgstr "虚拟电路 ID (VCI):"
+
+#: ../lib/network/connection/xdsl.pm:361
+#: ../lib/network/connection_manager.pm:62 ../lib/network/drakvpn.pm:45
+#: ../lib/network/netconnect.pm:135 ../lib/network/thirdparty.pm:123
+#, c-format
+msgid "Could not install the packages (%s)!"
+msgstr "无法安装软件包(%s)!"
+
+#: ../lib/network/connection_manager.pm:74
+#: ../lib/network/connection_manager.pm:89 ../lib/network/netconnect.pm:186
+#, c-format
+msgid "Configuring device..."
+msgstr "正在配置设备..."
+
+#: ../lib/network/connection_manager.pm:79
+#: ../lib/network/connection_manager.pm:144
+#, c-format
+msgid "Network settings"
+msgstr "网络设置"
+
+#: ../lib/network/connection_manager.pm:80
+#: ../lib/network/connection_manager.pm:145
+#, c-format
+msgid "Please enter settings for network"
+msgstr "请输入网络设置"
+
+#: ../lib/network/connection_manager.pm:223
+#: ../lib/network/connection_manager.pm:481 ../lib/network/drakvpn.pm:100
+#, c-format
+msgid "Connection failed."
+msgstr "连接失败。"
+
+#: ../lib/network/connection_manager.pm:235
+#, c-format
+msgid "Disconnecting..."
+msgstr "正在断开连接..."
+
+#: ../lib/network/connection_manager.pm:277
+#, c-format
+msgid "SSID"
+msgstr "SSID"
+
+#: ../lib/network/connection_manager.pm:278
+#, c-format
+msgid "Signal strength"
+msgstr "信号强度"
+
+#: ../lib/network/connection_manager.pm:279
+#, c-format
+msgid "Encryption"
+msgstr "加密"
+
+#: ../lib/network/connection_manager.pm:353 ../lib/network/netconnect.pm:208
+#, c-format
+msgid "Scanning for networks..."
+msgstr "正在扫描网络..."
+
+#: ../lib/network/connection_manager.pm:402 ../lib/network/drakroam.pm:91
+#, c-format
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: ../lib/network/connection_manager.pm:402 ../lib/network/drakroam.pm:90
+#, c-format
+msgid "Connect"
+msgstr "连接"
+
+#: ../lib/network/connection_manager.pm:447
+#, c-format
+msgid "Hostname changed to \"%s\""
+msgstr "主机名更改为“%s”"
+
+#: ../lib/network/drakconnect/delete.pm:12
+#, c-format
+msgid "No ethernet network adapter has been detected on your system. Please run the hardware configuration tool."
+msgstr ""
+
+#: ../lib/network/drakconnect/delete.pm:21
+#, c-format
+msgid "Remove a network interface"
+msgstr ""
+
+#: ../lib/network/drakconnect/delete.pm:25
+#, c-format
+msgid "Select the network interface to remove:"
+msgstr ""
+
+#: ../lib/network/drakconnect/delete.pm:58
+#, c-format
+msgid ""
+"An error occurred while deleting the \"%s\" network interface:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../lib/network/drakconnect/delete.pm:59
+#, c-format
+msgid "Congratulations, the \"%s\" network interface has been successfully deleted"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:23
+#, c-format
+msgid "Manage connections"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:50 ../lib/network/drakroam.pm:85
+#, c-format
+msgid "Device: "
+msgstr "设备: "
+
+#: ../lib/network/drakconnect/edit.pm:132
+#, c-format
+msgid "IP configuration"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:167
+#, c-format
+msgid "DNS servers"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:173
+#, c-format
+msgid "Search Domain"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:181
+#, c-format
+msgid "none"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:181
+#, c-format
+msgid "static"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:181
+#, c-format
+msgid "DHCP"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:264
+#, c-format
+msgid "Start at boot"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:276 ../lib/network/netconnect.pm:352
+#, c-format
+msgid "Dialing mode"
+msgstr "拨号模式"
+
+#: ../lib/network/drakconnect/edit.pm:281
+#: ../lib/network/drakconnect/edit.pm:348 ../lib/network/netconnect.pm:353
+#, c-format
+msgid "Connection speed"
+msgstr "连接速率"
+
+#: ../lib/network/drakconnect/edit.pm:286 ../lib/network/netconnect.pm:354
+#, c-format
+msgid "Connection timeout (in sec)"
+msgstr "连接超时(秒)"
+
+#: ../lib/network/drakconnect/edit.pm:324 ../lib/network/netconnect.pm:349
+#, c-format
+msgid "Provider phone number"
+msgstr "服务商电话号码"
+
+#: ../lib/network/drakconnect/edit.pm:346
+#, c-format
+msgid "Flow control"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:347
+#, c-format
+msgid "Line termination"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:358
+#, c-format
+msgid "Modem timeout"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:362
+#, c-format
+msgid "Use lock file"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:364
+#, c-format
+msgid "Wait for dialup tone before dialing"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:367
+#, c-format
+msgid "Busy wait"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:372
+#, c-format
+msgid "Modem sound"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:385 ../lib/network/netconnect.pm:357
+#, c-format
+msgid "Card IRQ"
+msgstr "网卡的 IRQ"
+
+#: ../lib/network/drakconnect/edit.pm:386 ../lib/network/netconnect.pm:358
+#, c-format
+msgid "Card mem (DMA)"
+msgstr "网卡内存(DMA)"
+
+#: ../lib/network/drakconnect/edit.pm:387 ../lib/network/netconnect.pm:359
+#, c-format
+msgid "Card IO"
+msgstr "网卡 IO"
+
+#: ../lib/network/drakconnect/edit.pm:388 ../lib/network/netconnect.pm:360
+#, c-format
+msgid "Card IO_0"
+msgstr "网卡 IO_0"
+
+#: ../lib/network/drakconnect/edit.pm:394 ../lib/network/netconnect.pm:71
+#, c-format
+msgid "European protocol (EDSS1)"
+msgstr "欧洲协议(EDSS1)"
+
+#: ../lib/network/drakconnect/edit.pm:395 ../lib/network/netconnect.pm:72
+#, c-format
+msgid ""
+"Protocol for the rest of the world\n"
+"No D-Channel (leased lines)"
+msgstr ""
+"世界其它地区的协议\n"
+"没有 D-信道(专线)"
+
+#: ../lib/network/drakconnect/edit.pm:422
+#, c-format
+msgid "Vendor"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:424
+#, c-format
+msgid "Media class"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:425
+#, c-format
+msgid "Module name"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:426
+#, c-format
+msgid "Mac Address"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:427
+#, c-format
+msgid "Bus"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:428
+#, c-format
+msgid "Location on the bus"
+msgstr ""
+
+#: ../lib/network/drakconnect/edit.pm:519 ../lib/network/netconnect.pm:832
+#, c-format
+msgid "Gateway address should be in format 1.2.3.4"
+msgstr "网关地址的格式应该是 1.2.3.4"
+
+#: ../lib/network/drakconnect/global.pm:27
+#, c-format
+msgid "Gateway:"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:27
+#, c-format
+msgid "Interface:"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:30
+#, c-format
+msgid "Internet connection configuration"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:35
+#, c-format
+msgid ""
+"You do not have any configured Internet connection.\n"
+"Run the \"%s\" assistant from the Mageia Control Center"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:50
+#, c-format
+msgid "Host name (optional)"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:51 ../lib/network/netconnect.pm:651
+#, c-format
+msgid "First DNS Server (optional)"
+msgstr "首选 DNS 服务器(可选)"
+
+#: ../lib/network/drakconnect/global.pm:52 ../lib/network/netconnect.pm:652
+#, c-format
+msgid "Second DNS Server (optional)"
+msgstr "备选 DNS 服务器(可选)"
+
+#: ../lib/network/drakconnect/global.pm:53
+#, c-format
+msgid "Third DNS server (optional)"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:75
+#, c-format
+msgid "Internet Connection Configuration"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:76
+#, c-format
+msgid "Internet access"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:78
+#, c-format
+msgid "Connection type: "
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:81
+#, c-format
+msgid "Status:"
+msgstr ""
+
+#: ../lib/network/drakconnect/global.pm:82 ../lib/network/netconnect.pm:305
+#: ../lib/network/netconnect.pm:733
+#, c-format
+msgid "Testing your connection..."
+msgstr "正在测试您的连接..."
+
+#: ../lib/network/drakconnect/global.pm:86
+#, c-format
+msgid "Parameters"
+msgstr ""
+
+#: ../lib/network/drakfirewall.pm:14
+#, c-format
+msgid "Web Server"
+msgstr "Web 服务器"
+
+#: ../lib/network/drakfirewall.pm:19
+#, c-format
+msgid "Domain Name Server"
+msgstr "域名服务器"
+
+#: ../lib/network/drakfirewall.pm:24
+#, c-format
+msgid "SSH server"
+msgstr "SSH 服务器"
+
+#: ../lib/network/drakfirewall.pm:29
+#, c-format
+msgid "FTP server"
+msgstr "FTP 服务器"
+
+#: ../lib/network/drakfirewall.pm:34
+#, c-format
+msgid "DHCP Server"
+msgstr "DHCP 服务器"
+
+#: ../lib/network/drakfirewall.pm:40
+#, c-format
+msgid "Mail Server"
+msgstr "邮件服务器"
+
+#: ../lib/network/drakfirewall.pm:45
+#, c-format
+msgid "POP and IMAP Server"
+msgstr "POP 和 IMAP 服务器"
+
+#: ../lib/network/drakfirewall.pm:50
+#, c-format
+msgid "Telnet server"
+msgstr "Telnet 服务器"
+
+#: ../lib/network/drakfirewall.pm:56
+#, c-format
+msgid "NFS Server"
+msgstr "NFS 服务器"
+
+#: ../lib/network/drakfirewall.pm:64
+#, c-format
+msgid "Windows Files Sharing (SMB)"
+msgstr "Windows 文件共享(SMB)"
+
+#: ../lib/network/drakfirewall.pm:70
+#, c-format
+msgid "Bacula backup"
+msgstr "Bacula 备份"
+
+#: ../lib/network/drakfirewall.pm:76
+#, c-format
+msgid "Syslog network logging"
+msgstr "系统日志网络日志"
+
+#: ../lib/network/drakfirewall.pm:82
+#, c-format
+msgid "CUPS server"
+msgstr "CUPS 服务器"
+
+#: ../lib/network/drakfirewall.pm:88
+#, c-format
+msgid "MySQL server"
+msgstr "MySQL 服务器"
+
+#: ../lib/network/drakfirewall.pm:94
+#, c-format
+msgid "PostgreSQL server"
+msgstr "PostgreSQL 服务器"
+
+#: ../lib/network/drakfirewall.pm:100
+#, c-format
+msgid "Echo request (ping)"
+msgstr "回显请求(ping)"
+
+#: ../lib/network/drakfirewall.pm:105
+#, c-format
+msgid "Network services autodiscovery (zeroconf and slp)"
+msgstr "网络服务自动发现(zeroconf 和 slp)"
+
+#: ../lib/network/drakfirewall.pm:110
+#, c-format
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+#: ../lib/network/drakfirewall.pm:116
+#, c-format
+msgid "Windows Mobile device synchronization"
+msgstr "Windows Mobile 设备同步"
+
+#: ../lib/network/drakfirewall.pm:125
+#, c-format
+msgid "Port scan detection"
+msgstr "端口扫描检测"
+
+#: ../lib/network/drakfirewall.pm:224 ../lib/network/drakfirewall.pm:228
+#: ../lib/network/shorewall.pm:75
+#, c-format
+msgid "Firewall configuration"
+msgstr "防火墙配置"
+
+#: ../lib/network/drakfirewall.pm:224
+#, c-format
+msgid ""
+"drakfirewall configurator\n"
+"\n"
+"This configures a personal firewall for this Mageia machine."
+msgstr ""
+
+#: ../lib/network/drakfirewall.pm:228
+#, c-format
+msgid ""
+"drakfirewall configurator\n"
+"\n"
+"Make sure you have configured your Network/Internet access with\n"
+"drakconnect before going any further."
+msgstr ""
+"“Drak 防火墙”配置\n"
+"\n"
+"请确定您在继续任何操作前已经用“Drak 连接”配置了您的局域网/Internet 访问。"
+
+#: ../lib/network/drakfirewall.pm:245 ../lib/network/drakfirewall.pm:247
+#: ../lib/network/shorewall.pm:167
+#, c-format
+msgid "Firewall"
+msgstr "防火墙"
+
+#: ../lib/network/drakfirewall.pm:248
+#, c-format
+msgid ""
+"You can enter miscellaneous ports. \n"
+"Valid examples are: 139/tcp 139/udp 600:610/tcp 600:610/udp.\n"
+"Have a look at /etc/services for information."
+msgstr ""
+"您可以输入各种端口。\n"
+"例如, 可以这样: 139/tcp 139/udp 600:610/tcp 600:610/udp。\n"
+"请参考 /etc/services 文件。"
+
+#: ../lib/network/drakfirewall.pm:254
+#, c-format
+msgid ""
+"Invalid port given: %s.\n"
+"The proper format is \"port/tcp\" or \"port/udp\", \n"
+"where port is between 1 and 65535.\n"
+"\n"
+"You can also give a range of ports (eg: 24300:24350/udp)"
+msgstr ""
+"指定的端口无效: %s。\n"
+"正确的格式是“port/tcp”或“port/udp”, \n"
+"其中 port 要在 1 和 65535 之间。\n"
+"\n"
+"您也可以给出端口范围(如: 24300:24350/udp)"
+
+#: ../lib/network/drakfirewall.pm:264
+#, c-format
+msgid "Which services would you like to allow the Internet to connect to?"
+msgstr "您想要本机上开放哪些服务?"
+
+#: ../lib/network/drakfirewall.pm:265 ../lib/network/netconnect.pm:127
+#: ../lib/network/network.pm:549
+#, c-format
+msgid "Those settings will be saved for the network profile <b>%s</b>"
+msgstr "这些设置将会保存在网络配置文件 <b>%s</b> 中"
+
+#: ../lib/network/drakfirewall.pm:266
+#, c-format
+msgid "Everything (no firewall)"
+msgstr "全部(无防火墙)"
+
+#: ../lib/network/drakfirewall.pm:268
+#, c-format
+msgid "Other ports"
+msgstr "其它端口"
+
+#: ../lib/network/drakfirewall.pm:269
+#, c-format
+msgid "Log firewall messages in system logs"
+msgstr "在系统日志中记录防火墙消息"
+
+#: ../lib/network/drakfirewall.pm:311
+#, c-format
+msgid ""
+"You can be warned when someone accesses to a service or tries to intrude into your computer.\n"
+"Please select which network activities should be watched."
+msgstr ""
+"您可以选择在有人访问本机上的服务或试图入侵您的计算机时得到警报。\n"
+"请选择应监视何种网络活动。"
+
+#: ../lib/network/drakfirewall.pm:316
+#, c-format
+msgid "Use Interactive Firewall"
+msgstr "使用交互式防火墙"
+
+#: ../lib/network/drakroam.pm:22
+#, c-format
+msgid "No device found"
+msgstr "没有发现设备"
+
+#: ../lib/network/drakroam.pm:89 ../lib/network/netcenter.pm:66
+#, c-format
+msgid "Configure"
+msgstr "配置"
+
+#: ../lib/network/drakroam.pm:92 ../lib/network/netcenter.pm:71
+#, c-format
+msgid "Refresh"
+msgstr "刷新"
+
+#: ../lib/network/drakroam.pm:103 ../lib/network/netconnect.pm:795
+#, c-format
+msgid "Wireless connection"
+msgstr "无线连接"
+
+#: ../lib/network/drakvpn.pm:30
+#, c-format
+msgid "VPN configuration"
+msgstr "VPN 配置"
+
+#: ../lib/network/drakvpn.pm:34
+#, c-format
+msgid "Choose the VPN type"
+msgstr "选择 VPN 类型"
+
+#: ../lib/network/drakvpn.pm:49
+#, c-format
+msgid "Initializing tools and detecting devices for %s..."
+msgstr "正在初始化工具和检测 %s 设备..."
+
+#: ../lib/network/drakvpn.pm:52
+#, c-format
+msgid "Unable to initialize %s connection type!"
+msgstr "无法初始化 %s 连接类型！"
+
+#: ../lib/network/drakvpn.pm:60
+#, c-format
+msgid "Please select an existing VPN connection or enter a new name."
+msgstr "请选择现有的 VPN 连接或者输入新名称。"
+
+#: ../lib/network/drakvpn.pm:64
+#, c-format
+msgid "Configure a new connection..."
+msgstr "配置新连接..."
+
+#: ../lib/network/drakvpn.pm:66
+#, c-format
+msgid "New name"
+msgstr "新名称"
+
+#: ../lib/network/drakvpn.pm:70
+#, c-format
+msgid "You must select an existing connection or enter a new name."
+msgstr "您必须选择已有连接或者输入新名称。"
+
+#: ../lib/network/drakvpn.pm:81
+#, c-format
+msgid "Please enter the required key(s)"
+msgstr "请输入所需密钥"
+
+#: ../lib/network/drakvpn.pm:86
+#, c-format
+msgid "Please enter the settings of your VPN connection"
+msgstr "请输入您 VPN 连接的设置"
+
+#: ../lib/network/drakvpn.pm:94 ../lib/network/netconnect.pm:298
+#, c-format
+msgid "Do you want to start the connection now?"
+msgstr "您现在就想启动连接吗？"
+
+#: ../lib/network/drakvpn.pm:108
+#, c-format
+msgid ""
+"The VPN connection is now configured.\n"
+"\n"
+"This VPN connection can be automatically started together with a network connection.\n"
+"It can be done by reconfiguring the network connection and selecting this VPN connection.\n"
+""
+msgstr ""
+"VPN 连接现已配置。\n"
+"\n"
+"此 VPN 连接可以在网络连接有效时自动启动。\n"
+"如果您需要这么做的话，请重新配置网络连接，然后选择此 VPN 连接。\n"
+
+#: ../lib/network/ifw.pm:132
+#, c-format
+msgid "Port scanning"
+msgstr "端口扫描"
+
+#: ../lib/network/ifw.pm:133
+#, c-format
+msgid "Service attack"
+msgstr "服务攻击"
+
+#: ../lib/network/ifw.pm:134
+#, c-format
+msgid "Password cracking"
+msgstr "密码破解"
+
+#: ../lib/network/ifw.pm:135
+#, c-format
+msgid "New connection"
+msgstr "新建连接"
+
+#: ../lib/network/ifw.pm:136
+#, c-format
+msgid "\"%s\" attack"
+msgstr "“%s”攻击"
+
+#: ../lib/network/ifw.pm:138
+#, c-format
+msgid "A port scanning attack has been attempted by %s."
+msgstr "%s 试图进行端口扫描攻击。"
+
+#: ../lib/network/ifw.pm:139
+#, c-format
+msgid "The %s service has been attacked by %s."
+msgstr "%s 服务已被 %s 攻击。"
+
+#: ../lib/network/ifw.pm:140
+#, c-format
+msgid "A password cracking attack has been attempted by %s."
+msgstr "%s 正在尝试密码破解攻击。"
+
+#: ../lib/network/ifw.pm:141
+#, c-format
+msgid "%s is connecting on the %s service."
+msgstr "%s 正连接到 %s 服务。"
+
+#: ../lib/network/ifw.pm:142
+#, c-format
+msgid "A \"%s\" attack has been attempted by %s"
+msgstr "%2$s 试图进行“%1$s”攻击"
+
+#: ../lib/network/ifw.pm:151
+#, c-format
+msgid "The \"%s\" application is trying to make a service (%s) available to the network."
+msgstr "“%s”应用程序试图成为网络上的服务(%s)。"
+
+#. -PO: this should be kept lowercase since the expression is meant to be used
+#. between brackets
+#: ../lib/network/ifw.pm:155
+#, c-format
+msgid "port %d"
+msgstr "端口 %d"
+
+#: ../lib/network/modem.pm:42 ../lib/network/modem.pm:43
+#: ../lib/network/modem.pm:44 ../lib/network/netconnect.pm:632
+#: ../lib/network/netconnect.pm:649 ../lib/network/netconnect.pm:665
+#, c-format
+msgid "Manual"
+msgstr "手动"
+
+#: ../lib/network/modem.pm:42 ../lib/network/modem.pm:43
+#: ../lib/network/modem.pm:44 ../lib/network/modem.pm:63
+#: ../lib/network/modem.pm:76 ../lib/network/modem.pm:81
+#: ../lib/network/modem.pm:110 ../lib/network/netconnect.pm:627
+#: ../lib/network/netconnect.pm:632 ../lib/network/netconnect.pm:644
+#: ../lib/network/netconnect.pm:649 ../lib/network/netconnect.pm:665
+#: ../lib/network/netconnect.pm:667
+#, c-format
+msgid "Automatic"
+msgstr "自动"
+
+#: ../lib/network/ndiswrapper.pm:30
+#, c-format
+msgid "No device supporting the %s ndiswrapper driver is present!"
+msgstr "目前没有支持 %s ndiswrapper 驱动程序的设备!"
+
+#: ../lib/network/ndiswrapper.pm:36
+#, c-format
+msgid "Please select the correct driver"
+msgstr "请选择正确的驱动程序"
+
+#: ../lib/network/ndiswrapper.pm:36
+#, c-format
+msgid "Please select the Windows driver description (.inf) file, or corresponding driver file (.dll or .o files). Note that only drivers up to Windows XP are supported."
+msgstr "请选择 Windows 驱动程序描述(.inf)文件，或者相应的驱动程序文件(.dll 或 .o 文件)。请注意，目前所支持最新的驱动程序是 Windows XP 驱动程序。"
+
+#: ../lib/network/ndiswrapper.pm:45
+#, c-format
+msgid "Unable to install the %s ndiswrapper driver!"
+msgstr "无法安装 %s ndiswrapper 驱动程序!"
+
+#: ../lib/network/ndiswrapper.pm:103
+#, c-format
+msgid ""
+"The selected device has already been configured with the %s driver.\n"
+"Do you really want to use a ndiswrapper driver?"
+msgstr ""
+"所选的设备已经以 %s 驱动程序配置过。\n"
+"您真的想要使用 ndiswrapper 驱动程序吗?"
+
+#: ../lib/network/ndiswrapper.pm:118
+#, c-format
+msgid "Unable to load the ndiswrapper module!"
+msgstr "无法装入 ndiswrapper 模块!"
+
+#: ../lib/network/ndiswrapper.pm:124
+#, c-format
+msgid "Unable to find the ndiswrapper interface!"
+msgstr "找不到 ndiswrapper 接口!"
+
+#: ../lib/network/ndiswrapper.pm:137
+#, c-format
+msgid "Choose an ndiswrapper driver"
+msgstr "选择 ndiswrapper 驱动程序"
+
+#: ../lib/network/ndiswrapper.pm:140
+#, c-format
+msgid "Use the ndiswrapper driver %s"
+msgstr "使用 ndiswrapper 驱动程序 %s"
+
+#: ../lib/network/ndiswrapper.pm:140
+#, c-format
+msgid "Install a new driver"
+msgstr "安装新驱动程序"
+
+#: ../lib/network/ndiswrapper.pm:151
+#, c-format
+msgid "Select a device:"
+msgstr "选择设备:"
+
+#. -PO: "Process" is a verb
+#: ../lib/network/net_applet/ifw.pm:100
+#, c-format
+msgid "Process attack"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:113
+#, c-format
+msgid "Interactive Firewall: intrusion detected"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:130
+#, c-format
+msgid "What do you want to do with this attacker?"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:133
+#, c-format
+msgid "Attack details"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:137
+#, c-format
+msgid "Attack time: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:138
+#, c-format
+msgid "Network interface: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:139
+#, c-format
+msgid "Attack type: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:140
+#, c-format
+msgid "Protocol: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:141
+#, c-format
+msgid "Attacker IP address: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:142
+#, c-format
+msgid "Attacker hostname: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:145
+#, c-format
+msgid "Service attacked: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:146
+#, c-format
+msgid "Port attacked: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:148
+#, c-format
+msgid "Type of ICMP attack: %s"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:153
+#, c-format
+msgid "Always blacklist (do not ask again)"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:168
+#, c-format
+msgid "Ignore"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:186 ../lib/network/net_applet/ifw.pm:204
+#, c-format
+msgid "Interactive Firewall: new service"
+msgstr ""
+
+#. -PO: "Process" is a verb
+#: ../lib/network/net_applet/ifw.pm:192
+#, c-format
+msgid "Process connection"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:214
+#, c-format
+msgid "Do you want to open this service?"
+msgstr ""
+
+#: ../lib/network/net_applet/ifw.pm:217
+#, c-format
+msgid "Remember this answer"
+msgstr ""
+
+#: ../lib/network/netcenter.pm:55 ../lib/network/netconnect.pm:211
+#, c-format
+msgid "Please select your network:"
+msgstr "请选择您的网络："
+
+#: ../lib/network/netcenter.pm:62
+#, c-format
+msgid ""
+"_: This is a verb\n"
+"Monitor"
+msgstr "监视"
+
+#: ../lib/network/netcenter.pm:152
+#, c-format
+msgid "Network Center"
+msgstr "网络中心"
+
+#: ../lib/network/netcenter.pm:171
+#, c-format
+msgid "You are currently using the network profile <b>%s</b>"
+msgstr "您现在正在使用网络配置文件 <b>%s</b>"
+
+#: ../lib/network/netcenter.pm:177
+#, c-format
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: ../lib/network/netconnect.pm:60 ../lib/network/netconnect.pm:522
+#: ../lib/network/netconnect.pm:536
+#, c-format
+msgid "Manual choice"
+msgstr "手动选择"
+
+#: ../lib/network/netconnect.pm:60
+#, c-format
+msgid "Internal ISDN card"
+msgstr "内置 ISDN 卡"
+
+#: ../lib/network/netconnect.pm:69
+#, c-format
+msgid "Protocol for the rest of the world"
+msgstr "世界其它地区的协议"
+
+#: ../lib/network/netconnect.pm:122
+#, c-format
+msgid "Network & Internet Configuration"
+msgstr "网络和 Internet 配置"
+
+#: ../lib/network/netconnect.pm:127
+#, c-format
+msgid "Choose the connection you want to configure"
+msgstr "选择您想要配置的连接"
+
+#: ../lib/network/netconnect.pm:149 ../lib/network/netconnect.pm:377
+#: ../lib/network/netconnect.pm:822
+#, c-format
+msgid "Select the network interface to configure:"
+msgstr "选择要配置的网卡: "
+
+#: ../lib/network/netconnect.pm:151
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../lib/network/netconnect.pm:168
+#, c-format
+msgid "No device can be found for this connection type."
+msgstr "未找到此连接类型的设备。"
+
+#: ../lib/network/netconnect.pm:177
+#, c-format
+msgid "Hardware Configuration"
+msgstr "硬件配置"
+
+#: ../lib/network/netconnect.pm:201
+#, c-format
+msgid "Please select your provider:"
+msgstr "请选择您的网络运营商："
+
+#: ../lib/network/netconnect.pm:248
+#, c-format
+msgid ""
+"Please select your connection protocol.\n"
+"If you do not know it, keep the preselected protocol."
+msgstr ""
+"请选择您的连接协议。\n"
+"如果您不知道的话，请保持预先选择的协议。"
+
+#: ../lib/network/netconnect.pm:292 ../lib/network/netconnect.pm:684
+#, c-format
+msgid "Connection control"
+msgstr "连接控制"
+
+#: ../lib/network/netconnect.pm:344
+#, c-format
+msgid "Connection Configuration"
+msgstr "连接配置"
+
+#: ../lib/network/netconnect.pm:344
+#, c-format
+msgid "Please fill or check the field below"
+msgstr "请填写或选择下列项目"
+
+#: ../lib/network/netconnect.pm:347
+#, c-format
+msgid "Your personal phone number"
+msgstr "您自己的电话号码"
+
+#: ../lib/network/netconnect.pm:348
+#, c-format
+msgid "Provider name (ex provider.net)"
+msgstr "服务商名称(如 provider.net)"
+
+#: ../lib/network/netconnect.pm:350
+#, c-format
+msgid "Provider DNS 1 (optional)"
+msgstr "服务商 DNS 1(可选)"
+
+#: ../lib/network/netconnect.pm:351
+#, c-format
+msgid "Provider DNS 2 (optional)"
+msgstr "服务商 DNS 2(可选)"
+
+#: ../lib/network/netconnect.pm:361
+#, c-format
+msgid "Card IO_1"
+msgstr "网卡 IO_1"
+
+#: ../lib/network/netconnect.pm:380 ../lib/network/netconnect.pm:385
+#, c-format
+msgid "External ISDN modem"
+msgstr "外置 ISDN 调制解调器"
+
+#: ../lib/network/netconnect.pm:413
+#, c-format
+msgid "Select a device!"
+msgstr "请选择设备！"
+
+#: ../lib/network/netconnect.pm:422 ../lib/network/netconnect.pm:432
+#: ../lib/network/netconnect.pm:442 ../lib/network/netconnect.pm:475
+#: ../lib/network/netconnect.pm:489
+#, c-format
+msgid "ISDN Configuration"
+msgstr "ISDN 配置"
+
+#: ../lib/network/netconnect.pm:423
+#, c-format
+msgid "What kind of card do you have?"
+msgstr "请问您适配卡的种类?"
+
+#: ../lib/network/netconnect.pm:433
+#, c-format
+msgid ""
+"\n"
+"If you have an ISA card, the values on the next screen should be right.\n"
+"\n"
+"If you have a PCMCIA card, you have to know the \"irq\" and \"io\" of your card.\n"
+""
+msgstr ""
+"\n"
+"如果您的卡是 ISA 卡, 下一屏幕显示的值应该是正确的。\n"
+"\n"
+"如果您的卡是 PCMCIA 卡, 您必须知道它的“irq”和“io”。\n"
+
+#: ../lib/network/netconnect.pm:437
+#, c-format
+msgid "Continue"
+msgstr "继续"
+
+#: ../lib/network/netconnect.pm:437
+#, c-format
+msgid "Abort"
+msgstr "中止"
+
+#: ../lib/network/netconnect.pm:443
+#, c-format
+msgid "Which of the following is your ISDN card?"
+msgstr "下列哪个是您的 ISDN 卡?"
+
+#: ../lib/network/netconnect.pm:461
+#, c-format
+msgid "A CAPI driver is available for this modem. This CAPI driver can offer more capabilities than the free driver (like sending faxes). Which driver do you want to use?"
+msgstr "此调制解调器适用 CAPI 驱动程序。此 CAPI 驱动程序比免费驱动程序提供更多的功能(比如发送传真)。您想要使用哪个驱动程序?"
+
+#: ../lib/network/netconnect.pm:475
+#, c-format
+msgid "Which protocol do you want to use?"
+msgstr "您将使用哪种协议?"
+
+#: ../lib/network/netconnect.pm:489
+#, c-format
+msgid ""
+"Select your provider.\n"
+"If it is not listed, choose Unlisted."
+msgstr ""
+"选择您的提供商。\n"
+"如果该提供商未被列出, 请选择“未列出”。"
+
+#: ../lib/network/netconnect.pm:491 ../lib/network/netconnect.pm:587
+#, c-format
+msgid "Provider:"
+msgstr "服务商:"
+
+#: ../lib/network/netconnect.pm:500
+#, c-format
+msgid ""
+"Your modem is not supported by the system.\n"
+"Take a look at http://www.linmodems.org"
+msgstr ""
+"您的调制解调器不被系统支持。\n"
+"请看看 http://www.linmodems.org"
+
+#: ../lib/network/netconnect.pm:519
+#, c-format
+msgid "Select the modem to configure:"
+msgstr "选择要配置的调制解调器:"
+
+#: ../lib/network/netconnect.pm:521
+#, c-format
+msgid "Modem"
+msgstr "调制解调器"
+
+#: ../lib/network/netconnect.pm:556
+#, c-format
+msgid "Please choose which serial port your modem is connected to."
+msgstr "请选择您的调制解调器是连接到哪个串行端口。"
+
+#: ../lib/network/netconnect.pm:585
+#, c-format
+msgid "Select your provider:"
+msgstr "选择您的服务商:"
+
+#: ../lib/network/netconnect.pm:609
+#, c-format
+msgid "Dialup: account options"
+msgstr "拨号: 账户设置"
+
+#: ../lib/network/netconnect.pm:612
+#, c-format
+msgid "Connection name"
+msgstr "连接名称"
+
+#: ../lib/network/netconnect.pm:613
+#, c-format
+msgid "Phone number"
+msgstr "电话号码"
+
+#: ../lib/network/netconnect.pm:614
+#, c-format
+msgid "Login ID"
+msgstr "登录 ID"
+
+#: ../lib/network/netconnect.pm:629 ../lib/network/netconnect.pm:662
+#, c-format
+msgid "Dialup: IP parameters"
+msgstr "拨号: IP 参数"
+
+#: ../lib/network/netconnect.pm:632
+#, c-format
+msgid "IP parameters"
+msgstr "IP 参数"
+
+#: ../lib/network/netconnect.pm:634
+#, c-format
+msgid "Subnet mask"
+msgstr "子网掩码"
+
+#: ../lib/network/netconnect.pm:646
+#, c-format
+msgid "Dialup: DNS parameters"
+msgstr "拨号: DNS 参数"
+
+#: ../lib/network/netconnect.pm:649
+#, c-format
+msgid "DNS"
+msgstr "DNS"
+
+#: ../lib/network/netconnect.pm:650
+#, c-format
+msgid "Domain name"
+msgstr "域名"
+
+#: ../lib/network/netconnect.pm:653
+#, c-format
+msgid "Set hostname from IP"
+msgstr "由 IP 设置主机名"
+
+#: ../lib/network/netconnect.pm:666
+#, c-format
+msgid "Gateway IP address"
+msgstr "网关 IP 地址"
+
+#: ../lib/network/netconnect.pm:699
+#, c-format
+msgid "Automatically at boot"
+msgstr "开机时自动启动"
+
+#: ../lib/network/netconnect.pm:701
+#, c-format
+msgid "By using Net Applet in the system tray"
+msgstr "使用系统脱盘中的网络小程序"
+
+#: ../lib/network/netconnect.pm:703
+#, c-format
+msgid "Manually (the interface would still be activated at boot)"
+msgstr "手动(启动时仍会激活网卡)"
+
+#: ../lib/network/netconnect.pm:712
+#, c-format
+msgid "How do you want to dial this connection?"
+msgstr "您想要如何拨打此连接?"
+
+#: ../lib/network/netconnect.pm:725
+#, c-format
+msgid "Do you want to try to connect to the Internet now?"
+msgstr "您想要测试连接到 Internet 吗?"
+
+#: ../lib/network/netconnect.pm:752
+#, c-format
+msgid "The system is now connected to the Internet."
+msgstr "您的系统现在正连接到 Internet。"
+
+#: ../lib/network/netconnect.pm:753
+#, c-format
+msgid "For security reasons, it will be disconnected now."
+msgstr "由于安全原因, 现在将断开连接。"
+
+#: ../lib/network/netconnect.pm:754
+#, c-format
+msgid ""
+"The system does not seem to be connected to the Internet.\n"
+"Try to reconfigure your connection."
+msgstr ""
+"看来系统没有连接到 Internet。\n"
+"请重新尝试配置您的连接。"
+
+#: ../lib/network/netconnect.pm:770
+#, c-format
+msgid "Problems occurred during the network connectivity test."
+msgstr "网络连接测试时发生了问题。"
+
+#: ../lib/network/netconnect.pm:771
+#, c-format
+msgid "This can be caused by invalid network configuration, or problems with your modem or router."
+msgstr "这可能是无效的网络配置导致的，或者是您调制解调器或路由器的问题。"
+
+#: ../lib/network/netconnect.pm:772
+#, c-format
+msgid "You might want to relaunch the configuration to verify the connection settings."
+msgstr "您可能想要重新执行配置程序验证连接设置。"
+
+#: ../lib/network/netconnect.pm:775
+#, c-format
+msgid "Congratulations, the network configuration is finished."
+msgstr "恭喜, 网络和 Internet 配置完成。"
+
+#: ../lib/network/netconnect.pm:775
+#, c-format
+msgid "However, the Internet connectivity test failed. You should test your connection manually, and verify your Internet modem or router."
+msgstr "但是，Internet 连接测试失败。您应该手动测试您的连接，然后检查您的 Internet 调制解调器或者路由器。"
+
+#: ../lib/network/netconnect.pm:776
+#, c-format
+msgid "If your connection does not work, you might want to relaunch the configuration."
+msgstr "如果您的连接不工作, 您可能想要重新配置。"
+
+#: ../lib/network/netconnect.pm:778
+#, c-format
+msgid "Congratulations, the network and Internet configuration are finished."
+msgstr "恭喜, 网络和 Internet 配置完成。"
+
+#: ../lib/network/netconnect.pm:779
+#, c-format
+msgid "After this is done, we recommend that you restart your X environment to avoid any hostname-related problems."
+msgstr "建议重启动 X 环境以避免任何与主机名有关的问题。"
+
+#: ../lib/network/netconnect.pm:790
+#, c-format
+msgid "Sagem USB modem"
+msgstr "Sagem USB 调制解调器"
+
+#: ../lib/network/netconnect.pm:791 ../lib/network/netconnect.pm:792
+#, c-format
+msgid "Bewan modem"
+msgstr "Bewan 调制解调器"
+
+#: ../lib/network/netconnect.pm:793
+#, c-format
+msgid "ECI Hi-Focus modem"
+msgstr "ECI Hi-Focus 调制解调器"
+
+#: ../lib/network/netconnect.pm:794
+#, c-format
+msgid "LAN connection"
+msgstr "局域网连接"
+
+#: ../lib/network/netconnect.pm:796
+#, c-format
+msgid "ADSL connection"
+msgstr "ADSL 连接"
+
+#: ../lib/network/netconnect.pm:797
+#, c-format
+msgid "Cable connection"
+msgstr "有线电缆连接"
+
+#: ../lib/network/netconnect.pm:798
+#, c-format
+msgid "ISDN connection"
+msgstr "ISDN 连接"
+
+#: ../lib/network/netconnect.pm:799
+#, c-format
+msgid "Modem connection"
+msgstr "调制解调器连接"
+
+#: ../lib/network/netconnect.pm:800
+#, c-format
+msgid "DVB connection"
+msgstr "DVB 连接"
+
+#: ../lib/network/netconnect.pm:802
+#, c-format
+msgid "(detected on port %s)"
+msgstr "(在端口 %s 检测到)"
+
+#. -PO: here, "(detected)" string will be appended to eg "ADSL connection"
+#: ../lib/network/netconnect.pm:804
+#, c-format
+msgid "(detected %s)"
+msgstr "(检测到 %s)"
+
+#: ../lib/network/netconnect.pm:804
+#, c-format
+msgid "(detected)"
+msgstr "(检测到)"
+
+#: ../lib/network/netconnect.pm:805
+#, c-format
+msgid "Network Configuration"
+msgstr "网络配置"
+
+#: ../lib/network/netconnect.pm:806
+#, c-format
+msgid "Zeroconf hostname resolution"
+msgstr "Zeroconf 主机名解析"
+
+#: ../lib/network/netconnect.pm:807
+#, c-format
+msgid ""
+"If desired, enter a Zeroconf hostname.\n"
+"This is the name your machine will use to advertise any of\n"
+"its shared resources that are not managed by the network.\n"
+"It is not necessary on most networks."
+msgstr ""
+"如果需要的话, 输入 Zeroconf 主机名。\n"
+"这将被您的计算机用于通知其未被网络管理的共享资源。\n"
+"大多数网络中不需要此设置。"
+
+#: ../lib/network/netconnect.pm:811
+#, c-format
+msgid "Zeroconf Host name"
+msgstr "Zeroconf 主机名"
+
+#: ../lib/network/netconnect.pm:812
+#, c-format
+msgid "Zeroconf host name must not contain a ."
+msgstr "Zeroconf 主机名不能包含“.”"
+
+#: ../lib/network/netconnect.pm:813
+#, c-format
+msgid ""
+"Because you are doing a network installation, your network is already configured.\n"
+"Click on Ok to keep your configuration, or cancel to reconfigure your Internet & Network connection.\n"
+""
+msgstr ""
+"由于您正在执行网络安装, 您的网络已经配置好了。\n"
+"单击“确定”保存配置, 或“取消”重新配置网络。\n"
+
+#: ../lib/network/netconnect.pm:816
+#, c-format
+msgid "The network needs to be restarted. Do you want to restart it?"
+msgstr "网络需要重新启动。您要重新启动吗?"
+
+#: ../lib/network/netconnect.pm:817
+#, c-format
+msgid ""
+"A problem occurred while restarting the network: \n"
+"\n"
+"%s"
+msgstr ""
+"重新启动网络时发生错误:\n"
+"\n"
+"%s"
+
+#: ../lib/network/netconnect.pm:818
+#, c-format
+msgid ""
+"We are now going to configure the %s connection.\n"
+"\n"
+"\n"
+"Press \"%s\" to continue."
+msgstr ""
+"现在将配置 %s 连接。\n"
+"\n"
+"\n"
+"按“%s”继续。"
+
+#: ../lib/network/netconnect.pm:819
+#, c-format
+msgid "Configuration is complete, do you want to apply settings?"
+msgstr "配置完成, 您想要应用设置吗?"
+
+#: ../lib/network/netconnect.pm:820
+#, c-format
+msgid ""
+"You have configured multiple ways to connect to the Internet.\n"
+"Choose the one you want to use.\n"
+"\n"
+""
+msgstr ""
+"您配置了多种 Internet 访问方式。\n"
+"选择您要使用的一种。\n"
+"\n"
+
+#: ../lib/network/netconnect.pm:821
+#, c-format
+msgid "Internet connection"
+msgstr "Internet 连接"
+
+#: ../lib/network/netconnect.pm:823
+#, c-format
+msgid "Configuring network device %s (driver %s)"
+msgstr "配置网络设备 %s(驱动程序 %s)"
+
+#: ../lib/network/netconnect.pm:824
+#, c-format
+msgid "The following protocols can be used to configure a LAN connection. Please choose the one you want to use."
+msgstr "您可使用下列协议配置局域网连接。请选择您想要使用的协议。"
+
+#: ../lib/network/netconnect.pm:825
+#, c-format
+msgid ""
+"Please enter your host name.\n"
+"Your host name should be a fully-qualified host name,\n"
+"such as ``mybox.mylab.myco.com''.\n"
+"You may also enter the IP address of the gateway if you have one."
+msgstr ""
+"请输入您的主机名称。\n"
+"您的主机名称必需是个完全限定的名称, 例如“mybox.mylab.myco.com”。\n"
+"如果您有网关的话, 也请输入其 IP 地址。"
+
+#: ../lib/network/netconnect.pm:830
+#, c-format
+msgid "Last but not least you can also type in your DNS server IP addresses."
+msgstr "最后, 您还应该至少输入您 DNS 服务器的 IP 地址。"
+
+#: ../lib/network/netconnect.pm:831
+#, c-format
+msgid "DNS server address should be in format 1.2.3.4"
+msgstr "DNS 服务器的格式应该是 1.2.3.4"
+
+#: ../lib/network/netconnect.pm:833
+#, c-format
+msgid "Gateway device"
+msgstr "网关设备"
+
+#: ../lib/network/netconnect.pm:847
+#, c-format
+msgid ""
+"An unexpected error has happened:\n"
+"%s"
+msgstr ""
+"发生了意外错误: \n"
+"%s"
+
+#: ../lib/network/network.pm:523
+#, c-format
+msgid "Advanced network settings"
+msgstr "高级网络设置"
+
+#: ../lib/network/network.pm:524
+#, c-format
+msgid "Here you can configure advanced network settings. Please note that you have to reboot the machine for changes to take effect."
+msgstr "您可以在此配置高级网络设置。请注意，您需要重新启动计算机才能让更改生效。"
+
+#: ../lib/network/network.pm:526
+#, c-format
+msgid "Wireless regulatory domain"
+msgstr "无线受限域"
+
+#: ../lib/network/network.pm:527
+#, c-format
+msgid "TCP/IP settings"
+msgstr "TCP/IP 设置"
+
+#: ../lib/network/network.pm:528
+#, c-format
+msgid "Disable IPv6"
+msgstr "禁用 Ipv6"
+
+#: ../lib/network/network.pm:529
+#, c-format
+msgid "Disable TCP Window Scaling"
+msgstr "禁用 TCP 窗口范围"
+
+#: ../lib/network/network.pm:530
+#, c-format
+msgid "Disable TCP Timestamps"
+msgstr "禁用 TCP 时间戳"
+
+#: ../lib/network/network.pm:531
+#, c-format
+msgid "Security settings (defined by MSEC policy)"
+msgstr "安全设置(由 MSEC 策略定义)"
+
+#: ../lib/network/network.pm:532
+#, c-format
+msgid "Disable ICMP echo"
+msgstr "禁用 ICMP 响应"
+
+#: ../lib/network/network.pm:533
+#, c-format
+msgid "Disable ICMP echo for broadcasting messages"
+msgstr "禁用广播消息的 ICMP 响应"
+
+#: ../lib/network/network.pm:534
+#, c-format
+msgid "Disable invalid ICMP error responses"
+msgstr "禁用无效的 ICMP 错误响应"
+
+#: ../lib/network/network.pm:535
+#, c-format
+msgid "Log strange packets"
+msgstr "记录奇怪的数据包"
+
+#: ../lib/network/network.pm:548
+#, c-format
+msgid "Proxies configuration"
+msgstr "代理服务器配置"
+
+#: ../lib/network/network.pm:549
+#, c-format
+msgid "Here you can set up your proxies configuration (eg: http://my_caching_server:8080)"
+msgstr "您可以在此处设定您的代理服务器配置(如: http://my_caching_server:8080)"
+
+#: ../lib/network/network.pm:550
+#, c-format
+msgid "HTTP proxy"
+msgstr "HTTP 代理服务器"
+
+#: ../lib/network/network.pm:551
+#, c-format
+msgid "Use HTTP proxy for HTTPS connections"
+msgstr "HTTPS 连接也使用 HTTP 代理"
+
+#: ../lib/network/network.pm:552
+#, c-format
+msgid "HTTPS proxy"
+msgstr "HTTPS 代理服务器"
+
+#: ../lib/network/network.pm:553
+#, c-format
+msgid "FTP proxy"
+msgstr "FTP 代理服务器"
+
+#: ../lib/network/network.pm:554
+#, c-format
+msgid "No proxy for (comma separated list):"
+msgstr "以下地址不使用代理(用逗号分隔):"
+
+#: ../lib/network/network.pm:559
+#, c-format
+msgid "Proxy should be http://..."
+msgstr "代理服务器应该是 http://..."
+
+#: ../lib/network/network.pm:560
+#, c-format
+msgid "Proxy should be http://... or https://..."
+msgstr "代理应该是 http://... 或 https://..."
+
+#: ../lib/network/network.pm:561
+#, c-format
+msgid "URL should begin with 'ftp:' or 'http:'"
+msgstr "URL 应该是以“ftp:”或“http:”开头"
+
+#: ../lib/network/shorewall.pm:77
+#, c-format
+msgid ""
+"Please select the interfaces that will be protected by the firewall.\n"
+"\n"
+"All interfaces directly connected to Internet should be selected,\n"
+"while interfaces connected to a local network may be unselected.\n"
+"\n"
+"If you intend to use Mageia Internet Connection sharing,\n"
+"unselect interfaces which will be connected to local network.\n"
+"\n"
+"Which interfaces should be protected?\n"
+""
+msgstr ""
+"请选择想要被防火墙所保护的接口。\n"
+"\n"
+"所有直接连接到 Internet 的接口都应该选中，而连接到局域网的接口可以不选。\n"
+"\n"
+"如果您想要使用 Mageia Internet 连接共享，请不要选择将连接到局域网的接口。\n"
+"\n"
+"应该保护哪个接口?\n"
+
+#: ../lib/network/shorewall.pm:158
+#, c-format
+msgid "Keep custom rules"
+msgstr "保留自定义规则"
+
+#: ../lib/network/shorewall.pm:159
+#, c-format
+msgid "Drop custom rules"
+msgstr "删除自定义规则"
+
+#: ../lib/network/shorewall.pm:164
+#, c-format
+msgid ""
+"Your firewall configuration has been manually edited and contains\n"
+"rules that may conflict with the configuration that has just been set up.\n"
+"What do you want to do?"
+msgstr ""
+"您的防火墙配置经过手动编辑，其中包含的规则可能与刚刚设置的配置冲突。\n"
+"您想要怎么处理?"
+
+#: ../lib/network/thirdparty.pm:144
+#, c-format
+msgid "Some components (%s) are required but aren't available for %s hardware."
+msgstr "需要某些组件(%s)，但 %s 硬件无法使用。"
+
+#: ../lib/network/thirdparty.pm:145
+#, c-format
+msgid "Some packages (%s) are required but aren't available."
+msgstr "需要某些软件包(%s)，这些软件包不可用。"
+
+#. -PO: first argument is a list of Mageia distributions
+#. -PO: second argument is a package media name
+#: ../lib/network/thirdparty.pm:150
+#, c-format
+msgid "These packages can be found in %s, or in the official %s package repository."
+msgstr "这些包可以在 %s 中找到，或者在 %s 的官方软件包仓库中找到。"
+
+#: ../lib/network/thirdparty.pm:152
+#, c-format
+msgid "The following component is missing: %s"
+msgstr "缺少下列组件：%s"
+
+#: ../lib/network/thirdparty.pm:154
+#, c-format
+msgid ""
+"The required files can also be installed from this URL:\n"
+"%s"
+msgstr ""
+"所需的文件也可从以下 URL 安装:\n"
+"%s"
+
+#: ../lib/network/thirdparty.pm:190
+#, c-format
+msgid "Firmware files are required for this device."
+msgstr "此设备需要固件文件。"
+
+#: ../lib/network/thirdparty.pm:193 ../lib/network/thirdparty.pm:198
+#, c-format
+msgid "Use a floppy"
+msgstr "使用软盘"
+
+#: ../lib/network/thirdparty.pm:194 ../lib/network/thirdparty.pm:201
+#, c-format
+msgid "Use my Windows partition"
+msgstr "使用我的 Windows 分区"
+
+#: ../lib/network/thirdparty.pm:195
+#, c-format
+msgid "Select file"
+msgstr "选择文件"
+
+#: ../lib/network/thirdparty.pm:206
+#, c-format
+msgid "Please select the firmware file (for example: %s)"
+msgstr "请选择固件文件(如：%s)"
+
+#: ../lib/network/thirdparty.pm:230
+#, c-format
+msgid "Unable to find \"%s\" on your Windows system!"
+msgstr "在 Windows 系统中找不到“%s”!"
+
+#: ../lib/network/thirdparty.pm:232
+#, c-format
+msgid "No Windows system has been detected!"
+msgstr "未检测到 Windows 系统!"
+
+#: ../lib/network/thirdparty.pm:242
+#, c-format
+msgid "Insert floppy"
+msgstr "插入软盘"
+
+#: ../lib/network/thirdparty.pm:243
+#, c-format
+msgid "Insert a FAT formatted floppy in drive %s with %s in root directory and press %s"
+msgstr "请在驱动器 %s 中插入一张 FAT 格式的软盘, 该软盘要求在根目录有 %s。然后, 请按 %s"
+
+#: ../lib/network/thirdparty.pm:243
+#, c-format
+msgid "Next"
+msgstr "下一步"
+
+#: ../lib/network/thirdparty.pm:253
+#, c-format
+msgid "Floppy access error, unable to mount device %s"
+msgstr "软驱访问错误, 无法挂载 %s"
+
+#: ../lib/network/thirdparty.pm:352
+#, c-format
+msgid "Looking for required software and drivers..."
+msgstr "正在查找所需的软件或驱动程序..."
+
+#: ../lib/network/thirdparty.pm:367
+#, c-format
+msgid "Please wait, running device configuration commands..."
+msgstr "请稍候, 正在运行设备配置命令..."
+
+#: ../lib/network/vpn/openvpn.pm:109
+#, c-format
+msgid "X509 Public Key Infrastructure"
+msgstr "X509 公钥架构"
+
+#: ../lib/network/vpn/openvpn.pm:110
+#, c-format
+msgid "Static Key"
+msgstr "静态密钥"
+
+#. -PO: please don't translate the CA acronym
+#: ../lib/network/vpn/openvpn.pm:144
+#, c-format
+msgid "Certificate Authority (CA)"
+msgstr "证书颁发机构(CA)"
+
+#: ../lib/network/vpn/openvpn.pm:150
+#, c-format
+msgid "Certificate"
+msgstr "证书"
+
+#: ../lib/network/vpn/openvpn.pm:156
+#, c-format
+msgid "Key"
+msgstr "密钥"
+
+#: ../lib/network/vpn/openvpn.pm:162
+#, c-format
+msgid "TLS control channel key"
+msgstr "TLS 控制频道密钥"
+
+#: ../lib/network/vpn/openvpn.pm:169
+#, c-format
+msgid "Key direction"
+msgstr "密钥方向"
+
+#: ../lib/network/vpn/openvpn.pm:177
+#, c-format
+msgid "Authenticate using username and password"
+msgstr "使用用户名和密码进行身份验证"
+
+#: ../lib/network/vpn/openvpn.pm:183
+#, c-format
+msgid "Check server certificate"
+msgstr "检查服务器证书"
+
+#: ../lib/network/vpn/openvpn.pm:189
+#, c-format
+msgid "Cipher algorithm"
+msgstr "加密算法"
+
+#: ../lib/network/vpn/openvpn.pm:193
+#, c-format
+msgid "Default"
+msgstr "默认"
+
+#: ../lib/network/vpn/openvpn.pm:197
+#, c-format
+msgid "Size of cipher key"
+msgstr "加密密钥的大小"
+
+#: ../lib/network/vpn/openvpn.pm:208
+#, c-format
+msgid "Get from server"
+msgstr "从服务器获得"
+
+#: ../lib/network/vpn/openvpn.pm:218
+#, c-format
+msgid "Gateway port"
+msgstr "网关端口"
+
+#: ../lib/network/vpn/openvpn.pm:234
+#, c-format
+msgid "Remote IP address"
+msgstr "远程 IP 地址"
+
+#: ../lib/network/vpn/openvpn.pm:239
+#, c-format
+msgid "Use TCP protocol"
+msgstr "使用 TCP 协议"
+
+#: ../lib/network/vpn/openvpn.pm:245
+#, c-format
+msgid "Virtual network device type"
+msgstr "虚拟网络设备类型"
+
+#: ../lib/network/vpn/openvpn.pm:252
+#, c-format
+msgid "Virtual network device number (optional)"
+msgstr "虚拟网络设备编号(可选)"
+
+#: ../lib/network/vpn/openvpn.pm:367
+#, c-format
+msgid "Starting connection.."
+msgstr "启动连接.."
+
+#: ../lib/network/vpn/openvpn.pm:382
+#, c-format
+msgid "Please insert your token"
+msgstr "请插入您的令牌"
+
+#: ../lib/network/vpn/openvpn.pm:393
+#, c-format
+msgid "PIN number"
+msgstr "PIN 号码"
+
+#: ../lib/network/vpn/vpnc.pm:9
+#, c-format
+msgid "Cisco VPN Concentrator"
+msgstr "Cisco VPN 集线器"
+
+#: ../lib/network/vpn/vpnc.pm:43
+#, c-format
+msgid "Group name"
+msgstr "组名称"
+
+#: ../lib/network/vpn/vpnc.pm:47
+#, c-format
+msgid "Group secret"
+msgstr "组选择"
+
+#: ../lib/network/vpn/vpnc.pm:52
+#, c-format
+msgid "Username"
+msgstr "用户名"
+
+#: ../lib/network/vpn/vpnc.pm:61
+#, c-format
+msgid "NAT Mode"
+msgstr "NAT 模式"
+
+#: ../lib/network/vpn/vpnc.pm:67
+#, c-format
+msgid "Use specific UDP port"
+msgstr "使用指定的 UDP 端口"
