@@ -174,6 +174,8 @@ msgid ""
 "This interface has not been configured yet.\n"
 "Run the \"%s\" assistant from the Mageia Linux Control Center"
 msgstr ""
+"接口还没有配置。\n"
+"从Mageia Linux控制中心运行\"%s\"助手"
 
 #: ../bin/drakconnect-old:247 ../bin/net_applet:105
 #: ../lib/network/drakconnect/global.pm:36
@@ -1460,7 +1462,7 @@ msgstr "Draksambashare"
 #: ../bin/draksambashare:196
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr ""
+msgstr "版权 (C) %s 由Mandriva所有"
 
 #: ../bin/draksambashare:198
 #, c-format
@@ -2068,7 +2070,9 @@ msgstr "网卡 %s 的网络已断。"
 msgid ""
 "You do not have any configured Internet connection.\n"
 "Run the \"%s\" assistant from the Mageia Linux Control Center"
-msgstr ""
+msgstr "" 
+"您还没有配置网络连接。\n"
+"从Mageia Linux控制中心运行\"%s\"助手"
 
 #: ../bin/net_applet:107 ../lib/network/connection_manager.pm:206
 #, c-format
@@ -2260,7 +2264,9 @@ msgstr "连接完成。"
 msgid ""
 "Connection failed.\n"
 "Verify your configuration in the Mageia Linux Control Center."
-msgstr ""
+msgstr "" 
+"连接失败。\n"
+"在Mageia Linux控制中心里检查网络配置。"
 
 #: ../bin/net_monitor:360
 #, c-format
@@ -2370,7 +2376,7 @@ msgstr "启用流量统计"
 #: ../lib/network/connection.pm:250
 #, c-format
 msgid "Allow interface to be controlled by Network Manager"
-msgstr ""
+msgstr "允许Network Manager管理接口"
 
 #: ../lib/network/connection.pm:251 ../lib/network/drakconnect/edit.pm:292
 #, c-format
@@ -3496,7 +3502,7 @@ msgstr "摩尔多瓦"
 #: ../lib/network/connection/providers/cellular_extra.pm:1431
 #, c-format
 msgid "Montenegro"
-msgstr ""
+msgstr "蒙特尼哥罗"
 
 #: ../lib/network/connection/providers/cellular_extra.pm:1437
 #, c-format
@@ -3678,7 +3684,7 @@ msgstr "罗马尼亚"
 #: ../lib/network/connection/providers/cellular_extra.pm:1817
 #, c-format
 msgid "Serbia"
-msgstr ""
+msgstr "塞尔维亚"
 
 #: ../lib/network/connection/providers/cellular_extra.pm:1823
 #: ../lib/network/connection/providers/cellular_extra.pm:1830
@@ -4305,7 +4311,10 @@ msgid ""
 "input is string with field-value pairs, Examples:\n"
 "auth=MSCHAPV2 for PEAP or\n"
 "autheap=MSCHAPV2 autheap=MD5 for TTLS"
-msgstr ""
+msgstr "使用TLS隧道参数进行内部验证。\n"
+"输入是域-值对字符串，比如：\n"
+"对于PEAP,auth=MSCHAPV2 或\n"
+"对于TTLS,autheap=MSCHAPV2 autheap=MD5"
 
 #: ../lib/network/connection/wireless.pm:578
 #, c-format
@@ -4340,6 +4349,11 @@ msgid ""
 "string in the subject.  The subject string is in following format:\n"
 "/C=US/ST=CA/L=San Francisco/CN=Test AS/emailAddress=as@example.com"
 msgstr ""
+"用来和认证服务器证书主题匹配的子串\n"
+"如果设定了子串，只有服务器证书主题包含这个子串，才被接受。\n"
+"主题字符串遵循下面的格式:\n"
+"/C=US/ST=CA/L=San Francisco/CN=Test AS/emailAddress=as@example.com"
+
 
 #: ../lib/network/connection/wireless.pm:592
 #, c-format
@@ -4363,6 +4377,17 @@ msgid ""
 "\tOthers such as key_mgmt, eap maybe used to force\n"
 "\tspecial settings different from the U.I settings."
 msgstr ""
+"这里用户可以向wpa_supplicant提供额外的设定\n"
+"期望的格式是域=值对字符串。可以指定多个值，之间以#间隔。\n"
+"注意：命令不会被检查，所以可能导致wpa协商失败。支持的命令在\n"
+"编辑期间被保留。\n"
+"支持的命令有：\n"
+"\tdisabled, id_str, bssid, priority, auth_alg, eapol_flags,\n"
+"\tproactive_key_caching, peerkey, ca_path, private_key,\n"
+"\tprivate_key_passwd, dh_file, altsubject_match, phase1,\n"
+"\tfragment_size and eap_workaround, pairwise, group\n"
+"\t其他的命令，比如key_mgmt,eap，可以用来强制设定和用户界面不同的配置。"
+
 
 #: ../lib/network/connection/wireless.pm:613
 #, c-format
@@ -4544,17 +4569,17 @@ msgstr "主机名更改为“%s”"
 #: ../lib/network/drakconnect/delete.pm:12
 #, c-format
 msgid "No ethernet network adapter has been detected on your system. Please run the hardware configuration tool."
-msgstr ""
+msgstr "在您的系统上，没有发现以太网适配器。请运行硬件配置工具"
 
 #: ../lib/network/drakconnect/delete.pm:21
 #, c-format
 msgid "Remove a network interface"
-msgstr ""
+msgstr "删除网络接口"
 
 #: ../lib/network/drakconnect/delete.pm:25
 #, c-format
 msgid "Select the network interface to remove:"
-msgstr ""
+msgstr "选择要删除的网络接口"
 
 #: ../lib/network/drakconnect/delete.pm:58
 #, c-format
@@ -4563,16 +4588,19 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"删除 \"%s\"网络借口时，发生错误:\n"
+"\n"
+"%s"
 
 #: ../lib/network/drakconnect/delete.pm:59
 #, c-format
 msgid "Congratulations, the \"%s\" network interface has been successfully deleted"
-msgstr ""
+msgstr "恭喜您，\"%s\"网络借口已成功删除"
 
 #: ../lib/network/drakconnect/edit.pm:23
 #, c-format
 msgid "Manage connections"
-msgstr ""
+msgstr "管理连接"
 
 #: ../lib/network/drakconnect/edit.pm:50 ../lib/network/drakroam.pm:85
 #, c-format
@@ -4582,37 +4610,37 @@ msgstr "设备: "
 #: ../lib/network/drakconnect/edit.pm:132
 #, c-format
 msgid "IP configuration"
-msgstr ""
+msgstr "IP配置"
 
 #: ../lib/network/drakconnect/edit.pm:167
 #, c-format
 msgid "DNS servers"
-msgstr ""
+msgstr "DNS服务器"
 
 #: ../lib/network/drakconnect/edit.pm:173
 #, c-format
 msgid "Search Domain"
-msgstr ""
+msgstr "搜索域"
 
 #: ../lib/network/drakconnect/edit.pm:181
 #, c-format
 msgid "none"
-msgstr ""
+msgstr "没有一个"
 
 #: ../lib/network/drakconnect/edit.pm:181
 #, c-format
 msgid "static"
-msgstr ""
+msgstr "静态"
 
 #: ../lib/network/drakconnect/edit.pm:181
 #, c-format
 msgid "DHCP"
-msgstr ""
+msgstr "DHCP"
 
 #: ../lib/network/drakconnect/edit.pm:264
 #, c-format
 msgid "Start at boot"
-msgstr ""
+msgstr "启动时运行"
 
 #: ../lib/network/drakconnect/edit.pm:276 ../lib/network/netconnect.pm:352
 #, c-format
@@ -4638,37 +4666,37 @@ msgstr "服务商电话号码"
 #: ../lib/network/drakconnect/edit.pm:346
 #, c-format
 msgid "Flow control"
-msgstr ""
+msgstr "流量控制"
 
 #: ../lib/network/drakconnect/edit.pm:347
 #, c-format
 msgid "Line termination"
-msgstr ""
+msgstr "行结束"
 
 #: ../lib/network/drakconnect/edit.pm:358
 #, c-format
 msgid "Modem timeout"
-msgstr ""
+msgstr "猫超时"
 
 #: ../lib/network/drakconnect/edit.pm:362
 #, c-format
 msgid "Use lock file"
-msgstr ""
+msgstr "使用锁文件"
 
 #: ../lib/network/drakconnect/edit.pm:364
 #, c-format
 msgid "Wait for dialup tone before dialing"
-msgstr ""
+msgstr "在拨号强等待拨号音"
 
 #: ../lib/network/drakconnect/edit.pm:367
 #, c-format
 msgid "Busy wait"
-msgstr ""
+msgstr "忙等待"
 
 #: ../lib/network/drakconnect/edit.pm:372
 #, c-format
 msgid "Modem sound"
-msgstr ""
+msgstr "猫声音"
 
 #: ../lib/network/drakconnect/edit.pm:385 ../lib/network/netconnect.pm:357
 #, c-format
@@ -4707,32 +4735,32 @@ msgstr ""
 #: ../lib/network/drakconnect/edit.pm:422
 #, c-format
 msgid "Vendor"
-msgstr ""
+msgstr "制造商"
 
 #: ../lib/network/drakconnect/edit.pm:424
 #, c-format
 msgid "Media class"
-msgstr ""
+msgstr "介质类别"
 
 #: ../lib/network/drakconnect/edit.pm:425
 #, c-format
 msgid "Module name"
-msgstr ""
+msgstr "模块名称"
 
 #: ../lib/network/drakconnect/edit.pm:426
 #, c-format
 msgid "Mac Address"
-msgstr ""
+msgstr "Mac地址"
 
 #: ../lib/network/drakconnect/edit.pm:427
 #, c-format
 msgid "Bus"
-msgstr ""
+msgstr "总线"
 
 #: ../lib/network/drakconnect/edit.pm:428
 #, c-format
 msgid "Location on the bus"
-msgstr ""
+msgstr "在总线上的位置"
 
 #: ../lib/network/drakconnect/edit.pm:519 ../lib/network/netconnect.pm:832
 #, c-format
@@ -4742,17 +4770,17 @@ msgstr "网关地址的格式应该是 1.2.3.4"
 #: ../lib/network/drakconnect/global.pm:27
 #, c-format
 msgid "Gateway:"
-msgstr ""
+msgstr "网关"
 
 #: ../lib/network/drakconnect/global.pm:27
 #, c-format
 msgid "Interface:"
-msgstr ""
+msgstr "接口"
 
 #: ../lib/network/drakconnect/global.pm:30
 #, c-format
 msgid "Internet connection configuration"
-msgstr ""
+msgstr "网络连接配置"
 
 #: ../lib/network/drakconnect/global.pm:35
 #, c-format
@@ -4760,11 +4788,13 @@ msgid ""
 "You do not have any configured Internet connection.\n"
 "Run the \"%s\" assistant from the Mageia Control Center"
 msgstr ""
+"您还没有配置网络连接。\n"
+"从Mageia控制中心，运行\"%s\"助手"
 
 #: ../lib/network/drakconnect/global.pm:50
 #, c-format
 msgid "Host name (optional)"
-msgstr ""
+msgstr "主机地址（可选）"
 
 #: ../lib/network/drakconnect/global.pm:51 ../lib/network/netconnect.pm:651
 #, c-format
@@ -4779,27 +4809,27 @@ msgstr "备选 DNS 服务器(可选)"
 #: ../lib/network/drakconnect/global.pm:53
 #, c-format
 msgid "Third DNS server (optional)"
-msgstr ""
+msgstr "次备选DNS服务器（可选）"
 
 #: ../lib/network/drakconnect/global.pm:75
 #, c-format
 msgid "Internet Connection Configuration"
-msgstr ""
+msgstr "网络连接管理"
 
 #: ../lib/network/drakconnect/global.pm:76
 #, c-format
 msgid "Internet access"
-msgstr ""
+msgstr "网络访问"
 
 #: ../lib/network/drakconnect/global.pm:78
 #, c-format
 msgid "Connection type: "
-msgstr ""
+msgstr "连接类型："
 
 #: ../lib/network/drakconnect/global.pm:81
 #, c-format
 msgid "Status:"
-msgstr ""
+msgstr "状态："
 
 #: ../lib/network/drakconnect/global.pm:82 ../lib/network/netconnect.pm:305
 #: ../lib/network/netconnect.pm:733
@@ -4810,7 +4840,7 @@ msgstr "正在测试您的连接..."
 #: ../lib/network/drakconnect/global.pm:86
 #, c-format
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../lib/network/drakfirewall.pm:14
 #, c-format
@@ -4924,7 +4954,10 @@ msgid ""
 "drakfirewall configurator\n"
 "\n"
 "This configures a personal firewall for this Mageia machine."
-msgstr ""
+msgstr "" 
+"drakfirewall配置\n"
+"\n"
+"给这台Mageia机器配置个人防火墙"
 
 #: ../lib/network/drakfirewall.pm:228
 #, c-format
@@ -5242,98 +5275,98 @@ msgstr "选择设备:"
 #: ../lib/network/net_applet/ifw.pm:100
 #, c-format
 msgid "Process attack"
-msgstr ""
+msgstr "进程攻击"
 
 #: ../lib/network/net_applet/ifw.pm:113
 #, c-format
 msgid "Interactive Firewall: intrusion detected"
-msgstr ""
+msgstr "交互式防火墙：检测到入侵"
 
 #: ../lib/network/net_applet/ifw.pm:130
 #, c-format
 msgid "What do you want to do with this attacker?"
-msgstr ""
+msgstr "你打算如何处理这个攻击者"
 
 #: ../lib/network/net_applet/ifw.pm:133
 #, c-format
 msgid "Attack details"
-msgstr ""
+msgstr "攻击细节"
 
 #: ../lib/network/net_applet/ifw.pm:137
 #, c-format
 msgid "Attack time: %s"
-msgstr ""
+msgstr "攻击时间: %s"
 
 #: ../lib/network/net_applet/ifw.pm:138
 #, c-format
 msgid "Network interface: %s"
-msgstr ""
+msgstr "网络接口： %s"
 
 #: ../lib/network/net_applet/ifw.pm:139
 #, c-format
 msgid "Attack type: %s"
-msgstr ""
+msgstr "攻击类型: %s"
 
 #: ../lib/network/net_applet/ifw.pm:140
 #, c-format
 msgid "Protocol: %s"
-msgstr ""
+msgstr "协议： %s"
 
 #: ../lib/network/net_applet/ifw.pm:141
 #, c-format
 msgid "Attacker IP address: %s"
-msgstr ""
+msgstr "攻击者IP地址： %s"
 
 #: ../lib/network/net_applet/ifw.pm:142
 #, c-format
 msgid "Attacker hostname: %s"
-msgstr ""
+msgstr "攻击者主机: %s"
 
 #: ../lib/network/net_applet/ifw.pm:145
 #, c-format
 msgid "Service attacked: %s"
-msgstr ""
+msgstr "被攻击的服务: %s"
 
 #: ../lib/network/net_applet/ifw.pm:146
 #, c-format
 msgid "Port attacked: %s"
-msgstr ""
+msgstr "被攻击的端口: %s"
 
 #: ../lib/network/net_applet/ifw.pm:148
 #, c-format
 msgid "Type of ICMP attack: %s"
-msgstr ""
+msgstr "ICMP攻击类型: %s"
 
 #: ../lib/network/net_applet/ifw.pm:153
 #, c-format
 msgid "Always blacklist (do not ask again)"
-msgstr ""
+msgstr "总是加入黑名单（不再询问）"
 
 #: ../lib/network/net_applet/ifw.pm:168
 #, c-format
 msgid "Ignore"
-msgstr ""
+msgstr "忽略"
 
 #: ../lib/network/net_applet/ifw.pm:186 ../lib/network/net_applet/ifw.pm:204
 #, c-format
 msgid "Interactive Firewall: new service"
-msgstr ""
+msgstr "交互式防火墙：新服务"
 
 #. -PO: "Process" is a verb
 #: ../lib/network/net_applet/ifw.pm:192
 #, c-format
 msgid "Process connection"
-msgstr ""
+msgstr "进程连接"
 
 #: ../lib/network/net_applet/ifw.pm:214
 #, c-format
 msgid "Do you want to open this service?"
-msgstr ""
+msgstr "确定开启此项服务?"
 
 #: ../lib/network/net_applet/ifw.pm:217
 #, c-format
 msgid "Remember this answer"
-msgstr ""
+msgstr "记住该选项"
 
 #: ../lib/network/netcenter.pm:55 ../lib/network/netconnect.pm:211
 #, c-format
