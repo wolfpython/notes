@@ -428,7 +428,7 @@ msgstr "Initrd 映像: "
 #: ../drakpxelinux.pl:651
 #, c-format
 msgid "Mageia Linux installer options"
-msgstr ""
+msgstr "Mageia Linux安装程序选项"
 
 #: ../drakpxelinux.pl:653 ../drakpxelinux.pl:870
 #, c-format
