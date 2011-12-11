@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: draklive-install\n"
+"POT-Creation-Date: 2010-04-02 14:45+0200\n"
+"PO-Revision-Date: 2011-12-11 11:40+0000\n"
+"Last-Translator: walter  lewis <lyh19901223@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../draklive-install:99
+#, c-format
+msgid "Mageia Live"
+msgstr ""
+
+#: ../draklive-install:103
+#, c-format
+msgid "This wizard will help you to install the live distribution."
+msgstr "此向导将帮助您把 Live 光盘上的发行版安装到计算机上。"
+
+#: ../draklive-install:129 ../draklive-install:200 ../draklive-install:269
+#, c-format
+msgid "Please wait"
+msgstr "请稍候"
+
+#: ../draklive-install:150 ../draklive-install:162 ../draklive-install:247
+#, c-format
+msgid "Error"
+msgstr "错误"
+
+#: ../draklive-install:162
+#, c-format
+msgid "An error occurred"
+msgstr "发生了一个错误"
+
+#: ../draklive-install:178
+#, c-format
+msgid "Not enough space available (%s available while %s are needed)"
+msgstr "没有足够的剩余空间可用（%s 可用，但必须要 %s）"
+
+#: ../draklive-install:218
+#, c-format
+msgid "Computing total size"
+msgstr "正在计算总大小"
+
+#: ../draklive-install:230 ../draklive-install:401
+#, c-format
+msgid "Copying in progress"
+msgstr "复制进行中"
+
+#: ../draklive-install:247
+#, c-format
+msgid "Unable to copy files to new root"
+msgstr "无法复制文件到新的根目录"
+
+#: ../draklive-install:351
+#, c-format
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: ../draklive-install:351
+#, c-format
+msgid ""
+"Please halt your computer, remove your live system, and restart your "
+"computer."
+msgstr "请关闭您的计算机，取出 Live 光盘，然后重新启动您的计算机。"
+
+#: ../draklive-install:366
+#, c-format
+msgid "Continue anyway?"
+msgstr "仍然继续吗？"
+
+#: ../draklive-install:371
+#, c-format
+msgid "Quit without saving"
+msgstr "退出而不保存更改"
+
+#: ../draklive-install:371
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "退出而不保存分区表吗？"
+
+#: ../draklive-install:377
+#, c-format
+msgid "Do you want to save /etc/fstab modifications"
+msgstr "您想要保存 /etc/fstab 修改吗？"
+
+#: ../draklive-install:384
+#, c-format
+msgid "You need to reboot for the partition table modifications to take place"
+msgstr "对分区表的更改要等到重新启动后才能生效"
+
+#: ../draklive-install:389
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"您应该格式化分区 %s。\n"
+"否则，将无法在 fstab 中写入挂载点 %s 的任何信息。\n"
+"仍然退出吗？"
+
+#: ../mageia-draklive-install.desktop.in.h:1
+msgid "Install your Mageia live system to disk"
+msgstr ""
+
+#: ../mageia-draklive-install.desktop.in.h:2
+msgid "Live Install"
+msgstr "Live 安装"
+
+#: ../draklive-install.desktop.in.h:1
+msgid "Install on Hard Disk"
+msgstr "安装到硬盘"
