@@ -2,5 +2,6 @@
 *.aux
 *.log
 *.out
+*.pdf
 #ignore the .swp file gernerated by Vim
 *.swp
