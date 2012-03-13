@@ -934,7 +934,7 @@ msgstr "修改 PXE 中的启动映像"
 
 #: ../pxe_wizard/Pxe.pm:89
 msgid "Add all.rdz image (Mageia release )"
-msgstr ""
+msgstr "添加所有的.rdz镜像(Mageia发布的)"
 
 #: ../pxe_wizard/Pxe.pm:111
 msgid "PXE wizard"
@@ -967,6 +967,8 @@ msgid ""
 "PXE description is used to explain the role of the boot image, e.g.: "
 "Mageia 1 image, Mageia cauldron image.."
 msgstr ""
+"PXE描述用来解释启动镜像扮演的角色,比如："
+"Mageia 1 镜像，Mageia cauldron镜像......"
 
 #: ../pxe_wizard/Pxe.pm:132 ../pxe_wizard/Pxe.pm:142
 msgid ""
@@ -1050,7 +1052,7 @@ msgstr "将选项添加到 PXE 启动盘"
 #: ../pxe_wizard/Pxe.pm:170
 msgid ""
 "Install directory: the full path to Mageia install server directory"
-msgstr ""
+msgstr "安装目录：Mageia安装服务器目录的绝对路径"
 
 #: ../pxe_wizard/Pxe.pm:170
 msgid "Installation method: choose NFS or HTTP."
@@ -1061,6 +1063,8 @@ msgid ""
 "Server IP: IP address of the server, which contains installation directory. "
 "You can create one with Mageia install server wizard."
 msgstr ""
+"服务器IP:服务器IP地址，它包含安装目录"
+"可以通过Mageia 安装服务器安装程序创建一个"
 
 #: ../pxe_wizard/Pxe.pm:173 ../pxe_wizard/Pxe.pm:251
 msgid "Server IP:"
@@ -1145,6 +1149,8 @@ msgid ""
 "one on the first CD of the Mageia distribution, in the /isolinux/"
 "alt0/ directory."
 msgstr ""
+"请提供所有的.rdz镜像，它包含了所有的驱动。你可以在"
+"Mageia发行版的第一个镜像里找到它，在/isolinux/alt0/目录里"
 
 #: ../pxe_wizard/Pxe.pm:212 ../pxe_wizard/Pxe.pm:216
 #, perl-format

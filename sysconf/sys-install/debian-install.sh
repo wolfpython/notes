@@ -15,3 +15,6 @@ aptitude install xarchiver mupdf iceweasel mplayer2 mpg123 gimp xchat
 aptitude install tcpdump wireshark
 
 aptitude install ddd stardict    abiword chromium filezilla fcitx git 
+
+
+aptitude install clisp guile clang yasm nasm ghc

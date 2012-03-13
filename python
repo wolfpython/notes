@@ -46,8 +46,7 @@ append(): a.append("jack") #增加一个item
 extend():y a.extend(["tom","US"]) #把一个列表的元素加入已有列表
 pop() : a.pop(index)   #删除index位置的元素,如果index为空，则为最后一个
 
-dictionary(字典):一组序列值。key必须是不可变的，比如string,number,tuple,
-key value可以是任意类型。
+dictionary(字典):一组序列值。key必须是不可变的，比如string,number,tuple, key value可以是任意类型。
 表示方法：｛｝
 方法：
 a = { 1:"wolf", 2:"python",3 :"london"}
