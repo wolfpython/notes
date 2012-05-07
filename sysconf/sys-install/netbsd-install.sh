@@ -23,8 +23,9 @@ cd /usr/pkgsrc/wm/enlightenment && make install clean
 #audio and multimedia
 cd /usr/pkgsrc/audio/mpg123 && make install clean
 #for the time being, mplayer in  pkgsrc depends on qt3 ,so don't install
-#it now
-#cd /usr/pkgsrc/multimedia/mplayer && make install clean
+#it now.
+#Disable the arts options in mk.conf, it should work
+cd /usr/pkgsrc/multimedia/mplayer && make install clean
 
 # other apps and sys programs 
 cd /usr/pkgsrc/editors/vim-gtk2 && make install
