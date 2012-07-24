@@ -1,0 +1,3 @@
+FORCE_MAKE_JOBS=yes
+MAKE_JOBS_NUMBER=4
+MASTER_SITE_OVERRIDE=http://ftp.jaist.ac.jp/pub/FreeBSD/ports/distfiles/${DIST_SUBDIR}
