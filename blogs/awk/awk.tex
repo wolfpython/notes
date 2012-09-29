@@ -1,0 +1,31 @@
+\input{../common/preambleconf.tex}
+\title{AWK笔记}
+\input{../common/author.tex}
+\date{09-26-2012}
+
+\begin{document}
+\maketitle
+
+AWK是一门脚本语言,具体历史不再赘述。目前比较知名的三个实现是nawk,gawk和mawk。其中mawk号称是速度最快的,不过好久
+没有更新了\footnote{http://invisible-island.net/mawk/}。这里面主要涉及到gawk(GNU/Linux, FreeBSD, NetBSD)和nawk(NetBSD,
+FreeBSD).相比于sed,AWK更善于处理列,更精确的说是字段(field)。
+
+\section{AWK的基本用法}
+
+\input {../common/awkconf_nolineno.tex}
+
+
+AWK代码是由单引号(`')和大括号(\{\})括起来的。下面是一个非常简单的例子:\\
+
+\begin{lstlisting}[title={简单例子},abovecaptionskip=0.5cm]
+
+        %echo one two three | awk '{print $2}'
+        two
+\end{lstlisting}
+
+
+
+\end{document}
+
+
+
