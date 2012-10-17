@@ -1,0 +1,46 @@
+\input{../../common/preambleconf.tex}
+\title{Bash经验}
+\input{../../common/author.tex}
+\date{09-29-2012}
+
+\begin{document}
+\maketitle
+
+Bash,全名Bourne-Again SHell,是继(sh,Bourne Shell)之后在开源界最流行的shell.
+大部分的Linux发行版都会在预装bash,即使像Debian GNU/Linux这样坚持dfsg的发行版
+把/bin/sh链接为dash.在FreeBSD和NetBSD中,可以方便的通过ports和pkgsrc获取bash.
+
+\section{bash的特点}
+
+Bash作为一个shell,功能很强大.特点如下:\\
+
+\begin{itemize}
+\item{作业控制(Job Control),前台和后台控制进程(fg)}
+\item{别名(alias)和函数(function)}
+\item{TAB命令补全功能(command-complete)}
+\item{内置命令(built-in commands)}
+\item{支持输入输出重定向(io-redirection)}
+\item{命令扩展(expansion)}
+\item{.命令}
+\item{脚本基本控制结构和语句}
+\item{支持管道}
+\item{可配置性选项}
+\item{......}
+\end{itemize}
+                
+
+%\input {../../common/bashconf.tex}
+
+
+\begin{lstlisting}[title={简单例子},abovecaptionskip=0.5cm]
+
+        %echo one two three | awk '{print $2}'
+        two
+\end{lstlisting}
+
+
+
+\end{document}
+
+
+

@@ -18,3 +18,5 @@ aptitude install ddd stardict    abiword chromium filezilla fcitx git
 
 
 aptitude install clisp guile clang yasm nasm ghc
+
+aptitude install bash-doc
