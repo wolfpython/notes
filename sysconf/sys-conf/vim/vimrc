@@ -153,4 +153,6 @@ Bundle 'taglist.vim'
 Bundle 'winmanager'
 Bundle 'The-NERD-tree'
 Bundle 'minibufexplorerpp'
-Bundle 'cscope.vim'
+Bundle 'wolfpython/cscope_map.vim'
+Bundle 'TagHighlight'
+
